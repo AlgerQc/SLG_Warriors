@@ -35,7 +35,7 @@ namespace SLGame
         public BattleData CreateBattle()
         {
             BattleData bd = new BattleData();
-            bd.Generate(8, 12, 10, 2);
+            bd.Generate(8, 12, 10, 2, 0);
             return bd;
         }
     }

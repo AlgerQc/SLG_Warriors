@@ -60,16 +60,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BattleControl.cs" />
-    <Compile Include="Assets\Scripts\BattleCreator.cs" />
-    <Compile Include="Assets\Scripts\BattleData.cs" />
-    <Compile Include="Assets\Scripts\BattleField.cs" />
-    <Compile Include="Assets\Scripts\GridUnit.cs" />
-    <Compile Include="Assets\Scripts\GridUnitData.cs" />
-    <Compile Include="Assets\Scripts\util\Base.cs" />
-    <Compile Include="Assets\Scripts\util\Behaviours.cs" />
-    <Compile Include="Assets\Scripts\util\GameConst.cs" />
-    <Compile Include="Assets\Scripts\util\Helper.cs" />
+    <Compile Include="Assets\Scripts\Battle\BattleCreator.cs" />
+    <Compile Include="Assets\Scripts\Battle\BattleData.cs" />
+    <Compile Include="Assets\Scripts\Battle\BattleField.cs" />
+    <Compile Include="Assets\Scripts\Battle\BattleMapData.cs" />
+    <Compile Include="Assets\Scripts\Battle\GridUnit.cs" />
+    <Compile Include="Assets\Scripts\Battle\GridUnitData.cs" />
+    <Compile Include="Assets\Scripts\Battle\MapNavigator.cs" />
+    <Compile Include="Assets\Scripts\Manager\BattleControl.cs" />
+    <Compile Include="Assets\Scripts\Manager\BattleMapManager.cs" />
+    <Compile Include="Assets\Scripts\Util\Base.cs" />
+    <Compile Include="Assets\Scripts\Util\Behaviours.cs" />
+    <Compile Include="Assets\Scripts\Util\GameConst.cs" />
+    <Compile Include="Assets\Scripts\Util\Helper.cs" />
+    <Compile Include="Assets\Scripts\Util\SingleDicMgr.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>E:/games/SLG_Warriors/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

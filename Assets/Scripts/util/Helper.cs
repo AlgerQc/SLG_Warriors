@@ -277,8 +277,6 @@ namespace SLGame
             rectTransform.localScale = Vector3.one;
             rectTransform.offsetMax = Vector3.zero;
             rectTransform.offsetMin = Vector3.zero;
-
-
         }
     }
 }
