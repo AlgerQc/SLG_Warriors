@@ -53,6 +53,7 @@ namespace SLGame
             //记录地图宽高
             mapWidth = width;
             mapHeight = height;
+
             //生成格子数组
             mapGrids = new GridUnitData[mapWidth, mapHeight];
 

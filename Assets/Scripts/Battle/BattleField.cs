@@ -356,7 +356,7 @@ namespace SLGame
             TestNavigation();
 
             //测试半径显示
-            TestSelectedRange(2);
+            //TestSelectedRange(2);
         }
 
         //***********************************************
