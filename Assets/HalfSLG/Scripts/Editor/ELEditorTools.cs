@@ -5,7 +5,7 @@ using UnityEditor;
 using System.IO;
 using System.Linq;
 
-namespace ELGame
+namespace SLGame
 {
     public class ELEditorTools
     {

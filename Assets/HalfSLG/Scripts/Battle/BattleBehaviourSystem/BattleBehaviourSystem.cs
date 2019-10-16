@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEditor;
 #endif
 
-namespace ELGame.BattleBehaviourSystem
+namespace SLGame.BattleBehaviourSystem
 {
 #if UNITY_EDITOR
     [CanEditMultipleObjects]

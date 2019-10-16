@@ -1,4 +1,4 @@
-﻿namespace ELGame.AI
+﻿namespace SLGame.AI
 {
     public interface ITransitionCreator
     {

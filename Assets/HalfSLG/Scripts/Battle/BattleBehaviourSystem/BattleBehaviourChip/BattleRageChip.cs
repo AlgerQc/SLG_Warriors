@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace ELGame.BattleBehaviourSystem
+namespace SLGame.BattleBehaviourSystem
 {
     [CreateAssetMenu(menuName = "BBSystem/RageChip")]
     public class BattleRageChip

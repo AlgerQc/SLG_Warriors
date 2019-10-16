@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ELGame
+namespace SLGame
 {
     public class MapNavigator
         :NormalSingleton<MapNavigator>, IGameBase

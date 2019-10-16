@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace ELGame
+namespace SLGame
 {
     public class TransparentImage : MaskableGraphic
     {

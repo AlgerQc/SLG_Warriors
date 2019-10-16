@@ -1,4 +1,4 @@
-﻿namespace ELGame
+﻿namespace SLGame
 {
     public enum GridUnitEventType
     {

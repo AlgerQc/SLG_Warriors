@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace ELGame
+namespace SLGame
 {
     public class UIViewMain 
         : UIViewBase
@@ -22,15 +22,14 @@ namespace ELGame
             btnAutoStart.onClick.AddListener(ClickAutoStart);
             btnManualStart.onClick.AddListener(ClickManualStart);
             btnReset.onClick.AddListener(ClickReset);
-            btnAutoStart.gameObject.SetActive(false);
+            btnAutoStart.gameObject.SetActive(true);
             objNoticeBG.gameObject.SetActive(false);
             btnReset.gameObject.SetActive(false);
-
         }
         
         public void BattleFieldReady(IGameEvent msg)
         {
-            btnAutoStart.gameObject.SetActive(false);
+            //btnAutoStart.gameObject.SetActive(false);
         }
         
         private void ClickAutoStart()

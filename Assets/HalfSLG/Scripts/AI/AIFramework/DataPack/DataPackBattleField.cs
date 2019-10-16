@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ELGame.AI
+namespace SLGame.AI
 {
     // TiggerValue 形式保存的战场关键信息 所有战斗单位都可以监听
 

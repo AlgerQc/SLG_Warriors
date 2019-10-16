@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-namespace ELGame
+namespace SLGame
 {
     public class BattleManager
         : BaseManager<BattleManager>

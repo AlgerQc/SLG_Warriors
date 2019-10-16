@@ -3,7 +3,7 @@ using System.IO;
 using System.Text;
 using UnityEngine;
 
-namespace ELGame
+namespace SLGame
 {
     //战斗状态
     public enum BattleState

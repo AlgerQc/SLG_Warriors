@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ELGame.BattleBehaviourSystem
+namespace SLGame.BattleBehaviourSystem
 {
     [CreateAssetMenu(menuName = "BBSystem/KillerAdjustor", order = 200)]
     public class BattleUnitKillerChipAdjustor

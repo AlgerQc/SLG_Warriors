@@ -3,7 +3,7 @@ using UnityEngine;
 using System.IO;
 using System.Collections.Generic;
 
-namespace ELGame
+namespace SLGame
 {
     public enum LogColor
     {

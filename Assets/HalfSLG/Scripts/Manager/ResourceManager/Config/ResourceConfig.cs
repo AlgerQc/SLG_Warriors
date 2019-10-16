@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ELGame.Resource
+namespace SLGame.Resource
 {
     public class ResourceConfig 
     {

@@ -6,7 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace ELGame.Resource
+namespace SLGame.Resource
 {
     public static class AssetBundlePackageHelper
     {

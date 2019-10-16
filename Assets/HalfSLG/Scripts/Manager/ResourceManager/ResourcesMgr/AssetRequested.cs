@@ -2,7 +2,7 @@
 using System.Text;
 using UnityEngine;
 
-namespace ELGame.Resource
+namespace SLGame.Resource
 {
     //记录requester的请求
     public class AssetRequested

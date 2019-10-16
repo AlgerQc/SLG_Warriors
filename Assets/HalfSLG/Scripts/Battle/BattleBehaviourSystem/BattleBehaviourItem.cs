@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ELGame.BattleBehaviourSystem
+namespace SLGame.BattleBehaviourSystem
 {
     [System.Serializable]
     public class BattleBehaviourItem

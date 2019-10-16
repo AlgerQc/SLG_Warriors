@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 using System.Text;
 
-namespace ELGame.AI
+namespace SLGame.AI
 {
 
     public abstract class BaseNode

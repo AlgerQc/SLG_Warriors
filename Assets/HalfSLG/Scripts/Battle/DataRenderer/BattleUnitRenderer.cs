@@ -2,7 +2,7 @@
 using TMPro;
 using UnityEngine;
 
-namespace ELGame
+namespace SLGame
 {
     public enum TeamColor
     {

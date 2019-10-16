@@ -1,7 +1,7 @@
 ﻿//用于调节chip的结果
 using System.Collections.Generic;
 
-namespace ELGame.BattleBehaviourSystem
+namespace SLGame.BattleBehaviourSystem
 {
     public interface IBattleBehaviourChipAdjustor 
     {

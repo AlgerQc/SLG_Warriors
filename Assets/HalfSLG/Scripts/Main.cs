@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ELGame
+namespace SLGame
 {
     using Resource;
     using UnityEngine.U2D;
@@ -38,6 +38,7 @@ namespace ELGame
         private void PrepareBattle()
         {
             Debug.Log("Prepare Battle");
+            
             //界面
             UIViewManager.Instance.InitManager();
 

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 
-namespace ELGame
+namespace SLGame
 {
     public enum RegEventResult
     {
@@ -12,7 +12,7 @@ namespace ELGame
         Failed,
     }
 
-    public delegate void GameEventHandler(ELGame.IGameEvent msg);
+    public delegate void GameEventHandler(SLGame.IGameEvent msg);
 
     public class GameEventHandlerItem
     {
@@ -144,7 +144,7 @@ namespace ELGame
         public RegEventResult Register (
             string key,
             string listener,
-            ELGame.GameEventHandler handler, 
+            SLGame.GameEventHandler handler, 
             int times = EGameConstL.Infinity, 
             Dictionary<string, GameEventHandlerItem> dic = null)
 		{

@@ -2,7 +2,7 @@
 using System.Text;
 using UnityEngine;
 
-namespace ELGame.Resource
+namespace SLGame.Resource
 {
     public class PrefabAssetNode
         : IRecyclable

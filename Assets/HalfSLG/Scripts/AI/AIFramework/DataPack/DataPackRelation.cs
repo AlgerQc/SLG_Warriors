@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-namespace ELGame.AI
+namespace SLGame.AI
 {
 
     // TiggerValue 形式战斗单位之间的信息 保存在brain中 每个人自己监听自己关注的人的

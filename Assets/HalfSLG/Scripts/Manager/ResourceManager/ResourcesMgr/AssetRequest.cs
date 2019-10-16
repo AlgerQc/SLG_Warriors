@@ -4,7 +4,7 @@ using System.Text;
 using UnityEngine;
 using SObject = System.Object;
 
-namespace ELGame.Resource
+namespace SLGame.Resource
 {
     //请求类型
     public enum AssetRequestType

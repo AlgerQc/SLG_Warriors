@@ -5,7 +5,7 @@ using UnityEditor;
 using System;
 using System.Reflection;
 
-namespace ELGame.AI
+namespace SLGame.AI
 {
     public class DecisionTreeCreator
     {
@@ -61,7 +61,7 @@ namespace ELGame.AI
         static BaseNode GameObjectToNode(GameObject go)
         {
             string name = go.name;
-            string className = "ELGame.AI." + go.name;
+            string className = "SLGame.AI." + go.name;
             Assembly ass = Assembly.Load("Assembly-CSharp");
             Type t = ass.GetType(className);
             if (null == t)

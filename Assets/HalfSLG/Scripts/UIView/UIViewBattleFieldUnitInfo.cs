@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace ELGame
+namespace SLGame
 {
     public class UIViewBattleFieldUnitInfo 
         : UIViewBase

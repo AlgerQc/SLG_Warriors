@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ELGame.AI
+namespace SLGame.AI
 {
 
     public class Brain : IBattleActionCreator

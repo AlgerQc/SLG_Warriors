@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-namespace ELGame
+namespace SLGame
 {
     //格子绘制时的类型
     [Flags]

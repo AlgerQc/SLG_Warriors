@@ -5,7 +5,7 @@ using System.Text;
 using UnityEngine;
 using UObject = UnityEngine.Object;
 
-namespace ELGame.Resource
+namespace SLGame.Resource
 {
     public class AssetBundleInfoNode
     {

@@ -1,5 +1,5 @@
 ﻿
-namespace ELGame
+namespace SLGame
 {
     public interface IVisualData<D, R> 
         where R : IVisualRenderer<D, R>

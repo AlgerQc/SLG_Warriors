@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using ELGame.BattleBehaviourSystem;
+using SLGame.BattleBehaviourSystem;
 
-namespace ELGame
+namespace SLGame
 {
     public class BattleBehaviourItemComparer
-        : IComparer<ELGame.BattleBehaviourSystem.BattleBehaviourItem>
+        : IComparer<SLGame.BattleBehaviourSystem.BattleBehaviourItem>
     {
         public int Compare(BattleBehaviourItem x, BattleBehaviourItem y)
         {
@@ -14,7 +14,7 @@ namespace ELGame
     }
 
     public class BattleUnitRecordItemComparer
-        : IComparer<ELGame.BattleBehaviourSystem.BattleUnitRecordItem>
+        : IComparer<SLGame.BattleBehaviourSystem.BattleUnitRecordItem>
     {
         public int Compare(BattleUnitRecordItem x, BattleUnitRecordItem y)
         {

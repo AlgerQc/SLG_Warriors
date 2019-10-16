@@ -1,4 +1,4 @@
-﻿namespace ELGame.Resource
+﻿namespace SLGame.Resource
 {
     public class RecycleBinItem
         : IRecyclable

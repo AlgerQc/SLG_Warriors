@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-namespace ELGame.AI
+namespace SLGame.AI
 {
     [CreateAssetMenu(menuName = "ScriptableObject/AI/BattleState")]
     public class BattleState: ScriptableObject

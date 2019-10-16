@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace ELGame
+namespace SLGame
 {
     public class SceneManager 
         : BaseManager<SceneManager>

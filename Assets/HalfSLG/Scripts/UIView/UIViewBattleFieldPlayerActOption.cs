@@ -6,7 +6,7 @@ using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace ELGame
+namespace SLGame
 {
     public class UIViewBattleFieldPlayerActOption
         : UIViewBase

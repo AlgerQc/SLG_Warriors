@@ -1,7 +1,7 @@
 ﻿
 using UnityEngine;
 
-namespace ELGame
+namespace SLGame
 {
     public class BattleUnitCreator
         : CounterMap<BattleUnitCreator, BattleUnit>, IGameBase

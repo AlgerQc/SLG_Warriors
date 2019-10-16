@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using UnityEngine;
 
-namespace ELGame
+namespace SLGame
 {
     //格子类型
     public enum GridType

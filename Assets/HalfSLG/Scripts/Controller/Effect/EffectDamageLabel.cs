@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-namespace ELGame
+namespace SLGame
 {
     
     public class EffectDamageLabel

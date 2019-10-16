@@ -11,7 +11,7 @@ using UnityEditor;
 using System.Linq;
 #endif
 
-namespace ELGame.Resource
+namespace SLGame.Resource
 {
 #if UNITY_EDITOR
     public class CloneNodeInEditorMode

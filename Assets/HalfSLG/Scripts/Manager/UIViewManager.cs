@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.U2D;
 using UnityEngine.UI;
 
-namespace ELGame
+namespace SLGame
 {
 
     public class UIViewManager

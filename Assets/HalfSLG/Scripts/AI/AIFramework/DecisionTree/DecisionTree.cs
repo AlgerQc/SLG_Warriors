@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 
-namespace ELGame.AI
+namespace SLGame.AI
 {
     [CreateAssetMenu(menuName = "ScriptableObject/AI/DecisionTree")]
     public class DecisionTree : ScriptableObject

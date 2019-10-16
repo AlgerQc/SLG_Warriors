@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Text;
 
-namespace ELGame
+namespace SLGame
 {
     //技能效果影响
     public class BattleSkillEffectAnalysis

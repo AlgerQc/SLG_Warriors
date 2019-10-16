@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEditor;
 #endif
 
-namespace ELGame
+namespace SLGame
 {
 #if UNITY_EDITOR
     [CustomEditor(typeof(SO_BattleUnitAttribute))]

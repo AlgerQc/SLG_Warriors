@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace ELGame
+namespace SLGame
 {
     public class ViewElementPackage
         : UIViewElement

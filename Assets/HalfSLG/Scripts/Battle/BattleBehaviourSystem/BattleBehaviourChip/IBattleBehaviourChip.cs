@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ELGame.BattleBehaviourSystem
+namespace SLGame.BattleBehaviourSystem
 {
     public interface IBattleBehaviourChip
     {

@@ -3,7 +3,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace ELGame
+namespace SLGame
 {
     public static class UtilityObjs
     {

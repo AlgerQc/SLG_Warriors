@@ -3,7 +3,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ELGame
+namespace SLGame
 {
     public enum BattleUnitActionType
     {

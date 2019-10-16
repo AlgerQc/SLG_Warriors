@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ELGame
+namespace SLGame
 {
 
     //超简单泛型

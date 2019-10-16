@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace ELGame
+namespace SLGame
 {
     //当前ui的显示状态
     public enum UIViewState
@@ -124,7 +124,7 @@ namespace ELGame
         //初始化各UI对象
         protected virtual void InitUIObjects() { }
 
-        protected void RegisterEventListener(string key, ELGame.GameEventHandler handler, int times = EGameConstL.Infinity)
+        protected void RegisterEventListener(string key, SLGame.GameEventHandler handler, int times = EGameConstL.Infinity)
         {
             EventManager.Instance.Register(key, this.gameObject.RequestorSTR(), handler, times);
         }

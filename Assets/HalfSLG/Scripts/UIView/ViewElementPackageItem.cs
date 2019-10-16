@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace ELGame
+namespace SLGame
 {
     public class ViewElementPackageItem 
         : UIViewElement

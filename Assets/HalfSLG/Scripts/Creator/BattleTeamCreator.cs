@@ -1,7 +1,7 @@
 ﻿
 using System.Collections.Generic;
 
-namespace ELGame
+namespace SLGame
 {
     public class BattleTeamCreator
         : CounterMap<BattleTeamCreator, BattleTeam>, IGameBase

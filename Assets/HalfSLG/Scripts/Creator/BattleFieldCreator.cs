@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ELGame
+namespace SLGame
 {
     public class BattleFieldCreator
         : CounterMap<BattleFieldCreator, BattleField>, IGameBase

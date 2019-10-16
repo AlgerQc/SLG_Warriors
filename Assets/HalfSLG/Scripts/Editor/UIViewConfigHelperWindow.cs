@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-namespace ELGame
+namespace SLGame
 {
     public class UIViewConfigHelperWindow 
         : EditorWindow
