@@ -4,7 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - UIViewRoot
   - BattleCamera
+  - WorldRoot
   layers:
   - Default
   - TransparentFX
@@ -14,7 +16,7 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
+  - BattleMap
   - 
   - 
   - 
@@ -41,4 +43,28 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Battle_Map
+    uniqueID: 3153261549
+    locked: 0
+  - name: Battle_Bar
+    uniqueID: 2416663139
+    locked: 0
+  - name: Battle_Effect
+    uniqueID: 850189593
+    locked: 0
+  - name: UI_Background
+    uniqueID: 385169957
+    locked: 0
+  - name: UI_Base
+    uniqueID: 2288136333
+    locked: 0
+  - name: UI_Popup
+    uniqueID: 4097049935
+    locked: 0
+  - name: UI_Top
+    uniqueID: 4175121335
+    locked: 0
+  - name: UI_Debug
+    uniqueID: 2319424407
     locked: 0

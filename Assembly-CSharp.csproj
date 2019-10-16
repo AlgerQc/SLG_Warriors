@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_6;UNITY_2018_3;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_6;UNITY_2018_3;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -60,20 +60,135 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Battle\BattleCreator.cs" />
-    <Compile Include="Assets\Scripts\Battle\BattleData.cs" />
-    <Compile Include="Assets\Scripts\Battle\BattleField.cs" />
-    <Compile Include="Assets\Scripts\Battle\BattleMapData.cs" />
-    <Compile Include="Assets\Scripts\Battle\GridUnit.cs" />
-    <Compile Include="Assets\Scripts\Battle\GridUnitData.cs" />
-    <Compile Include="Assets\Scripts\Battle\MapNavigator.cs" />
-    <Compile Include="Assets\Scripts\Manager\BattleControl.cs" />
-    <Compile Include="Assets\Scripts\Manager\BattleMapManager.cs" />
-    <Compile Include="Assets\Scripts\Util\Base.cs" />
-    <Compile Include="Assets\Scripts\Util\Behaviours.cs" />
-    <Compile Include="Assets\Scripts\Util\GameConst.cs" />
-    <Compile Include="Assets\Scripts\Util\Helper.cs" />
-    <Compile Include="Assets\Scripts\Util\SingleDicMgr.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\Brain.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\CustomParam.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\DataPack\DataPackBattleField.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\DataPack\DataPackBattleTeam.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\DataPack\DataPackRelation.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\DataPack\DataPackSelf.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\DataPack\IUpdateValues.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\DataPack\TriggerValue.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\DecisionTree\Actions\AC_DefaultAttack.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\DecisionTree\Actions\AC_RandomMove.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\DecisionTree\Base\ActionCreatorBase.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\DecisionTree\Base\BaseNode.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\DecisionTree\Base\ConditionDescriptorBase.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\DecisionTree\Base\NodeAction.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\DecisionTree\Base\NodeCondition.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\DecisionTree\Base\NodeSelector.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\DecisionTree\Base\NodeSequence.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\DecisionTree\Conditions\CD_HasTargetInRange.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\DecisionTree\DecisionTree.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\IBattleActionCreator.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\StateMachine\BattleState.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\StateMachine\BattleStrategy.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\StateMachine\ITransitionCreator.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\StateMachine\Transition.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\AI\AIFramework\StrategyDataCenter.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Base\BaseBehaviour.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Base\BaseManager.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Base\IGameBase.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\BattleBehaviourSystem\BattleBehaviourChip\BattleDamageChip.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\BattleBehaviourSystem\BattleBehaviourChip\BattleProvokeChip.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\BattleBehaviourSystem\BattleBehaviourChip\BattleRageChip.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\BattleBehaviourSystem\BattleBehaviourChip\BattleRecoveryChip.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\BattleBehaviourSystem\BattleBehaviourChip\BattleStrategyChip.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\BattleBehaviourSystem\BattleBehaviourChip\IBattleBehaviourChip.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\BattleBehaviourSystem\BattleBehaviourItem.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\BattleBehaviourSystem\BattleBehaviourSystem.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\BattleBehaviourSystem\BattleUnitPointRecorder.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\BattleBehaviourSystem\ChipAdjustor\BattleUnitBodyGuardAdjustor.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\BattleBehaviourSystem\ChipAdjustor\BattleUnitKillerChipAdjustor.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\BattleBehaviourSystem\ChipAdjustor\BattleUnitRoleChipAdjustor.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\BattleBehaviourSystem\ChipAdjustor\IBattleBehaviourChipAdjustor.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\Data\BattleField.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\Data\BattleMap.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\Data\BattleTeam.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\Data\BattleUnit.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\Data\GridUnit.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\Data\GridUnitBuff.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\Data\IVisualData.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\Data\SO_BattleUnitAttribute.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\DataRenderer\BattleFieldManualOperationHelper.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\DataRenderer\BattleFieldRenderer.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\DataRenderer\BattleUnitRenderer.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\DataRenderer\GridUnitRenderer.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\DataRenderer\IVisualRenderer.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\Helper\BattleCalculator.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\Helper\BattleSkillManualReleaseAnalysisor.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\Helper\BattleUnitPackage.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\Helper\MapNavigator.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\Skill\SO_BattleSkill.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\BattleFieldEvent\BattleFieldEvent.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\BattleFieldEvent\BattleUnitActionEvent.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\BattleFieldEvent\GridUnitEvent.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Controller\Effect\EffectController.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Controller\Effect\EffectDamageLabel.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Controller\Effect\EffectHolder.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Controller\Effect\EffectSimpleSpriteController.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Controller\Other\BattleUnitHealthBar.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Creator\BattleFieldCreator.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Creator\BattleMapCreator.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Creator\BattleTeamCreator.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Creator\BattleUnitCreator.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Debug\DebugHelper.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Item\SO_PackageItem.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Main.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Manager\BattleManager.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Manager\BattleSkillManager.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Manager\EffectManager.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Manager\EventManager\EventManager.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Manager\EventManager\IGameEvent.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Manager\EventManager\NormalMessage.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Manager\PackageItemManager.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Manager\ResourceManager\AssetBundleFlag\AssetBundleFlag.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Manager\ResourceManager\Config\ResourceConfig.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Manager\ResourceManager\ResourcesMgr\AssetBundleInfoNode.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Manager\ResourceManager\ResourcesMgr\AssetRequest.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Manager\ResourceManager\ResourcesMgr\AssetRequested.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Manager\ResourceManager\ResourcesMgr\PrefabAsset.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Manager\ResourceManager\ResourcesMgr\PrefabAssetNode.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Manager\ResourceManager\ResourcesMgr\RecycleBinItem.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Manager\ResourceManager\ResourcesMgr\ResourceManager.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Manager\ResourceManager\ResourcesMgr\ResourcesChecker.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Manager\ResourceManager\ResourcesMgr\ResourceUtility.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Manager\SceneManager.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Manager\UIViewManager.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\UIView\SO_UIViewConfig.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\UIView\TransparentImage.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\UIView\UIViewBase.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\UIView\UIViewBattleFieldPlayerActOption.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\UIView\UIViewBattleFieldUnitInfo.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\UIView\UIViewElement.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\UIView\UIViewLayerController.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\UIView\UIViewMain.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\UIView\ViewElementPackage.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\UIView\ViewElementPackageItem.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Utility\EGameConstL.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Utility\SortingOrderHelper.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Utility\UtilityCollections.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Utility\UtilityComparer.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Utility\UtilityHelper.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Utility\UtilityObjs.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Utility\UtilitySingleton.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Utility\UtilityYieldInstruction.cs" />
+    <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\3rd\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\3rd\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\3rd\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>E:/games/SLG_Warriors/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -289,6 +404,12 @@
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>G:/unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>E:/games/SLG_Warriors/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements.Editor">
+      <HintPath>E:/games/SLG_Warriors/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>E:/games/SLG_Warriors/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
