@@ -81,6 +81,10 @@ namespace SLGame
                 obstacleCount, obstacleGap, buffCount, itemCount,
                 teamA, teamB);
 
+            ResetBattleCamera();
+
+            singleBattle.ConnectRenderer(BattleFieldRenderer.Instance);
+
             for (int i = 0; i < battleTestCount; ++i)
             {
 #if UNITY_EDITOR
