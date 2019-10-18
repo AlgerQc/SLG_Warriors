@@ -12,7 +12,7 @@ namespace SLGame
         [SerializeField] private bool showRaycastOutline = false;
         [Header("是否逐步播放")] public bool playBattleByStep = false;
         [Header("开启BBSysLog")] public bool debugBBSys = false;
-        [Header("随机先手")] public bool randomFirstAction = true;
+        [Header("随机先手")] public bool randomFirstAction = false;
 
 #if UNITY_EDITOR
         private void DrawRaycastOutline()

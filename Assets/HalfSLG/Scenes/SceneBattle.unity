@@ -514,9 +514,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showRaycastOutline: 1
-  playBattleByStep: 0
+  playBattleByStep: 1
   debugBBSys: 1
-  randomFirstAction: 1
+  randomFirstAction: 0
 --- !u!1 &8574906025236232013
 GameObject:
   m_ObjectHideFlags: 0
