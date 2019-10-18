@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37cd0db4d24db4d0ebaa4099f6b43fc0, type: 3}
+  m_Name: Hero
+  m_EditorClassIdentifier: 
+  manualOperation: 1
+  battleUnitName: Hero
+  hp: 1000
+  maxHp: 1000
+  energy: 500
+  maxEnergy: 500
+  mobility: 5
+  stopDistance: 1
+  baseAtk: 50
+  atkRandRange: 4
+  baseDef: 1
+  defRandRange: 1
+  battleSkills:
+  - {fileID: 11400000, guid: 1cf26dea907b94fffaeb82f2fded3fdc, type: 2}
+  - {fileID: 11400000, guid: aa64cf42a0f9c4166856b165528c70e9, type: 2}
+  - {fileID: 11400000, guid: bb0206e4e3f9a48f58017df5b611b15a, type: 2}
+  - {fileID: 11400000, guid: 2962dcb64f4254eb9930df8f92b8c4fc, type: 2}
+  - {fileID: 11400000, guid: 88a20f7c1632746938d5202a6bb51e37, type: 2}
+  battleBehaviourSystem: {fileID: 11400000, guid: b43ba6b62d6e16a489975e0aca3f0930,
+    type: 2}

@@ -294,16 +294,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DebugMode: 1
   mapSize: {x: 9, y: 9}
-  obstacleCount: 0
+  obstacleCount: 50
   obstacleGap: 2
   buffCount: 5
   itemCount: 6
   battleCamera: {fileID: 8128871721501237441}
   battleTestCount: 500
   teamA:
-  - {fileID: 11400000, guid: 1079c0f7606db480e924e37bfbdf2663, type: 2}
-  - {fileID: 11400000, guid: 72b441207a1d7428bb346f4000363132, type: 2}
-  - {fileID: 11400000, guid: 9c8d25c51ddc643f5bb094f574fe354d, type: 2}
+  - {fileID: 11400000, guid: ea191fc66fa28064e953343aeaae3a5b, type: 2}
   teamB:
   - {fileID: 11400000, guid: 1079c0f7606db480e924e37bfbdf2663, type: 2}
   - {fileID: 11400000, guid: 72b441207a1d7428bb346f4000363132, type: 2}
