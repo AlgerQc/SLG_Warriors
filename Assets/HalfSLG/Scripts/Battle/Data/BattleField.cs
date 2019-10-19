@@ -30,6 +30,7 @@ namespace SLGame
 
         private BattleFieldRenderer battleFieldRenderer;
         private int resetTimes = 0;     //重置次数
+        private bool firstFight = true;
         
         public void Init(
             int mapWidth, int mapHeight, 
@@ -177,7 +178,36 @@ namespace SLGame
             {
                 //连接渲染器，则一步一更新
                 //没有连接渲染器，则一直计算直到结束
-                actionUnit = actionQueue.Dequeue();
+                actionUnit = actionQueue.Peek();
+                if (firstFight)
+                {
+                    firstFight = false;                    
+                }
+                else
+                {
+                    if (actionUnit.BPStage)
+                    {
+                        Debug.Log("We are in BP stage, continue to fight");
+                        actionUnit.battleUnitAttribute.BPUsed();
+                    }
+                    else
+                    {
+                        Debug.Log("change queue order");
+                        actionQueue.Dequeue();
+                        CalculateNextAction(actionUnit);
+                        actionUnit = actionQueue.Peek();
+                    }
+                }
+
+                //增加BP值
+                if (actionUnit.battleUnitAttribute.manualOperation && 
+                    actionUnit.battleUnitAttribute.BPUsingStage() == false)
+                {
+                    if (actionUnit.battleUnitAttribute.BP < EGameConstL.BPMax)
+                    {
+                        actionUnit.battleUnitAttribute.BP++;
+                    }
+                }
 
                 if (actionUnit == null)
                 {
@@ -212,9 +242,6 @@ namespace SLGame
                             break;
                     }
                 }
-
-                //考虑是否在放回队列
-                CalculateNextAction(actionUnit);
 
                 if (battleFieldEvents.Count > EGameConstL.BattleFieldMaxActions)
                 {

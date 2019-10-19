@@ -402,6 +402,12 @@ namespace SLGame
             manualOperationHelper.ManualOperatingBattleUnitRenderer = operatingBattleUnit;
         }
 
+        //某个单位点击了BP
+        public void BattleUnitBP(BattleUnit battleUnit)
+        {
+            manualOperationHelper.BattleUnitBP(battleUnit);
+        }
+
         //某个战斗单位点击了移动
         public void BattleUnitMove(BattleUnit battleUnit)
         {

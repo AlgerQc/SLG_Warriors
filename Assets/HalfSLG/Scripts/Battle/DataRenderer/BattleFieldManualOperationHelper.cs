@@ -59,6 +59,19 @@ namespace SLGame
             }
         }
 
+        //某个战斗单位点击了BP
+        public void BattleUnitBP(BattleUnit battleUnit)
+        {
+            if (battleUnit.battleUnitAttribute.BPCanUse())
+            {
+                battleUnit.battleUnitAttribute.BPUsing();
+            }
+            else
+            {
+                UtilityHelper.Log("BP cannot used");
+            }
+        }
+
         //某个战斗单位点击了移动
         public void BattleUnitMove(BattleUnit battleUnit)
         {

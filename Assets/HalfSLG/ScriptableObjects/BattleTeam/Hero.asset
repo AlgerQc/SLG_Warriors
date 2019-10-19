@@ -16,6 +16,7 @@ MonoBehaviour:
   battleUnitName: Hero
   hp: 1000
   maxHp: 1000
+  BP: 0
   energy: 500
   maxEnergy: 500
   mobility: 5

@@ -17,6 +17,7 @@ namespace SLGame
         [SerializeField] private CanvasGroup cgOptionLayout;    //操作子面板的group
 
         //按钮
+        [SerializeField] private Button btnBP;      //使用BP
         [SerializeField] private Button btnMove;    //移动
         [SerializeField] private Button btnAttack;  //攻击
         [SerializeField] private Button btnStay;    //待命
@@ -42,14 +43,16 @@ namespace SLGame
         protected override void InitUIObjects()
         {
             base.InitUIObjects();
-            
+
             //设置按钮文字
+            SetObjectText(btnBP.gameObject, "BP");
             SetObjectText(btnMove.gameObject, "移动");
             SetObjectText(btnAttack.gameObject, "攻击");
             SetObjectText(btnStay.gameObject, "待命");
             SetObjectText(btnItem.gameObject, "道具");
 
             //点击回调
+            btnBP.onClick.AddListener(OnClickedBP);
             btnMove.onClick.AddListener(OnClickedMove);
             btnAttack.onClick.AddListener(OnClickedAttack);
             btnStay.onClick.AddListener(OnClickedStay);
@@ -103,6 +106,9 @@ namespace SLGame
 
             //设置道具按钮的状态
             UpdateItemBtnState();
+
+            //设置BP按钮的状态
+            UpdateBPBtnState();
         }
 
         public override void OnHide()
@@ -116,6 +122,23 @@ namespace SLGame
             battleUnit = null;
         }
         
+        //点击了BP
+        private void OnClickedBP()
+        {
+            if (battleUnit == null)
+            {
+                Close();
+                return;
+            }
+
+            Debug.Log("choose to use BT now");
+
+            if (BattleFieldRenderer.Instance)
+                BattleFieldRenderer.Instance.BattleUnitBP(battleUnit);
+
+            UpdateBPBtnState();
+        }
+
         //点击了移动
         private void OnClickedMove()
         {
@@ -271,6 +294,20 @@ namespace SLGame
             {
                 btnItem.GetComponent<Image>().color = Color.white;
                 btnItem.interactable = true;
+            }
+        }
+
+        private void UpdateBPBtnState()
+        {
+            if (battleUnit.battleUnitAttribute.BPCanUse())
+            {
+                var label = btnBP.transform.Find("Label").GetComponent<TextMeshProUGUI>();
+                label.color = EGameConstL.Color_labelWhite;
+            }
+            else
+            {
+                var label = btnBP.transform.Find("Label").GetComponent<TextMeshProUGUI>();
+                label.color = EGameConstL.Color_labelRed;
             }
         }
 

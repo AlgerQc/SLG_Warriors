@@ -84,6 +84,22 @@ namespace SLGame
             }
         }
 
+        public bool BPStage
+        {
+            get
+            {
+                return battleUnitAttribute.HeroUsingBP();
+            }
+        }
+
+        public int BPUseNum
+        {
+            get
+            {
+                return battleUnitAttribute.BPUseNum();
+            }
+        }
+
         /// <summary>
         /// 战斗单位动作的顺序是，移动->攻击
         /// </summary>
@@ -93,6 +109,7 @@ namespace SLGame
         {
             //恢复能量
             RecoverEnergy();
+
             //冷静
             if(battleBehaviourSystem != null)
                 battleBehaviourSystem.RageLevelCooldown();

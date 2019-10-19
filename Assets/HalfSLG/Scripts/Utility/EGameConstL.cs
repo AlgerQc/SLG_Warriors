@@ -24,10 +24,13 @@ namespace SLGame
         public const int WorldMapMaxTryTimes = 99;
         public const int Infinity = 999999;
 
+        //BP上限
+        public const int BPMax = 5;
+        public const int BPUseMax = 3;
+
         //导航可通行遮罩
         public const int NavigationPassableMask = 64;
         
-
         //颜色
         public static readonly Color Color_Transparent = new Color(0, 0, 0, 0);
         public static readonly Color Color_Translucence = new Color(1, 1, 1, 0.5f);

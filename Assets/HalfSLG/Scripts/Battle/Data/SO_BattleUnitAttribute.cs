@@ -36,6 +36,10 @@ namespace SLGame
         public int hp;
         public int maxHp;
 
+        public int BP = 0;
+        private int useBPNum = 0;
+        private bool usingBPAction = false;
+
         public int energy;
         public int maxEnergy;
 
@@ -80,13 +84,75 @@ namespace SLGame
         public void Reset()
         {
             hp = maxHp;
-            energy = 0;
+            energy = maxEnergy;
         }
 
         public void RandomAttributes()
         {
             atk = baseAtk + Random.Range(0, atkRandRange);
             def = baseDef + Random.Range(0, defRandRange);
+        }
+
+        public bool HeroUsingBP()
+        {
+            return useBPNum > 0;
+        }
+
+        public void BPUsing()
+        {
+            BP--;
+            useBPNum++;
+            Debug.LogFormat("left BP = {0}, using BP = {1}", BP, useBPNum);
+        }
+
+        public bool BPUsed()
+        {
+            GetInBPAction();
+
+            if (useBPNum > 1)
+            {
+                useBPNum--;
+                return true;
+            }
+            else
+            {
+                useBPNum = 0;
+                OutOfBPAction();
+                return false;
+            }
+        }
+
+        public void BPUsed(int num)
+        {
+            useBPNum -= num;
+            OutOfBPAction();
+        }
+
+        public int BPUseNum()
+        {
+            return useBPNum;
+        }
+
+        public void GetInBPAction()
+        {
+            usingBPAction = true;
+        }
+
+        public void OutOfBPAction()
+        {
+            usingBPAction = false;
+        }
+
+        public bool BPUsingStage()
+        {
+            return usingBPAction;
+        }
+
+        public bool BPCanUse()
+        {
+            if (BP > 0 && useBPNum < EGameConstL.BPUseMax && usingBPAction == false)
+                return true;
+            return false;
         }
     }
 }
