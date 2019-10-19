@@ -193,6 +193,10 @@ namespace SLGame
                     else
                     {
                         Debug.Log("change queue order");
+                        if (actionUnit.battleUnitAttribute.BPUsingStage())
+                        {
+                            actionUnit.battleUnitAttribute.OutOfBPAction();
+                        }
                         actionQueue.Dequeue();
                         CalculateNextAction(actionUnit);
                         actionUnit = actionQueue.Peek();

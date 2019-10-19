@@ -117,7 +117,6 @@ namespace SLGame
             else
             {
                 useBPNum = 0;
-                OutOfBPAction();
                 return false;
             }
         }
