@@ -202,10 +202,11 @@ namespace SLGame
         public int currentHP;       //变化后的生命值
         public int energyChanged;   //能量变化
         public int currentEnergy;   //当前能量
+        public int currentBP;
 
         public override string ToString()
         {
-            return string.Format("\n\tHP:{0}({1}),\n\tEnergy:{2}({3})", hpChanged, currentHP, energyChanged, currentEnergy);
+            return string.Format("\n\tHP:{0}({1}),\n\tEnergy:{2}({3}, \n\tBP:{4})", hpChanged, currentHP, energyChanged, currentEnergy, currentBP);
         }
     }
 

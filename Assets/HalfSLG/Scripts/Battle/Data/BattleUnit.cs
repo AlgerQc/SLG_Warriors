@@ -136,6 +136,7 @@ namespace SLGame
             action.attribute.currentHP = battleUnitAttribute.hp;
             action.attribute.energyChanged = EGameConstL.EnergyRecoverPerRound;
             action.attribute.currentEnergy = battleUnitAttribute.energy;
+            action.attribute.currentBP = battleUnitAttribute.BP;
 
             battleField.AppendBattleAction(action);
         }
@@ -150,6 +151,7 @@ namespace SLGame
             attribute.currentHP = battleUnitAttribute.hp;
             attribute.energyChanged = -skill.energyCost;
             attribute.currentEnergy = battleUnitAttribute.energy;
+            attribute.currentBP = battleUnitAttribute.BP;
 
             return attribute;
         }

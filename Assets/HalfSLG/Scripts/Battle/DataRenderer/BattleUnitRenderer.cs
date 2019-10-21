@@ -62,6 +62,8 @@ namespace SLGame
             battleUnitHealthBar.UpdateHealth(attribute.currentHP, battleUnit.battleUnitAttribute.maxHp);
             //刷新能量
             battleUnitHealthBar.UpdateEnergy(attribute.currentEnergy, battleUnit.battleUnitAttribute.maxEnergy);
+            //刷新BP
+            battleUnitHealthBar.UpdateBP(attribute.currentBP, EGameConstL.BPMax);
 
             //刷新下显示
             if (linkedUnitInfoView != null)

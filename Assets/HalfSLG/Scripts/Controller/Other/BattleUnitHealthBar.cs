@@ -38,5 +38,14 @@ namespace SLGame
             //设置长度
             srEnergyBarYellow.transform.localScale = new Vector3(current * 1f / max, 1f, 1f);
         }
+
+        public void UpdateBP(int current, int max)
+        {
+            current = Mathf.Clamp(current, 0, max);
+            //设置值
+            tmpLabelBP.text = string.Format("{0}/{1}", current, max);
+            //设置长度
+            srBPBarGreen.transform.localScale = new Vector3(current * 1f / max, 1f, 1f);
+        }
     }
 }
