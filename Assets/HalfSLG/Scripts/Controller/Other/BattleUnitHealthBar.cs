@@ -13,6 +13,9 @@ namespace SLGame
         [SerializeField] private TextMeshPro tmpLabelHealth;
         [SerializeField] private SortingOrderHelper sortingOrderHelper;
         [SerializeField] private SpriteRenderer srEnergyBarYellow;
+        [SerializeField] private GameObject objBPBarNode;
+        [SerializeField] private SpriteRenderer srBPBarGreen;
+        [SerializeField] private TextMeshPro tmpLabelBP;
 
         public void Init()
         {
