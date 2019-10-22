@@ -12,7 +12,7 @@ namespace SLGame
         [SerializeField] private SpriteRenderer srHealthBarGreen;
         [SerializeField] private TextMeshPro tmpLabelHealth;
         [SerializeField] private SortingOrderHelper sortingOrderHelper;
-        [SerializeField] private SpriteRenderer srEnergyBarYellow;
+        //[SerializeField] private SpriteRenderer srEnergyBarYellow;
         [SerializeField] private GameObject objBPBarNode;
         [SerializeField] private SpriteRenderer srBPBarGreen;
         [SerializeField] private TextMeshPro tmpLabelBP;
@@ -34,9 +34,9 @@ namespace SLGame
 
         public void UpdateEnergy(int current, int max)
         {
-            current = Mathf.Clamp(current, 0, max);
+            //current = Mathf.Clamp(current, 0, max);
             //设置长度
-            srEnergyBarYellow.transform.localScale = new Vector3(current * 1f / max, 1f, 1f);
+            //srEnergyBarYellow.transform.localScale = new Vector3(current * 1f / max, 1f, 1f);
         }
 
         public void UpdateBP(int current, int max)
@@ -45,7 +45,7 @@ namespace SLGame
             //设置值
             tmpLabelBP.text = string.Format("{0}/{1}", current, max);
             //设置长度
-            srBPBarGreen.transform.localScale = new Vector3(current * 1f / max, 1f, 1f);
+            srBPBarGreen.transform.localScale = new Vector3(current * 6.997f / max, 1f, 1f);
         }
     }
 }
