@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Xml;
 using System;
+using SLGame.Resource;
+using Object = UnityEngine.Object;
 
 namespace SLGame
 {
@@ -17,16 +19,19 @@ namespace SLGame
         public string info;
     }
 
-    class ReadSkillPassiveConfig
+    class ReadSkillConfig
     {
         XmlDocument xmlDoc = null;
-        public ReadSkillPassiveConfig()
+
+        public ReadSkillConfig()
         {
         }
-        public ReadSkillPassiveConfig(string xmlFilePath)
+
+        public ReadSkillConfig(string xmlFilePath)
         {
             //TextAsset xmlfile = Resources.Load(xmlFilePath) as TextAsset;
-            ResourceUnit xmlfileUnit = ResourcesManager.Instance.loadImmediate(xmlFilePath, ResourceType.ASSET);
+            Object asset = Resources.Load(xmlFilePath);
+            ResourceUnit xmlfileUnit = new ResourceUnit(null, 0, asset, null, ResourceType.ASSET);
             TextAsset xmlfile = xmlfileUnit.Asset as TextAsset;
 
             if (!xmlfile)
@@ -36,7 +41,7 @@ namespace SLGame
 
             xmlDoc = new XmlDocument();
             xmlDoc.LoadXml(xmlfile.text);
-            XmlNodeList infoNodeList = xmlDoc.SelectSingleNode("SkillCfg_passitive ").ChildNodes;
+            XmlNodeList infoNodeList = xmlDoc.SelectSingleNode("SkillCfg").ChildNodes;
             for (int i = 0; i < infoNodeList.Count; i++)
             {//(XmlNode xNode in infoNodeList)
                 if ((infoNodeList[i] as XmlElement).GetAttributeNode("un32ID") == null)
@@ -88,7 +93,7 @@ namespace SLGame
 
                     #endregion
                 }
-                ConfigReader.skillPassiveInfoDic.Add(passiveInfo.id, passiveInfo);
+                ConfigReader.skillInfoDic.Add(passiveInfo.id, passiveInfo);
                 //Debug.LogError("add buff" + buffInfo.BuffID);
             }
         }

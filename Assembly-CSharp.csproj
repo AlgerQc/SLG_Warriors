@@ -108,6 +108,7 @@
     <Compile Include="Assets\HalfSLG\Scripts\Battle\Data\GridUnit.cs" />
     <Compile Include="Assets\HalfSLG\Scripts\Battle\Data\GridUnitBuff.cs" />
     <Compile Include="Assets\HalfSLG\Scripts\Battle\Data\IVisualData.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\Data\ResourceUnit.cs" />
     <Compile Include="Assets\HalfSLG\Scripts\Battle\Data\SO_BattleUnitAttribute.cs" />
     <Compile Include="Assets\HalfSLG\Scripts\Battle\DataRenderer\BattleFieldManualOperationHelper.cs" />
     <Compile Include="Assets\HalfSLG\Scripts\Battle\DataRenderer\BattleFieldRenderer.cs" />
@@ -179,6 +180,7 @@
     <None Include="Assets\3rd\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\HalfSLG\Config\SkillCfg.xml" />
     <None Include="Assets\3rd\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\3rd\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />

@@ -383,7 +383,6 @@ namespace SLGame
                 {
                     case BattleSkillTargetType.BattleUnit:
                     case BattleSkillTargetType.Self:
-                        break;
                         centerGrid = action.targetBattleUnit.mapGrid;
                         break;
                     case BattleSkillTargetType.GridUnit:

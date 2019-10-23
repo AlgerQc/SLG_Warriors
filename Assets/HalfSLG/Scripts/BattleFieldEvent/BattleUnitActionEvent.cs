@@ -131,7 +131,7 @@ namespace SLGame
         
         public override string Desc()
         {
-            return string.Format("{0} use {2} {3}, final count {4}.",
+            return string.Format("{0} use {1} {2}, final count {3}.",
                 actionUnit.battleUnitAttribute.battleUnitName,
                 useCount,
                 itemID,
