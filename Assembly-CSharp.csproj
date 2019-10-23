@@ -122,6 +122,9 @@
     <Compile Include="Assets\HalfSLG\Scripts\BattleFieldEvent\BattleFieldEvent.cs" />
     <Compile Include="Assets\HalfSLG\Scripts\BattleFieldEvent\BattleUnitActionEvent.cs" />
     <Compile Include="Assets\HalfSLG\Scripts\BattleFieldEvent\GridUnitEvent.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\ConfigReader\ConfigReader.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\ConfigReader\ReadComboConfig.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\ConfigReader\ReadSkillConfig.cs" />
     <Compile Include="Assets\HalfSLG\Scripts\Controller\Effect\EffectController.cs" />
     <Compile Include="Assets\HalfSLG\Scripts\Controller\Effect\EffectDamageLabel.cs" />
     <Compile Include="Assets\HalfSLG\Scripts\Controller\Effect\EffectHolder.cs" />
