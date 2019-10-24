@@ -49,8 +49,8 @@ namespace SLGame
 
                 string typeName = (infoNodeList[i] as XmlElement).GetAttributeNode("un32ID").InnerText;
                 //Debug.LogError(typeName);
-                SkillConfigInfo passiveInfo = new SkillConfigInfo();
-                passiveInfo.id = (uint)Convert.ToUInt32(typeName);
+                SkillConfigInfo skillInfo = new SkillConfigInfo();
+                skillInfo.id = (uint)Convert.ToUInt32(typeName);
                 foreach (XmlElement xEle in infoNodeList[i].ChildNodes)
                 {
                     #region 搜索
@@ -58,42 +58,42 @@ namespace SLGame
                     {
                         case "szName":
                             {
-                                passiveInfo.name = Convert.ToString(xEle.InnerText);
+                                skillInfo.name = Convert.ToString(xEle.InnerText);
                             }
                             break;
 
                         case "SkillIcon":
                             {
-                                passiveInfo.icon = Convert.ToString(xEle.InnerText);
+                                skillInfo.icon = Convert.ToString(xEle.InnerText);
                             }
                             break;
 
                         case "n32ReleaseAction":
                             {
-                                passiveInfo.action = Convert.ToString(xEle.InnerText);
+                                skillInfo.action = Convert.ToString(xEle.InnerText);
                             }
                             break;
 
                         case "n32ReleaseSound":
                             {
-                                passiveInfo.sound = Convert.ToString(xEle.InnerText);
+                                skillInfo.sound = Convert.ToString(xEle.InnerText);
                             }
                             break;
 
                         case "ReleaseEffect":
                             {
-                                passiveInfo.effect = Convert.ToString(xEle.InnerText);
+                                skillInfo.effect = Convert.ToString(xEle.InnerText);
                             }
                             break;
 
                         case "info":
-                            passiveInfo.info = Convert.ToString(xEle.InnerText);
+                            skillInfo.info = Convert.ToString(xEle.InnerText);
                             break;
                     }
 
                     #endregion
                 }
-                ConfigReader.skillInfoDic.Add(passiveInfo.id, passiveInfo);
+                ConfigReader.skillInfoDic.Add(skillInfo.id, skillInfo);
                 //Debug.LogError("add buff" + buffInfo.BuffID);
             }
         }

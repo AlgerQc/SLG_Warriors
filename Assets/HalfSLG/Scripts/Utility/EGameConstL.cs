@@ -28,6 +28,9 @@ namespace SLGame
         public const int BPMax = 5;
         public const int BPUseMax = 3;
 
+        //连招上限
+        public const int ComboCount = 3;
+
         //导航可通行遮罩
         public const int NavigationPassableMask = 64;
         

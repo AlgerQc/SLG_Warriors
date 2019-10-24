@@ -16,7 +16,6 @@ namespace SLGame
         Exception,      //战斗状态异常
     }
 
-
     public class BattleField
         : CountableInstance, IVisualData<BattleField, BattleFieldRenderer>
     {

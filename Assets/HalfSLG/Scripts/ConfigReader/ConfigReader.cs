@@ -9,27 +9,26 @@ namespace SLGame
     {
         #region read skill.xml
         public static Dictionary<uint, SkillConfigInfo> skillInfoDic = new Dictionary<uint, SkillConfigInfo>();
-        public static Dictionary<uint, SkillConfigInfo> SkillPassiveInfoDic
+        public static Dictionary<uint, SkillConfigInfo> SkillInfoDic
         {
             get
             {
-                if (SkillPassiveInfoDic.Count == 0)
+                if (SkillInfoDic.Count == 0)
                 {
                     ReadSkillConfig spConfig = new ReadSkillConfig("Config/SkillCfg");
                 }
-                return SkillPassiveInfoDic;
+                return SkillInfoDic;
             }
         }
-        public static SkillConfigInfo GetSkillPassiveConfig(uint id)
+        public static SkillConfigInfo GetSkillConfig(uint id)
         {
-            if (SkillPassiveInfoDic.ContainsKey(id))
+            if (SkillInfoDic.ContainsKey(id))
             {
-                return SkillPassiveInfoDic[id];
+                return SkillInfoDic[id];
             }
             return null;
         }
         #endregion
-
 
         public static void Init()
         {

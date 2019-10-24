@@ -435,6 +435,21 @@ namespace SLGame
                 //同时开启掉血特效
                 StartCoroutine(action.skillResult[i].battleUnit.battleUnitRenderer.OnSkillDamage(action.skillResult[i]));
             }
+
+            //连招combo统计
+            if (battleUnit.battleUnitAttribute.ComboCount < EGameConstL.ComboCount)
+            {
+                //返回真表示连招成立，则调用连招效果
+                if (battleUnit.battleUnitAttribute.comboJudge(action.battleSkill.skillID))
+                {
+
+                }
+                else
+                {
+
+                }
+            }
+
         }
 
         //释放技能后

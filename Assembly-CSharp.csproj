@@ -188,6 +188,7 @@
     <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\HalfSLG\Config\ComboSkill.xml" />
     <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />

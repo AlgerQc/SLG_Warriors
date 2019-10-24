@@ -40,6 +40,9 @@ namespace SLGame
         private int useBPNum = 0;
         private bool usingBPAction = false;
 
+        //连击记录
+        private Queue<int> skillCombo;
+
         public int energy;
         public int maxEnergy;
 
@@ -152,6 +155,42 @@ namespace SLGame
             if (BP > 0 && useBPNum < EGameConstL.BPUseMax && usingBPAction == false)
                 return true;
             return false;
+        }
+
+        public int ComboCount
+        {
+            get
+            {
+                return skillCombo.Count;
+            }
+        }
+
+        public bool comboJudge(int skillID)
+        {
+            skillCombo.Enqueue(skillID);
+            if (skillCombo.Count == EGameConstL.ComboCount)
+            {
+
+                return true;
+            }
+            else 
+            {
+                if (checkComboEarly(skillCombo))
+                {
+                    Debug.LogFormat("Wait for {0} more skills to fill combo", EGameConstL.ComboCount - skillCombo.Count);
+                }
+                else
+                {
+                    Debug.Log("Combo error, start from first skill again");
+                }
+
+                return false;
+            }
+        }
+
+        public bool checkComboEarly(Queue<int> skillCombo)
+        {
+            return true;
         }
     }
 }
