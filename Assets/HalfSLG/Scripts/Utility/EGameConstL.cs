@@ -6,7 +6,7 @@ namespace SLGame
 {
     public class EGameConstL
     {
-        public const string GameName = "HalfSLG";
+        public const string GameName = "SLG-Warriors";
 
         public const bool Map_FirstRowOffset = false;    //true:地图首行向右偏移半个单位
         public const float Map_GridWidth = 2.57f;

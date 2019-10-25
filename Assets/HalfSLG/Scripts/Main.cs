@@ -21,6 +21,9 @@ namespace SLGame
 
             //资源
             ResourceManager.Instance.InitManager();
+
+            //配置表
+            ConfigReader.Init();
         }
 
         private void PrepareViewManager()
