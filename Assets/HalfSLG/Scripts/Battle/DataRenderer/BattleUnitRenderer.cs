@@ -437,18 +437,22 @@ namespace SLGame
             }
 
             //连招combo统计
-            if (battleUnit.battleUnitAttribute.ComboCount < EGameConstL.ComboCount)
+            if (battleUnit.battleUnitAttribute.manualOperation)
             {
-                //返回真表示连招成立，则调用连招效果
-                if (battleUnit.battleUnitAttribute.comboJudge(action.battleSkill.skillID))
+                if (battleUnit.battleUnitAttribute.ComboCount < EGameConstL.ComboCount)
                 {
+                    //返回真表示连招成立，则调用连招效果
+                    if (battleUnit.battleUnitAttribute.comboJudge(action.battleSkill.skillID))
+                    {
 
-                }
-                else
-                {
+                    }
+                    else
+                    {
 
+                    }
                 }
             }
+
 
         }
 

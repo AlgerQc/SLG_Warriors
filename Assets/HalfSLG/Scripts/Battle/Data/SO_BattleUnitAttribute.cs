@@ -41,7 +41,7 @@ namespace SLGame
         private bool usingBPAction = false;
 
         //连击记录
-        private Queue<int> skillCombo;
+        private Queue<int> skillCombo = new Queue<int>();
 
         public int energy;
         public int maxEnergy;
@@ -181,6 +181,7 @@ namespace SLGame
                 }
                 else
                 {
+                    skillCombo.Clear();
                     Debug.Log("Combo error, start from first skill again");
                 }
 
