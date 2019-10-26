@@ -168,17 +168,16 @@ namespace SLGame
             }
         }
 
-        public bool comboJudge(int skillID)
+        public int comboJudge(int skillID)
         {
             skillCombo.Enqueue(skillID);
             if (skillCombo.Count == EGameConstL.ComboCount)
             {
-
-                return true;
+                return ConfigReader.checkCombo(skillCombo);
             }
             else 
             {
-                if (checkComboEarly(skillCombo))
+                if (ConfigReader.checkComboEarly(skillCombo))
                 {
                     Debug.LogFormat("Wait for {0} more skills to fill combo", EGameConstL.ComboCount - skillCombo.Count);
                 }
@@ -188,13 +187,10 @@ namespace SLGame
                     Debug.Log("Combo error, start from first skill again");
                 }
 
-                return false;
+                return 0;
             }
         }
 
-        public bool checkComboEarly(Queue<int> skillCombo)
-        {
-            return true;
-        }
+
     }
 }

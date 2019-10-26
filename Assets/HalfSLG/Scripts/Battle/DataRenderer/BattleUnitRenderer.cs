@@ -442,13 +442,14 @@ namespace SLGame
                 if (battleUnit.battleUnitAttribute.ComboCount < EGameConstL.ComboCount)
                 {
                     //返回真表示连招成立，则调用连招效果
-                    if (battleUnit.battleUnitAttribute.comboJudge(action.battleSkill.skillID))
+                    int comboID = battleUnit.battleUnitAttribute.comboJudge(action.battleSkill.skillID);
+                    if (comboID != 0)
                     {
-
+                        Debug.LogFormat("Combo Attack {0}!", comboID);
                     }
                     else
                     {
-
+                        
                     }
                 }
             }
