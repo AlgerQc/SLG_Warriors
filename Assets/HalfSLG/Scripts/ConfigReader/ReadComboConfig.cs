@@ -28,6 +28,7 @@ namespace SLGame
 
         public ReadSkillComboConfig(string xmlFilePath)
         {
+            Debug.Log("begin reading combo xml file");
             //TextAsset xmlfile = Resources.Load(xmlFilePath) as TextAsset;
             Object asset = Resources.Load(xmlFilePath);
             ResourceUnit xmlfileUnit = new ResourceUnit(null, 0, asset, null, ResourceType.ASSET);
@@ -37,10 +38,10 @@ namespace SLGame
             {
                 return;
             }
-
+            Debug.Log("read combo xml successful");
             xmlDoc = new XmlDocument();
             xmlDoc.LoadXml(xmlfile.text);
-            XmlNodeList infoNodeList = xmlDoc.SelectSingleNode("SkillCfg").ChildNodes;
+            XmlNodeList infoNodeList = xmlDoc.SelectSingleNode("ComboSkill").ChildNodes;
             for (int i = 0; i < infoNodeList.Count; i++)
             {//(XmlNode xNode in infoNodeList)
                 if ((infoNodeList[i] as XmlElement).GetAttributeNode("un32ID") == null)
@@ -89,8 +90,9 @@ namespace SLGame
 
                     #endregion
                 }
-                ConfigReader.comboInfoDic.Add(comboInfo.id, comboInfo);
-                //Debug.LogError("add buff" + buffInfo.BuffID);
+                ConfigReader.comboInfoDic.Add((uint)i, comboInfo);
+                Debug.LogFormat("add {0} with skill1 = {1}, skill2 = {2}, skill3 = {3}", comboInfo.id, comboInfo.skill1,
+                    comboInfo.skill2, comboInfo.skill3);
             }
         }
     }

@@ -439,21 +439,20 @@ namespace SLGame
             //连招combo统计
             if (battleUnit.battleUnitAttribute.manualOperation)
             {
-                if (battleUnit.battleUnitAttribute.ComboCount < EGameConstL.ComboCount)
-                {
-                    //返回真表示连招成立，则调用连招效果
-                    int comboID = battleUnit.battleUnitAttribute.comboJudge(action.battleSkill.skillID);
-                    if (comboID != 0)
-                    {
-                        Debug.LogFormat("Combo Attack {0}!", comboID);
-                    }
-                    else
-                    {
-                        
-                    }
-                }
-            }
+                Debug.Log("check combo now");
 
+                //返回真表示连招成立，则调用连招效果
+                int comboID = battleUnit.battleUnitAttribute.comboJudge(action.battleSkill.skillID);
+                if (comboID != 0)
+                {
+                    Debug.LogFormat("Combo Attack {0} successful!", comboID);
+                }
+                else
+                {
+                    
+                }
+
+            }
 
         }
 

@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{37B6D765-A302-A8AD-DF2D-98C87EBC6BBE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -180,7 +181,7 @@
     <None Include="Assets\3rd\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\HalfSLG\Config\SkillCfg.xml" />
+    <None Include="Assets\HalfSLG\Resources\Config\SkillCfg.xml" />
     <None Include="Assets\3rd\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\3rd\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
@@ -188,7 +189,9 @@
     <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\HalfSLG\Config\ComboSkill.xml" />
+    <None Include="Assets\HalfSLG\Resources\Config\ComboSkill.xml">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\3rd\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />

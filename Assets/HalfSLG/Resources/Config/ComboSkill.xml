@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ComboSkill xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <info un32ID="10000001">
+    <Name>AttackCombo</Name>
+    <skill1>1000</skill1>
+    <skill2>1000</skill2>
+    <skill3>1000</skill3>
+    <effect>0001</effect>
+  </info>
+  <info un32ID="10000002">
+    <Name>AttackCombo</Name>
+    <skill1>1001</skill1>
+    <skill2>1001</skill2>
+    <skill3>1001</skill3>
+    <effect>0001</effect>
+  </info>
+  <info un32ID="10000003">
+    <Name>HealCombo</Name>
+    <skill1>3000</skill1>
+    <skill2>3000</skill2>
+    <skill3>3000</skill3>
+    <effect>0002</effect>
+  </info>
+  <info un32ID="10000004">
+    <Name>PushCombo</Name>
+    <skill1>1002</skill1>
+    <skill2>1002</skill2>
+    <skill3>1002</skill3>
+    <effect>0003</effect>
+  </info>
+</ComboSkill>

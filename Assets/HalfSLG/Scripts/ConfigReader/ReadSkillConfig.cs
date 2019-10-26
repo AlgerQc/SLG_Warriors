@@ -30,6 +30,8 @@ namespace SLGame
         public ReadSkillConfig(string xmlFilePath)
         {
             //TextAsset xmlfile = Resources.Load(xmlFilePath) as TextAsset;
+
+            Debug.LogFormat("begin reading skill xml file from {0}", xmlFilePath);
             Object asset = Resources.Load(xmlFilePath);
             ResourceUnit xmlfileUnit = new ResourceUnit(null, 0, asset, null, ResourceType.ASSET);
             TextAsset xmlfile = xmlfileUnit.Asset as TextAsset;
@@ -38,8 +40,8 @@ namespace SLGame
             {
                 return;
             }
-
-            xmlDoc = new XmlDocument();
+            Debug.Log("read skill xml successful");
+            xmlDoc = new XmlDocument(); 
             xmlDoc.LoadXml(xmlfile.text);
             XmlNodeList infoNodeList = xmlDoc.SelectSingleNode("SkillCfg").ChildNodes;
             for (int i = 0; i < infoNodeList.Count; i++)
