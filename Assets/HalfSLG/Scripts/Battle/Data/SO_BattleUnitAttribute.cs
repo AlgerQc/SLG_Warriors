@@ -43,6 +43,9 @@ namespace SLGame
         //连击记录
         private Queue<int> skillCombo = new Queue<int>();
 
+        public float springPower = 1.0f; //跳跃力
+        public float volume = 5.0f;      //体积
+
         public int energy;
         public int maxEnergy;
 

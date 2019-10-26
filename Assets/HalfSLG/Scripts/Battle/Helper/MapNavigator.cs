@@ -346,7 +346,80 @@ namespace SLGame
             return catched;
         }
 
-        public void Init(params object[] args)
+        class PathTraceData
+        {
+            public float MovePointRemainder;
+            public GridUnit currentGridUnit;
+            public PathTraceData(float v, GridUnit gridUnit)
+            {
+                MovePointRemainder = v;
+                currentGridUnit = gridUnit;
+            }
+        }
+
+        public bool NewNavigate(
+            BattleUnit battleUnit,
+            BattleMap battleMap,
+            GridUnit from,
+            GridUnit to,
+            List<GridUnit> path,
+            int stopDistance = 0)
+        {
+            PathTraceData[,] flag = new PathTraceData[battleMap.mapWidth, battleMap.mapHeight];
+            Queue<PathTraceData> checkList = new Queue<PathTraceData>();
+            PathTraceData currentUnit = new PathTraceData(battleUnit.battleUnitAttribute.mobility, from);
+            bool isFind = false;
+            checkList.Enqueue(currentUnit);
+            while(checkList.Count > 0)
+            {
+                currentUnit = checkList.Dequeue();
+                if (currentUnit.currentGridUnit.Distance(to) <= stopDistance)
+                {
+                    isFind = true;
+                    break;
+                }
+                List<GridUnit> gridUnitList = battleMap.GetNearbyGrid(currentUnit.currentGridUnit);
+                foreach (GridUnit gridUnit in gridUnitList)
+                {
+                    float MovePointRemainder = currentUnit.MovePointRemainder - currentUnit.currentGridUnit.m_GridAttribute.m_CrossCost;
+                    //绝对障碍不可通过
+                    if (gridUnit.GridType == GridType.Obstacle) continue;
+                    //不能跳过去，高度太高
+                    if (gridUnit.m_GridAttribute.m_Height - currentUnit.currentGridUnit.m_GridAttribute.m_Height > battleUnit.battleUnitAttribute.springPower) continue;
+                    //体积太大穿不过去
+                    if (gridUnit.m_GridAttribute.m_MaxPassVolume < battleUnit.battleUnitAttribute.volume) continue;
+                    //剩余移动点数不足
+                    //if (MovePointRemainder <= 0) continue;
+                    //有敌人挡着（暂时还没判是否是友方）
+                    if (gridUnit.battleUnit != null && gridUnit.battleUnit.CanAction && !gridUnit.NavigationPassable) continue;
+
+                    if (flag[gridUnit.column, gridUnit.row] == null || flag[gridUnit.column, gridUnit.row].MovePointRemainder < MovePointRemainder)
+                    {
+                        flag[gridUnit.column, gridUnit.row] = currentUnit;
+                        checkList.Enqueue(new PathTraceData(MovePointRemainder, gridUnit));
+                    }
+                }
+            }
+
+            if (!isFind) return false;
+            path.Clear();
+            Stack<GridUnit> temp = new Stack<GridUnit>();
+            while (!currentUnit.currentGridUnit.Equals(from))
+            {
+                if (currentUnit.MovePointRemainder >= 0)
+                {
+                    temp.Push(currentUnit.currentGridUnit);
+                }
+                currentUnit = flag[currentUnit.currentGridUnit.column, currentUnit.currentGridUnit.row];
+            }
+            while(temp.Count != 0)
+            {
+                path.Add(temp.Pop());
+            }
+            return true;
+        }
+
+            public void Init(params object[] args)
         {
             //初始化一定数量的导航数据
             navigationDataPool = new List<NavigationData>(EGameConstL.WorldMapMaxTryTimes);

@@ -333,15 +333,28 @@ namespace SLGame
                     }
                     else
                     {
-                        //判断移动是否可以到达
-                        bool result = MapNavigator.Instance.Navigate(
+                        MapNavigator.Instance.NewNavigate(
+                            manualOperatingBattleUnitRenderer.battleUnit,
                             fieldRenderer.battleField.battleMap,
                             fromGrid,
                             gridTouched,
-                            UtilityObjs.gridUnits,
-                            null,
-                            manualOperatingBattleUnitRenderer.battleUnit.battleUnitAttribute.mobility
-                            );
+                            UtilityObjs.gridUnits);
+                        //判断移动是否可以到达
+                        //bool result = MapNavigator.Instance.Navigate(
+                        //    fieldRenderer.battleField.battleMap,
+                        //    fromGrid,
+                        //    gridTouched,
+                        //    UtilityObjs.gridUnits,
+                        //    null,
+                        //    manualOperatingBattleUnitRenderer.battleUnit.battleUnitAttribute.mobility
+                        //    );
+
+                        bool result = MapNavigator.Instance.NewNavigate(
+                            manualOperatingBattleUnitRenderer.battleUnit,
+                            fieldRenderer.battleField.battleMap,
+                            fromGrid,
+                            gridTouched,
+                            UtilityObjs.gridUnits);
 
                         //判断是否可以到达(导航成功且可以可以到达)
                         if (result && UtilityObjs.gridUnits[UtilityObjs.gridUnits.Count - 1].Equals(gridTouched))

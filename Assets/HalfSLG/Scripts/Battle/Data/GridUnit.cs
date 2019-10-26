@@ -8,8 +8,30 @@ namespace SLGame
     {
         None,       
         Normal,     //平地
-        Born,       //出生点
-        Obstacle,   //障碍，无法通过
+        Sand,       //沙地
+        Water,      //水域
+        Mountain,   //山地
+        Obstacle,   //绝对障碍，无法通过
+        //Born,       //出生点
+        //Obstacle,   //障碍，无法通过
+    }
+
+    public class GridAttribute
+    {
+        //名字
+        public string m_Name = string.Empty;
+        //闪避补正
+        public float m_Avoid = 0.0f;
+        //防御补正
+        public float m_Defense = 0.0f;
+        //地形高度
+        public float m_Height = 0.0f;
+        //可通过的最大体积
+        public float m_MaxPassVolume = 999999.0f;
+        //经过时消耗的行动步数
+        public float m_CrossCost = 1.0f;
+        //格子类型
+        public GridType m_GridType = GridType.Normal;
     }
 
     public class GridItem
@@ -23,16 +45,19 @@ namespace SLGame
     {
         public GridUnit(BattleMap battleMap, int row, int column)
         {
-            gridType = GridType.None;
+            //gridType = GridType.None;
+            m_GridAttribute = new GridAttribute();
             this.battleMap = battleMap;
             this.row = row;
             this.column = column;
         }
 
+        //格子属性
+        public GridAttribute m_GridAttribute;
         //所属地图ID
         public BattleMap battleMap;
         //格子类型
-        private GridType gridType;
+        //private GridType gridType;
         //当前停留的战斗单位
         public BattleUnit battleUnit;
         //格子可通行方向
@@ -58,12 +83,12 @@ namespace SLGame
         {
             get
             {
-                return gridType;
+                return m_GridAttribute.m_GridType;
             }
             set
             {
-                gridType = value;
-                switch (gridType)
+                m_GridAttribute.m_GridType = value;
+                switch (m_GridAttribute.m_GridType)
                 {
                     case GridType.None:
                         roadPasses = 0;
@@ -74,9 +99,9 @@ namespace SLGame
                     case GridType.Obstacle:
                         roadPasses = 0;
                         break;
-                    case GridType.Born:
-                        roadPasses = 63;
-                        break;
+                    //case GridType.Born:
+                    //    roadPasses = 63;
+                    //    break;
                     default:
                         roadPasses = 63;
                         break;
@@ -122,7 +147,7 @@ namespace SLGame
 
                     sibling = battleMap.GetGridByDir(row, column, dir);
                     //不能通过
-                    if (sibling == null || sibling.gridType == GridType.Obstacle || sibling.battleUnit != null)
+                    if (sibling == null || sibling.GridType == GridType.Obstacle || sibling.battleUnit != null)
                         runtimePasses &= ~(1 << dir);
                 }
 

@@ -133,6 +133,27 @@ namespace SLGame
             return mapGrids[column, row];
         }
 
+        //获取某格子周围的格子
+        public List<GridUnit> GetNearbyGrid(GridUnit gridUnit)
+        {
+            int row = gridUnit.row;
+            int column = gridUnit.column;
+            List<GridUnit> gridUnitList = new List<GridUnit>();
+            GridUnit tempGridUnit = GetGridData(row, column - 1);
+            if (tempGridUnit != null) gridUnitList.Add(tempGridUnit);
+            tempGridUnit = GetGridData(row + 1, ((row & 1) == (EGameConstL.Map_FirstRowOffset ? 1 : 0)) ? column - 1 : column);
+            if (tempGridUnit != null) gridUnitList.Add(tempGridUnit);
+            tempGridUnit = GetGridData(row + 1, ((row & 1) == (EGameConstL.Map_FirstRowOffset ? 1 : 0)) ? column : column + 1);
+            if (tempGridUnit != null) gridUnitList.Add(tempGridUnit);
+            tempGridUnit = GetGridData(row, column + 1);
+            if (tempGridUnit != null) gridUnitList.Add(tempGridUnit);
+            tempGridUnit = GetGridData(row - 1, ((row & 1) == (EGameConstL.Map_FirstRowOffset ? 1 : 0)) ? column : column + 1);
+            if (tempGridUnit != null) gridUnitList.Add(tempGridUnit);
+            tempGridUnit = GetGridData(row - 1, ((row & 1) == (EGameConstL.Map_FirstRowOffset ? 1 : 0)) ? column - 1 : column);
+            if (tempGridUnit != null) gridUnitList.Add(tempGridUnit);
+            return gridUnitList;
+        }
+
         //根据格子行列获取某个方向的格子
         public GridUnit GetGridByDir(int row, int column, int dir)
         {
@@ -215,13 +236,13 @@ namespace SLGame
             //两边生成
             for (int i = 1; i < mapWidth; i = i + 2)
             {
-                mapGrids[i, 0].GridType = GridType.Born;
+                mapGrids[i, 0].GridType = GridType.Normal;
                 bornGrids.Add(mapGrids[i, 0]);
             }
 
             for (int i = 1; i < mapWidth; i = i + 2)
             {
-                mapGrids[i, mapHeight - 1].GridType = GridType.Born;
+                mapGrids[i, mapHeight - 1].GridType = GridType.Normal;
                 bornGrids.Add(mapGrids[i, mapHeight - 1]);
             }
         }

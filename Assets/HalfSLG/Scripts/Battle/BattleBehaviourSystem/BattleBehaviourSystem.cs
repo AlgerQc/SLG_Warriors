@@ -467,15 +467,23 @@ namespace SLGame.BattleBehaviourSystem
                     {
                         //不在范围内
                         //判断是否可达
-                        bool canCatch = MapNavigator.Instance.Navigate(
+                        //bool canCatch = MapNavigator.Instance.Navigate(
+                        //    baseData.battleField.battleMap,
+                        //    baseData.hostBattleUnit.mapGrid,
+                        //    target.mapGrid,
+                        //    movePath,
+                        //    null,
+                        //    baseData.hostBattleUnit.battleUnitAttribute.mobility,
+                        //    skills[j].GetMaxReleaseRadiusForCalculate(null)
+                        //    );
+
+                        bool canCatch = MapNavigator.Instance.NewNavigate(
+                            baseData.hostBattleUnit,
                             baseData.battleField.battleMap,
                             baseData.hostBattleUnit.mapGrid,
                             target.mapGrid,
                             movePath,
-                            null,
-                            baseData.hostBattleUnit.battleUnitAttribute.mobility,
-                            skills[j].GetMaxReleaseRadiusForCalculate(null)
-                            );
+                            skills[j].GetMaxReleaseRadiusForCalculate(null));
 
                         //别考虑这个技能了～
                         if (!canCatch)
