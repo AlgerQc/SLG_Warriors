@@ -1,11 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace SLGame
 {
     public class MapNavigator
-        :NormalSingleton<MapNavigator>, IGameBase
+        : NormalSingleton<MapNavigator>, IGameBase
     {
         private class NavigationData
         {
@@ -41,7 +42,7 @@ namespace SLGame
                 preGrid = null;
             }
         }
-        
+
         //池
         private int curUsedIdx = 0;
         private List<NavigationData> navigationDataPool = null;
@@ -114,15 +115,15 @@ namespace SLGame
                 searched.Clear();
 
             //这种情况基本上也就不用寻路了吧...
-            if (to.runtimePasses == 0 
-                && stopDistance <= 1 
+            if (to.runtimePasses == 0
+                && stopDistance <= 1
                 && from.Distance(to) > 1)
                 return false;
 
             //本来就在停止距离内
             if (from.Distance(to) <= stopDistance)
                 return true;
-            
+
             int tryTimes = battleMap.GridCount;
 
             List<NavigationData> opening = new List<NavigationData>();
@@ -146,7 +147,7 @@ namespace SLGame
             NavigationData next_0 = null;
             //距离次近的格子
             NavigationData next_1 = null;
-            
+
             int minStep = EGameConstL.Infinity;
 
             while (retry <= tryTimes && !catched)
@@ -166,7 +167,7 @@ namespace SLGame
                 else
                 {
                     minStep = EGameConstL.Infinity;
-                    if(opening.Count == 0)
+                    if (opening.Count == 0)
                     {
                         break;
                     }
@@ -327,10 +328,10 @@ namespace SLGame
 
             //重置池子
             ResetPool();
-            
+
             //有步数限制
             if (catched
-                && path != null 
+                && path != null
                 && mobility > 0)
             {
                 for (int i = 0; i < path.Count; ++i)
@@ -342,11 +343,11 @@ namespace SLGame
                     }
                 }
             }
-            
+
             return catched;
         }
 
-        class PathTraceData
+        class PathTraceData : IComparable<PathTraceData>
         {
             public float MovePointRemainder;
             public GridUnit currentGridUnit;
@@ -354,6 +355,13 @@ namespace SLGame
             {
                 MovePointRemainder = v;
                 currentGridUnit = gridUnit;
+            }
+
+            int IComparable<PathTraceData>.CompareTo(PathTraceData other)
+            {
+                if (MovePointRemainder > other.MovePointRemainder) return 1;
+                if (MovePointRemainder < other.MovePointRemainder) return -1;
+                return 0;
             }
         }
 
@@ -366,13 +374,13 @@ namespace SLGame
             int stopDistance = 0)
         {
             PathTraceData[,] flag = new PathTraceData[battleMap.mapWidth, battleMap.mapHeight];
-            Queue<PathTraceData> checkList = new Queue<PathTraceData>();
+            PriorityQueue<PathTraceData> checkList = new PriorityQueue<PathTraceData>();
             PathTraceData currentUnit = new PathTraceData(battleUnit.battleUnitAttribute.mobility, from);
             bool isFind = false;
-            checkList.Enqueue(currentUnit);
-            while(checkList.Count > 0)
+            checkList.Push(currentUnit);
+            while (checkList.Count > 0)
             {
-                currentUnit = checkList.Dequeue();
+                currentUnit = checkList.Pop();
                 if (currentUnit.currentGridUnit.Distance(to) <= stopDistance)
                 {
                     isFind = true;
@@ -396,7 +404,7 @@ namespace SLGame
                     if (flag[gridUnit.column, gridUnit.row] == null || flag[gridUnit.column, gridUnit.row].MovePointRemainder < MovePointRemainder)
                     {
                         flag[gridUnit.column, gridUnit.row] = currentUnit;
-                        checkList.Enqueue(new PathTraceData(MovePointRemainder, gridUnit));
+                        checkList.Push(new PathTraceData(MovePointRemainder, gridUnit));
                     }
                 }
             }
@@ -412,14 +420,14 @@ namespace SLGame
                 }
                 currentUnit = flag[currentUnit.currentGridUnit.column, currentUnit.currentGridUnit.row];
             }
-            while(temp.Count != 0)
+            while (temp.Count != 0)
             {
                 path.Add(temp.Pop());
             }
             return true;
         }
 
-            public void Init(params object[] args)
+        public void Init(params object[] args)
         {
             //初始化一定数量的导航数据
             navigationDataPool = new List<NavigationData>(EGameConstL.WorldMapMaxTryTimes);
