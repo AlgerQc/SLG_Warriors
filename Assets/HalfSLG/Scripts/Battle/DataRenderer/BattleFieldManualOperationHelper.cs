@@ -689,6 +689,11 @@ namespace SLGame
             switch (gridRenderType)
             {
                 case GridRenderType.MoveRange:
+                    if (centerRow != -1 && centerColumn != -1)
+                    {
+                        BattleUnit battleUnit = fieldRenderer.battleField.battleMap.GetGridData(centerRow, centerColumn).battleUnit;
+                        moveRangeGridUnits = MapNavigator.Instance.GetAccessibleGrids(battleUnit, fieldRenderer.battleField.battleMap);
+                    }
                     rangeHighlightGridUnits = moveRangeGridUnits;
                     break;
                 case GridRenderType.SkillReleaseRange:
@@ -712,7 +717,7 @@ namespace SLGame
                         rangeHighlightGridUnits[i].gridUnitRenderer.RemoveGridRenderType(gridRenderType);
                     }
                 }
-                rangeHighlightGridUnits.Clear();
+                //rangeHighlightGridUnits.Clear();
             }
             else
             {
@@ -720,7 +725,7 @@ namespace SLGame
                 if (rangeHighlightGridUnits.Count > 0)
                     SetCircularRangeRenderStateActive(false, gridRenderType);
                 //获取格子
-                fieldRenderer.battleField.battleMap.GetCircularGrids(centerRow, centerColumn, radius, 0, true, rangeHighlightGridUnits);
+                //fieldRenderer.battleField.battleMap.GetCircularGrids(centerRow, centerColumn, radius, 0, true, rangeHighlightGridUnits);
                 //设置高亮状态
                 for (int i = 0; i < rangeHighlightGridUnits.Count; ++i)
                 {
