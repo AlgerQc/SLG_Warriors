@@ -19,6 +19,14 @@ namespace SLGame
         NotSelectable,  //不可选的
         Selected,       //已选中的
     }
+
+    public enum ComboEffectType
+    {
+        None = 0,
+        DamageEffect,
+        HealEffect,
+        PushEffect,
+    }
     
     public class BattleUnitRenderer
             : BaseBehaviour,
@@ -246,7 +254,6 @@ namespace SLGame
                 yield break;
             }
 
-
             if (action.skillResult == null)
             {
                 UtilityHelper.LogError("Error BattleHeroSkillAction: No skill result.");
@@ -445,15 +452,33 @@ namespace SLGame
                 int comboID = battleUnit.battleUnitAttribute.comboJudge(action.battleSkill.skillID);
                 if (comboID != 0)
                 {
-                    Debug.LogFormat("Combo Attack {0} successful!", comboID);
+                    ComboEffect(comboID);                   
                 }
-                else
-                {
-                    
-                }
-
             }
 
+            battleUnit.battleUnitAttribute.skillComboActiveCheck();
+
+        }
+
+        //根据combo类型释放效果
+        private void ComboEffect(int comboID)
+        {
+            switch(comboID)
+            {
+                case (int)ComboEffectType.DamageEffect:
+                    Debug.Log("Combo Attack DamageEffect successful!");
+                    battleUnit.battleUnitAttribute.UpdateAtk(EGameConstL.AtkIncrease); 
+                    break;
+
+                case (int)ComboEffectType.HealEffect:
+                    Debug.Log("Combo Attack HealEffect successful!");
+                    break;
+
+                case (int)ComboEffectType.PushEffect:
+                    Debug.Log("Combo Attack PushEffect successful!");
+                    break;
+            }
+            return;
         }
 
         //释放技能后

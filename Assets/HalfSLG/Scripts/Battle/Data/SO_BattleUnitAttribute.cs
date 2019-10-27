@@ -43,6 +43,12 @@ namespace SLGame
         //连击记录
         private Queue<int> skillCombo = new Queue<int>();
 
+        //连击生效
+        private bool skillComboActiveNow = false;
+
+        //连击效果使用次数
+        private int skillComboCount = 0;
+
         public float springPower = 1.0f; //跳跃力
         public float volume = 5.0f;      //体积
 
@@ -97,6 +103,11 @@ namespace SLGame
         {
             atk = baseAtk + Random.Range(0, atkRandRange);
             def = baseDef + Random.Range(0, defRandRange);
+        }
+
+        public void UpdateAtk(int value)
+        {
+            atk = atk + value;
         }
 
         public bool HeroUsingBP()
@@ -173,7 +184,16 @@ namespace SLGame
             skillCombo.Enqueue(skillID);
             if (skillCombo.Count == EGameConstL.ComboCount)
             {
-                return ConfigReader.checkCombo(skillCombo);
+                int id = ConfigReader.checkCombo(skillCombo);
+                if ( id > 0)
+                {
+                    skillComboActiveNow = true;
+                    return id;
+                }
+                else
+                {
+                    return 0;
+                }
             }
             else 
             {
@@ -191,6 +211,23 @@ namespace SLGame
             }
         }
 
+        public void skillComboActiveCheck()
+        {
+            if (skillComboActiveNow)
+            {
+                if (skillComboCount < EGameConstL.ComboEffectLoopCount)
+                {
+                    skillComboCount++;
+                }
+                else
+                {
+                    skillComboCount = 0;
+                    skillComboActiveNow = false;
+                    UpdateAtk(EGameConstL.AtkDecrease);
+                }
+            }
+            
+        }
 
     }
 }

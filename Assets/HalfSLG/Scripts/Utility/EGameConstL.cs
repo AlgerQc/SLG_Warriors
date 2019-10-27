@@ -31,6 +31,14 @@ namespace SLGame
         //连招上限
         public const int ComboCount = 3;
 
+        //连招效果回合数
+        public const int ComboEffectLoopCount = 3;
+
+        //连招属性加成
+        public const int AtkIncrease = 50;
+        public const int AtkDecrease = -50;
+        public const double HearlPercent = 0.1;
+
         //导航可通行遮罩
         public const int NavigationPassableMask = 64;
         
@@ -50,7 +58,6 @@ namespace SLGame
         public static readonly Color Color_GridBuff_Atk = new Color(255f / 255f, 53f / 255f, 26f / 255f, 255f / 255f);
         public static readonly Color Color_GridBuff_Def = new Color(0f / 255f, 245f / 255f, 10f / 255f, 255f / 255f);
         public static readonly Color Color_GridBuff_Range = new Color(245f / 255f, 245f / 255f, 10f / 255f, 255f / 255f);
-
 
         //每一行层级的间隔
         public const int OrderGapPerRow = 10;
@@ -92,7 +99,6 @@ namespace SLGame
 
         public const float BattleBehaviourChipMaxPoint = 100f;
         public const float MaxRageLevel = 100f;
-
 
         public const string EVENT_RESOURCE_MANAGER_READY = "EVENT_RESOURCE_MANAGER_READY";              //资源管理器准备完毕
         public const string EVENT_BATTLE_FIELD_RENDERER_READY = "EVENT_BATTLE_FIELD_RENDERER_READY";    //事件：战场渲染器准备完毕
