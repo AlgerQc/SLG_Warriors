@@ -376,6 +376,7 @@ namespace SLGame
             PathTraceData[,] flag = new PathTraceData[battleMap.mapWidth, battleMap.mapHeight];
             PriorityQueue<PathTraceData> checkList = new PriorityQueue<PathTraceData>();
             PathTraceData currentUnit = new PathTraceData(battleUnit.battleUnitAttribute.mobility, from);
+            flag[from.column, from.row] = currentUnit;
             bool isFind = false;
             checkList.Push(currentUnit);
             while (checkList.Count > 0)
@@ -425,6 +426,44 @@ namespace SLGame
                 path.Add(temp.Pop());
             }
             return true;
+        }
+
+        public List<GridUnit> GetAccessibleGrids(BattleUnit battleUnit, BattleMap battleMap)
+        {
+            List<GridUnit> AccessibleGrids = new List<GridUnit>();
+            bool[,] flag = new bool[battleMap.mapWidth, battleMap.mapHeight];
+            flag[battleUnit.mapGrid.column, battleUnit.mapGrid.row] = true;
+            PriorityQueue<PathTraceData> checkList = new PriorityQueue<PathTraceData>();
+            PathTraceData currentUnit = new PathTraceData(battleUnit.battleUnitAttribute.mobility, battleUnit.mapGrid);
+            checkList.Push(currentUnit);
+            while (checkList.Count > 0)
+            {
+                currentUnit = checkList.Pop();
+                List<GridUnit> gridUnitList = battleMap.GetNearbyGrid(currentUnit.currentGridUnit);
+                foreach (GridUnit gridUnit in gridUnitList)
+                {
+                    float MovePointRemainder = currentUnit.MovePointRemainder - currentUnit.currentGridUnit.m_GridAttribute.m_CrossCost;
+                    //绝对障碍不可通过
+                    if (gridUnit.GridType == GridType.Obstacle) continue;
+                    //不能跳过去，高度太高
+                    if (gridUnit.m_GridAttribute.m_Height - currentUnit.currentGridUnit.m_GridAttribute.m_Height > battleUnit.battleUnitAttribute.springPower) continue;
+                    //体积太大穿不过去
+                    if (gridUnit.m_GridAttribute.m_MaxPassVolume < battleUnit.battleUnitAttribute.volume) continue;
+                    //剩余移动点数不足
+                    if (MovePointRemainder < 0) continue;
+                    //有敌人挡着（暂时还没判是否是友方）
+                    if (gridUnit.battleUnit != null && gridUnit.battleUnit.CanAction && !gridUnit.NavigationPassable) continue;
+
+                    if (!flag[gridUnit.column, gridUnit.row])
+                    {
+                        flag[gridUnit.column, gridUnit.row] = true;
+                        AccessibleGrids.Add(gridUnit);
+                        checkList.Push(new PathTraceData(MovePointRemainder, gridUnit));
+                    }
+                }
+            }
+
+            return AccessibleGrids;
         }
 
         public void Init(params object[] args)

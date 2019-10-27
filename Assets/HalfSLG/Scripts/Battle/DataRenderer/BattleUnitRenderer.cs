@@ -204,11 +204,8 @@ namespace SLGame
 
             //先显示区域
             BattleFieldRenderer.Instance.SetCircularRangeRenderStateActive(
-                true,
-                GridRenderType.MoveRange,
-                action.fromGrid.row,
-                action.fromGrid.column,
-                action.moveRange);
+                false,
+                GridRenderType.MoveRange);
 
             //显示路径
             BattleFieldRenderer.Instance.SetGridsRenderStateActive(true, action.gridPath);
