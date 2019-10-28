@@ -24,15 +24,15 @@ namespace SLGame
         public const int WorldMapMaxTryTimes = 99;
         public const int Infinity = 999999;
 
-        //BP上限
+        //BP上限和BP使用上限
         public const int BPMax = 5;
         public const int BPUseMax = 3;
 
-        //连招上限
+        //连招要求的攻击数
         public const int ComboCount = 3;
 
         //连招效果回合数
-        public const int ComboEffectLoopCount = 3;
+        public const int ComboEffectRoundCount = 2;
 
         //连招属性加成
         public const int AtkIncrease = 50;

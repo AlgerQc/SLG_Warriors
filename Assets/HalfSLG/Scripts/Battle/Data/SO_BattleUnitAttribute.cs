@@ -26,6 +26,12 @@ namespace SLGame
     }
 #endif
 
+    struct ComboBuff
+    {
+        public int effectID;
+        public int roundCount;
+    }
+
     [CreateAssetMenu(menuName = "ScriptableObject/Battle unit attributes")]
     public class SO_BattleUnitAttribute 
         : ScriptableObject
@@ -47,7 +53,8 @@ namespace SLGame
         private bool skillComboActiveNow = false;
 
         //连击效果使用次数
-        private int skillComboCount = 0;
+        private Dictionary<int, ComboBuff> skillComboRoundDic = new Dictionary<int, ComboBuff>();
+        private int skillComboNum = 0;
 
         public float springPower = 1.0f; //跳跃力
         public float volume = 5.0f;      //体积
@@ -188,6 +195,13 @@ namespace SLGame
                 if ( id > 0)
                 {
                     skillComboActiveNow = true;
+
+                    //对BUFF类，延迟类combo效果需要计算持续时间
+                    ComboBuff tmp;
+                    tmp.effectID = id;
+                    tmp.roundCount = 0;
+                    skillComboRoundDic.Add(skillComboNum, tmp);
+                    skillComboNum++;
                     return id;
                 }
                 else
@@ -215,19 +229,41 @@ namespace SLGame
         {
             if (skillComboActiveNow)
             {
-                if (skillComboCount < EGameConstL.ComboEffectLoopCount)
+                foreach (KeyValuePair<int, ComboBuff> buff in skillComboRoundDic)
                 {
-                    skillComboCount++;
+                    if (buff.Value.roundCount < EGameConstL.ComboEffectRoundCount)
+                    {
+                        buff.Value.roundCount++;
+                        /*
+                        ComboBuff newBuff;
+                        newBuff.effectID = buff.Value.effectID;
+                        newBuff.roundCount = buff.Value.roundCount + 1;
+                        int id = buff.Key;
+                        skillComboRoundDic.Remove(buff.Key);
+                        skillComboRoundDic.Add(id, newBuff);
+                        */
+                    }
+                    else
+                    {
+                        skillComboRoundDic.Remove(buff.Key);
+                    }
                 }
-                else
+                /*
+                for (int i = 0; i < skillComboNum; i++)
                 {
-                    skillComboCount = 0;
-                    skillComboActiveNow = false;
-                    UpdateAtk(EGameConstL.AtkDecrease);
+                    if (skillComboRoundDic[i].roundCount < EGameConstL.ComboEffectRoundCount)
+                    {
+                        skillComboRoundDic[i].roundCount = 1;
+                    }
+                    else
+                    {
+                        skillComboRoundDic = 0;
+                        skillComboActiveNow = false;
+                        UpdateAtk(EGameConstL.AtkDecrease);
+                    }
                 }
-            }
-            
+                */
+            }           
         }
-
     }
 }

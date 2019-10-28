@@ -430,16 +430,6 @@ namespace SLGame
 
             yield return EGameConstL.WaitForHalfSecond;
 
-            //属性刷新
-            RefreshAttribute(action.selfAttribute);
-
-            //展示
-            for (int i = 0; i < action.skillResult.Length; ++i)
-            {
-                //同时开启掉血特效
-                StartCoroutine(action.skillResult[i].battleUnit.battleUnitRenderer.OnSkillDamage(action.skillResult[i]));
-            }
-
             //连招combo统计
             if (battleUnit.battleUnitAttribute.manualOperation)
             {
@@ -454,6 +444,16 @@ namespace SLGame
             }
 
             battleUnit.battleUnitAttribute.skillComboActiveCheck();
+
+            //属性刷新
+            RefreshAttribute(action.selfAttribute);
+
+            //展示
+            for (int i = 0; i < action.skillResult.Length; ++i)
+            {
+                //同时开启掉血特效
+                StartCoroutine(action.skillResult[i].battleUnit.battleUnitRenderer.OnSkillDamage(action.skillResult[i]));
+            }
 
         }
 
