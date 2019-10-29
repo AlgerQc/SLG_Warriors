@@ -674,6 +674,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ViewElement_BattleUnitPackage
       objectReference: {fileID: 0}
+    - target: {fileID: 8099555298561588968, guid: 4421d671ec1f5f3479de409f71df5a33,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9087630242826776114, guid: 4421d671ec1f5f3479de409f71df5a33,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -779,6 +784,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8408900029627075085, guid: 4421d671ec1f5f3479de409f71df5a33,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8408900029627075085, guid: 4421d671ec1f5f3479de409f71df5a33,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 508926205659803663, guid: 4421d671ec1f5f3479de409f71df5a33,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -797,11 +812,6 @@ PrefabInstance:
     - target: {fileID: 508926205659803663, guid: 4421d671ec1f5f3479de409f71df5a33,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8099555298561588968, guid: 4421d671ec1f5f3479de409f71df5a33,
-        type: 3}
-      propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

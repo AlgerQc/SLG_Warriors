@@ -49,12 +49,8 @@ namespace SLGame
         //连击记录
         private Queue<int> skillCombo = new Queue<int>();
 
-        //连击生效
-        private bool skillComboActiveNow = false;
-
         //连击效果使用次数
         private List<ComboBuff> comboBuffRoundList = new List<ComboBuff>();
-        private int skillComboNum = 0;
 
         public float springPower = 1.0f; //跳跃力
         public float volume = 5.0f;      //体积
@@ -214,14 +210,6 @@ namespace SLGame
                 int id = ConfigReader.checkCombo(skillCombo);
                 if ( id > 0)
                 {
-                    skillComboActiveNow = true;
-
-                    //对BUFF类，延迟类combo效果需要计算持续时间
-                    ComboBuff tmp = new ComboBuff();
-                    tmp.effectID = id;
-                    tmp.roundCount = 0;
-                    comboBuffRoundList.Add(tmp);
-                    skillComboNum++;
                     return id;
                 }
                 else
@@ -245,24 +233,31 @@ namespace SLGame
             }
         }
 
+        public void AddComboBuffEffect(int id)
+        {
+            //对BUFF类，延迟类combo效果需要计算持续时间
+            ComboBuff tmp = new ComboBuff();
+            tmp.effectID = id;
+            tmp.roundCount = 0;
+            comboBuffRoundList.Add(tmp);
+        }
+
         public void skillComboActiveCheck()
         {
-            if (skillComboActiveNow)
+            for (int i = 0; i < comboBuffRoundList.Count; i++)
             {
-                for (int i = 0; i < comboBuffRoundList.Count; i++)
+                if (comboBuffRoundList[i].roundCount < EGameConstL.ComboEffectRoundCount)
                 {
-                    if (comboBuffRoundList[i].roundCount < EGameConstL.ComboEffectRoundCount)
-                    {
-                        comboBuffRoundList[i].roundCount++;
-                    }
-                    else
-                    {
-                        skillComboActiveNow = false;
-                        RemoveBuff(comboBuffRoundList[i].effectID);
-                        comboBuffRoundList.RemoveAt(i);
-                    }
+                    comboBuffRoundList[i].roundCount++;
+                    Debug.LogFormat("buff id = {0}, left round = {1}", i, EGameConstL.ComboEffectRoundCount - comboBuffRoundList[i].roundCount);
                 }
-            }           
+                else
+                {
+                    Debug.LogFormat("remove buff {0}", i);
+                    RemoveBuff(comboBuffRoundList[i].effectID);
+                    comboBuffRoundList.RemoveAt(i);
+                }
+            }
         }
     }
 }
