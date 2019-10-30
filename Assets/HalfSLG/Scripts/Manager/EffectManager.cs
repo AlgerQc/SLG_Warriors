@@ -50,7 +50,7 @@ namespace SLGame
                 }
             }
 
-            GameObject clone = ClonePrefab(string.Format("prefabs/effect/{0}.unity3d", effectName) , effectName);
+            GameObject clone = ClonePrefab(string.Format("resources/prefabs/effect/{0}.unity3d", effectName) , effectName);
             if (clone != null)
             {
                 effect = clone.GetComponent<EffectController>();

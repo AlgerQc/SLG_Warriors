@@ -130,7 +130,7 @@ namespace SLGame
         //创建格子
         private GridUnitRenderer CreateGridUnitRenderer()
         {
-            var clone = ClonePrefab("prefabs/battlemapunits/gridunit.unity3d", "gridunit");
+            var clone = ClonePrefab("resources/prefabs/battlemapunits/gridunit.unity3d", "gridunit");
             GridUnitRenderer renderer = clone.GetComponent<GridUnitRenderer>();
             clone.transform.SetParent(gridUnitsRoot);
             clone.transform.SetUnused(false, EGameConstL.STR_Grid);
@@ -142,7 +142,7 @@ namespace SLGame
         //创建战斗单位
         private BattleUnitRenderer CreateBattleUnitRenderer()
         {
-            var clone = ClonePrefab("prefabs/battlemapunits/battleunit.unity3d", "battleunit");
+            var clone = ClonePrefab("resources/prefabs/battlemapunits/battleunit.unity3d", "battleunit");
             BattleUnitRenderer renderer = clone.GetComponent<BattleUnitRenderer>();
             clone.transform.SetParent(battleUnitsRoot);
             clone.transform.SetUnused(false, EGameConstL.STR_BattleUnit);

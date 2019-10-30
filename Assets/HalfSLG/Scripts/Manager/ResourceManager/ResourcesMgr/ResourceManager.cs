@@ -26,8 +26,8 @@ namespace SLGame.Resource
     {
         public override string MgrName => "ResourceManager";
 
-        [HideInInspector]
-        [SerializeField] public bool editorMode = true;    //在编辑器上直接读取
+        //[HideInInspector]
+        [SerializeField] public bool editorMode = false;    //在编辑器上直接读取
 
         [Space(),HideInInspector]
         public bool unloadAllLoadedObjects = true;  //在Unload时是否彻底卸载资源

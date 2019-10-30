@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 2232394896
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 35abde0d9334adaf1683395c636ecaf8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cf48193c943c677632afd92b47cb4e4a
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: fcdc396df3457b142aa6ec52b8c11756, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/HalfSLG/ScriptableObjects/BattleSkill/PAtk_provoke.asset
+- Assets/HalfSLG/ScriptableObjects/BattleSkill/Heal_normal.asset
+- Assets/HalfSLG/ScriptableObjects/BattleSkill/Heal_pray.asset
+- Assets/HalfSLG/ScriptableObjects/BattleSkill/MAtk_storm.asset
+- Assets/HalfSLG/ScriptableObjects/BattleSkill/PAtk_normal.asset
+- Assets/HalfSLG/ScriptableObjects/BattleSkill/PAtk_tank.asset
+- Assets/HalfSLG/ScriptableObjects/BattleSkill/MAtk_normal.asset
+- Assets/HalfSLG/ScriptableObjects/BattleSkill/PAtk_harvester.asset
+- Assets/HalfSLG/ScriptableObjects/BattleSkill/MAtk_lite.asset
+Dependencies: []

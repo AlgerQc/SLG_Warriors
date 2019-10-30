@@ -1,0 +1,50 @@
+ManifestFileVersion: 0
+CRC: 2864278995
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 646dd67416efc8d9ce5f2c1967215092
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 325b010ee7c44a3e2bc25bc61c5294f5
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: 82abed402d779ed4ba547516925bfffa, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7151d3b0c3c7fda45920b7c932488fa6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b18239e5716a99345addf8dd5e3d3306, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 298d47a6d5a8bf74a9e42a0efe97d055, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 134147d63102ffc47b3ab03850256bbf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 03a1ce49d7c3674488212f14c89d7a85, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8cf8d95a170f1aa4fb4b888d76ed835a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e35a636f4a99c424fab62b02dd86a7ba, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/HalfSLG/ScriptableObjects/BBSystem/Chips/Damage_spt.asset
+- Assets/HalfSLG/ScriptableObjects/BBSystem/System/Recovery.asset
+- Assets/HalfSLG/ScriptableObjects/BBSystem/System/Tank.asset
+- Assets/HalfSLG/ScriptableObjects/BBSystem/Chips/Damage.asset
+- Assets/HalfSLG/ScriptableObjects/BBSystem/System/Tank_Damage.asset
+- Assets/HalfSLG/ScriptableObjects/BBSystem/Chips/Provoke_BodyGuard_spt.asset
+- Assets/HalfSLG/ScriptableObjects/BBSystem/System/Recovery_Damage.asset
+- Assets/HalfSLG/ScriptableObjects/BBSystem/System/Tank_BodyGuard_spt.asset
+- Assets/HalfSLG/ScriptableObjects/BBSystem/System/Dps.asset
+- Assets/HalfSLG/ScriptableObjects/BBSystem/Adjustor/KillerAdjustor.asset
+- Assets/HalfSLG/ScriptableObjects/BBSystem/Adjustor/RoleAdjustor_Spt.asset
+- Assets/HalfSLG/ScriptableObjects/BBSystem/Adjustor/RoleAdjustor_Dps.asset
+- Assets/HalfSLG/ScriptableObjects/BBSystem/Chips/Provoke.asset
+- Assets/HalfSLG/ScriptableObjects/BBSystem/Chips/Rage.asset
+- Assets/HalfSLG/ScriptableObjects/BBSystem/Adjustor/BodyGuard_spt.asset
+- Assets/HalfSLG/ScriptableObjects/BBSystem/Chips/Recovery.asset
+- Assets/HalfSLG/ScriptableObjects/BBSystem/System/Dps_spt.asset
+- Assets/HalfSLG/ScriptableObjects/BBSystem/Chips/Damage_Killer.asset
+- Assets/HalfSLG/ScriptableObjects/BBSystem/System/Dps_Killer.asset
+Dependencies: []

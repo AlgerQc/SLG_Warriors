@@ -1,0 +1,89 @@
+ManifestFileVersion: 0
+CRC: 3820922803
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 379aa69a0c445708e697bec839e7fe21
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f96a1ee946e85e64359fa60c7774dce
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7151d3b0c3c7fda45920b7c932488fa6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e5d2fd212275b924092cd7beae1d7a77, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dbffe944786dd4804b8b4b2c72ae7ee3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 37cd0db4d24db4d0ebaa4099f6b43fc0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 84b6923635026c3408f713af02ef8039, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7bc281c660edda249b5121fa626f8382, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 134147d63102ffc47b3ab03850256bbf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 23429748f944877438e909b14199ef48, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6b5cb5a8eb233c240bc14be098050fce, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a923fa93eb92464194d52f56cfbccb4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e528b0f92fafffc468f458d962e8c781, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8cf8d95a170f1aa4fb4b888d76ed835a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fcdc396df3457b142aa6ec52b8c11756, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e35a636f4a99c424fab62b02dd86a7ba, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df2411ef4bcc04ea8b59a1642cc259d6, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/HalfSLG/Scenes/SceneBattle.unity
+Dependencies:
+- E:/games/SLG_Warriors/Assets/StreamingAssets/resources/prefabs.unity3d
+- E:/games/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/battleteam.unity3d
+- E:/games/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/packageitem.unity3d

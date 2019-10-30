@@ -319,7 +319,7 @@ namespace SLGame
 
         private string GetViewElementBundleName(string elementName)
         {
-            return string.Format("prefabs/ViewElement/{0}", elementName);
+            return string.Format("resources/prefabs/ViewElement/{0}", elementName);
         }
 
         private GameObject GetViewElement(string elementName)

@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿using UnityEngine;     
 
 namespace SLGame
 {
@@ -28,7 +28,8 @@ namespace SLGame
 
         private void PrepareViewManager()
         {
-            GameObject viewRoot = ClonePrefab("prefabs/uiview/viewroot.unity3d", "viewroot");
+            GameObject viewRoot = ClonePrefab("resources/prefabs/uiview/viewroot.unity3d", "viewroot");
+
             if (viewRoot)
             {
                 viewRoot.transform.SetParent(transform);

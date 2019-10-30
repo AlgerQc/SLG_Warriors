@@ -86,7 +86,7 @@ using UnityEditor;
         {
             get
             {
-                return string.Format("prefabs/uiview/{0}", assetName);
+                return string.Format("resources/prefabs/uiview/{0}", assetName);
             }
         }
     }

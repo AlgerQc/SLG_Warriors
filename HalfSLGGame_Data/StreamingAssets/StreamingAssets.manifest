@@ -1,0 +1,47 @@
+ManifestFileVersion: 0
+CRC: 2917148408
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: font.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: resources/prefabs.unity3d
+      Dependencies:
+        Dependency_0: font.unity3d
+        Dependency_1: scriptableobjects/uiview.unity3d
+        Dependency_2: textures/common_0.unity3d
+        Dependency_3: textures/common_1.unity3d
+    Info_2:
+      Name: scenes/scenebattle.unity3d
+      Dependencies:
+        Dependency_0: resources/prefabs.unity3d
+        Dependency_1: scriptableobjects/battleteam.unity3d
+        Dependency_2: scriptableobjects/packageitem.unity3d
+    Info_3:
+      Name: scenes/scenestart.unity3d
+      Dependencies: {}
+    Info_4:
+      Name: scriptableobjects/battleskill.unity3d
+      Dependencies: {}
+    Info_5:
+      Name: scriptableobjects/battleteam.unity3d
+      Dependencies:
+        Dependency_0: scriptableobjects/battleskill.unity3d
+        Dependency_1: scriptableobjects/bbsystem.unity3d
+    Info_6:
+      Name: scriptableobjects/bbsystem.unity3d
+      Dependencies: {}
+    Info_7:
+      Name: scriptableobjects/packageitem.unity3d
+      Dependencies:
+        Dependency_0: textures/common_0.unity3d
+    Info_8:
+      Name: scriptableobjects/uiview.unity3d
+      Dependencies: {}
+    Info_9:
+      Name: textures/common_0.unity3d
+      Dependencies: {}
+    Info_10:
+      Name: textures/common_1.unity3d
+      Dependencies: {}

@@ -1,0 +1,10 @@
+Android
+PlayerPath?
+E:/games/SLG_Warriors/Assets/StreamingAssets/scenes/scenestart.unity3d
+SceneListBegin?
+Assets/HalfSLG/Scenes/SceneStart.unity
+SceneListEnd?
+c7bfc74f43835fb62cf439206926e5a5 Assembly-CSharp.dll:SLGame.SceneManager
+238e679ed8833db40e875864c76a4ea2 Assembly-CSharp.dll:SLGame.Resource.ResourceManager
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:SLGame.Main
+c7bfc74f43835fb62cf439206926e5a5 Assembly-CSharp.dll:SLGame.EventManager

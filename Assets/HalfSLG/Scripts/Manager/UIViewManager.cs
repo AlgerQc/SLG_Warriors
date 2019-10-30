@@ -427,7 +427,7 @@ namespace SLGame
 
         private string TranslateViewBundleName(string assetName)
         {
-            return string.Format("prefabs/uiview/{0}.unity3d", assetName);
+            return string.Format("resources/prefabs/uiview/{0}.unity3d", assetName);
         }
         
     }

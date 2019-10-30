@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-D:/doc/test/HalfSLGGame.exe
+E:/games/test/HalfSLGGame.exe
 SceneListBegin?
 Assets/HalfSLG/Scenes/SceneStart.unity
 Assets/HalfSLG/Scenes/SceneBattle.unity
@@ -131,9 +131,9 @@ d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.Spa
 303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
 7fb9de8dcf73854b6b328eca1f7a6e6d Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsTracker
 a6cd606c423c0e16cd8e6bfcae38e882 Assembly-CSharp.dll:SLGame.UIViewLayerController
-649a3e4b5825e3675430a3c3df0554c9 Assembly-CSharp.dll:SLGame.SO_BattleUnitAttribute
+06463e256383abd9c5b093b2d4f48711 Assembly-CSharp.dll:SLGame.SO_BattleUnitAttribute
 94017dcc9f00fe671ea7dc427b4da011 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
-c655bd8db988d01cdbe278101985b1b7 Assembly-CSharp.dll:SLGame.UIViewBattleFieldPlayerActOption
+992525abcd56c6d28e2a7f32d25dd1c5 Assembly-CSharp.dll:SLGame.UIViewBattleFieldPlayerActOption
 e526e54ab7623ca7cc8b13102ecd3dee Assembly-CSharp.dll:SLGame.BattleBehaviourSystem.BattleUnitBodyGuardAdjustor
 3c9b7e4f15dfeff4c1fe5cfb888a7138 Assembly-CSharp.dll:SLGame.SO_UIViewConfig
 1caffaaf47ad9d83c8d08386c8cf3ead Assembly-CSharp.dll:SLGame.EffectSimpleSpriteController
@@ -187,7 +187,7 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 c7bfc74f43835fb62cf439206926e5a5 Assembly-CSharp.dll:SLGame.EventManager
 434c48c4564ecb366552fda3e5fdd322 Assembly-CSharp.dll:SLGame.GridUnitRenderer
 1ad4c68ed1c46bc552c757c82e1edf58 Assembly-CSharp.dll:SLGame.ViewElementPackage
-32bf8990a065ac0fda95924898e9035d Assembly-CSharp.dll:SLGame.BattleUnitHealthBar
+840bbcd7e376b38449874cc1b62cd97c Assembly-CSharp.dll:SLGame.BattleUnitHealthBar
 a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 984dcc0ba3707b7691fbdca8ff508d28 Assembly-CSharp.dll:SLGame.TransparentImage
 5fc094978ce3e3591a7500ed380d854a Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton

@@ -9,7 +9,7 @@ namespace SLGame
 {
     public class ELEditorTools
     {
-        private const string PrefabPath = "Assets/HalfSLG/Prefabs/UIView";
+        private const string PrefabPath = "Assets/HalfSLG/Resources/Prefabs/UIView";
         private const string OutputPath = "Assets/HalfSLG/ScriptableObjects/UIView";
         //遍历存储界面prefab的文件夹，生成SO_UIViewConfig
         [MenuItem("EL_Tools/Process UI config")]

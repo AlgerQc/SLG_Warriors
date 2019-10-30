@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 2907743069
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ed4267644484538d8a5d9d72d60335a4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 451374a33398bc329ccc48661c09f642
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: 5dd7e9f55f94ab644a4029a55161d0f6, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/HalfSLG/ScriptableObjects/UIView/UIView_BattleFieldPlayerActOption.asset
+- Assets/HalfSLG/ScriptableObjects/UIView/UIView_Main.asset
+- Assets/HalfSLG/ScriptableObjects/UIView/UIView_Debug.asset
+- Assets/HalfSLG/ScriptableObjects/UIView/UIView_BattleFieldUnitInfo.asset
+Dependencies: []

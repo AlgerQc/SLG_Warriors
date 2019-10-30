@@ -148,7 +148,7 @@ namespace SLGame.Resource
         private static AssetBundleBuild[] AddFilesToBundleBuilds(string[] files, AssetBundleFlag flag)
         {
             //  d:/../../../Assets/Dow/Res/Default/Prefabs/EffRes/xx.prefab
-            //  ---> prefabs/effres/xx.prefab
+            //  ---> resources/prefabs/effres/xx.prefab
             ProcessPath(files);
             List<AssetBundleBuild> builds = new List<AssetBundleBuild>();
             for (int i = 0; i < files.Length; ++i)
@@ -246,9 +246,10 @@ namespace SLGame.Resource
         }
 
         //生成bundle
+        [MenuItem("Game/Build windows Resource", false, 1)]
         public static void BuildAssetBundle()
         {
-            BuildAssetBundleToFolder(Application.streamingAssetsPath, BuildTarget.Android);
+            BuildAssetBundleToFolder(Application.streamingAssetsPath, BuildTarget.StandaloneWindows64);
         }
 
         public static void BuildAssetBundleToFolder(string outputPath, BuildTarget buildTarget)
