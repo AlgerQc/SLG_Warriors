@@ -1,0 +1,51 @@
+ManifestFileVersion: 0
+CRC: 3097028061
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fbba1db74728bc54877262de908fbe40
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c04df2a05ed422d7aa3e15adf9c1d552
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4102e6443e6694a65a417f217f07bb43, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 050aad648ea18ec4498e24624eb66180, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bb8310cb1b25ecd40a7f350320507eaa, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/HalfSLG/Resources/Prefabs/BattleMapUnits/BattleUnit.prefab
+Dependencies:
+- E:/games/SLG_Warriors/Assets/StreamingAssets/font.unity3d
+- E:/games/SLG_Warriors/Assets/StreamingAssets/resources/prefabs/other/battleunithealthbar.unity3d
+- E:/games/SLG_Warriors/Assets/StreamingAssets/textures/common_0.unity3d

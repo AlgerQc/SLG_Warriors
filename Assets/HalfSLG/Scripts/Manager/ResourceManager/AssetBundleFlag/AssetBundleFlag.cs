@@ -16,7 +16,7 @@ namespace SLGame.Resource
         : ScriptableObject
     {
         public bool ignore = false;                         //是否忽视
-        public BundleType bundleType = BundleType.Folder;   //打包类型
+        public BundleType bundleType = BundleType.SingleFolderAndTopFiles;   //打包类型
         public string relativePath = string.Empty;          //相对路径
         public string rootBundleName = string.Empty;        //资源路径
         public string suffix = "*.*";                       //文件后缀

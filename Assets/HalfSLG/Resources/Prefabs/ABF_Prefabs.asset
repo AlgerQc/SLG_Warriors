@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ABF_Prefabs
   m_EditorClassIdentifier: 
   ignore: 0
-  bundleType: 0
+  bundleType: 1
   relativePath: assets/halfslg/resources/prefabs/
   rootBundleName: resources/prefabs
   suffix: '*.*'

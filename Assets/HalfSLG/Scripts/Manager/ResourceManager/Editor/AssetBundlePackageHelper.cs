@@ -189,20 +189,24 @@ namespace SLGame.Resource
             {
                 case BundleType.Folder:
                     //将整个文件夹做成bundle
+                    Debug.Log("we build bundle as folder mode");
                     buildMap.Add(AddFolderToBundleBuild(absolutePath, flag, flag.rootBundleName));
                     break;
 
                 case BundleType.Single:
                     //将单个的文件做成bundle
+                    Debug.Log("we build bundle as Single mode");
                     files = GetFiles(absolutePath, flag.suffix, SearchOption.AllDirectories);
                     buildMap.AddRange(AddFilesToBundleBuilds(files, flag));
                     break;
 
                 case BundleType.SingleFolder:
+                    Debug.Log("we build bundle as SingleFolder mode");
                     AddTopFolderToBuildMap(absolutePath, flag, buildMap);
                     break;
 
                 case BundleType.SingleFolderAndTopFiles:
+                    Debug.Log("we build bundle as SingleFolderAndTopFiles mode");
                     //子文件夹
                     AddTopFolderToBuildMap(absolutePath, flag, buildMap);
                     //获取所有单独文件

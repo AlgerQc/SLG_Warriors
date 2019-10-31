@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ABF_Scenes
   m_EditorClassIdentifier: 
   ignore: 0
-  bundleType: 1
+  bundleType: 3
   relativePath: assets/halfslg/scenes/
   rootBundleName: scenes
   suffix: '*.*'

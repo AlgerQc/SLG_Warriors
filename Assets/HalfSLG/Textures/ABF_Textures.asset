@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ABF_Textures
   m_EditorClassIdentifier: 
   ignore: 0
-  bundleType: 2
+  bundleType: 3
   relativePath: assets/halfslg/textures/
   rootBundleName: textures
   suffix: '*.*'

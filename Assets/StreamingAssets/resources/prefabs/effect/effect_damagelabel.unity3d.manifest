@@ -1,0 +1,47 @@
+ManifestFileVersion: 0
+CRC: 295612397
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f65d69b176a1e96a9a6c5af1e4718fd4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8537f6959c511f7f321d1d5e252add40
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7bc281c660edda249b5121fa626f8382, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/HalfSLG/Resources/Prefabs/Effect/Effect_DamageLabel.prefab
+Dependencies:
+- E:/games/SLG_Warriors/Assets/StreamingAssets/font.unity3d

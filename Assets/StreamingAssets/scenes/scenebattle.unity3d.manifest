@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3820922803
+CRC: 4155688566
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 379aa69a0c445708e697bec839e7fe21
+    Hash: 0baf0473f0bd7f07b0ac6e5336b28de6
   TypeTreeHash:
     serializedVersion: 2
     Hash: 3f96a1ee946e85e64359fa60c7774dce
@@ -84,6 +84,7 @@ ClassTypes:
 Assets:
 - Assets/HalfSLG/Scenes/SceneBattle.unity
 Dependencies:
-- E:/games/SLG_Warriors/Assets/StreamingAssets/resources/prefabs.unity3d
+- E:/games/SLG_Warriors/Assets/StreamingAssets/resources/prefabs/effect/effect_damagelabel.unity3d
+- E:/games/SLG_Warriors/Assets/StreamingAssets/resources/prefabs/effect/effect_hexframe.unity3d
 - E:/games/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/battleteam.unity3d
 - E:/games/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/packageitem.unity3d

@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 1269904212
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 92c863c533eec2027e19f1c143c948e0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6e6387775a7417660949db17ef816af9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1741964061, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -405508275, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 277d0e741a8b653489935b6c54e8dc5b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 88ebf89be0ae07947b650840a4522ba5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/HalfSLG/Resources/Prefabs/UIView/ViewElement_BattleUnitPackage.prefab
+Dependencies:
+- E:/games/SLG_Warriors/Assets/StreamingAssets/font.unity3d
+- E:/games/SLG_Warriors/Assets/StreamingAssets/resources/prefabs/uiview/viewelement_packageitem.unity3d
+- E:/games/SLG_Warriors/Assets/StreamingAssets/textures/common_1.unity3d

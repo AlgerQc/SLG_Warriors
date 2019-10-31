@@ -171,7 +171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DebugMode: 0
-  editorMode: 1
+  editorMode: 0
   unloadAllLoadedObjects: 1
   asyncLoadLimitPerFrame: 1
   recycleDepth: 0

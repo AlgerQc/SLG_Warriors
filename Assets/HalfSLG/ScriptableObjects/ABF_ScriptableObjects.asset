@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ABF_ScriptableObjects
   m_EditorClassIdentifier: 
   ignore: 0
-  bundleType: 2
+  bundleType: 3
   relativePath: assets/halfslg/scriptableobjects/
   rootBundleName: scriptableobjects
   suffix: '*.asset'
