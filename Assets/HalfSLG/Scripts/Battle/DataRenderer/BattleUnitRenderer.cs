@@ -430,11 +430,11 @@ namespace SLGame
 
             yield return EGameConstL.WaitForHalfSecond;
 
-            Debug.Log("go here to check combo");
+            UtilityHelper.Log("go here to check combo");
             //连招combo统计
             if (battleUnit.battleUnitAttribute.manualOperation)
             {
-                Debug.Log("Check combo now");
+                UtilityHelper.Log("Check combo now");
 
                 //返回真表示连招成立，则调用连招效果
                 int comboID = battleUnit.battleUnitAttribute.comboJudge(action.battleSkill.skillID);
@@ -464,17 +464,17 @@ namespace SLGame
             switch(comboID)
             {
                 case (int)ComboEffectType.DamageEffect:
-                    Debug.Log("Combo Attack DamageEffect successful!");
+                    UtilityHelper.Log("Combo Attack DamageEffect successful!");
                     battleUnit.battleUnitAttribute.UpdateAtk(EGameConstL.AtkIncrease);
                     battleUnit.battleUnitAttribute.AddComboBuffEffect(comboID);
                     break;
 
                 case (int)ComboEffectType.HealEffect:
-                    Debug.Log("Combo Attack HealEffect successful!");
+                    UtilityHelper.Log("Combo Attack HealEffect successful!");
                     break;
 
                 case (int)ComboEffectType.PushEffect:
-                    Debug.Log("Combo Attack PushEffect successful!");
+                    UtilityHelper.Log("Combo Attack PushEffect successful!");
                     break;
             }
             return;

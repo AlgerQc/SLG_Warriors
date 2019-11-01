@@ -36,7 +36,7 @@ namespace SLGame.AI
 
             CreateNodeForTrans(root, decisionTree.root);
 
-            Debug.Log("生成完毕\n" + decisionTree.DumpTree());
+            UtilityHelper.Log("生成完毕\n" + decisionTree.DumpTree());
 
             string assetPath = string.Format("Assets/HalfSLG/Scripts/AI/Configs/DecisionTree/@{0}.asset", go.name);
             AssetDatabase.CreateAsset(decisionTree, assetPath);

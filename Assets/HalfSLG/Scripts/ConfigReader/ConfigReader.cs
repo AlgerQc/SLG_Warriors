@@ -92,7 +92,7 @@ namespace SLGame
                 {
                     if (comboInfoDic[i].skill1 == skill1 && comboInfoDic[i].skill2 == skill2)
                     {
-                        Debug.Log("We are in combo stage 2");
+                        UtilityHelper.Log("We are in combo stage 2");
                         skillCombo.Enqueue(skill1);
                         skillCombo.Enqueue(skill2);
                         return true;

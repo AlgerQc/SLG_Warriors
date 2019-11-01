@@ -52,12 +52,42 @@ namespace SLGame
             }
         }
 
-        public static void Log(object msg, LogColor color = LogColor.BLACK)
+        public static void LogToFile(string str, bool bwithTime, bool bAppendLineFeed, System.Action callback = null)
         {
+            if (str == null) return;
+            try
+            {
+#if UNITY_EDITOR
+                string fname = Application.dataPath + "/Unitylog.txt";
+#else
+                string fname = Application.streamingAssetsPath + "/Unitylog.txt";
+#endif
+
+                if (fname == "" || fname == null) return;
+
+                StreamWriter writer = new StreamWriter(fname, true, System.Text.Encoding.Default);
+
+                if (bwithTime) writer.WriteLine("\r\n\r\n---------" + System.DateTime.Now.ToString());
+                if (bAppendLineFeed) writer.WriteLine(str);
+                else writer.Write(str);
+                writer.Close();
+                callback?.Invoke();
+            }
+            catch
+            {
+
+                throw;
+            }
+        }
+
+        public static void Log(object msg, LogColor color = LogColor.BLACK)
+        {           
             if (color == LogColor.BLACK)
                 Debug.Log(msg);
             else
                 Debug.Log(string.Format(GetColor(color), msg.ToString()));
+            
+            LogToFile(msg.ToString(), true, true);
         }
 
         public static void LogError(object msg)

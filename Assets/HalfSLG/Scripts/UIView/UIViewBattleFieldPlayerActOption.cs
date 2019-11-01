@@ -131,7 +131,7 @@ namespace SLGame
                 return;
             }
 
-            Debug.Log("choose to use BP now");
+            UtilityHelper.Log("choose to use BP now");
 
             if (BattleFieldRenderer.Instance)
                 BattleFieldRenderer.Instance.BattleUnitBP(battleUnit);

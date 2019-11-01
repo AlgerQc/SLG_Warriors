@@ -136,7 +136,7 @@ namespace SLGame.Resource
                 bundle.Unload(true);
                 WarmUpShaders();
 
-                Debug.Log("======>>  Bundle relationship compelted！！  <<==========");
+                UtilityHelper.Log("======>>  Bundle relationship compelted！！  <<==========");
             }
             else
             {
@@ -176,7 +176,7 @@ namespace SLGame.Resource
         
         public void WarmUpShaders()
         {
-            Debug.Log("Warm up all shaders.");
+            UtilityHelper.Log("Warm up all shaders.");
         }
 
         public override void ResetManager()

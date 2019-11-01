@@ -87,7 +87,7 @@ namespace SLGame
                 && battleUnitPackage.Owner != null
                 && BattleUnitPackage.Owner.CheckManualState(ManualActionState.SkillOrItem))
             {
-                Debug.Log(string.Format("{0}使用了道具{1}", battleUnitPackage.Owner.battleUnitAttribute.name, item.item.itemName));
+                UtilityHelper.Log(string.Format("{0}使用了道具{1}", battleUnitPackage.Owner.battleUnitAttribute.name, item.item.itemName));
                 battleUnitPackage.Owner.UseItem(item.item.itemID, 1);
             }
         }

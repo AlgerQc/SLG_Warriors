@@ -28,7 +28,7 @@ namespace SLGame
 
         public ReadSkillComboConfig(string xmlFilePath)
         {
-            Debug.Log("begin reading combo xml file");
+            UtilityHelper.Log("begin reading combo xml file");
             //TextAsset xmlfile = Resources.Load(xmlFilePath) as TextAsset;
             Object asset = Resources.Load(xmlFilePath);
             ResourceUnit xmlfileUnit = new ResourceUnit(null, 0, asset, null, ResourceType.ASSET);
@@ -38,7 +38,7 @@ namespace SLGame
             {
                 return;
             }
-            Debug.Log("read combo xml successful");
+            UtilityHelper.Log("read combo xml successful");
             xmlDoc = new XmlDocument();
             xmlDoc.LoadXml(xmlfile.text);
             XmlNodeList infoNodeList = xmlDoc.SelectSingleNode("ComboSkill").ChildNodes;

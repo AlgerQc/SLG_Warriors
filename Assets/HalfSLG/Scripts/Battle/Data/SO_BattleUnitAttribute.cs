@@ -118,16 +118,16 @@ namespace SLGame
             switch (buffID)
             {
                 case (int)ComboEffectType.DamageEffect:
-                    Debug.Log("Combo Attack DamageEffect remove!");
+                    UtilityHelper.Log("Combo Attack DamageEffect remove!");
                     UpdateAtk(EGameConstL.AtkDecrease);
                     break;
 
                 case (int)ComboEffectType.HealEffect:
-                    Debug.Log("Combo Attack HealEffect remove!");
+                    UtilityHelper.Log("Combo Attack HealEffect remove!");
                     break;
 
                 case (int)ComboEffectType.PushEffect:
-                    Debug.Log("Combo Attack PushEffect remove!");
+                    UtilityHelper.Log("Combo Attack PushEffect remove!");
                     break;
             }
             return;
@@ -226,7 +226,7 @@ namespace SLGame
                 else
                 {
                     skillCombo.Clear();
-                    Debug.Log("Combo error, start from first skill again");
+                    UtilityHelper.Log("Combo error, start from first skill again");
                 }
 
                 return 0;

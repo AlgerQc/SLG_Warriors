@@ -40,7 +40,7 @@ namespace SLGame
             {
                 return;
             }
-            Debug.Log("read skill xml successful");
+            UtilityHelper.Log("read skill xml successful");
             xmlDoc = new XmlDocument(); 
             xmlDoc.LoadXml(xmlfile.text);
             XmlNodeList infoNodeList = xmlDoc.SelectSingleNode("SkillCfg").ChildNodes;

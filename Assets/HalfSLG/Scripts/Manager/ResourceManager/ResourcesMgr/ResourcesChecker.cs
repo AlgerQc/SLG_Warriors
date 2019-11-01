@@ -387,10 +387,10 @@
 //            WooEngine.AppConst.UpdateMode = (AppConst.GetServerConfig("HotUpdate").Equals("1"));
 //            if (WooEngine.AppConst.UpdateMode)
 //            {
-//                Debug.Log("开启了热更！");
+//                UtilityHelper.Log("开启了热更！");
 //            }
 //            else
-//                Debug.Log("关闭了热更");
+//                UtilityHelper.Log("关闭了热更");
 //#else
 //            if (Main.Instance.simulateHotupdate)
 //            {
@@ -687,7 +687,7 @@
 
 //                        if (needCopyList[i].md5.Equals(fileMD5))
 //                        {
-//                            //Debug.Log(string.Format("文件下载成功，md5相同为：{0}", fileMD5));
+//                            //UtilityHelper.Log(string.Format("文件下载成功，md5相同为：{0}", fileMD5));
 //                        }
 //                        else
 //                        {
@@ -953,7 +953,7 @@
 //            //这个傻逼规定已经不用了！！草
 //#if UNITY_IOS
 //            //从Streaming assets文件夹中读取文件
-//            Debug.Log("当前服务器配置的启动项:" + AppConst.GetServerConfig("LoadFromStreamingAssets"));
+//            UtilityHelper.Log("当前服务器配置的启动项:" + AppConst.GetServerConfig("LoadFromStreamingAssets"));
 
 //            if (AppConst.GetServerConfig("LoadFromStreamingAssets").Equals("true"))
 //            {
@@ -1041,7 +1041,7 @@
 //                    string to = GetPersistentPath(needCopyList[i].fileName);
 //                    if (WooEngine.AppConst.GetServerConfig("ShowUpdateDebugInfo").ToLower() == "yes")
 //                    {
-//                        Debug.Log(string.Format("Copy file from {0} -> {1}", from, to));
+//                        UtilityHelper.Log(string.Format("Copy file from {0} -> {1}", from, to));
 //                    }
 //#if UNITY_EDITOR || UNITY_IOS
 
@@ -1263,8 +1263,8 @@
 //                    else
 //                    {
 //                        //不需要做热更
-//                        Debug.Log("不需要做热更新！？！");
-//                        Debug.Log("当前记录的文件列表：" + persistentFilesDic.Count);
+//                        UtilityHelper.Log("不需要做热更新！？！");
+//                        UtilityHelper.Log("当前记录的文件列表：" + persistentFilesDic.Count);
 //                        showPage.UpdatePromptText("10029", true);
 //                        WooEngine.LuaHelper.SendTimeInfoByHttp(63002);
 //                    }
@@ -1353,14 +1353,14 @@
 
 //            if (!isFirst && AppConst.UserLanguage != "SH" && AppConst.GetServerConfig("ShowAnnounce") == "true")   //满足弹公告时执行，否则直接进入游戏
 //            {
-//                Debug.Log("可以弹公告啦");
+//                UtilityHelper.Log("可以弹公告啦");
 //                GameStartCallBack callback = () =>
 //                {
 //                    // ServerState 服务器状态    0.正常  1.维护   ...后续添加
 //                    switch (AppConst.GetServerConfig("ServerState"))
 //                    {
 //                        case "0":
-//                            Debug.Log("服务器没啥毛病 ，可以进去啦");
+//                            UtilityHelper.Log("服务器没啥毛病 ，可以进去啦");
 //                            //检测完成，可以启动游戏了
 //                            if (m_checkCallback != null)
 //                            {
@@ -1369,12 +1369,12 @@
 //                            }
 //                            break;
 //                        case "1":
-//                            Debug.Log("服务器维护中，再给你弹一次");
+//                            UtilityHelper.Log("服务器维护中，再给你弹一次");
 //                            StartCoroutine(CheckServerActive());
 //                            //CheckCanIntoGame();
 //                            break;
 //                        default:
-//                            Debug.Log("默认直接进去吧");
+//                            UtilityHelper.Log("默认直接进去吧");
 //                            //检测完成，可以启动游戏了
 //                            if (m_checkCallback != null)
 //                            {
@@ -1411,7 +1411,7 @@
 //            }
 //            else
 //            {
-//                Debug.Log("不需要弹公告，直接进入游戏");
+//                UtilityHelper.Log("不需要弹公告，直接进入游戏");
 //                //检测完成，可以启动游戏了
 //                if (m_checkCallback != null)
 //                {

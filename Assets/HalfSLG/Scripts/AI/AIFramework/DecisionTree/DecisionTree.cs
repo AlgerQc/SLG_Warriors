@@ -13,7 +13,7 @@ namespace SLGame.AI
         public void MakeDecision(Brain brain)
         {
             bool ret = root.Do(brain);
-            Debug.Log("tree ret = " + ret);
+            UtilityHelper.Log("tree ret = " + ret);
         }
 
 
@@ -27,7 +27,7 @@ namespace SLGame.AI
         [ContextMenu("LogInfo")]
         public void LogInfo()
         {
-            Debug.Log(DumpTree());
+            UtilityHelper.Log(DumpTree());
         }
 
 

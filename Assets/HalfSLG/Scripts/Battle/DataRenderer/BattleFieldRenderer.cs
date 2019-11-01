@@ -539,7 +539,7 @@ namespace SLGame
                                                   lastPath, null, -1, 2);
                 }
 
-                Debug.Log("TimeCost:" + UtilityHelper.TimerEnd());
+                UtilityHelper.Log("TimeCost:" + UtilityHelper.TimerEnd());
                 //foreach (var item in lastSearched)
                 //{
                 //    item.gridUnitRenderer.AppendGridRenderType(GridRenderType.Searched);
@@ -585,7 +585,7 @@ namespace SLGame
                 battleField.battleMap.GetCircularGrids(gridTouched.row, gridTouched.column, 3, 0, false, lastUnits);
             }
 
-            Debug.Log("TimeCost:" + UtilityHelper.TimerEnd());
+            UtilityHelper.Log("TimeCost:" + UtilityHelper.TimerEnd());
             foreach (var item in lastUnits)
             {
                 item.gridUnitRenderer.AppendGridRenderType(GridRenderType.MoveRange);

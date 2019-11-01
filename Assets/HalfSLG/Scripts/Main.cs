@@ -41,7 +41,7 @@ namespace SLGame
 
         private void PrepareBattle()
         {
-            Debug.Log("Prepare Battle");
+            UtilityHelper.Log("Prepare Battle");
             
             //界面
             UIViewManager.Instance.InitManager();

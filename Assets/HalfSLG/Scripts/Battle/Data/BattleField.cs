@@ -186,12 +186,12 @@ namespace SLGame
                 {
                     if (actionUnit.BPStage)
                     {
-                        Debug.Log("We are in BP stage, continue to fight");
+                        UtilityHelper.Log("We are in BP stage, continue to fight");
                         actionUnit.battleUnitAttribute.BPUsed();
                     }
                     else
                     {
-                        Debug.Log("change queue order");
+                        UtilityHelper.Log("change queue order");
                         if (actionUnit.battleUnitAttribute.BPUsingStage())
                         {
                             actionUnit.battleUnitAttribute.OutOfBPAction();
@@ -290,7 +290,7 @@ namespace SLGame
             if (battleFieldRenderer != null)
                 battleFieldRenderer.BattleEnd();
 
-            Debug.Log(string.Format("<color=#ff0000> {0} battle end, step {1}.</color>\n{2}", this.ToString(), battleFieldEvents.Count, Desc()));
+            UtilityHelper.Log(string.Format("<color=#ff0000> {0} battle end, step {1}.</color>\n{2}", this.ToString(), battleFieldEvents.Count, Desc()));
 
             //输出到csv
             if(!string.IsNullOrEmpty(BattleManager.Instance.brPath))

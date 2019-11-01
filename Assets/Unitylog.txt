@@ -1,0 +1,32 @@
+
+
+---------2019/11/1 23:30:21
+--> EventManager <-- inited.
+
+
+---------2019/11/1 23:30:21
+--> SceneManager <-- inited.
+
+
+---------2019/11/1 23:30:21
+--> ResourceManager <-- inited.
+
+
+---------2019/11/1 23:30:21
+--> UIViewManager <-- inited.
+
+
+---------2019/11/1 23:30:21
+--> BattleManager <-- inited.
+
+
+---------2019/11/1 23:30:22
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/1 23:30:22
+--> EffectManager <-- inited.
+
+
+---------2019/11/1 23:30:22
+--> PackageItemManager <-- inited.

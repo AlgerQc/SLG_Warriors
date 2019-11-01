@@ -266,7 +266,7 @@ namespace SLGame.BattleBehaviourSystem
                     item.point
                       );
                 }
-                Debug.Log(sb.ToString());
+                UtilityHelper.Log(sb.ToString());
             }
 #endif
 
@@ -547,7 +547,7 @@ namespace SLGame.BattleBehaviourSystem
 #if UNITY_EDITOR
                             if (DebugHelper.Instance.debugBBSys)
                             {
-                                Debug.Log(string.Format("Decision:\nTarget:{0}\nSkill:{1}\nSTargetUnit:{2}\nSGridUnit:{3}\n",
+                                UtilityHelper.Log(string.Format("Decision:\nTarget:{0}\nSkill:{1}\nSTargetUnit:{2}\nSGridUnit:{3}\n",
                                 decision.targetBattleUnit.battleUnitAttribute.battleUnitName,
                                 decision.battleSkill.skillName,
                                 decision.skillTargetBattleUnit == null ? "None" : decision.skillTargetBattleUnit.battleUnitAttribute.battleUnitName,
