@@ -433,12 +433,12 @@ namespace SLGame
             List<GridUnit> AccessibleGrids = new List<GridUnit>();
             bool[,] flag = new bool[battleMap.mapWidth, battleMap.mapHeight];
             flag[battleUnit.mapGrid.column, battleUnit.mapGrid.row] = true;
-            PriorityQueue<PathTraceData> checkList = new PriorityQueue<PathTraceData>();
+            Queue<PathTraceData> checkList = new Queue<PathTraceData>();
             PathTraceData currentUnit = new PathTraceData(battleUnit.battleUnitAttribute.mobility, battleUnit.mapGrid);
-            checkList.Push(currentUnit);
+            checkList.Enqueue(currentUnit);
             while (checkList.Count > 0)
             {
-                currentUnit = checkList.Pop();
+                currentUnit = checkList.Dequeue();
                 List<GridUnit> gridUnitList = battleMap.GetNearbyGrid(currentUnit.currentGridUnit);
                 foreach (GridUnit gridUnit in gridUnitList)
                 {
@@ -458,7 +458,7 @@ namespace SLGame
                     {
                         flag[gridUnit.column, gridUnit.row] = true;
                         AccessibleGrids.Add(gridUnit);
-                        checkList.Push(new PathTraceData(MovePointRemainder, gridUnit));
+                        checkList.Enqueue(new PathTraceData(MovePointRemainder, gridUnit));
                     }
                 }
             }

@@ -725,7 +725,8 @@ namespace SLGame
                 if (rangeHighlightGridUnits.Count > 0)
                     SetCircularRangeRenderStateActive(false, gridRenderType);
                 //获取格子
-                //fieldRenderer.battleField.battleMap.GetCircularGrids(centerRow, centerColumn, radius, 0, true, rangeHighlightGridUnits);
+                if (gridRenderType != GridRenderType.MoveRange)
+                    fieldRenderer.battleField.battleMap.GetCircularGrids(centerRow, centerColumn, radius, 0, true, rangeHighlightGridUnits);
                 //设置高亮状态
                 for (int i = 0; i < rangeHighlightGridUnits.Count; ++i)
                 {

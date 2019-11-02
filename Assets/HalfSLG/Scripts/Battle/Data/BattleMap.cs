@@ -50,6 +50,15 @@ namespace SLGame
             }
         }
 
+        public BattleMap() { }
+
+        public BattleMap(int width, int height)
+        {
+            mapWidth = width;
+            mapHeight = height;
+            mapGrids = new GridUnit[width, height];
+        }
+
         //战场中铺设格子
         public void Init(
             int width, int height, 

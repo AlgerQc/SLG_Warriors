@@ -32,6 +32,34 @@ namespace SLGame
         public float m_CrossCost = 1.0f;
         //格子类型
         public GridType m_GridType = GridType.Normal;
+
+        public void SetGridType(string typeName)
+        {
+            switch(typeName)
+            {
+                case ("None"):
+                    m_GridType = GridType.None;
+                    break;
+                case ("Normal"):
+                    m_GridType = GridType.Normal;
+                    break;
+                case ("Sand"):
+                    m_GridType = GridType.Sand;
+                    break;
+                case ("Water"):
+                    m_GridType = GridType.Water;
+                    break;
+                case ("Mountain"):
+                    m_GridType = GridType.Mountain;
+                    break;
+                case ("Obstacle"):
+                    m_GridType = GridType.Obstacle;
+                    break;
+                default:
+                    m_GridType = GridType.None;
+                    break;
+            }
+        }
     }
 
     public class GridItem
