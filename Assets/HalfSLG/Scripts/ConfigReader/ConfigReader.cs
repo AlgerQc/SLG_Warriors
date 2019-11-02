@@ -106,7 +106,7 @@ namespace SLGame
                 {
                     if (comboInfoDic[i].skill1 == skill1)
                     {
-                        Debug.LogFormat("We are in combo stage 1");
+                        UtilityHelper.LogFormat("We are in combo stage 1");
                         skillCombo.Enqueue(skill1);
                         return true;
                     }

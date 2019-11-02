@@ -307,11 +307,12 @@ namespace SLGame
         //获取战场点击的情况
         private void UpdateBattleFieldTouched()
         {
-#if UNITY_EDITOR
+
             MouseOperation();
-#else
-            TouchOperation();
-#endif
+
+            //touch用于触控
+            //TouchOperation();
+
         }
 
         //通过屏幕点击了战场

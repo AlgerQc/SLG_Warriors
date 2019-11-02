@@ -91,7 +91,7 @@ namespace SLGame
                     #endregion
                 }
                 ConfigReader.comboInfoDic.Add((uint)i, comboInfo);
-                Debug.LogFormat("add {0} with skill1 = {1}, skill2 = {2}, skill3 = {3}", comboInfo.id, comboInfo.skill1,
+                UtilityHelper.LogFormat("add {0} with skill1 = {1}, skill2 = {2}, skill3 = {3}", comboInfo.id, comboInfo.skill1,
                     comboInfo.skill2, comboInfo.skill3);
             }
         }

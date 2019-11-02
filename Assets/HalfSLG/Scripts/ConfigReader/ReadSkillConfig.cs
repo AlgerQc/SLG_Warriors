@@ -31,7 +31,7 @@ namespace SLGame
         {
             //TextAsset xmlfile = Resources.Load(xmlFilePath) as TextAsset;
 
-            Debug.LogFormat("begin reading skill xml file from {0}", xmlFilePath);
+            UtilityHelper.LogFormat("begin reading skill xml file from {0}", xmlFilePath);
             Object asset = Resources.Load(xmlFilePath);
             ResourceUnit xmlfileUnit = new ResourceUnit(null, 0, asset, null, ResourceType.ASSET);
             TextAsset xmlfile = xmlfileUnit.Asset as TextAsset;

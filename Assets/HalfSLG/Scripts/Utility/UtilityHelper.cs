@@ -52,6 +52,12 @@ namespace SLGame
             }
         }
 
+        public static void LogFormat(string str, params object[] args)
+        {
+            string strLog = string.Format(str, args);
+            Log(strLog);
+        }
+
         public static void LogToFile(string str, bool bwithTime, bool bAppendLineFeed, System.Action callback = null)
         {
             if (str == null) return;

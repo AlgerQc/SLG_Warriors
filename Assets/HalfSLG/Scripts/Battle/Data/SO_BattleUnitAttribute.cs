@@ -142,7 +142,7 @@ namespace SLGame
         {
             BP--;
             useBPNum++;
-            Debug.LogFormat("left BP = {0}, using BP = {1}", BP, useBPNum);
+            UtilityHelper.LogFormat("left BP = {0}, using BP = {1}", BP, useBPNum);
         }
 
         public bool BPUsed()
@@ -221,7 +221,7 @@ namespace SLGame
             {
                 if (ConfigReader.checkComboEarly(skillCombo))
                 {
-                    Debug.LogFormat("Wait for {0} more skills to fill combo", EGameConstL.ComboCount - skillCombo.Count);
+                    UtilityHelper.LogFormat("Wait for {0} more skills to fill combo", EGameConstL.ComboCount - skillCombo.Count);
                 }
                 else
                 {
@@ -249,11 +249,11 @@ namespace SLGame
                 if (comboBuffRoundList[i].roundCount < EGameConstL.ComboEffectRoundCount)
                 {
                     comboBuffRoundList[i].roundCount++;
-                    Debug.LogFormat("buff id = {0}, left round = {1}", i, EGameConstL.ComboEffectRoundCount - comboBuffRoundList[i].roundCount);
+                    UtilityHelper.LogFormat("buff id = {0}, left round = {1}", i, EGameConstL.ComboEffectRoundCount - comboBuffRoundList[i].roundCount);
                 }
                 else
                 {
-                    Debug.LogFormat("remove buff {0}", i);
+                    UtilityHelper.LogFormat("remove buff {0}", i);
                     RemoveBuff(comboBuffRoundList[i].effectID);
                     comboBuffRoundList.RemoveAt(i);
                 }

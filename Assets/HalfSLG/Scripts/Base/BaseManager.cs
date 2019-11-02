@@ -21,7 +21,7 @@ namespace SLGame
         public void MgrLog(string info)
         {
             if (DebugMode)
-                Debug.LogFormat("{0} :::: {1}",
+                UtilityHelper.LogFormat("{0} :::: {1}",
                     MgrName,
                     info);
         }

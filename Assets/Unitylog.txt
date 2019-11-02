@@ -30,3 +30,251 @@
 
 ---------2019/11/1 23:30:22
 --> PackageItemManager <-- inited.
+
+
+---------2019/11/2 11:55:05
+Main start.
+
+
+---------2019/11/2 11:55:05
+--> EventManager <-- inited.
+
+
+---------2019/11/2 11:55:05
+--> SceneManager <-- inited.
+
+
+---------2019/11/2 11:55:05
+--> ResourceManager <-- inited.
+
+
+---------2019/11/2 11:55:05
+Warm up all shaders.
+
+
+---------2019/11/2 11:55:05
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/2 11:55:06
+begin reading skill xml file from Config/SkillCfg
+
+
+---------2019/11/2 11:55:06
+read skill xml successful
+
+
+---------2019/11/2 11:55:06
+begin reading combo xml file
+
+
+---------2019/11/2 11:55:06
+read combo xml successful
+
+
+---------2019/11/2 11:55:06
+add 10000001 with skill1 = 1000, skill2 = 1000, skill3 = 1000
+
+
+---------2019/11/2 11:55:06
+add 10000002 with skill1 = 1001, skill2 = 1001, skill3 = 1001
+
+
+---------2019/11/2 11:55:06
+add 10000003 with skill1 = 3000, skill2 = 3000, skill3 = 3000
+
+
+---------2019/11/2 11:55:06
+add 10000004 with skill1 = 1002, skill2 = 1002, skill3 = 1002
+
+
+---------2019/11/2 11:55:06
+Prepare Battle
+
+
+---------2019/11/2 11:55:06
+--> UIViewManager <-- inited.
+
+
+---------2019/11/2 11:55:06
+--> BattleManager <-- inited.
+
+
+---------2019/11/2 11:55:06
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/2 11:55:06
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/2 11:55:06
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/2 11:55:06
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/2 11:55:06
+--> EffectManager <-- inited.
+
+
+---------2019/11/2 11:55:06
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/2 11:55:10
+BattleManager :::: Battle field creator inited.
+
+
+---------2019/11/2 11:55:10
+BattleManager :::: Battle map creator inited.
+
+
+---------2019/11/2 11:55:10
+BattleManager :::: Battle team creator inited.
+
+
+---------2019/11/2 11:55:10
+BattleManager :::: Battle unit data creator inited.
+
+
+---------2019/11/2 11:55:10
+BattleManager :::: Battle field 1 connect renderer.
+
+
+---------2019/11/2 11:55:19
+点中了UI ->EventSystem
+
+
+---------2019/11/2 12:11:46
+Main start.
+
+
+---------2019/11/2 12:11:46
+--> EventManager <-- inited.
+
+
+---------2019/11/2 12:11:46
+--> SceneManager <-- inited.
+
+
+---------2019/11/2 12:11:46
+--> ResourceManager <-- inited.
+
+
+---------2019/11/2 12:11:46
+Warm up all shaders.
+
+
+---------2019/11/2 12:11:46
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/2 12:11:46
+begin reading skill xml file from Config/SkillCfg
+
+
+---------2019/11/2 12:11:46
+read skill xml successful
+
+
+---------2019/11/2 12:11:46
+begin reading combo xml file
+
+
+---------2019/11/2 12:11:46
+read combo xml successful
+
+
+---------2019/11/2 12:11:46
+add 10000001 with skill1 = 1000, skill2 = 1000, skill3 = 1000
+
+
+---------2019/11/2 12:11:46
+add 10000002 with skill1 = 1001, skill2 = 1001, skill3 = 1001
+
+
+---------2019/11/2 12:11:46
+add 10000003 with skill1 = 3000, skill2 = 3000, skill3 = 3000
+
+
+---------2019/11/2 12:11:46
+add 10000004 with skill1 = 1002, skill2 = 1002, skill3 = 1002
+
+
+---------2019/11/2 12:11:47
+Prepare Battle
+
+
+---------2019/11/2 12:11:47
+--> UIViewManager <-- inited.
+
+
+---------2019/11/2 12:11:47
+--> BattleManager <-- inited.
+
+
+---------2019/11/2 12:11:47
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/2 12:11:47
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/2 12:11:47
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/2 12:11:47
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/2 12:11:47
+--> EffectManager <-- inited.
+
+
+---------2019/11/2 12:11:47
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/2 12:11:48
+BattleManager :::: Battle field creator inited.
+
+
+---------2019/11/2 12:11:48
+BattleManager :::: Battle map creator inited.
+
+
+---------2019/11/2 12:11:48
+BattleManager :::: Battle team creator inited.
+
+
+---------2019/11/2 12:11:48
+BattleManager :::: Battle unit data creator inited.
+
+
+---------2019/11/2 12:11:48
+BattleManager :::: Battle field 1 connect renderer.
+
+
+---------2019/11/2 12:11:49
+点击鼠标左键
+
+
+---------2019/11/2 12:11:51
+点击鼠标左键
+
+
+---------2019/11/2 12:11:54
+点击鼠标左键
+
+
+---------2019/11/2 12:11:55
+点击鼠标左键
+
+
+---------2019/11/2 12:11:56
+点击鼠标左键
