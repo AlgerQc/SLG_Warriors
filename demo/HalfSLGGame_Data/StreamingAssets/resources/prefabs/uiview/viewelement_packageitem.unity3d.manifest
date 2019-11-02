@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 2605699948
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3e6329a8741b09875451f791b00c3679
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 68d6b74271ed04e0198db5373eb2e379
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 277d0e741a8b653489935b6c54e8dc5b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/HalfSLG/Resources/Prefabs/UIView/ViewElement_PackageItem.prefab
+Dependencies:
+- E:/games/SLG_Warriors/Assets/StreamingAssets/font.unity3d
+- E:/games/SLG_Warriors/Assets/StreamingAssets/textures/common_1.unity3d

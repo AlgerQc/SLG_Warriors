@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 182337675
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5c5760222889cfaf688a8c81428e2b27
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/HalfSLG/Textures/Common_1/toggle on active.png
+- Assets/HalfSLG/Textures/Common_1/toggle.png
+- Assets/HalfSLG/Textures/Common_1/slidert humb hover.png
+- Assets/HalfSLG/Textures/Common_1/slider thumb active.png
+- Assets/HalfSLG/Textures/Common_1/verticalslider.png
+- Assets/HalfSLG/Textures/Common_1/textfield.png
+- Assets/HalfSLG/Textures/Common_1/button.png
+- Assets/HalfSLG/Textures/Common_1/button on.png
+- Assets/HalfSLG/Textures/Common_1/vertical scrollbar.png
+- Assets/HalfSLG/Textures/Common_1/window.png
+- Assets/HalfSLG/Textures/Common_1/toggle active.png
+- Assets/HalfSLG/Textures/Common_1/toggle hover.png
+- Assets/HalfSLG/Textures/Common_1/button active.png
+- Assets/HalfSLG/Textures/Common_1/button hover.png
+- Assets/HalfSLG/Textures/Common_1/slider thumb.png
+- Assets/HalfSLG/Textures/Common_1/horizontalslider.png
+- Assets/HalfSLG/Textures/Common_1/horizontal scrollbar thumb.png
+- Assets/HalfSLG/Textures/Common_1/horizontal scrollbar.png
+- Assets/HalfSLG/Textures/Common_1/toggle on.png
+- Assets/HalfSLG/Textures/Common_1/box.png
+- Assets/HalfSLG/Textures/Common_1/button on hover.png
+- Assets/HalfSLG/Textures/Common_1/vertical scrollbar thumb.png
+- Assets/HalfSLG/Textures/Common_1/textfield hover.png
+- Assets/HalfSLG/Textures/Common_1/textfield on.png
+- Assets/HalfSLG/Textures/Common_1/toggle on hover.png
+- Assets/HalfSLG/Textures/Common_1/window on.png
+Dependencies: []

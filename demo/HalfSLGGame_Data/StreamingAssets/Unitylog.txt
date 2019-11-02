@@ -1,0 +1,112 @@
+
+
+---------2019/11/2 12:32:09
+Main start.
+
+
+---------2019/11/2 12:32:09
+--> EventManager <-- inited.
+
+
+---------2019/11/2 12:32:09
+--> SceneManager <-- inited.
+
+
+---------2019/11/2 12:32:09
+--> ResourceManager <-- inited.
+
+
+---------2019/11/2 12:32:09
+Warm up all shaders.
+
+
+---------2019/11/2 12:32:09
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/2 12:32:09
+begin reading skill xml file from Config/SkillCfg
+
+
+---------2019/11/2 12:32:10
+read skill xml successful
+
+
+---------2019/11/2 12:32:10
+begin reading combo xml file
+
+
+---------2019/11/2 12:32:10
+read combo xml successful
+
+
+---------2019/11/2 12:32:10
+add 10000001 with skill1 = 1000, skill2 = 1000, skill3 = 1000
+
+
+---------2019/11/2 12:32:10
+add 10000002 with skill1 = 1001, skill2 = 1001, skill3 = 1001
+
+
+---------2019/11/2 12:32:10
+add 10000003 with skill1 = 3000, skill2 = 3000, skill3 = 3000
+
+
+---------2019/11/2 12:32:10
+add 10000004 with skill1 = 1002, skill2 = 1002, skill3 = 1002
+
+
+---------2019/11/2 12:32:10
+Prepare Battle
+
+
+---------2019/11/2 12:32:10
+--> UIViewManager <-- inited.
+
+
+---------2019/11/2 12:32:10
+--> BattleManager <-- inited.
+
+
+---------2019/11/2 12:32:10
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/2 12:32:10
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/2 12:32:10
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/2 12:32:10
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/2 12:32:10
+--> EffectManager <-- inited.
+
+
+---------2019/11/2 12:32:10
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/2 12:32:24
+BattleManager :::: Battle field creator inited.
+
+
+---------2019/11/2 12:32:24
+BattleManager :::: Battle map creator inited.
+
+
+---------2019/11/2 12:32:24
+BattleManager :::: Battle team creator inited.
+
+
+---------2019/11/2 12:32:24
+BattleManager :::: Battle unit data creator inited.
+
+
+---------2019/11/2 12:32:24
+BattleManager :::: Battle field 1 connect renderer.

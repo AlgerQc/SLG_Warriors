@@ -1,0 +1,103 @@
+ManifestFileVersion: 0
+CRC: 2291021856
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: font.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: resources/prefabs/battlemapunits/battleunit.unity3d
+      Dependencies:
+        Dependency_0: font.unity3d
+        Dependency_1: resources/prefabs/other/battleunithealthbar.unity3d
+        Dependency_2: textures/common_0.unity3d
+    Info_2:
+      Name: resources/prefabs/battlemapunits/gridunit.unity3d
+      Dependencies:
+        Dependency_0: font.unity3d
+        Dependency_1: textures/common_0.unity3d
+    Info_3:
+      Name: resources/prefabs/effect/effect_damagelabel.unity3d
+      Dependencies:
+        Dependency_0: font.unity3d
+    Info_4:
+      Name: resources/prefabs/effect/effect_hexframe.unity3d
+      Dependencies:
+        Dependency_0: textures/common_0.unity3d
+    Info_5:
+      Name: resources/prefabs/other/battleunithealthbar.unity3d
+      Dependencies:
+        Dependency_0: font.unity3d
+        Dependency_1: textures/common_0.unity3d
+    Info_6:
+      Name: resources/prefabs/uiview/uiview_battlefieldplayeractoption.unity3d
+      Dependencies:
+        Dependency_0: font.unity3d
+        Dependency_1: scriptableobjects/uiview.unity3d
+        Dependency_2: textures/common_1.unity3d
+    Info_7:
+      Name: resources/prefabs/uiview/uiview_battlefieldunitinfo.unity3d
+      Dependencies:
+        Dependency_0: font.unity3d
+        Dependency_1: resources/prefabs/uiview/viewelement_battleunitpackage.unity3d
+        Dependency_2: scriptableobjects/uiview.unity3d
+        Dependency_3: textures/common_1.unity3d
+    Info_8:
+      Name: resources/prefabs/uiview/uiview_debug.unity3d
+      Dependencies:
+        Dependency_0: font.unity3d
+        Dependency_1: scriptableobjects/uiview.unity3d
+    Info_9:
+      Name: resources/prefabs/uiview/uiview_main.unity3d
+      Dependencies:
+        Dependency_0: font.unity3d
+        Dependency_1: scriptableobjects/uiview.unity3d
+        Dependency_2: textures/common_1.unity3d
+    Info_10:
+      Name: resources/prefabs/uiview/viewelement_battleunitpackage.unity3d
+      Dependencies:
+        Dependency_0: font.unity3d
+        Dependency_1: resources/prefabs/uiview/viewelement_packageitem.unity3d
+        Dependency_2: textures/common_1.unity3d
+    Info_11:
+      Name: resources/prefabs/uiview/viewelement_packageitem.unity3d
+      Dependencies:
+        Dependency_0: font.unity3d
+        Dependency_1: textures/common_1.unity3d
+    Info_12:
+      Name: resources/prefabs/uiview/viewroot.unity3d
+      Dependencies: {}
+    Info_13:
+      Name: scenes/scenebattle.unity3d
+      Dependencies:
+        Dependency_0: resources/prefabs/effect/effect_damagelabel.unity3d
+        Dependency_1: resources/prefabs/effect/effect_hexframe.unity3d
+        Dependency_2: scriptableobjects/battleteam.unity3d
+        Dependency_3: scriptableobjects/packageitem.unity3d
+    Info_14:
+      Name: scenes/scenestart.unity3d
+      Dependencies: {}
+    Info_15:
+      Name: scriptableobjects/battleskill.unity3d
+      Dependencies: {}
+    Info_16:
+      Name: scriptableobjects/battleteam.unity3d
+      Dependencies:
+        Dependency_0: scriptableobjects/battleskill.unity3d
+        Dependency_1: scriptableobjects/bbsystem.unity3d
+    Info_17:
+      Name: scriptableobjects/bbsystem.unity3d
+      Dependencies: {}
+    Info_18:
+      Name: scriptableobjects/packageitem.unity3d
+      Dependencies:
+        Dependency_0: textures/common_0.unity3d
+    Info_19:
+      Name: scriptableobjects/uiview.unity3d
+      Dependencies: {}
+    Info_20:
+      Name: textures/common_0.unity3d
+      Dependencies: {}
+    Info_21:
+      Name: textures/common_1.unity3d
+      Dependencies: {}

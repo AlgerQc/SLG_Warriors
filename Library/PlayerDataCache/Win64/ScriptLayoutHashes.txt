@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-E:/games/test/HalfSLGGame.exe
+E:/games/SLG_Warriors/demo/HalfSLGGame.exe
 SceneListBegin?
 Assets/HalfSLG/Scenes/SceneStart.unity
 Assets/HalfSLG/Scenes/SceneBattle.unity

@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 953338077
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2c30398ec9dc8bda9d09dc56c24b583a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 79da18406fb0200fc12992c502a0ef7f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9dfa95303ba98af439db62a517c3a1e5, type: 3}
+- Class: 114
+  Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0d2c06b492a333e44b10f24ff8b63e19, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/HalfSLG/Resources/Prefabs/UIView/ViewRoot.prefab
+Dependencies: []

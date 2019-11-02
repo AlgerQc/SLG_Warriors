@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 780384347
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d7f7353ae2057a4e022171904a92164e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 77f6ec5e53fba1be115ab6d607e4962a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4682629299f01d04a966b1605b42dbc6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5dd7e9f55f94ab644a4029a55161d0f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/HalfSLG/Resources/Prefabs/UIView/UIView_Debug.prefab
+Dependencies:
+- E:/games/SLG_Warriors/Assets/StreamingAssets/font.unity3d
+- E:/games/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/uiview.unity3d

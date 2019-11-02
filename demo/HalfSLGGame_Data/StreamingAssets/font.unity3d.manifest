@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 3841514006
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c784ec64cdbf96d5b44c6a63518ecfc7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d0b2f0e67a49883fd83625973d09fe14
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/HalfSLG/Font/TMP/fontSLG.asset
+Dependencies: []

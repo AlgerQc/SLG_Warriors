@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 1385011332
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 84346a703721b4b872977a9016331970
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 79df70aa57b298dd8d66bcfd3bb3d781
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 84b6923635026c3408f713af02ef8039, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/HalfSLG/Resources/Prefabs/Effect/Effect_HexFrame.prefab
+Dependencies:
+- E:/games/SLG_Warriors/Assets/StreamingAssets/textures/common_0.unity3d
