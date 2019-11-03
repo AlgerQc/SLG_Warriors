@@ -28,7 +28,7 @@ namespace SLGame
 
         public ReadSkillComboConfig(string xmlFilePath)
         {
-            UtilityHelper.Log("begin reading combo xml file");
+            //UtilityHelper.Log("begin reading combo xml file");
             //TextAsset xmlfile = Resources.Load(xmlFilePath) as TextAsset;
             Object asset = Resources.Load(xmlFilePath);
             ResourceUnit xmlfileUnit = new ResourceUnit(null, 0, asset, null, ResourceType.ASSET);
@@ -91,8 +91,8 @@ namespace SLGame
                     #endregion
                 }
                 ConfigReader.comboInfoDic.Add((uint)i, comboInfo);
-                UtilityHelper.LogFormat("add {0} with skill1 = {1}, skill2 = {2}, skill3 = {3}", comboInfo.id, comboInfo.skill1,
-                    comboInfo.skill2, comboInfo.skill3);
+                //UtilityHelper.LogFormat("add {0} with skill1 = {1}, skill2 = {2}, skill3 = {3}", comboInfo.id, comboInfo.skill1,
+                    //comboInfo.skill2, comboInfo.skill3);
             }
         }
     }

@@ -278,3 +278,95 @@ BattleManager :::: Battle field 1 connect renderer.
 
 ---------2019/11/2 12:11:56
 点击鼠标左键
+
+
+---------2019/11/3 20:22:12
+Main start.
+
+
+---------2019/11/3 20:22:12
+--> EventManager <-- inited.
+
+
+---------2019/11/3 20:22:12
+--> SceneManager <-- inited.
+
+
+---------2019/11/3 20:22:12
+--> ResourceManager <-- inited.
+
+
+---------2019/11/3 20:22:12
+Warm up all shaders.
+
+
+---------2019/11/3 20:22:12
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/3 20:22:12
+begin reading skill xml file from Config/SkillCfg
+
+
+---------2019/11/3 20:22:12
+read skill xml successful
+
+
+---------2019/11/3 20:22:12
+begin reading combo xml file
+
+
+---------2019/11/3 20:22:12
+read combo xml successful
+
+
+---------2019/11/3 20:22:12
+add 10000001 with skill1 = 1000, skill2 = 1000, skill3 = 1000
+
+
+---------2019/11/3 20:22:12
+add 10000002 with skill1 = 1001, skill2 = 1001, skill3 = 1001
+
+
+---------2019/11/3 20:22:12
+add 10000003 with skill1 = 3000, skill2 = 3000, skill3 = 3000
+
+
+---------2019/11/3 20:22:12
+add 10000004 with skill1 = 1002, skill2 = 1002, skill3 = 1002
+
+
+---------2019/11/3 20:22:13
+Prepare Battle
+
+
+---------2019/11/3 20:22:13
+--> UIViewManager <-- inited.
+
+
+---------2019/11/3 20:22:13
+--> BattleManager <-- inited.
+
+
+---------2019/11/3 20:22:13
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/3 20:22:13
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/3 20:22:13
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/3 20:22:13
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/3 20:22:13
+--> EffectManager <-- inited.
+
+
+---------2019/11/3 20:22:13
+--> PackageItemManager <-- inited.

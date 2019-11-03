@@ -1,0 +1,325 @@
+[33mcommit 9f11ad0d8623b5d5bfbbad371cbf692083e85693[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Sun Nov 3 20:15:48 2019 +0800
+
+    Update .gitignore
+
+[33mcommit 5bd2bbae4d9f48f315c3ee6b5f260e477383de85[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Sun Nov 3 19:56:45 2019 +0800
+
+    Create .gitignore
+
+[33mcommit 5e5ae55a56e5a064893c19cdd4d36e7eeea8816b[m
+Author: Link-GH <Link-GH@users.noreply.github.com>
+Date:   Sun Nov 3 18:34:23 2019 +0800
+
+    Create 游戏设计地图1.xlsx
+
+[33mcommit 222ab6f38449252a9a2220e03c8a75a83e6a6769[m
+Author: Link-GH <Link-GH@users.noreply.github.com>
+Date:   Sun Nov 3 10:56:23 2019 +0800
+
+    Update 工作计划表.xlsx
+
+[33mcommit c172206d9efd6862bb1952fdb1e30c6bc40c09a1[m
+Merge: 5780ffc 6938fb0
+Author: Ty-Chen <369494003@qq.com>
+Date:   Sun Nov 3 00:48:23 2019 +0800
+
+    Merge branch 'master' of https://github.com/Ty-Chen/SLG_Warriors
+
+[33mcommit 5780ffc4f52c4e2c93be22d472114da595978cf1[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Sun Nov 3 00:47:24 2019 +0800
+
+    Update 工作计划表.xlsx
+
+[33mcommit 6938fb0e0fffd18795d4cb97ee02434920dc1603[m
+Author: Link-GH <Link-GH@users.noreply.github.com>
+Date:   Sat Nov 2 21:50:43 2019 +0800
+
+    地图xml读取器
+
+[33mcommit a038cebd0e40043c9477e03da23689839e9ea616[m
+Author: Link-GH <Link-GH@users.noreply.github.com>
+Date:   Sat Nov 2 18:06:19 2019 +0800
+
+    修复技能范围显示
+
+[33mcommit 2f11c1f5e57e667d61a6285608f2f74129e463f3[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Sat Nov 2 12:33:52 2019 +0800
+
+    增加可运行的demo
+
+[33mcommit e093385cba2978e3d55acfa9e27357e6c7eff632[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Sat Nov 2 12:30:14 2019 +0800
+
+    改进完善log记录系统，修复发布的exe鼠标无法点击的问题
+
+[33mcommit f1652413661be27d3cdf1af4f7da83332740b730[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Fri Nov 1 23:52:43 2019 +0800
+
+    增加log日志的输出功能
+
+[33mcommit 264e0dedaa781a4ea5c51524eaa3f3030ad4a46b[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Thu Oct 31 23:49:49 2019 +0800
+
+    修复AB打包问题，目前可以正常打包和使用了
+    
+    存在问题：exe打开鼠标点击无效
+
+[33mcommit f90e7a4b2eb68de93e59918cbe0f52249a26a76e[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Thu Oct 31 01:02:08 2019 +0800
+
+    尝试项目无法build成功的问题
+    
+    1. 将prefabs移到了resources目录下
+    2. 修改了AssetBundles部分代码，增加了AB打包的快捷栏按钮
+    3. 修改了ResourceManager的editormode显示方式，可以手动勾选
+    4. 目前尚未解决#if UNITY_EDITOR问题，该问题一旦解决应该就可以成功build和运行了
+
+[33mcommit 59f2e8a1b276a4d93c478aae0b164d1f8a9d48fc[m
+Author: huanhuanmama <1220392304@qq.com>
+Date:   Wed Oct 30 20:53:05 2019 +0800
+
+    Update 工作计划表.xlsx
+
+[33mcommit 696b6a8293baf77b85033e1b136505c414323388[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Wed Oct 30 00:08:59 2019 +0800
+
+    修复连招逻辑BUG，增加简陋的连招UI显示
+
+[33mcommit b7285371b7279db8e003d05e84936daa1f5cf5f4[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Tue Oct 29 00:22:35 2019 +0800
+
+    增加buff类combo的有效回合数统计的逻辑部分
+
+[33mcommit 619d7a263094c98b5b1ace7d22fa134dfc7430dc[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Mon Oct 28 21:14:23 2019 +0800
+
+    修改combo读取顺序在第三次技能之前
+
+[33mcommit b36d4abf97a770f520eb58be2ea66e6b398953bd[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Mon Oct 28 20:05:59 2019 +0800
+
+    Update 工作计划表.xlsx
+
+[33mcommit 7bea8b2fa9dd7e769c6ffe7d55d05fb10eeaea00[m
+Merge: c087277 f78a0b9
+Author: Ty-Chen <369494003@qq.com>
+Date:   Sun Oct 27 22:48:21 2019 +0800
+
+    Merge branch 'master' of https://github.com/Ty-Chen/SLG_Warriors
+
+[33mcommit c087277056eeccec05887c5ff63089d4f7a4b9b0[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Sun Oct 27 22:47:57 2019 +0800
+
+    增加连击效果
+    
+    1. 增加攻击*3后触发攻击属性提升效果
+    2. 增加连击效果buff的回合计数功能
+
+[33mcommit f78a0b9371ecbb781ab43386fa03734316aa36a9[m
+Author: Link-GH <Link-GH@users.noreply.github.com>
+Date:   Sun Oct 27 18:38:18 2019 +0800
+
+    修改棋子可达范围的显示
+    
+    原来那个根本就是错的，忽视了障碍物，不能去的地方也显示成蓝色，重写了个。
+
+[33mcommit cdd312d649afe00ed624577533195a38108c316b[m
+Author: Link-GH <Link-GH@users.noreply.github.com>
+Date:   Sun Oct 27 15:45:16 2019 +0800
+
+    增加优先队列
+
+[33mcommit dd7d16b3e2985d66844595505f6009da301360af[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Sun Oct 27 02:43:32 2019 +0800
+
+    完成连击系统逻辑功能
+
+[33mcommit b2a62398ddd87ad72f67fece70a681238837ce5b[m
+Merge: d1c519d 827f67f
+Author: Link-GH <Link-GH@users.noreply.github.com>
+Date:   Sat Oct 26 21:43:58 2019 +0800
+
+    Merge branch 'master' of https://github.com/Ty-Chen/SLG_Warriors
+
+[33mcommit d1c519d0d996307da89a2cc295e294ee9f335421[m
+Author: Link-GH <Link-GH@users.noreply.github.com>
+Date:   Sat Oct 26 21:42:51 2019 +0800
+
+    修改导航算法，增加地图和人物的属性
+
+[33mcommit 827f67f4481d27936a17c09b71fd9cc75d17d443[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Sat Oct 26 00:49:03 2019 +0800
+
+    完成了连招判定逻辑
+    
+    1. 完成连招判定逻辑
+    2. 完成xml的读取部分接入代码
+    3. 目前xml读取还有BUG，明天继续查
+
+[33mcommit 8c4e5de09631ae8027d3af2ca0fa987d34d80848[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Fri Oct 25 19:38:39 2019 +0800
+
+    Create 世界观&剧情概要.docx
+
+[33mcommit 6d667ff8e955c0ff3d662b1b64bb9fd7be95b37b[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Fri Oct 25 17:13:06 2019 +0800
+
+    增加连招队列初始化，修复BUG
+
+[33mcommit 0b699ec667be138009b2d3a19bb657de29cfe976[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Fri Oct 25 00:36:55 2019 +0800
+
+    增加连击框架，增加连击xml
+    
+    1. 加入了连击系统逻辑部分基本框架
+    2. 加入了连击简单的xml数据表
+    3. 增加了连击xml的读取
+
+[33mcommit 4d724a69bc32f906e7306f98bd96d506e2fbc3d2[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Thu Oct 24 00:26:01 2019 +0800
+
+    修复xml读取BUG
+
+[33mcommit 2e9baf373aa9627c7781b2c8a117a30d9d01159d[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Wed Oct 23 23:57:23 2019 +0800
+
+    增加XML相关功能
+    
+    1. 加入xml配置文件夹Connfig
+    2. 增加xml读取函数框架
+
+[33mcommit ee239f1b0d33fc2e6b0df1c0b7fd504b9b6b9f80[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Tue Oct 22 23:56:05 2019 +0800
+
+    Update 工作计划表.xlsx
+
+[33mcommit 1b35e705dc9bcab64e2c2c1b9fb6f6cf0fe8f6e5[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Tue Oct 22 23:54:34 2019 +0800
+
+    删除能量条，改善BP能量条位置、大小，修复BP能量条显示错误的BUG
+
+[33mcommit 3678df85be44ac5308631004c186b5b7db141ccb[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Mon Oct 21 23:54:03 2019 +0800
+
+    增加BP能量条的数值显示和更新的UI及逻辑功能
+
+[33mcommit b2ec6f4968b4cfacf52eccadca5768f7f55138e8[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Mon Oct 21 21:05:08 2019 +0800
+
+    增加BP条
+
+[33mcommit e319b4d5b950e230888a4830cbfb3f8d03f89857[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Mon Oct 21 18:53:54 2019 +0800
+
+    Update 工作计划表.xlsx
+
+[33mcommit 6e2622a66c189739e92cde99bf989a33e93ec359[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Sun Oct 20 23:57:02 2019 +0800
+
+    update
+
+[33mcommit 83461e038b40f2556e0ad1cac847561f9155426c[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Sun Oct 20 00:06:16 2019 +0800
+
+    修复一个BP可以无限使用的BUG
+
+[33mcommit e8aa54689b075a0beafb899b2d1799e61937ad41[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Sat Oct 19 23:56:50 2019 +0800
+
+    增加BP功能
+    
+    1. 增加BP ScriptableObject面板
+    2. 增加BP增减、使用逻辑
+    3. 增加了BP使用过程中进入BP状态，该状态无法再使用BP效果
+
+[33mcommit af128af04fece326b6e173b7764658aab6a4c24b[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Fri Oct 18 17:19:46 2019 +0800
+
+    关闭随机先手战斗，增加工作计划表
+
+[33mcommit b23051044d4b5f45ab012885d83737a910109d5e[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Fri Oct 18 11:17:45 2019 +0800
+
+    增加hero角色，敌方改为自动攻击，微调六边形拼图边缘间距
+
+[33mcommit f527ebfa847d8303f3e153bb5645fb8c348ddaeb[m
+Author: Link-GH <Link-GH@users.noreply.github.com>
+Date:   Thu Oct 17 16:57:36 2019 +0800
+
+    修复自动战斗无法继续的问题
+
+[33mcommit 7ebf9b727e4be354d18fc690072c53b1fba68914[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Thu Oct 17 12:54:01 2019 +0800
+
+    完善doc，增加参考架构图
+
+[33mcommit 270325f5cccb16559bb8f636b4edda3e7d018133[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Thu Oct 17 00:10:56 2019 +0800
+
+    开启自动战斗UI
+    
+    已成功加载自动战斗UI，但是开启后会报错：堆栈溢出，需要继续debug
+
+[33mcommit aeeda93c6649d47e3d9ac5c0ce425de371b953df[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Wed Oct 16 13:06:43 2019 +0800
+
+    We import some half done simple slg game model, and do the following things among them
+
+[33mcommit bcf9410400f9be716e69e6aa0269846a00733e95[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Wed Oct 16 10:26:46 2019 +0800
+
+    Add files via upload
+
+[33mcommit fcca7220214cc9185075ab7c1f7090634011bfdb[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Tue Oct 15 22:12:28 2019 +0800
+
+    Update
+
+[33mcommit 849d990dab383e02a41ef878430e4419369682e5[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Mon Oct 14 00:11:47 2019 +0800
+
+    Update more functions
+
+[33mcommit daa7a0fa5ebb021d57b94ca788afd8acdd273e7b[m
+Author: Ty-Chen <369494003@qq.com>
+Date:   Fri Oct 11 22:50:37 2019 +0800
+
+    Initial commit

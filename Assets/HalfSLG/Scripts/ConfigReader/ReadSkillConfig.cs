@@ -10,13 +10,31 @@ namespace SLGame
 {
     public class SkillConfigInfo : System.Object
     {
+        public enum BattleSkillDamageType
+        {
+            Physical = 1,   //物理伤害
+            Heal,           //恢复&buff类
+            Move,           //位移类
+        }
+        
+        public enum BattleSkillTargetType
+        {
+            BattleUnit = 1, //对某一个战斗单位
+            GridUnit,   //对某一个地图格子(范围)
+            Self,       //以自身为中心的
+        }
+
         public uint id;
         public string name;
         public string icon;
-        public string action;
-        public string effect;
-        public string sound;
-        public string info;
+        public int releaseRadius;          //技能释放半径
+        public int effectRadius;            //技能影响半径
+        public int damageType;    //伤害类型
+        public int targetType;    //目标类型
+        public int mainValue;              //造成的伤害
+        public string action;               //对应动画
+        public string sound;                //技能音效
+        public string info;                 //技能信息文本
     }
 
     class ReadSkillConfig
@@ -31,7 +49,7 @@ namespace SLGame
         {
             //TextAsset xmlfile = Resources.Load(xmlFilePath) as TextAsset;
 
-            UtilityHelper.LogFormat("begin reading skill xml file from {0}", xmlFilePath);
+            //UtilityHelper.LogFormat("begin reading skill xml file from {0}", xmlFilePath);
             Object asset = Resources.Load(xmlFilePath);
             ResourceUnit xmlfileUnit = new ResourceUnit(null, 0, asset, null, ResourceType.ASSET);
             TextAsset xmlfile = xmlfileUnit.Asset as TextAsset;
@@ -41,6 +59,7 @@ namespace SLGame
                 return;
             }
             UtilityHelper.Log("read skill xml successful");
+
             xmlDoc = new XmlDocument(); 
             xmlDoc.LoadXml(xmlfile.text);
             XmlNodeList infoNodeList = xmlDoc.SelectSingleNode("SkillCfg").ChildNodes;
@@ -58,7 +77,7 @@ namespace SLGame
                     #region 搜索
                     switch (xEle.Name)
                     {
-                        case "szName":
+                        case "Name":
                             {
                                 skillInfo.name = Convert.ToString(xEle.InnerText);
                             }
@@ -70,21 +89,45 @@ namespace SLGame
                             }
                             break;
 
-                        case "n32ReleaseAction":
+                        case "ReleaseRadius":
+                            {
+                                skillInfo.releaseRadius = Convert.ToInt32(xEle.InnerText);
+                            }
+                            break;
+
+                        case "EffectRadius":
+                            {
+                                skillInfo.effectRadius = Convert.ToInt32(xEle.InnerText);
+                            }
+                            break;
+
+                        case "DamageType":
+                            {
+                                skillInfo.damageType = Convert.ToInt32(xEle.InnerText);
+                            }
+                            break;
+
+                        case "TargetType":
+                            {
+                                skillInfo.targetType = Convert.ToInt32(xEle.InnerText);
+                            }
+                            break;
+
+                        case "mainValue":
+                            {
+                                skillInfo.mainValue = Convert.ToInt32(xEle.InnerText);
+                            }
+                            break;
+
+                        case "ReleaseAction":
                             {
                                 skillInfo.action = Convert.ToString(xEle.InnerText);
                             }
                             break;
 
-                        case "n32ReleaseSound":
+                        case "ReleaseSound":
                             {
                                 skillInfo.sound = Convert.ToString(xEle.InnerText);
-                            }
-                            break;
-
-                        case "ReleaseEffect":
-                            {
-                                skillInfo.effect = Convert.ToString(xEle.InnerText);
                             }
                             break;
 
