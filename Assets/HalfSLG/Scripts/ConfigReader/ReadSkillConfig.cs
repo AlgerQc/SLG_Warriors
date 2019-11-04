@@ -13,8 +13,8 @@ namespace SLGame
         public enum BattleSkillDamageType
         {
             Physical = 1,   //物理伤害
-            Heal,           //恢复&buff类
             Move,           //位移类
+            Heal,           //恢复&buff类
         }
         
         public enum BattleSkillTargetType
