@@ -370,3 +370,680 @@ BattleManager :::: Battle field renderer inited.
 
 ---------2019/11/3 20:22:13
 --> PackageItemManager <-- inited.
+
+
+---------2019/11/5 23:38:55
+Main start.
+
+
+---------2019/11/5 23:38:55
+--> EventManager <-- inited.
+
+
+---------2019/11/5 23:38:55
+--> SceneManager <-- inited.
+
+
+---------2019/11/5 23:38:55
+--> ResourceManager <-- inited.
+
+
+---------2019/11/5 23:38:55
+Warm up all shaders.
+
+
+---------2019/11/5 23:38:55
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/5 23:38:55
+read skill xml successful
+
+
+---------2019/11/5 23:38:55
+read combo xml successful
+
+
+---------2019/11/5 23:38:55
+add 10000001 with skill1 = 1000, skill2 = 1000, skill3 = 1000
+
+
+---------2019/11/5 23:38:55
+add 10000002 with skill1 = 1001, skill2 = 1001, skill3 = 1001
+
+
+---------2019/11/5 23:38:55
+add 10000003 with skill1 = 3000, skill2 = 3000, skill3 = 3000
+
+
+---------2019/11/5 23:38:55
+add 10000004 with skill1 = 1002, skill2 = 1002, skill3 = 1002
+
+
+---------2019/11/5 23:38:55
+Prepare Battle
+
+
+---------2019/11/5 23:38:55
+--> UIViewManager <-- inited.
+
+
+---------2019/11/5 23:38:55
+--> BattleManager <-- inited.
+
+
+---------2019/11/5 23:38:55
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/5 23:38:55
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/5 23:38:55
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/5 23:38:55
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/5 23:38:55
+--> EffectManager <-- inited.
+
+
+---------2019/11/5 23:38:55
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/5 23:39:04
+BattleManager :::: Battle field creator inited.
+
+
+---------2019/11/5 23:39:04
+BattleManager :::: Battle map creator inited.
+
+
+---------2019/11/5 23:39:04
+BattleManager :::: Battle team creator inited.
+
+
+---------2019/11/5 23:39:04
+BattleManager :::: Battle unit data creator inited.
+
+
+---------2019/11/5 23:39:04
+BattleManager :::: Battle field 1 connect renderer.
+
+
+---------2019/11/5 23:39:53
+点中了UI ->EventSystem
+
+
+---------2019/11/5 23:39:57
+点中了UI ->EventSystem
+
+
+---------2019/11/5 23:39:58
+choose to use BP now
+
+
+---------2019/11/5 23:39:58
+left BP = 0, using BP = 1
+
+
+---------2019/11/5 23:39:58
+点中了UI ->EventSystem
+
+
+---------2019/11/5 23:39:59
+点中了UI ->EventSystem
+
+
+---------2019/11/5 23:40:00
+Action battle unit:mDps
+Target = Hero,type = Damage, point = 100
+
+
+
+---------2019/11/5 23:40:00
+Decision:
+Target:Hero
+Skill:魔法攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/5 23:40:00
+We are in BP stage, continue to fight
+
+
+---------2019/11/5 23:40:01
+go here to check combo
+
+
+---------2019/11/5 23:40:01
+Check combo now
+
+
+---------2019/11/5 23:40:01
+We are in combo stage 1
+
+
+---------2019/11/5 23:40:01
+Wait for 2 more skills to fill combo
+
+
+---------2019/11/5 23:40:04
+点中了UI ->EventSystem
+
+
+---------2019/11/5 23:40:05
+点中了UI ->EventSystem
+
+
+---------2019/11/5 23:40:06
+Action battle unit:mDps
+Target = Hero,type = Damage, point = 110
+
+
+
+---------2019/11/5 23:40:06
+Decision:
+Target:Hero
+Skill:魔法攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/5 23:40:06
+change queue order
+
+
+---------2019/11/5 23:40:06
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 76.66667
+
+
+
+---------2019/11/5 23:40:06
+Decision:
+Target:Hero
+Skill:攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/5 23:40:07
+go here to check combo
+
+
+---------2019/11/5 23:40:07
+Check combo now
+
+
+---------2019/11/5 23:40:07
+We are in combo stage 2
+
+
+---------2019/11/5 23:40:07
+Wait for 1 more skills to fill combo
+
+
+---------2019/11/5 23:40:07
+当前为等待中...
+
+
+---------2019/11/5 23:40:09
+go here to check combo
+
+
+---------2019/11/5 23:40:09
+change queue order
+
+
+---------2019/11/5 23:40:09
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 76.66667
+
+
+
+---------2019/11/5 23:40:10
+change queue order
+
+
+---------2019/11/5 23:40:10
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 65
+
+
+
+---------2019/11/5 23:40:11
+change queue order
+
+
+---------2019/11/5 23:40:11
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 82.5
+
+
+
+---------2019/11/5 23:40:12
+change queue order
+
+
+---------2019/11/5 23:40:12
+Action battle unit:mDps
+Target = Hero,type = Damage, point = 110
+
+
+
+---------2019/11/5 23:40:12
+Decision:
+Target:Hero
+Skill:魔法攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/5 23:40:14
+go here to check combo
+
+
+---------2019/11/5 23:40:14
+change queue order
+
+
+---------2019/11/5 23:40:14
+Action battle unit:Tank
+Target = Hero,type = Damage, point = 41.25
+Target = Hero,type = Provoke, point = 30.9375
+
+
+
+---------2019/11/5 23:40:15
+change queue order
+
+
+---------2019/11/5 23:40:18
+点中了UI ->EventSystem
+
+
+---------2019/11/5 23:41:32
+Main start.
+
+
+---------2019/11/5 23:41:32
+--> EventManager <-- inited.
+
+
+---------2019/11/5 23:41:32
+--> SceneManager <-- inited.
+
+
+---------2019/11/5 23:41:32
+--> ResourceManager <-- inited.
+
+
+---------2019/11/5 23:41:32
+Warm up all shaders.
+
+
+---------2019/11/5 23:41:32
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/5 23:41:32
+read skill xml successful
+
+
+---------2019/11/5 23:41:32
+read combo xml successful
+
+
+---------2019/11/5 23:41:32
+add 10000001 with skill1 = 1000, skill2 = 1000, skill3 = 1000
+
+
+---------2019/11/5 23:41:32
+add 10000002 with skill1 = 1001, skill2 = 1001, skill3 = 1001
+
+
+---------2019/11/5 23:41:32
+add 10000003 with skill1 = 3000, skill2 = 3000, skill3 = 3000
+
+
+---------2019/11/5 23:41:32
+add 10000004 with skill1 = 1002, skill2 = 1002, skill3 = 1002
+
+
+---------2019/11/5 23:41:32
+Prepare Battle
+
+
+---------2019/11/5 23:41:32
+--> UIViewManager <-- inited.
+
+
+---------2019/11/5 23:41:32
+--> BattleManager <-- inited.
+
+
+---------2019/11/5 23:41:32
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/5 23:41:32
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/5 23:41:33
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/5 23:41:33
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/5 23:41:33
+--> EffectManager <-- inited.
+
+
+---------2019/11/5 23:41:33
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/5 23:41:34
+BattleManager :::: Battle field creator inited.
+
+
+---------2019/11/5 23:41:34
+BattleManager :::: Battle map creator inited.
+
+
+---------2019/11/5 23:41:34
+BattleManager :::: Battle team creator inited.
+
+
+---------2019/11/5 23:41:34
+BattleManager :::: Battle unit data creator inited.
+
+
+---------2019/11/5 23:41:34
+BattleManager :::: Battle field 1 connect renderer.
+
+
+---------2019/11/5 23:41:34
+Wait for player operation.
+
+
+---------2019/11/5 23:41:36
+点中了UI ->EventSystem
+
+
+---------2019/11/5 23:41:59
+Main start.
+
+
+---------2019/11/5 23:41:59
+--> EventManager <-- inited.
+
+
+---------2019/11/5 23:41:59
+--> SceneManager <-- inited.
+
+
+---------2019/11/5 23:41:59
+--> ResourceManager <-- inited.
+
+
+---------2019/11/5 23:41:59
+Warm up all shaders.
+
+
+---------2019/11/5 23:41:59
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/5 23:41:59
+read skill xml successful
+
+
+---------2019/11/5 23:41:59
+read combo xml successful
+
+
+---------2019/11/5 23:41:59
+add 10000001 with skill1 = 1000, skill2 = 1000, skill3 = 1000
+
+
+---------2019/11/5 23:41:59
+add 10000002 with skill1 = 1001, skill2 = 1001, skill3 = 1001
+
+
+---------2019/11/5 23:41:59
+add 10000003 with skill1 = 3000, skill2 = 3000, skill3 = 3000
+
+
+---------2019/11/5 23:41:59
+add 10000004 with skill1 = 1002, skill2 = 1002, skill3 = 1002
+
+
+---------2019/11/5 23:41:59
+Prepare Battle
+
+
+---------2019/11/5 23:41:59
+--> UIViewManager <-- inited.
+
+
+---------2019/11/5 23:41:59
+--> BattleManager <-- inited.
+
+
+---------2019/11/5 23:41:59
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/5 23:41:59
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/5 23:41:59
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/5 23:41:59
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/5 23:41:59
+--> EffectManager <-- inited.
+
+
+---------2019/11/5 23:41:59
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/5 23:42:04
+BattleManager :::: Battle field creator inited.
+
+
+---------2019/11/5 23:42:04
+BattleManager :::: Battle map creator inited.
+
+
+---------2019/11/5 23:42:04
+BattleManager :::: Battle team creator inited.
+
+
+---------2019/11/5 23:42:04
+BattleManager :::: Battle unit data creator inited.
+
+
+---------2019/11/5 23:42:04
+BattleManager :::: Battle field 1 connect renderer.
+
+
+---------2019/11/5 23:44:03
+Main start.
+
+
+---------2019/11/5 23:44:03
+--> EventManager <-- inited.
+
+
+---------2019/11/5 23:44:03
+--> SceneManager <-- inited.
+
+
+---------2019/11/5 23:44:03
+--> ResourceManager <-- inited.
+
+
+---------2019/11/5 23:44:03
+Warm up all shaders.
+
+
+---------2019/11/5 23:44:03
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/5 23:44:03
+read skill xml successful
+
+
+---------2019/11/5 23:44:03
+read combo xml successful
+
+
+---------2019/11/5 23:44:03
+add 10000001 with skill1 = 1000, skill2 = 1000, skill3 = 1000
+
+
+---------2019/11/5 23:44:03
+add 10000002 with skill1 = 1001, skill2 = 1001, skill3 = 1001
+
+
+---------2019/11/5 23:44:03
+add 10000003 with skill1 = 3000, skill2 = 3000, skill3 = 3000
+
+
+---------2019/11/5 23:44:03
+add 10000004 with skill1 = 1002, skill2 = 1002, skill3 = 1002
+
+
+---------2019/11/5 23:44:03
+Prepare Battle
+
+
+---------2019/11/5 23:44:03
+--> UIViewManager <-- inited.
+
+
+---------2019/11/5 23:44:03
+--> BattleManager <-- inited.
+
+
+---------2019/11/5 23:44:03
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/5 23:44:03
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/5 23:44:03
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/5 23:44:03
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/5 23:44:03
+--> EffectManager <-- inited.
+
+
+---------2019/11/5 23:44:03
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/5 23:44:08
+BattleManager :::: Battle field creator inited.
+
+
+---------2019/11/5 23:44:08
+BattleManager :::: Battle map creator inited.
+
+
+---------2019/11/5 23:44:08
+BattleManager :::: Battle team creator inited.
+
+
+---------2019/11/5 23:44:08
+BattleManager :::: Battle unit data creator inited.
+
+
+---------2019/11/5 23:44:08
+BattleManager :::: Battle field 1 connect renderer.
+
+
+---------2019/11/5 23:46:00
+Main start.
+
+
+---------2019/11/5 23:46:00
+--> EventManager <-- inited.
+
+
+---------2019/11/5 23:46:00
+--> SceneManager <-- inited.
+
+
+---------2019/11/5 23:46:00
+--> ResourceManager <-- inited.
+
+
+---------2019/11/5 23:46:00
+Warm up all shaders.
+
+
+---------2019/11/5 23:46:00
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/5 23:46:00
+read skill xml successful
+
+
+---------2019/11/5 23:46:01
+read combo xml successful
+
+
+---------2019/11/5 23:46:01
+add 10000001 with skill1 = 1000, skill2 = 1000, skill3 = 1000
+
+
+---------2019/11/5 23:46:01
+add 10000002 with skill1 = 1001, skill2 = 1001, skill3 = 1001
+
+
+---------2019/11/5 23:46:01
+add 10000003 with skill1 = 3000, skill2 = 3000, skill3 = 3000
+
+
+---------2019/11/5 23:46:01
+add 10000004 with skill1 = 1002, skill2 = 1002, skill3 = 1002
+
+
+---------2019/11/5 23:46:01
+Prepare Battle
+
+
+---------2019/11/5 23:46:01
+--> UIViewManager <-- inited.

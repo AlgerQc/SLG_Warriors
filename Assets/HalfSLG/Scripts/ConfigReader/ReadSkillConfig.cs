@@ -27,11 +27,11 @@ namespace SLGame
         public uint id;
         public string name;
         public string icon;
-        public int releaseRadius;          //技能释放半径
+        public int releaseRadius;           //技能释放半径
         public int effectRadius;            //技能影响半径
-        public int damageType;    //伤害类型
-        public int targetType;    //目标类型
-        public int mainValue;              //造成的伤害
+        public int damageType;              //伤害类型
+        public int targetType;              //目标类型
+        public int mainValue;               //造成的伤害
         public string action;               //对应动画
         public string sound;                //技能音效
         public string info;                 //技能信息文本
@@ -39,14 +39,14 @@ namespace SLGame
 
     class ReadSkillConfig
     {
-        XmlDocument xmlDoc = null;
-
         public ReadSkillConfig()
         {
         }
 
-        public ReadSkillConfig(string xmlFilePath)
+        public static Dictionary<uint, SkillConfigInfo> ReadSkillConfigFromXml(string xmlFilePath)
         {
+            Dictionary<uint, SkillConfigInfo> skillInfoDic = new Dictionary<uint, SkillConfigInfo>();
+            XmlDocument xmlDoc = null;
             //TextAsset xmlfile = Resources.Load(xmlFilePath) as TextAsset;
 
             //UtilityHelper.LogFormat("begin reading skill xml file from {0}", xmlFilePath);
@@ -56,7 +56,7 @@ namespace SLGame
 
             if (!xmlfile)
             {
-                return;
+                return skillInfoDic;
             }
             UtilityHelper.Log("read skill xml successful");
 
@@ -138,9 +138,11 @@ namespace SLGame
 
                     #endregion
                 }
-                ConfigReader.skillInfoDic.Add(skillInfo.id, skillInfo);
+                skillInfoDic.Add(skillInfo.id, skillInfo);
                 //Debug.LogError("add buff" + buffInfo.BuffID);
             }
+
+            return skillInfoDic;
         }
     }
 }

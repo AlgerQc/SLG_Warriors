@@ -162,9 +162,6 @@ namespace SLGame
             if (battleFieldRenderer != null)
                 battleFieldRenderer.PlayBattle(Run);
 
-            //打开技能选择菜单，选择技能
-
-
             //开战           
             Fight();
         }

@@ -20,23 +20,24 @@ namespace SLGame
 
     class ReadSkillComboConfig
     {
-        XmlDocument xmlDoc = null;
-
         public ReadSkillComboConfig()
         {
         }
 
-        public ReadSkillComboConfig(string xmlFilePath)
+        public static Dictionary<uint, ComboConfigInfo> ReadSkillComboConfigFromXml(string xmlFilePath)
         {
             //UtilityHelper.Log("begin reading combo xml file");
             //TextAsset xmlfile = Resources.Load(xmlFilePath) as TextAsset;
+
+            XmlDocument xmlDoc = null;
+            Dictionary<uint, ComboConfigInfo> comboInfoDic = new Dictionary<uint, ComboConfigInfo>();
             Object asset = Resources.Load(xmlFilePath);
             ResourceUnit xmlfileUnit = new ResourceUnit(null, 0, asset, null, ResourceType.ASSET);
             TextAsset xmlfile = xmlfileUnit.Asset as TextAsset;
 
             if (!xmlfile)
             {
-                return;
+                return comboInfoDic;
             }
             UtilityHelper.Log("read combo xml successful");
             xmlDoc = new XmlDocument();
@@ -90,10 +91,12 @@ namespace SLGame
 
                     #endregion
                 }
-                ConfigReader.comboInfoDic.Add((uint)i, comboInfo);
-                //UtilityHelper.LogFormat("add {0} with skill1 = {1}, skill2 = {2}, skill3 = {3}", comboInfo.id, comboInfo.skill1,
-                    //comboInfo.skill2, comboInfo.skill3);
+                comboInfoDic.Add((uint)i, comboInfo);
+                UtilityHelper.LogFormat("add {0} with skill1 = {1}, skill2 = {2}, skill3 = {3}", comboInfo.id, comboInfo.skill1,
+                    comboInfo.skill2, comboInfo.skill3);
             }
+
+            return comboInfoDic;
         }
     }
 }

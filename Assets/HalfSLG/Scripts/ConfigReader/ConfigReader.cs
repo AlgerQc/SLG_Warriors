@@ -7,61 +7,14 @@ namespace SLGame
 {
     public class ConfigReader
     {
-        #region read skill.xml
-        public static Dictionary<uint, SkillConfigInfo> skillInfoDic = new Dictionary<uint, SkillConfigInfo>();
-
-        public static Dictionary<uint, SkillConfigInfo> SkillInfoDic
-        {
-            get
-            {
-                if (skillInfoDic.Count == 0)
-                {
-                    ReadSkillConfig spConfig = new ReadSkillConfig("Config/SkillCfg");
-                }
-                return skillInfoDic;
-            }
-        }
-
-        public static SkillConfigInfo GetSkillConfig(uint id)
-        {
-            if (SkillInfoDic.ContainsKey(id))
-            {
-                return SkillInfoDic[id];
-            }
-            return null;
-        }
-        #endregion
-
-        #region read ComboSkill.xml
-        public static Dictionary<uint, ComboConfigInfo> comboInfoDic = new Dictionary<uint, ComboConfigInfo>();
-
-        public static Dictionary<uint, ComboConfigInfo> ComboInfoDic
-        {
-            get
-            {
-                if (comboInfoDic.Count == 0)
-                {
-                    ReadSkillComboConfig spConfig = new ReadSkillComboConfig("Config/ComboSkill");
-                }
-                return comboInfoDic;
-            }
-        }
-
-        public static ComboConfigInfo GetComboConfig(uint id)
-        {
-            if (ComboInfoDic.ContainsKey(id))
-            {
-                return ComboInfoDic[id];
-            }
-            return null;
-        }
-
-        #endregion
+        
+        static Dictionary<uint, SkillConfigInfo> skillInfoDic = new Dictionary<uint, SkillConfigInfo>();
+        static Dictionary<uint, ComboConfigInfo> comboInfoDic = new Dictionary<uint, ComboConfigInfo>();
 
         public static void Init()
         {
-            Dictionary<uint, SkillConfigInfo> skillDic = SkillInfoDic;
-            Dictionary<uint, ComboConfigInfo> comboDic = ComboInfoDic;
+            skillInfoDic = ReadSkillConfig.ReadSkillConfigFromXml("Config/SkillCfg");
+            comboInfoDic = ReadSkillComboConfig.ReadSkillComboConfigFromXml("Config/ComboSkill");
         }
 
         public static int checkCombo(Queue<int> skillCombo)
