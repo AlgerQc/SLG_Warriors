@@ -50,6 +50,7 @@ namespace SLGame
 
         private void ClickReset()
         {
+            objNoticeBG.gameObject.SetActive(false);
             BattleFieldRenderer.Instance.ResetBattleField();
         }
 
