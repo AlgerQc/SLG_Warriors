@@ -161,9 +161,12 @@ namespace SLGame
             //连接了渲染器，则播放入场动作
             if (battleFieldRenderer != null)
                 battleFieldRenderer.PlayBattle(Run);
-            //直接开战
-            else
-                Fight();
+
+            //打开技能选择菜单，选择技能
+
+
+            //开战           
+            Fight();
         }
 
         //开始战斗
