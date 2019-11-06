@@ -207,7 +207,7 @@ namespace SLGame
             skillCombo.Enqueue(skillID);
             if (skillCombo.Count == EGameConstL.ComboCount)
             {
-                int id = ConfigReader.checkCombo(skillCombo);
+                int id = Check.checkCombo(skillCombo);
                 if ( id > 0)
                 {
                     return id;
@@ -219,7 +219,7 @@ namespace SLGame
             }
             else 
             {
-                if (ConfigReader.checkComboEarly(skillCombo))
+                if (Check.checkComboEarly(skillCombo))
                 {
                     UtilityHelper.LogFormat("Wait for {0} more skills to fill combo", EGameConstL.ComboCount - skillCombo.Count);
                 }

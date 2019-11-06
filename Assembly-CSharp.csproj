@@ -120,6 +120,7 @@
     <Compile Include="Assets\HalfSLG\Scripts\Battle\Helper\BattleSkillManualReleaseAnalysisor.cs" />
     <Compile Include="Assets\HalfSLG\Scripts\Battle\Helper\BattleUnitPackage.cs" />
     <Compile Include="Assets\HalfSLG\Scripts\Battle\Helper\MapNavigator.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Battle\Skill\ComboCheck.cs" />
     <Compile Include="Assets\HalfSLG\Scripts\Battle\Skill\SO_BattleSkill.cs" />
     <Compile Include="Assets\HalfSLG\Scripts\BattleFieldEvent\BattleFieldEvent.cs" />
     <Compile Include="Assets\HalfSLG\Scripts\BattleFieldEvent\BattleUnitActionEvent.cs" />

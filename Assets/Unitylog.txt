@@ -1047,3 +1047,885 @@ Prepare Battle
 
 ---------2019/11/5 23:46:01
 --> UIViewManager <-- inited.
+
+
+---------2019/11/5 23:51:13
+Main start.
+
+
+---------2019/11/5 23:51:13
+--> EventManager <-- inited.
+
+
+---------2019/11/5 23:51:13
+--> SceneManager <-- inited.
+
+
+---------2019/11/5 23:51:13
+--> ResourceManager <-- inited.
+
+
+---------2019/11/5 23:51:13
+Warm up all shaders.
+
+
+---------2019/11/5 23:51:13
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/5 23:51:13
+read skill xml successful
+
+
+---------2019/11/5 23:51:13
+read combo xml successful
+
+
+---------2019/11/5 23:51:13
+add 10000001 with skill1 = 1000, skill2 = 1000, skill3 = 1000
+
+
+---------2019/11/5 23:51:13
+add 10000002 with skill1 = 1001, skill2 = 1001, skill3 = 1001
+
+
+---------2019/11/5 23:51:13
+add 10000003 with skill1 = 3000, skill2 = 3000, skill3 = 3000
+
+
+---------2019/11/5 23:51:13
+add 10000004 with skill1 = 1002, skill2 = 1002, skill3 = 1002
+
+
+---------2019/11/5 23:51:13
+Prepare Battle
+
+
+---------2019/11/5 23:51:13
+--> UIViewManager <-- inited.
+
+
+---------2019/11/5 23:51:13
+--> BattleManager <-- inited.
+
+
+---------2019/11/5 23:51:13
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/5 23:51:13
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/5 23:51:13
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/5 23:51:13
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/5 23:51:13
+--> EffectManager <-- inited.
+
+
+---------2019/11/5 23:51:13
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/5 23:51:15
+BattleManager :::: Battle field creator inited.
+
+
+---------2019/11/5 23:51:15
+BattleManager :::: Battle map creator inited.
+
+
+---------2019/11/5 23:51:15
+BattleManager :::: Battle team creator inited.
+
+
+---------2019/11/5 23:51:15
+BattleManager :::: Battle unit data creator inited.
+
+
+---------2019/11/5 23:51:15
+BattleManager :::: Battle field 1 connect renderer.
+
+
+---------2019/11/6 22:01:35
+Main start.
+
+
+---------2019/11/6 22:01:35
+--> EventManager <-- inited.
+
+
+---------2019/11/6 22:01:35
+--> SceneManager <-- inited.
+
+
+---------2019/11/6 22:01:35
+--> ResourceManager <-- inited.
+
+
+---------2019/11/6 22:01:35
+Warm up all shaders.
+
+
+---------2019/11/6 22:01:35
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/6 22:01:35
+read skill xml successful
+
+
+---------2019/11/6 22:01:35
+read combo xml successful
+
+
+---------2019/11/6 22:01:35
+add 10000001 with skill1 = 1000, skill2 = 1000, skill3 = 1000
+
+
+---------2019/11/6 22:01:35
+add 10000002 with skill1 = 1001, skill2 = 1001, skill3 = 1001
+
+
+---------2019/11/6 22:01:35
+add 10000003 with skill1 = 3000, skill2 = 3000, skill3 = 3000
+
+
+---------2019/11/6 22:01:35
+add 10000004 with skill1 = 1002, skill2 = 1002, skill3 = 1002
+
+
+---------2019/11/6 22:01:35
+Prepare Battle
+
+
+---------2019/11/6 22:01:35
+--> UIViewManager <-- inited.
+
+
+---------2019/11/6 22:01:35
+--> BattleManager <-- inited.
+
+
+---------2019/11/6 22:01:35
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/6 22:01:35
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/6 22:01:36
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/6 22:01:36
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/6 22:01:36
+--> EffectManager <-- inited.
+
+
+---------2019/11/6 22:01:36
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/6 22:01:41
+BattleManager :::: Battle field creator inited.
+
+
+---------2019/11/6 22:01:41
+BattleManager :::: Battle map creator inited.
+
+
+---------2019/11/6 22:01:41
+BattleManager :::: Battle team creator inited.
+
+
+---------2019/11/6 22:01:41
+BattleManager :::: Battle unit data creator inited.
+
+
+---------2019/11/6 22:01:41
+BattleManager :::: Battle field 1 connect renderer.
+
+
+---------2019/11/6 22:01:44
+点中了UI ->EventSystem
+
+
+---------2019/11/6 22:01:46
+点中了UI ->EventSystem
+
+
+---------2019/11/6 22:01:46
+choose to use BP now
+
+
+---------2019/11/6 22:01:46
+left BP = 0, using BP = 1
+
+
+---------2019/11/6 22:01:47
+点中了UI ->EventSystem
+
+
+---------2019/11/6 22:01:48
+点中了UI ->EventSystem
+
+
+---------2019/11/6 22:01:48
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 100
+
+
+
+---------2019/11/6 22:01:48
+Decision:
+Target:Hero
+Skill:攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/6 22:01:48
+We are in BP stage, continue to fight
+
+
+---------2019/11/6 22:01:49
+go here to check combo
+
+
+---------2019/11/6 22:01:49
+Check combo now
+
+
+---------2019/11/6 22:01:49
+We are in combo stage 1
+
+
+---------2019/11/6 22:01:49
+Wait for 2 more skills to fill combo
+
+
+---------2019/11/6 22:01:53
+点中了UI ->EventSystem
+
+
+---------2019/11/6 22:01:54
+点中了UI ->EventSystem
+
+
+---------2019/11/6 22:01:55
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 110
+
+
+
+---------2019/11/6 22:01:55
+Decision:
+Target:Hero
+Skill:攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/6 22:01:55
+change queue order
+
+
+---------2019/11/6 22:01:55
+Action battle unit:Tank
+Target = Hero,type = Damage, point = 32.5
+Target = Hero,type = Provoke, point = 24.375
+
+
+
+---------2019/11/6 22:01:56
+go here to check combo
+
+
+---------2019/11/6 22:01:56
+Check combo now
+
+
+---------2019/11/6 22:01:56
+We are in combo stage 2
+
+
+---------2019/11/6 22:01:56
+Wait for 1 more skills to fill combo
+
+
+---------2019/11/6 22:01:57
+change queue order
+
+
+---------2019/11/6 22:01:57
+Action battle unit:mDps
+Target = Hero,type = Damage, point = 88.33334
+
+
+
+---------2019/11/6 22:01:57
+Decision:
+Target:Hero
+Skill:魔法攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/6 22:01:59
+go here to check combo
+
+
+---------2019/11/6 22:01:59
+change queue order
+
+
+---------2019/11/6 22:01:59
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 88.33334
+
+
+
+---------2019/11/6 22:01:59
+Decision:
+Target:Hero
+Skill:攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/6 22:02:01
+go here to check combo
+
+
+---------2019/11/6 22:02:01
+change queue order
+
+
+---------2019/11/6 22:02:01
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 110
+
+
+
+---------2019/11/6 22:02:01
+Decision:
+Target:Hero
+Skill:攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/6 22:02:02
+go here to check combo
+
+
+---------2019/11/6 22:02:02
+change queue order
+
+
+---------2019/11/6 22:02:02
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 82.5
+
+
+
+---------2019/11/6 22:02:02
+Decision:
+Target:Hero
+Skill:攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/6 22:02:04
+go here to check combo
+
+
+---------2019/11/6 22:02:04
+change queue order
+
+
+---------2019/11/6 22:02:04
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 76.66667
+
+
+
+---------2019/11/6 22:02:05
+change queue order
+
+
+---------2019/11/6 23:45:48
+Main start.
+
+
+---------2019/11/6 23:45:48
+--> EventManager <-- inited.
+
+
+---------2019/11/6 23:45:48
+--> SceneManager <-- inited.
+
+
+---------2019/11/6 23:45:48
+--> ResourceManager <-- inited.
+
+
+---------2019/11/6 23:45:48
+Warm up all shaders.
+
+
+---------2019/11/6 23:45:48
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/6 23:45:49
+read skill xml successful
+
+
+---------2019/11/6 23:45:49
+read combo xml successful
+
+
+---------2019/11/6 23:45:49
+Prepare Battle
+
+
+---------2019/11/6 23:45:49
+--> UIViewManager <-- inited.
+
+
+---------2019/11/6 23:45:49
+--> BattleManager <-- inited.
+
+
+---------2019/11/6 23:45:49
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/6 23:45:49
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/6 23:45:49
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/6 23:45:49
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/6 23:45:49
+--> EffectManager <-- inited.
+
+
+---------2019/11/6 23:45:49
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/6 23:45:51
+BattleManager :::: Battle field creator inited.
+
+
+---------2019/11/6 23:45:51
+BattleManager :::: Battle map creator inited.
+
+
+---------2019/11/6 23:45:51
+BattleManager :::: Battle team creator inited.
+
+
+---------2019/11/6 23:45:51
+BattleManager :::: Battle unit data creator inited.
+
+
+---------2019/11/6 23:45:51
+BattleManager :::: Battle field 1 connect renderer.
+
+
+---------2019/11/6 23:45:53
+点中了UI ->EventSystem
+
+
+---------2019/11/6 23:45:53
+choose to use BP now
+
+
+---------2019/11/6 23:45:53
+left BP = 0, using BP = 1
+
+
+---------2019/11/6 23:45:54
+点中了UI ->EventSystem
+
+
+---------2019/11/6 23:45:55
+点中了UI ->EventSystem
+
+
+---------2019/11/6 23:45:56
+点中了UI ->EventSystem
+
+
+---------2019/11/6 23:45:57
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 100
+
+
+
+---------2019/11/6 23:45:57
+Decision:
+Target:Hero
+Skill:攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/6 23:45:57
+We are in BP stage, continue to fight
+
+
+---------2019/11/6 23:45:58
+go here to check combo
+
+
+---------2019/11/6 23:45:58
+Check combo now
+
+
+---------2019/11/6 23:45:58
+We are in combo stage 1
+
+
+---------2019/11/6 23:45:58
+Wait for 2 more skills to fill combo
+
+
+---------2019/11/6 23:46:02
+点中了UI ->EventSystem
+
+
+---------2019/11/6 23:46:09
+点中了UI ->EventSystem
+
+
+---------2019/11/6 23:46:09
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 110
+
+
+
+---------2019/11/6 23:46:09
+Decision:
+Target:Hero
+Skill:攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/6 23:46:09
+change queue order
+
+
+---------2019/11/6 23:46:09
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 76.66667
+
+
+
+---------2019/11/6 23:46:09
+Decision:
+Target:Hero
+Skill:攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/6 23:46:10
+go here to check combo
+
+
+---------2019/11/6 23:46:10
+Check combo now
+
+
+---------2019/11/6 23:46:10
+Combo error, start from first skill again
+
+
+---------2019/11/6 23:46:12
+go here to check combo
+
+
+---------2019/11/6 23:46:13
+change queue order
+
+
+---------2019/11/6 23:46:13
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 65
+
+
+
+---------2019/11/6 23:46:14
+change queue order
+
+
+---------2019/11/6 23:46:14
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 70.83333
+
+
+
+---------2019/11/6 23:46:15
+change queue order
+
+
+---------2019/11/6 23:46:15
+Action battle unit:mDps
+Target = Hero,type = Damage, point = 76.66667
+
+
+
+---------2019/11/6 23:46:15
+Decision:
+Target:Hero
+Skill:魔法攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/6 23:46:16
+当前为等待中...
+
+
+---------2019/11/6 23:46:17
+当前为等待中...
+
+
+---------2019/11/6 23:46:17
+go here to check combo
+
+
+---------2019/11/6 23:46:17
+change queue order
+
+
+---------2019/11/6 23:46:17
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 110
+
+
+
+---------2019/11/6 23:46:17
+Decision:
+Target:Hero
+Skill:攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/6 23:46:18
+go here to check combo
+
+
+---------2019/11/6 23:46:18
+change queue order
+
+
+---------2019/11/6 23:46:18
+Action battle unit:Tank
+Target = Hero,type = Damage, point = 29.58333
+Target = Hero,type = Provoke, point = 22.1875
+
+
+
+---------2019/11/6 23:46:20
+change queue order
+
+
+---------2019/11/6 23:46:22
+点中了UI ->EventSystem
+
+
+---------2019/11/6 23:46:23
+点中了UI ->EventSystem
+
+
+---------2019/11/6 23:46:24
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 110
+
+
+
+---------2019/11/6 23:46:24
+Decision:
+Target:Hero
+Skill:攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/6 23:46:24
+change queue order
+
+
+---------2019/11/6 23:46:24
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 100
+
+
+
+---------2019/11/6 23:46:24
+Decision:
+Target:Hero
+Skill:攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/6 23:46:25
+go here to check combo
+
+
+---------2019/11/6 23:46:25
+Check combo now
+
+
+---------2019/11/6 23:46:25
+Combo error, start from first skill again
+
+
+---------2019/11/6 23:46:26
+go here to check combo
+
+
+---------2019/11/6 23:46:26
+change queue order
+
+
+---------2019/11/6 23:46:26
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 82.5
+
+
+
+---------2019/11/6 23:46:27
+change queue order
+
+
+---------2019/11/6 23:46:27
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 88.33334
+
+
+
+---------2019/11/6 23:46:27
+Decision:
+Target:Hero
+Skill:攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/6 23:46:28
+go here to check combo
+
+
+---------2019/11/6 23:46:28
+change queue order
+
+
+---------2019/11/6 23:46:28
+Action battle unit:mDps
+Target = Hero,type = Damage, point = 100
+
+
+
+---------2019/11/6 23:46:28
+Decision:
+Target:Hero
+Skill:魔法攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/6 23:46:29
+go here to check combo
+
+
+---------2019/11/6 23:46:29
+change queue order
+
+
+---------2019/11/6 23:46:29
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 110
+
+
+
+---------2019/11/6 23:46:29
+Decision:
+Target:Hero
+Skill:攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/6 23:46:30
+go here to check combo
+
+
+---------2019/11/6 23:46:30
+change queue order
+
+
+---------2019/11/6 23:46:30
+Action battle unit:Tank
+Target = Hero,type = Damage, point = 41.25
+Target = Hero,type = Provoke, point = 30.9375
+
+
+
+---------2019/11/6 23:46:30
+Decision:
+Target:Hero
+Skill:攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/6 23:46:32
+go here to check combo
+
+
+---------2019/11/6 23:46:32
+change queue order

@@ -430,7 +430,6 @@ namespace SLGame
 
             yield return EGameConstL.WaitForHalfSecond;
 
-            UtilityHelper.Log("go here to check combo");
             //连招combo统计
             if (battleUnit.battleUnitAttribute.manualOperation)
             {

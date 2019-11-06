@@ -1,31 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ComboSkill xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <info un32ID="10000001">
-    <Name>AttackCombo</Name>
+  <info un32ID="1">
+    <Name>AttackBuffCombo</Name>
     <skill1>1000</skill1>
     <skill2>1000</skill2>
     <skill3>1000</skill3>
     <effect>0001</effect>
+    <value>1</value>
   </info>
-  <info un32ID="10000002">
-    <Name>AttackCombo</Name>
-    <skill1>1001</skill1>
-    <skill2>1001</skill2>
-    <skill3>1001</skill3>
-    <effect>0001</effect>
-  </info>
-  <info un32ID="10000003">
-    <Name>HealCombo</Name>
-    <skill1>3000</skill1>
-    <skill2>3000</skill2>
-    <skill3>3000</skill3>
-    <effect>0002</effect>
-  </info>
-  <info un32ID="10000004">
+  <info un32ID="2">
     <Name>PushCombo</Name>
-    <skill1>1002</skill1>
-    <skill2>1002</skill2>
-    <skill3>1002</skill3>
+    <skill1>2000</skill1>
+    <skill2>2000</skill2>
+    <skill3>2000</skill3>
+    <effect>0002</effect>
+    <value>2</value>
+  </info>
+  <info un32ID="3">
+    <Name>PullCombo</Name>
+    <skill1>2001</skill1>
+    <skill2>2001</skill2>
+    <skill3>2001</skill3>
     <effect>0003</effect>
+    <value>2</value>
+  </info>
+  <info un32ID="4">
+    <Name>MoveCombo</Name>
+    <skill1>2002</skill1>
+    <skill2>2002</skill2>
+    <skill3>2002</skill3>
+    <effect>0004</effect>
+    <value>1</value>
+  </info>
+  <info un32ID="5">
+    <Name>BuffCombo</Name>
+    <skill1>3000</skill1>
+    <skill2>3001</skill2>
+    <skill3>3002</skill3>
+    <effect>0005</effect>
+    <value>1</value>
   </info>
 </ComboSkill>
