@@ -23,9 +23,14 @@ namespace SLGame
     public enum ComboEffectType
     {
         None = 0,
-        DamageEffect,
-        HealEffect,
-        PushEffect,
+        DamageEffect,       //1连击第三下产生质变伤害
+        PushEffect,         //2连击第三下产生推远效果
+        PullEffect,         //3连击第三下产生拉近效果
+        MoveEffect,         //4连击后获得几回合移速加成BUFF
+        AttackBuffEffect,   //5连击后获得几回合攻击加成BUFF
+        BPBuffEffect,       //6连击后获得一次BP加成BUFF
+        AccuracyEffect,     //7连击后获得几回合命中BUFF
+        EvadeEffect,        //8连击后获得几回合回避BUFF
     }
     
     public class BattleUnitRenderer
@@ -430,21 +435,6 @@ namespace SLGame
 
             yield return EGameConstL.WaitForHalfSecond;
 
-            //连招combo统计
-            if (battleUnit.battleUnitAttribute.manualOperation)
-            {
-                UtilityHelper.Log("Check combo now");
-
-                //返回真表示连招成立，则调用连招效果
-                int comboID = battleUnit.battleUnitAttribute.comboJudge(action.battleSkill.skillID);
-                if (comboID != 0)
-                {
-                    ComboEffect(comboID);                   
-                }
-            }
-
-            battleUnit.battleUnitAttribute.skillComboActiveCheck();
-
             //属性刷新
             RefreshAttribute(action.selfAttribute);
 
@@ -455,28 +445,6 @@ namespace SLGame
                 StartCoroutine(action.skillResult[i].battleUnit.battleUnitRenderer.OnSkillDamage(action.skillResult[i]));
             }
 
-        }
-
-        //根据combo类型释放效果
-        private void ComboEffect(int comboID)
-        {
-            switch(comboID)
-            {
-                case (int)ComboEffectType.DamageEffect:
-                    UtilityHelper.Log("Combo Attack DamageEffect successful!");
-                    battleUnit.battleUnitAttribute.UpdateAtk(EGameConstL.AtkIncrease);
-                    battleUnit.battleUnitAttribute.AddComboBuffEffect(comboID);
-                    break;
-
-                case (int)ComboEffectType.HealEffect:
-                    UtilityHelper.Log("Combo Attack HealEffect successful!");
-                    break;
-
-                case (int)ComboEffectType.PushEffect:
-                    UtilityHelper.Log("Combo Attack PushEffect successful!");
-                    break;
-            }
-            return;
         }
 
         //释放技能后

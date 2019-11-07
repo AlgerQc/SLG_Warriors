@@ -17,6 +17,8 @@ MonoBehaviour:
   hp: 1000
   maxHp: 1000
   BP: 0
+  springPower: 1
+  volume: 5
   energy: 500
   maxEnergy: 500
   mobility: 5
@@ -28,8 +30,9 @@ MonoBehaviour:
   battleSkills:
   - {fileID: 11400000, guid: 1cf26dea907b94fffaeb82f2fded3fdc, type: 2}
   - {fileID: 11400000, guid: aa64cf42a0f9c4166856b165528c70e9, type: 2}
-  - {fileID: 11400000, guid: bb0206e4e3f9a48f58017df5b611b15a, type: 2}
+  - {fileID: 11400000, guid: de826ed86c9c742088bd020c3010cd1d, type: 2}
   - {fileID: 11400000, guid: 2962dcb64f4254eb9930df8f92b8c4fc, type: 2}
   - {fileID: 11400000, guid: 88a20f7c1632746938d5202a6bb51e37, type: 2}
+  - {fileID: 11400000, guid: 08db6402eb6ac424daa1657d490306c7, type: 2}
   battleBehaviourSystem: {fileID: 11400000, guid: b43ba6b62d6e16a489975e0aca3f0930,
     type: 2}

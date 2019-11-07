@@ -117,17 +117,17 @@ namespace SLGame
         {
             switch (buffID)
             {
-                case (int)ComboEffectType.DamageEffect:
+                case (int)ComboEffectType.AttackBuffEffect:
                     UtilityHelper.Log("Combo Attack DamageEffect remove!");
                     UpdateAtk(EGameConstL.AtkDecrease);
                     break;
 
-                case (int)ComboEffectType.HealEffect:
-                    UtilityHelper.Log("Combo Attack HealEffect remove!");
+                case (int)ComboEffectType.AccuracyEffect:
+                    UtilityHelper.Log("Combo Attack AccuracyEffect remove!");
                     break;
 
-                case (int)ComboEffectType.PushEffect:
-                    UtilityHelper.Log("Combo Attack PushEffect remove!");
+                case (int)ComboEffectType.EvadeEffect:
+                    UtilityHelper.Log("Combo Attack EvadeEffect remove!");
                     break;
             }
             return;

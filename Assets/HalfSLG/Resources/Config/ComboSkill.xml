@@ -5,7 +5,7 @@
     <skill1>1000</skill1>
     <skill2>1000</skill2>
     <skill3>1000</skill3>
-    <effect>0001</effect>
+    <effect>0005</effect>
     <value>1</value>
   </info>
   <info un32ID="2">
@@ -37,7 +37,7 @@
     <skill1>3000</skill1>
     <skill2>3001</skill2>
     <skill3>3002</skill3>
-    <effect>0005</effect>
+    <effect>0006</effect>
     <value>1</value>
   </info>
 </ComboSkill>

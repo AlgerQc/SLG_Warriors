@@ -257,7 +257,51 @@ namespace SLGame
             //进入格子，直接设置数据
             EnterGrid(targetGrid);
         }
-        
+
+        //根据combo类型释放效果
+        private void ComboEffect(int comboID)
+        {
+            switch (comboID)
+            {
+                case (int)ComboEffectType.DamageEffect:
+                    UtilityHelper.Log("Combo Attack DamageEffect successful!");
+                    break;
+
+                case (int)ComboEffectType.PushEffect:
+                    UtilityHelper.Log("Combo Attack PushEffect successful!");
+                    break;
+
+                case (int)ComboEffectType.PullEffect:
+                    UtilityHelper.Log("Combo Attack PushEffect successful!");
+                    break;
+
+                case (int)ComboEffectType.MoveEffect:
+                    UtilityHelper.Log("Combo Attack MoveEffect successful!");
+                    break;
+
+                case (int)ComboEffectType.AttackBuffEffect:
+                    battleUnitAttribute.UpdateAtk(EGameConstL.AtkIncrease);
+                    battleUnitAttribute.AddComboBuffEffect(comboID);
+                    UtilityHelper.Log("Combo Attack AttackBuffEffect successful!");
+                    break;
+
+                case (int)ComboEffectType.BPBuffEffect:
+                    UtilityHelper.Log("Combo Attack BPBuffEffect successful!");
+                    break;
+
+                case (int)ComboEffectType.AccuracyEffect:
+                    UtilityHelper.Log("Combo Attack AccuracyEffect successful!");
+                    break;
+
+                case (int)ComboEffectType.EvadeEffect:
+                    UtilityHelper.Log("Combo Attack EvadeEffect successful!");
+                    break;
+
+            }
+            battleUnitAttribute.skillComboActiveCheck();
+            return;
+        }
+
         //使用技能
         public void UseSkill(SO_BattleSkill battleSkill, BattleUnit targetBattleUnit = null, GridUnit targetGridUnit = null)
         {
@@ -282,6 +326,18 @@ namespace SLGame
             for (int i = 0; i < analysis.minorReceiver.Count; ++i)
                 skillResults.Add(BattleCalculator.Instance.CalcSingle(this, analysis.minorReceiver[i], battleSkill, false));
 
+            //连招combo统计
+            if (battleUnitAttribute.manualOperation)
+            {
+                UtilityHelper.Log("Check combo now");
+
+                //返回真表示连招成立，则调用连招效果
+                int comboID = battleUnitAttribute.comboJudge(battleSkill.skillID);
+                if (comboID != 0)
+                {
+                    ComboEffect(comboID);
+                }
+            }
 
             //产生使用技能的动作
             BattleUnitSkillAction skillAction = BattleUnitActionEvent.CreateEvent<BattleUnitSkillAction>(BattleUnitActionType.UseSkill, this);
