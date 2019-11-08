@@ -86,7 +86,7 @@ namespace SLGame
                 {
                     GridUnit gridUnitData = new GridUnit(this, r, c);
                     gridUnitData.localPosition = new Vector3(
-                        c * EGameConstL.Map_GridWidth + ((r & 1) == (EGameConstL.Map_FirstRowOffset ? 0 : 1) ? (EGameConstL.Map_GridWidth * 0.5f) : 0f),
+                        c * EGameConstL.Map_GridWidth,// + ((r & 1) == (EGameConstL.Map_FirstRowOffset ? 0 : 1) ? (EGameConstL.Map_GridWidth * 0.5f) : 0f),
                         -r * EGameConstL.Map_GridOffsetY,
                         0
                         );
@@ -150,16 +150,18 @@ namespace SLGame
             List<GridUnit> gridUnitList = new List<GridUnit>();
             GridUnit tempGridUnit = GetGridData(row, column - 1);
             if (tempGridUnit != null) gridUnitList.Add(tempGridUnit);
-            tempGridUnit = GetGridData(row + 1, ((row & 1) == (EGameConstL.Map_FirstRowOffset ? 1 : 0)) ? column - 1 : column);
+            //tempGridUnit = GetGridData(row + 1, ((row & 1) == (EGameConstL.Map_FirstRowOffset ? 1 : 0)) ? column - 1 : column);
+            tempGridUnit = GetGridData(row + 1, column);
             if (tempGridUnit != null) gridUnitList.Add(tempGridUnit);
-            tempGridUnit = GetGridData(row + 1, ((row & 1) == (EGameConstL.Map_FirstRowOffset ? 1 : 0)) ? column : column + 1);
-            if (tempGridUnit != null) gridUnitList.Add(tempGridUnit);
+            //tempGridUnit = GetGridData(row + 1, ((row & 1) == (EGameConstL.Map_FirstRowOffset ? 1 : 0)) ? column : column + 1);
+            //if (tempGridUnit != null) gridUnitList.Add(tempGridUnit);
             tempGridUnit = GetGridData(row, column + 1);
             if (tempGridUnit != null) gridUnitList.Add(tempGridUnit);
-            tempGridUnit = GetGridData(row - 1, ((row & 1) == (EGameConstL.Map_FirstRowOffset ? 1 : 0)) ? column : column + 1);
+            //tempGridUnit = GetGridData(row - 1, ((row & 1) == (EGameConstL.Map_FirstRowOffset ? 1 : 0)) ? column : column + 1);
+            tempGridUnit = GetGridData(row - 1, column);
             if (tempGridUnit != null) gridUnitList.Add(tempGridUnit);
-            tempGridUnit = GetGridData(row - 1, ((row & 1) == (EGameConstL.Map_FirstRowOffset ? 1 : 0)) ? column - 1 : column);
-            if (tempGridUnit != null) gridUnitList.Add(tempGridUnit);
+            //tempGridUnit = GetGridData(row - 1, ((row & 1) == (EGameConstL.Map_FirstRowOffset ? 1 : 0)) ? column - 1 : column);
+            //if (tempGridUnit != null) gridUnitList.Add(tempGridUnit);
             return gridUnitList;
         }
 
@@ -406,76 +408,100 @@ namespace SLGame
                 return;
             }
 
-            //按照行移动量来算
-            for (int i = 0; i <= outerRadius; ++i)
+            List<GridUnit> AccessibleGrids = new List<GridUnit>();
+            bool[,] flag = new bool[mapWidth, mapHeight];
+            flag[centerColumn, centerRow] = true;
+            Queue<GridUnit> checkList = new Queue<GridUnit>();
+            GridUnit currentUnit = mapGrids[centerColumn, centerRow];
+            checkList.Enqueue(currentUnit);
+            while (checkList.Count > 0)
             {
-                //计算每一行的范围
-                //行之间的差
-                int rowGap = i;
-                //移动行后所覆盖的最小、最大横坐标
-                int minColumn = 0;
-                int maxColumn = 0;
-
-                //奇数行开始时
-                if ((centerRow & 1) == (EGameConstL.Map_FirstRowOffset ? 0 : 1))
+                currentUnit = checkList.Dequeue();
+                grids.Add(currentUnit);
+                List<GridUnit> gridUnitList = GetNearbyGrid(currentUnit);
+                foreach (GridUnit gridUnit in gridUnitList)
                 {
-                    minColumn = Mathf.Max(centerColumn - (rowGap / 2), 0);
-                    maxColumn = centerColumn + ((rowGap + 1) / 2);
-                }
-                //偶数行开始时
-                else
-                {
-                    minColumn = Mathf.Max(centerColumn - ((rowGap + 1) / 2), 0);
-                    maxColumn = centerColumn + (rowGap / 2);
-                }
-
-                //列范围
-                minColumn = Mathf.Max(0, minColumn - (outerRadius - i));
-                maxColumn = Mathf.Min(mapWidth - 1, maxColumn + (outerRadius - i));
-                //装入所有
-                for (int c = minColumn; c <= maxColumn; ++c)
-                {
-                    if (i == 0)
+                    if (gridUnit.Distance(mapGrids[centerColumn, centerRow]) > outerRadius) continue;
+                    if (gridUnit.Distance(mapGrids[centerColumn, centerRow]) < innerRadius) continue;
+                    if (!flag[gridUnit.column, gridUnit.row])
                     {
-                        //设置了内圆半径
-                        if (innerRadius == 0
-                            || (innerRadius > 0 && mapGrids[c, centerRow].Distance(mapGrids[centerColumn, centerRow]) > innerRadius))
-                        {
-                            if (c != centerColumn || containsCenter)
-                            {
-                                if (filter == null || filter(mapGrids[c, centerRow]))
-                                    grids.Add(mapGrids[c, centerRow]);
-                            }
-                        }
-                    }
-                    else
-                    {
-                        int temp = centerRow - i;
-                        if (temp >= 0)
-                        {
-                            //设置了内圆半径
-                            if (innerRadius == 0
-                                || (innerRadius > 0 && mapGrids[c, temp].Distance(mapGrids[centerColumn, centerRow]) > innerRadius))
-                            {
-                                if (filter == null || filter(mapGrids[c, temp]))
-                                    grids.Add(mapGrids[c, temp]);
-                            }
-                        }
-
-                        temp = centerRow + i;
-                        if (temp < mapHeight)
-                        {
-                            //设置了内圆半径
-                            if (innerRadius == 0
-                                || (innerRadius > 0 && mapGrids[c, temp].Distance(mapGrids[centerColumn, centerRow]) > innerRadius))
-                            {
-                                if (filter == null || filter(mapGrids[c, temp]))
-                                    grids.Add(mapGrids[c, temp]);
-                            }
-                        }
+                        flag[gridUnit.column, gridUnit.row] = true;
+                        checkList.Enqueue(gridUnit);
                     }
                 }
             }
+            //按照行移动量来算
+            //for (int i = 0; i <= outerRadius; ++i)
+            //{
+            //    //计算每一行的范围
+            //    //行之间的差
+            //    int rowGap = i;
+            //    //移动行后所覆盖的最小、最大横坐标
+            //    int minColumn = 0;
+            //    int maxColumn = 0;
+
+            //    //奇数行开始时
+            //    if ((centerRow & 1) == (EGameConstL.Map_FirstRowOffset ? 0 : 1))
+            //    {
+            //        minColumn = Mathf.Max(centerColumn - (rowGap / 2), 0);
+            //        maxColumn = centerColumn + ((rowGap + 1) / 2);
+            //    }
+            //    //偶数行开始时
+            //    else
+            //    {
+            //        minColumn = Mathf.Max(centerColumn - ((rowGap + 1) / 2), 0);
+            //        maxColumn = centerColumn + (rowGap / 2);
+            //    }
+            //    minColumn = Mathf.Max(centerColumn - rowGap / 2, 0);
+            //    maxColumn = centerColumn + (rowGap / 2);
+
+            //    //列范围
+            //    minColumn = Mathf.Max(0, minColumn - (outerRadius - i));
+            //    maxColumn = Mathf.Min(mapWidth - 1, maxColumn + (outerRadius - i));
+            //    //装入所有
+            //    for (int c = minColumn; c <= maxColumn; ++c)
+            //    {
+            //        if (i == 0)
+            //        {
+            //            //设置了内圆半径
+            //            if (innerRadius == 0
+            //                || (innerRadius > 0 && mapGrids[c, centerRow].Distance(mapGrids[centerColumn, centerRow]) > innerRadius))
+            //            {
+            //                if (c != centerColumn || containsCenter)
+            //                {
+            //                    if (filter == null || filter(mapGrids[c, centerRow]))
+            //                        grids.Add(mapGrids[c, centerRow]);
+            //                }
+            //            }
+            //        }
+            //        else
+            //        {
+            //            int temp = centerRow - i;
+            //            if (temp >= 0)
+            //            {
+            //                //设置了内圆半径
+            //                if (innerRadius == 0
+            //                    || (innerRadius > 0 && mapGrids[c, temp].Distance(mapGrids[centerColumn, centerRow]) > innerRadius))
+            //                {
+            //                    if (filter == null || filter(mapGrids[c, temp]))
+            //                        grids.Add(mapGrids[c, temp]);
+            //                }
+            //            }
+
+            //            temp = centerRow + i;
+            //            if (temp < mapHeight)
+            //            {
+            //                //设置了内圆半径
+            //                if (innerRadius == 0
+            //                    || (innerRadius > 0 && mapGrids[c, temp].Distance(mapGrids[centerColumn, centerRow]) > innerRadius))
+            //                {
+            //                    if (filter == null || filter(mapGrids[c, temp]))
+            //                        grids.Add(mapGrids[c, temp]);
+            //                }
+            //            }
+            //        }
+            //    }
+            //}
         }
 
         //获取出生点 0:上方 1:下方

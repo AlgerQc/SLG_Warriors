@@ -199,30 +199,34 @@ namespace SLGame
         {
             //行之间的差
             int rowGap = Mathf.Abs(target.row - row);
+            int columnGap = Mathf.Abs(target.column - column);
+            return rowGap + columnGap;
             //移动行后所覆盖的最小、最大横坐标
-            int minColumn = 0;
-            int maxColumn = 0;
+            //int minColumn = 0;
+            //int maxColumn = 0;
 
-            //奇数行开始时
-            if ((row & 1) == (EGameConstL.Map_FirstRowOffset ? 0 : 1))
-            {
-                minColumn = Mathf.Max(column - (rowGap / 2), 0);
-                maxColumn = column + ((rowGap + 1) / 2);
-            }
-            //偶数行开始时
-            else
-            {
-                minColumn = Mathf.Max(column - ((rowGap + 1) / 2), 0);
-                maxColumn = column + (rowGap / 2);
-            }
-            //在移动范围之外，额外增加
-            if (target.column < minColumn)
-                return rowGap + minColumn - target.column;
-            else if (target.column > maxColumn)
-                return rowGap + target.column - maxColumn;
-            //在移动范围之内，因此行移动量就是两格子的距离
-            else
-                return rowGap;
+            ////奇数行开始时
+            //if ((row & 1) == (EGameConstL.Map_FirstRowOffset ? 0 : 1))
+            //{
+            //    minColumn = Mathf.Max(column - (rowGap / 2), 0);
+            //    maxColumn = column + ((rowGap + 1) / 2);
+            //}
+            ////偶数行开始时
+            //else
+            //{
+            //    minColumn = Mathf.Max(column - ((rowGap + 1) / 2), 0);
+            //    maxColumn = column + (rowGap / 2);
+            //}
+            //minColumn = Mathf.Max(column - rowGap / 2, 0);
+            //maxColumn = column + (rowGap / 2);
+            ////在移动范围之外，额外增加
+            //if (target.column < minColumn)
+            //    return rowGap + minColumn - target.column;
+            //else if (target.column > maxColumn)
+            //    return rowGap + target.column - maxColumn;
+            ////在移动范围之内，因此行移动量就是两格子的距离
+            //else
+            //    return rowGap;
         }
 
         public void OnEnter(BattleUnit battleUnit)
