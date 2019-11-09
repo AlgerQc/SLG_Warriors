@@ -101,6 +101,7 @@ namespace SLGame
         public const float MaxRageLevel = 100f;
 
         public const string EVENT_RESOURCE_MANAGER_READY = "EVENT_RESOURCE_MANAGER_READY";              //资源管理器准备完毕
+        public const string EVENT_LOBBY_CLICK_GAME_START = "EVENT_LOBBY_CLICK_GAME_START";              //大厅界面点击开始游戏
         public const string EVENT_BATTLE_FIELD_RENDERER_READY = "EVENT_BATTLE_FIELD_RENDERER_READY";    //事件：战场渲染器准备完毕
         public const string EVENT_MANUAL_OPERATION_COMPLETE = "EVENT_MANUAL_OPERATION_COMPLETE";        //手动操作完毕
         public const string EVENT_UPDATE_BATTLE_UNIT_PACKAGE = "EVENT_UPDATE_BATTLE_UNIT_PACKAGE";      //更新战斗单位的背包

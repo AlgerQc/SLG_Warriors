@@ -1929,3 +1929,14735 @@ go here to check combo
 
 ---------2019/11/6 23:46:32
 change queue order
+
+
+---------2019/11/9 11:30:57
+Main start.
+
+
+---------2019/11/9 11:30:57
+--> EventManager <-- inited.
+
+
+---------2019/11/9 11:30:57
+--> SceneManager <-- inited.
+
+
+---------2019/11/9 11:30:57
+--> ResourceManager <-- inited.
+
+
+---------2019/11/9 11:30:57
+Warm up all shaders.
+
+
+---------2019/11/9 11:30:57
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/9 11:30:57
+read skill xml successful
+
+
+---------2019/11/9 11:30:57
+read combo xml successful
+
+
+---------2019/11/9 11:30:57
+Prepare Battle
+
+
+---------2019/11/9 11:30:57
+--> UIViewManager <-- inited.
+
+
+---------2019/11/9 11:30:57
+--> BattleManager <-- inited.
+
+
+---------2019/11/9 11:30:57
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/9 11:30:57
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/9 11:30:57
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/9 11:30:57
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/9 11:30:57
+--> EffectManager <-- inited.
+
+
+---------2019/11/9 11:30:57
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/9 11:30:58
+BattleManager :::: Battle field creator inited.
+
+
+---------2019/11/9 11:30:58
+BattleManager :::: Battle map creator inited.
+
+
+---------2019/11/9 11:30:58
+BattleManager :::: Battle team creator inited.
+
+
+---------2019/11/9 11:30:58
+BattleManager :::: Battle unit data creator inited.
+
+
+---------2019/11/9 11:30:58
+BattleManager :::: Battle field 1 connect renderer.
+
+
+---------2019/11/9 11:37:56
+Main start.
+
+
+---------2019/11/9 11:37:56
+--> EventManager <-- inited.
+
+
+---------2019/11/9 11:37:56
+--> SceneManager <-- inited.
+
+
+---------2019/11/9 11:37:56
+--> ResourceManager <-- inited.
+
+
+---------2019/11/9 11:37:56
+Warm up all shaders.
+
+
+---------2019/11/9 11:37:56
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/9 11:37:56
+read skill xml successful
+
+
+---------2019/11/9 11:37:56
+read combo xml successful
+
+
+---------2019/11/9 11:37:56
+Prepare Battle
+
+
+---------2019/11/9 11:37:56
+--> UIViewManager <-- inited.
+
+
+---------2019/11/9 11:37:56
+--> BattleManager <-- inited.
+
+
+---------2019/11/9 11:37:56
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/9 11:37:56
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/9 11:37:56
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/9 11:37:56
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/9 11:37:56
+--> EffectManager <-- inited.
+
+
+---------2019/11/9 11:37:56
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/9 11:38:32
+BattleManager :::: Battle field creator inited.
+
+
+---------2019/11/9 11:38:32
+BattleManager :::: Battle map creator inited.
+
+
+---------2019/11/9 11:38:32
+BattleManager :::: Battle team creator inited.
+
+
+---------2019/11/9 11:38:32
+BattleManager :::: Battle unit data creator inited.
+
+
+---------2019/11/9 11:38:32
+BattleManager :::: Battle field 1 connect renderer.
+
+
+---------2019/11/9 11:38:32
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:43
+change queue order
+
+
+---------2019/11/9 11:38:45
+change queue order
+
+
+---------2019/11/9 11:38:45
+change queue order
+
+
+---------2019/11/9 11:38:45
+change queue order
+
+
+---------2019/11/9 11:38:45
+change queue order
+
+
+---------2019/11/9 11:38:45
+change queue order
+
+
+---------2019/11/9 11:38:45
+change queue order
+
+
+---------2019/11/9 11:38:45
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:48
+change queue order
+
+
+---------2019/11/9 11:38:49
+change queue order
+
+
+---------2019/11/9 11:38:49
+change queue order
+
+
+---------2019/11/9 11:38:49
+change queue order
+
+
+---------2019/11/9 11:38:49
+change queue order
+
+
+---------2019/11/9 11:38:49
+change queue order
+
+
+---------2019/11/9 11:38:49
+change queue order
+
+
+---------2019/11/9 11:38:49
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:50
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:51
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:52
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:53
+change queue order
+
+
+---------2019/11/9 11:38:54
+change queue order
+
+
+---------2019/11/9 11:38:54
+change queue order
+
+
+---------2019/11/9 11:38:54
+change queue order
+
+
+---------2019/11/9 11:38:54
+change queue order
+
+
+---------2019/11/9 11:38:54
+change queue order
+
+
+---------2019/11/9 11:38:54
+change queue order
+
+
+---------2019/11/9 11:38:54
+change queue order
+
+
+---------2019/11/9 11:38:54
+change queue order
+
+
+---------2019/11/9 11:38:54
+change queue order
+
+
+---------2019/11/9 11:38:54
+change queue order
+
+
+---------2019/11/9 11:38:54
+change queue order
+
+
+---------2019/11/9 11:38:54
+change queue order
+
+
+---------2019/11/9 11:38:54
+change queue order
+
+
+---------2019/11/9 11:38:54
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:55
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:56
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:57
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:58
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:38:59
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:00
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:01
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:02
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:03
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:04
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:05
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:06
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:07
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:08
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:09
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:39:10
+change queue order
+
+
+---------2019/11/9 11:40:00
+Main start.
+
+
+---------2019/11/9 11:40:00
+--> EventManager <-- inited.
+
+
+---------2019/11/9 11:40:00
+--> SceneManager <-- inited.
+
+
+---------2019/11/9 11:40:00
+--> ResourceManager <-- inited.
+
+
+---------2019/11/9 11:40:00
+Warm up all shaders.
+
+
+---------2019/11/9 11:40:00
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/9 11:40:09
+read skill xml successful
+
+
+---------2019/11/9 11:40:09
+read combo xml successful
+
+
+---------2019/11/9 11:41:06
+Prepare Battle
+
+
+---------2019/11/9 11:41:06
+--> UIViewManager <-- inited.
+
+
+---------2019/11/9 11:41:06
+--> BattleManager <-- inited.
+
+
+---------2019/11/9 11:41:06
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/9 11:41:06
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/9 11:41:06
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/9 11:41:06
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/9 11:41:06
+--> EffectManager <-- inited.
+
+
+---------2019/11/9 11:41:06
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/9 11:48:58
+Main start.
+
+
+---------2019/11/9 11:48:58
+--> EventManager <-- inited.
+
+
+---------2019/11/9 11:48:58
+--> SceneManager <-- inited.
+
+
+---------2019/11/9 11:48:58
+--> ResourceManager <-- inited.
+
+
+---------2019/11/9 11:48:58
+Warm up all shaders.
+
+
+---------2019/11/9 11:48:58
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/9 11:48:58
+read skill xml successful
+
+
+---------2019/11/9 11:48:58
+read combo xml successful
+
+
+---------2019/11/9 11:48:58
+Prepare Battle
+
+
+---------2019/11/9 11:48:58
+--> UIViewManager <-- inited.
+
+
+---------2019/11/9 11:48:58
+--> BattleManager <-- inited.
+
+
+---------2019/11/9 11:48:58
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/9 11:48:58
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/9 11:48:59
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/9 11:48:59
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/9 11:48:59
+--> EffectManager <-- inited.
+
+
+---------2019/11/9 11:48:59
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/9 11:49:01
+BattleManager :::: Battle field creator inited.
+
+
+---------2019/11/9 11:49:01
+BattleManager :::: Battle map creator inited.
+
+
+---------2019/11/9 11:49:01
+BattleManager :::: Battle team creator inited.
+
+
+---------2019/11/9 11:49:01
+BattleManager :::: Battle unit data creator inited.
+
+
+---------2019/11/9 11:49:01
+BattleManager :::: Battle field 1 connect renderer.
+
+
+---------2019/11/9 11:49:12
+Add asset bundle flag to build map
+
+
+---------2019/11/9 11:49:12
+we build bundle as folder mode
+
+
+---------2019/11/9 11:49:12
+we build bundle as Single mode
+
+
+---------2019/11/9 11:49:12
+we build bundle as SingleFolderAndTopFiles mode
+
+
+---------2019/11/9 11:49:12
+we build bundle as SingleFolderAndTopFiles mode
+
+
+---------2019/11/9 11:49:12
+we build bundle as SingleFolderAndTopFiles mode
+
+
+---------2019/11/9 11:49:27
+Main start.
+
+
+---------2019/11/9 11:49:27
+--> EventManager <-- inited.
+
+
+---------2019/11/9 11:49:27
+--> SceneManager <-- inited.
+
+
+---------2019/11/9 11:49:27
+--> ResourceManager <-- inited.
+
+
+---------2019/11/9 11:49:27
+Warm up all shaders.
+
+
+---------2019/11/9 11:49:27
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/9 11:49:27
+read skill xml successful
+
+
+---------2019/11/9 11:49:27
+read combo xml successful
+
+
+---------2019/11/9 11:49:27
+Prepare Battle
+
+
+---------2019/11/9 11:49:27
+--> UIViewManager <-- inited.
+
+
+---------2019/11/9 11:49:27
+--> BattleManager <-- inited.
+
+
+---------2019/11/9 11:49:27
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/9 11:49:27
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/9 11:49:27
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/9 11:49:27
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/9 11:49:27
+--> EffectManager <-- inited.
+
+
+---------2019/11/9 11:49:27
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/9 11:49:29
+BattleManager :::: Battle field creator inited.
+
+
+---------2019/11/9 11:49:29
+BattleManager :::: Battle map creator inited.
+
+
+---------2019/11/9 11:49:29
+BattleManager :::: Battle team creator inited.
+
+
+---------2019/11/9 11:49:29
+BattleManager :::: Battle unit data creator inited.
+
+
+---------2019/11/9 11:49:29
+BattleManager :::: Battle field 1 connect renderer.
+
+
+---------2019/11/9 11:50:20
+Main start.
+
+
+---------2019/11/9 11:50:20
+--> EventManager <-- inited.
+
+
+---------2019/11/9 11:50:20
+--> SceneManager <-- inited.
+
+
+---------2019/11/9 11:50:20
+--> ResourceManager <-- inited.
+
+
+---------2019/11/9 11:50:20
+Warm up all shaders.
+
+
+---------2019/11/9 11:50:20
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/9 11:50:20
+read skill xml successful
+
+
+---------2019/11/9 11:50:20
+read combo xml successful
+
+
+---------2019/11/9 11:51:29
+Main start.
+
+
+---------2019/11/9 11:51:29
+--> EventManager <-- inited.
+
+
+---------2019/11/9 11:51:29
+--> SceneManager <-- inited.
+
+
+---------2019/11/9 11:51:29
+--> ResourceManager <-- inited.
+
+
+---------2019/11/9 11:51:29
+Warm up all shaders.
+
+
+---------2019/11/9 11:51:29
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/9 11:51:29
+read skill xml successful
+
+
+---------2019/11/9 11:51:29
+read combo xml successful
+
+
+---------2019/11/9 12:04:28
+Main start.
+
+
+---------2019/11/9 12:04:28
+--> EventManager <-- inited.
+
+
+---------2019/11/9 12:04:28
+--> SceneManager <-- inited.
+
+
+---------2019/11/9 12:04:28
+--> ResourceManager <-- inited.
+
+
+---------2019/11/9 12:04:28
+Warm up all shaders.
+
+
+---------2019/11/9 12:04:28
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/9 12:04:29
+read skill xml successful
+
+
+---------2019/11/9 12:04:29
+read combo xml successful
+
+
+---------2019/11/9 12:05:15
+Main start.
+
+
+---------2019/11/9 12:05:15
+--> EventManager <-- inited.
+
+
+---------2019/11/9 12:05:15
+--> SceneManager <-- inited.
+
+
+---------2019/11/9 12:05:15
+--> ResourceManager <-- inited.
+
+
+---------2019/11/9 12:05:15
+Warm up all shaders.
+
+
+---------2019/11/9 12:05:15
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/9 12:05:15
+read skill xml successful
+
+
+---------2019/11/9 12:05:15
+read combo xml successful
+
+
+---------2019/11/9 12:07:42
+Main start.
+
+
+---------2019/11/9 12:07:42
+--> EventManager <-- inited.
+
+
+---------2019/11/9 12:07:42
+--> SceneManager <-- inited.
+
+
+---------2019/11/9 12:07:42
+--> ResourceManager <-- inited.
+
+
+---------2019/11/9 12:07:42
+Warm up all shaders.
+
+
+---------2019/11/9 12:07:42
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/9 12:07:42
+read skill xml successful
+
+
+---------2019/11/9 12:07:42
+read combo xml successful
+
+
+---------2019/11/9 12:22:20
+Main start.
+
+
+---------2019/11/9 12:22:20
+--> EventManager <-- inited.
+
+
+---------2019/11/9 12:22:20
+--> SceneManager <-- inited.
+
+
+---------2019/11/9 12:22:20
+--> ResourceManager <-- inited.
+
+
+---------2019/11/9 12:22:20
+Warm up all shaders.
+
+
+---------2019/11/9 12:22:20
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/9 12:22:20
+read skill xml successful
+
+
+---------2019/11/9 12:22:20
+read combo xml successful
+
+
+---------2019/11/9 12:25:00
+Main start.
+
+
+---------2019/11/9 12:25:00
+--> EventManager <-- inited.
+
+
+---------2019/11/9 12:25:00
+--> SceneManager <-- inited.
+
+
+---------2019/11/9 12:25:00
+--> ResourceManager <-- inited.
+
+
+---------2019/11/9 12:25:00
+Warm up all shaders.
+
+
+---------2019/11/9 12:25:00
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/9 12:25:00
+read skill xml successful
+
+
+---------2019/11/9 12:25:00
+read combo xml successful
+
+
+---------2019/11/9 12:25:00
+--> UIViewManager <-- inited.
+
+
+---------2019/11/9 12:26:03
+Main start.
+
+
+---------2019/11/9 12:26:03
+--> EventManager <-- inited.
+
+
+---------2019/11/9 12:26:03
+--> SceneManager <-- inited.
+
+
+---------2019/11/9 12:26:03
+--> ResourceManager <-- inited.
+
+
+---------2019/11/9 12:26:03
+Warm up all shaders.
+
+
+---------2019/11/9 12:26:03
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/9 12:26:03
+read skill xml successful
+
+
+---------2019/11/9 12:26:03
+read combo xml successful
+
+
+---------2019/11/9 12:30:03
+Main start.
+
+
+---------2019/11/9 12:30:03
+--> EventManager <-- inited.
+
+
+---------2019/11/9 12:30:03
+--> SceneManager <-- inited.
+
+
+---------2019/11/9 12:30:03
+--> ResourceManager <-- inited.
+
+
+---------2019/11/9 12:30:03
+Warm up all shaders.
+
+
+---------2019/11/9 12:30:03
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/9 12:30:03
+read skill xml successful
+
+
+---------2019/11/9 12:30:03
+read combo xml successful
+
+
+---------2019/11/9 12:31:50
+Main start.
+
+
+---------2019/11/9 12:31:50
+--> EventManager <-- inited.
+
+
+---------2019/11/9 12:31:50
+--> SceneManager <-- inited.
+
+
+---------2019/11/9 12:31:50
+--> ResourceManager <-- inited.
+
+
+---------2019/11/9 12:31:50
+Warm up all shaders.
+
+
+---------2019/11/9 12:31:50
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/9 12:31:50
+read skill xml successful
+
+
+---------2019/11/9 12:31:50
+read combo xml successful
+
+
+---------2019/11/9 12:33:49
+Main start.
+
+
+---------2019/11/9 12:33:49
+--> EventManager <-- inited.
+
+
+---------2019/11/9 12:33:49
+--> SceneManager <-- inited.
+
+
+---------2019/11/9 12:33:49
+--> ResourceManager <-- inited.
+
+
+---------2019/11/9 12:33:49
+Warm up all shaders.
+
+
+---------2019/11/9 12:33:49
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/9 12:33:50
+read skill xml successful
+
+
+---------2019/11/9 12:33:50
+read combo xml successful
+
+
+---------2019/11/9 12:34:41
+Main start.
+
+
+---------2019/11/9 12:34:41
+--> EventManager <-- inited.
+
+
+---------2019/11/9 12:34:41
+--> SceneManager <-- inited.
+
+
+---------2019/11/9 12:34:41
+--> ResourceManager <-- inited.
+
+
+---------2019/11/9 12:34:41
+Warm up all shaders.
+
+
+---------2019/11/9 12:34:41
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/9 12:34:41
+read skill xml successful
+
+
+---------2019/11/9 12:34:41
+read combo xml successful
+
+
+---------2019/11/9 12:35:45
+Main start.
+
+
+---------2019/11/9 12:35:45
+--> EventManager <-- inited.
+
+
+---------2019/11/9 12:35:45
+--> SceneManager <-- inited.
+
+
+---------2019/11/9 12:35:45
+--> ResourceManager <-- inited.
+
+
+---------2019/11/9 12:35:45
+Warm up all shaders.
+
+
+---------2019/11/9 12:35:45
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/9 12:35:45
+read skill xml successful
+
+
+---------2019/11/9 12:35:45
+read combo xml successful
+
+
+---------2019/11/9 12:36:50
+Add asset bundle flag to build map
+
+
+---------2019/11/9 12:36:50
+we build bundle as folder mode
+
+
+---------2019/11/9 12:36:50
+we build bundle as Single mode
+
+
+---------2019/11/9 12:36:50
+we build bundle as SingleFolderAndTopFiles mode
+
+
+---------2019/11/9 12:36:50
+we build bundle as SingleFolderAndTopFiles mode
+
+
+---------2019/11/9 12:36:50
+we build bundle as SingleFolderAndTopFiles mode
+
+
+---------2019/11/9 12:37:04
+Main start.
+
+
+---------2019/11/9 12:37:04
+--> EventManager <-- inited.
+
+
+---------2019/11/9 12:37:04
+--> SceneManager <-- inited.
+
+
+---------2019/11/9 12:37:04
+--> ResourceManager <-- inited.
+
+
+---------2019/11/9 12:37:04
+Warm up all shaders.
+
+
+---------2019/11/9 12:37:04
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/9 12:37:04
+read skill xml successful
+
+
+---------2019/11/9 12:37:04
+read combo xml successful
+
+
+---------2019/11/9 12:37:04
+go into lobby awake
+
+
+---------2019/11/9 12:37:31
+Main start.
+
+
+---------2019/11/9 12:37:31
+--> EventManager <-- inited.
+
+
+---------2019/11/9 12:37:31
+--> SceneManager <-- inited.
+
+
+---------2019/11/9 12:37:31
+--> ResourceManager <-- inited.
+
+
+---------2019/11/9 12:37:31
+Warm up all shaders.
+
+
+---------2019/11/9 12:37:31
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/9 12:37:31
+read skill xml successful
+
+
+---------2019/11/9 12:37:31
+read combo xml successful
+
+
+---------2019/11/9 12:37:31
+go into lobby awake
+
+
+---------2019/11/9 12:37:32
+Prepare Battle
+
+
+---------2019/11/9 12:37:32
+--> UIViewManager <-- inited.
+
+
+---------2019/11/9 12:37:32
+--> BattleManager <-- inited.
+
+
+---------2019/11/9 12:37:32
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/9 12:37:32
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/9 12:37:32
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/9 12:37:32
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/9 12:37:32
+--> EffectManager <-- inited.
+
+
+---------2019/11/9 12:37:32
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/9 12:37:35
+BattleManager :::: Battle field creator inited.
+
+
+---------2019/11/9 12:37:35
+BattleManager :::: Battle map creator inited.
+
+
+---------2019/11/9 12:37:35
+BattleManager :::: Battle team creator inited.
+
+
+---------2019/11/9 12:37:35
+BattleManager :::: Battle unit data creator inited.
+
+
+---------2019/11/9 12:37:35
+BattleManager :::: Battle field 1 connect renderer.
+
+
+---------2019/11/9 12:40:49
+Main start.
+
+
+---------2019/11/9 12:40:49
+--> EventManager <-- inited.
+
+
+---------2019/11/9 12:40:49
+--> SceneManager <-- inited.
+
+
+---------2019/11/9 12:40:49
+--> ResourceManager <-- inited.
+
+
+---------2019/11/9 12:40:49
+Warm up all shaders.
+
+
+---------2019/11/9 12:40:49
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/9 12:40:50
+read skill xml successful
+
+
+---------2019/11/9 12:40:50
+read combo xml successful
+
+
+---------2019/11/9 12:40:50
+go into lobby awake
+
+
+---------2019/11/9 12:40:53
+Prepare Battle
+
+
+---------2019/11/9 12:40:53
+--> UIViewManager <-- inited.
+
+
+---------2019/11/9 12:40:53
+--> BattleManager <-- inited.
+
+
+---------2019/11/9 12:40:53
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/9 12:40:53
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/9 12:40:53
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/9 12:40:53
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/9 12:40:53
+--> EffectManager <-- inited.
+
+
+---------2019/11/9 12:40:53
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/9 12:40:57
+BattleManager :::: Battle field creator inited.
+
+
+---------2019/11/9 12:40:57
+BattleManager :::: Battle map creator inited.
+
+
+---------2019/11/9 12:40:57
+BattleManager :::: Battle team creator inited.
+
+
+---------2019/11/9 12:40:57
+BattleManager :::: Battle unit data creator inited.
+
+
+---------2019/11/9 12:40:57
+BattleManager :::: Battle field 1 connect renderer.
+
+
+---------2019/11/9 12:41:01
+点中了UI ->EventSystem

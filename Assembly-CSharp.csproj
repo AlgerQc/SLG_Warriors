@@ -147,6 +147,7 @@
     <Compile Include="Assets\HalfSLG\Scripts\Manager\EventManager\EventManager.cs" />
     <Compile Include="Assets\HalfSLG\Scripts\Manager\EventManager\IGameEvent.cs" />
     <Compile Include="Assets\HalfSLG\Scripts\Manager\EventManager\NormalMessage.cs" />
+    <Compile Include="Assets\HalfSLG\Scripts\Manager\lobbyScene.cs" />
     <Compile Include="Assets\HalfSLG\Scripts\Manager\PackageItemManager.cs" />
     <Compile Include="Assets\HalfSLG\Scripts\Manager\ResourceManager\AssetBundleFlag\AssetBundleFlag.cs" />
     <Compile Include="Assets\HalfSLG\Scripts\Manager\ResourceManager\Config\ResourceConfig.cs" />

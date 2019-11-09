@@ -17,8 +17,8 @@ namespace SLGame
             SceneManager.Instance.InitManager();
 
             //注册事件
-            EventManager.Instance.Register(EGameConstL.EVENT_RESOURCE_MANAGER_READY, this.gameObject.RequestorSTR(), StartGame, 1);
-
+            EventManager.Instance.Register(EGameConstL.EVENT_RESOURCE_MANAGER_READY, this.gameObject.RequestorSTR(), GetIntoLobby, 1);
+            EventManager.Instance.Register(EGameConstL.EVENT_LOBBY_CLICK_GAME_START, this.gameObject.RequestorSTR(), StartGame, 1);
             //资源
             ResourceManager.Instance.InitManager();
 
@@ -72,6 +72,12 @@ namespace SLGame
         {
             PrepareViewManager();
             SceneManager.Instance.LoadSceneAsync("scenebattle", SceneLoading, SceneLoaded);
+        }
+
+        private void GetIntoLobby(IGameEvent e)
+        {
+            PrepareViewManager();
+            SceneManager.Instance.LoadSceneAsync("scenelobby", SceneLoading, SceneLoaded);
         }
 
         private void Start()
