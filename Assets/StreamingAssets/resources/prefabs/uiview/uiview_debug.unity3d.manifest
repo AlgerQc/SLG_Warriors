@@ -3,7 +3,7 @@ CRC: 780384347
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d7f7353ae2057a4e022171904a92164e
+    Hash: c89e1dba7bcf1c5cc91ca0a4194eb06e
   TypeTreeHash:
     serializedVersion: 2
     Hash: 77f6ec5e53fba1be115ab6d607e4962a
@@ -30,5 +30,5 @@ ClassTypes:
 Assets:
 - Assets/HalfSLG/Resources/Prefabs/UIView/UIView_Debug.prefab
 Dependencies:
-- E:/games/SLG_Warriors/Assets/StreamingAssets/font.unity3d
-- E:/games/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/uiview.unity3d
+- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/font.unity3d"
+- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/uiview.unity3d"

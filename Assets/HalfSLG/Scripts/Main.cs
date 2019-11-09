@@ -70,7 +70,7 @@ namespace SLGame
 
         private void StartGame(IGameEvent e)
         {
-            PrepareViewManager();
+            //PrepareViewManager();
             SceneManager.Instance.LoadSceneAsync("scenebattle", SceneLoading, SceneLoaded);
         }
 

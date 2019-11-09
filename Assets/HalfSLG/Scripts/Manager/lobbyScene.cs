@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 namespace SLGame
 {
-    public class lobbyScene : MonoBehaviour
+    public class lobbyScene : MonoBehaviourSingleton<lobbyScene>
     {
         [SerializeField] private Button startBtn;
 
-        public void Awake()
+        public void Start()
         {
             UtilityHelper.Log("go into lobby awake");
             InitUIObjects();
