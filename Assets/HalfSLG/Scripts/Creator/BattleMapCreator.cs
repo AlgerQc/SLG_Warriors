@@ -23,8 +23,9 @@ namespace SLGame
             int obstacleCount, int obstacleGap, 
             int buffCount, int itemCount)
         {
-            BattleMap battleMap = Create();
-            battleMap.Init(width, height, obstacleCount, obstacleGap, buffCount, itemCount);
+            //BattleMap battleMap = Create();
+            //battleMap.Init(width, height, obstacleCount, obstacleGap, buffCount, itemCount);
+            BattleMap battleMap = ReadMapConfig.ReadBattleMapFromXML("Config/BattleMap2");
             return battleMap;
         }
     }

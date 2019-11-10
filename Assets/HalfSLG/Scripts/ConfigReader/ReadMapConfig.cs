@@ -51,7 +51,7 @@ namespace SLGame
             {
                 int posX = 0, posY = 0;
                 GridAttribute gridAttribute = new GridAttribute();
-                foreach (XmlElement xmlElement in mapMsgList)
+                foreach (XmlElement xmlElement in gridUnitInfo.ChildNodes)
                 {
                     switch (xmlElement.Name)
                     {
@@ -84,10 +84,25 @@ namespace SLGame
                             break;
                     }
                 }
-                GridUnit gridUnit = battleMap.mapGrids[posX, posY];
-                gridUnit.column = posX;
-                gridUnit.row = posY;
+                GridUnit gridUnit = battleMap.mapGrids[posX - 1, posY - 1];
+                if (gridUnit == null)
+                {
+                    gridUnit = new GridUnit(battleMap, posY - 1, posX - 1);
+                    battleMap.mapGrids[posX - 1, posY - 1] = gridUnit;
+                }
+                gridUnit.column = posX - 1;
+                gridUnit.row = posY - 1;
                 gridUnit.m_GridAttribute = gridAttribute;
+                gridUnit.localPosition = new Vector3(posX * EGameConstL.Map_GridWidth, -posY * EGameConstL.Map_GridOffsetY, 0);
+
+                if (gridUnit.m_GridAttribute.m_GridType == GridType.Normal)
+                {
+                    battleMap.normalGrids.Add(gridUnit);
+                }
+                else if (gridUnit.m_GridAttribute.m_GridType == GridType.Obstacle)
+                {
+                    battleMap.obstacleGrids.Add(gridUnit);
+                }
             }
 
             return battleMap;

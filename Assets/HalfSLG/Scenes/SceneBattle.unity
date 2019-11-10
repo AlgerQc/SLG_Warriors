@@ -611,6 +611,7 @@ GameObject:
   - component: {fileID: 732892935546534858}
   - component: {fileID: 8128871721501237441}
   - component: {fileID: 5738110446581901768}
+  - component: {fileID: 8574906025236232014}
   m_Layer: 0
   m_Name: BattleCamera
   m_TagString: BattleCamera
@@ -618,6 +619,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8574906025236232014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8574906025236232013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cf918e00f4bfc04d81952a3b09fc9ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MoveSpeed: 1
 --- !u!1 &8813012042422111329
 GameObject:
   m_ObjectHideFlags: 0

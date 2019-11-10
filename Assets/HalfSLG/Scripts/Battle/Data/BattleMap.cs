@@ -26,11 +26,11 @@ namespace SLGame
         //地图格子信息
         public GridUnit[,] mapGrids;
         //出生格子
-        List<GridUnit> bornGrids = new List<GridUnit>();
+        public List<GridUnit> bornGrids = new List<GridUnit>();
         //普通格子
-        List<GridUnit> normalGrids = new List<GridUnit>();
+        public List<GridUnit> normalGrids = new List<GridUnit>();
         //障碍格子
-        List<GridUnit> obstacleGrids = new List<GridUnit>();
+        public List<GridUnit> obstacleGrids = new List<GridUnit>();
 
         //格子总数量
         public int GridCount
