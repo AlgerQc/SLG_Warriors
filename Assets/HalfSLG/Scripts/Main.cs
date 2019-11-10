@@ -19,6 +19,7 @@ namespace SLGame
             //注册事件
             EventManager.Instance.Register(EGameConstL.EVENT_RESOURCE_MANAGER_READY, this.gameObject.RequestorSTR(), GetIntoLobby, 1);
             EventManager.Instance.Register(EGameConstL.EVENT_LOBBY_CLICK_GAME_START, this.gameObject.RequestorSTR(), StartGame, 1);
+
             //资源
             ResourceManager.Instance.InitManager();
 

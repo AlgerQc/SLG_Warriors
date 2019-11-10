@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 2291021856
+CRC: 141626065
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -75,29 +75,32 @@ AssetBundleManifest:
         Dependency_2: scriptableobjects/battleteam.unity3d
         Dependency_3: scriptableobjects/packageitem.unity3d
     Info_14:
-      Name: scenes/scenestart.unity3d
+      Name: scenes/scenelobby.unity3d
       Dependencies: {}
     Info_15:
-      Name: scriptableobjects/battleskill.unity3d
+      Name: scenes/scenestart.unity3d
       Dependencies: {}
     Info_16:
+      Name: scriptableobjects/battleskill.unity3d
+      Dependencies: {}
+    Info_17:
       Name: scriptableobjects/battleteam.unity3d
       Dependencies:
         Dependency_0: scriptableobjects/battleskill.unity3d
         Dependency_1: scriptableobjects/bbsystem.unity3d
-    Info_17:
+    Info_18:
       Name: scriptableobjects/bbsystem.unity3d
       Dependencies: {}
-    Info_18:
+    Info_19:
       Name: scriptableobjects/packageitem.unity3d
       Dependencies:
         Dependency_0: textures/common_0.unity3d
-    Info_19:
+    Info_20:
       Name: scriptableobjects/uiview.unity3d
       Dependencies: {}
-    Info_20:
+    Info_21:
       Name: textures/common_0.unity3d
       Dependencies: {}
-    Info_21:
+    Info_22:
       Name: textures/common_1.unity3d
       Dependencies: {}

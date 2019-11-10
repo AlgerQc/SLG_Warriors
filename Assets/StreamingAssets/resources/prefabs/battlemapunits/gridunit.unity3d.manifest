@@ -3,7 +3,7 @@ CRC: 112286928
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 49a3b3bcab47702a7e49bc722d14c802
+    Hash: 050e7c74cfd8d304ff1ca1915dbdf1cd
   TypeTreeHash:
     serializedVersion: 2
     Hash: 1e5dbd41d935b5b7b07c19b4161d6120
@@ -42,5 +42,5 @@ ClassTypes:
 Assets:
 - Assets/HalfSLG/Resources/Prefabs/BattleMapUnits/GridUnit.prefab
 Dependencies:
-- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/font.unity3d"
-- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/textures/common_0.unity3d"
+- E:/games/SLG_Warriors/Assets/StreamingAssets/font.unity3d
+- E:/games/SLG_Warriors/Assets/StreamingAssets/textures/common_0.unity3d
