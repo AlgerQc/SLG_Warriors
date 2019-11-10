@@ -3,7 +3,7 @@ CRC: 1385011332
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 84346a703721b4b872977a9016331970
+    Hash: 07646df799877c2dbc1f1619668e2e3b
   TypeTreeHash:
     serializedVersion: 2
     Hash: 79df70aa57b298dd8d66bcfd3bb3d781
@@ -28,4 +28,4 @@ ClassTypes:
 Assets:
 - Assets/HalfSLG/Resources/Prefabs/Effect/Effect_HexFrame.prefab
 Dependencies:
-- E:/games/SLG_Warriors/Assets/StreamingAssets/textures/common_0.unity3d
+- G:/U3D_Project/SLG_Warriors/Assets/StreamingAssets/textures/common_0.unity3d

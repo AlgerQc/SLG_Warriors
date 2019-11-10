@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2340416757
+CRC: 2293361472
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 98594d5b94df43fc4034e143b55d49bf
+    Hash: f6466d30306f8db6004545af52e3a7c2
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 3f96a1ee946e85e64359fa60c7774dce
+    Hash: a5be12e36bc2e909da09201debf4a552
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -37,6 +37,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: 7151d3b0c3c7fda45920b7c932488fa6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4cf918e00f4bfc04d81952a3b09fc9ed, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: e5d2fd212275b924092cd7beae1d7a77, type: 3}
 - Class: 114
@@ -84,7 +86,7 @@ ClassTypes:
 Assets:
 - Assets/HalfSLG/Scenes/SceneBattle.unity
 Dependencies:
-- E:/games/SLG_Warriors/Assets/StreamingAssets/resources/prefabs/effect/effect_damagelabel.unity3d
-- E:/games/SLG_Warriors/Assets/StreamingAssets/resources/prefabs/effect/effect_hexframe.unity3d
-- E:/games/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/battleteam.unity3d
-- E:/games/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/packageitem.unity3d
+- G:/U3D_Project/SLG_Warriors/Assets/StreamingAssets/resources/prefabs/effect/effect_damagelabel.unity3d
+- G:/U3D_Project/SLG_Warriors/Assets/StreamingAssets/resources/prefabs/effect/effect_hexframe.unity3d
+- G:/U3D_Project/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/battleteam.unity3d
+- G:/U3D_Project/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/packageitem.unity3d

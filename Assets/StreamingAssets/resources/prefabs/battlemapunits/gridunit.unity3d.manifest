@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 112286928
+CRC: 661252357
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 050e7c74cfd8d304ff1ca1915dbdf1cd
+    Hash: ef3c79001b334ca43b98b84ce37d6c52
   TypeTreeHash:
     serializedVersion: 2
     Hash: 1e5dbd41d935b5b7b07c19b4161d6120
@@ -42,5 +42,4 @@ ClassTypes:
 Assets:
 - Assets/HalfSLG/Resources/Prefabs/BattleMapUnits/GridUnit.prefab
 Dependencies:
-- E:/games/SLG_Warriors/Assets/StreamingAssets/font.unity3d
-- E:/games/SLG_Warriors/Assets/StreamingAssets/textures/common_0.unity3d
+- G:/U3D_Project/SLG_Warriors/Assets/StreamingAssets/font.unity3d

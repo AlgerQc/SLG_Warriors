@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 141626065
+CRC: 708875327
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -15,7 +15,6 @@ AssetBundleManifest:
       Name: resources/prefabs/battlemapunits/gridunit.unity3d
       Dependencies:
         Dependency_0: font.unity3d
-        Dependency_1: textures/common_0.unity3d
     Info_3:
       Name: resources/prefabs/effect/effect_damagelabel.unity3d
       Dependencies:

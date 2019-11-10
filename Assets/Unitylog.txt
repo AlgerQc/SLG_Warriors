@@ -18728,3 +18728,412 @@ BattleManager :::: Battle unit data creator inited.
 
 ---------2019/11/9 23:42:47
 BattleManager :::: Battle field 1 connect renderer.
+
+
+---------2019/11/10 18:19:46
+Main start.
+
+
+---------2019/11/10 18:19:46
+--> EventManager <-- inited.
+
+
+---------2019/11/10 18:19:46
+--> SceneManager <-- inited.
+
+
+---------2019/11/10 18:19:46
+--> ResourceManager <-- inited.
+
+
+---------2019/11/10 18:19:46
+Warm up all shaders.
+
+
+---------2019/11/10 18:19:46
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/10 18:19:46
+read skill xml successful
+
+
+---------2019/11/10 18:19:46
+read combo xml successful
+
+
+---------2019/11/10 18:19:47
+go into lobby awake
+
+
+---------2019/11/10 18:19:52
+Prepare Battle
+
+
+---------2019/11/10 18:19:52
+--> UIViewManager <-- inited.
+
+
+---------2019/11/10 18:19:52
+--> BattleManager <-- inited.
+
+
+---------2019/11/10 18:19:52
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/10 18:19:52
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/10 18:19:52
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/10 18:19:52
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/10 18:19:52
+--> EffectManager <-- inited.
+
+
+---------2019/11/10 18:19:52
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/10 18:19:53
+BattleManager :::: Battle field creator inited.
+
+
+---------2019/11/10 18:19:53
+BattleManager :::: Battle map creator inited.
+
+
+---------2019/11/10 18:19:53
+BattleManager :::: Battle team creator inited.
+
+
+---------2019/11/10 18:19:53
+BattleManager :::: Battle unit data creator inited.
+
+
+---------2019/11/10 18:19:53
+BattleManager :::: Battle field 1 connect renderer.
+
+
+---------2019/11/10 18:21:27
+Add asset bundle flag to build map
+
+
+---------2019/11/10 18:21:27
+we build bundle as folder mode
+
+
+---------2019/11/10 18:21:27
+we build bundle as Single mode
+
+
+---------2019/11/10 18:21:27
+we build bundle as SingleFolderAndTopFiles mode
+
+
+---------2019/11/10 18:21:27
+we build bundle as SingleFolderAndTopFiles mode
+
+
+---------2019/11/10 18:21:27
+we build bundle as SingleFolderAndTopFiles mode
+
+
+---------2019/11/10 18:22:02
+Main start.
+
+
+---------2019/11/10 18:22:02
+--> EventManager <-- inited.
+
+
+---------2019/11/10 18:22:02
+--> SceneManager <-- inited.
+
+
+---------2019/11/10 18:22:02
+--> ResourceManager <-- inited.
+
+
+---------2019/11/10 18:22:02
+Warm up all shaders.
+
+
+---------2019/11/10 18:22:02
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/10 18:22:02
+read skill xml successful
+
+
+---------2019/11/10 18:22:02
+read combo xml successful
+
+
+---------2019/11/10 18:22:02
+go into lobby awake
+
+
+---------2019/11/10 18:22:05
+Prepare Battle
+
+
+---------2019/11/10 18:22:05
+--> UIViewManager <-- inited.
+
+
+---------2019/11/10 18:22:05
+--> BattleManager <-- inited.
+
+
+---------2019/11/10 18:22:05
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/10 18:22:05
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/10 18:22:05
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/10 18:22:05
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/10 18:22:05
+--> EffectManager <-- inited.
+
+
+---------2019/11/10 18:22:05
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/10 18:22:06
+BattleManager :::: Battle field creator inited.
+
+
+---------2019/11/10 18:22:06
+BattleManager :::: Battle map creator inited.
+
+
+---------2019/11/10 18:22:06
+BattleManager :::: Battle team creator inited.
+
+
+---------2019/11/10 18:22:06
+BattleManager :::: Battle unit data creator inited.
+
+
+---------2019/11/10 18:22:06
+BattleManager :::: Battle field 1 connect renderer.
+
+
+---------2019/11/10 18:22:35
+Main start.
+
+
+---------2019/11/10 18:22:35
+--> EventManager <-- inited.
+
+
+---------2019/11/10 18:22:35
+--> SceneManager <-- inited.
+
+
+---------2019/11/10 18:22:35
+--> ResourceManager <-- inited.
+
+
+---------2019/11/10 18:22:35
+Warm up all shaders.
+
+
+---------2019/11/10 18:22:35
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/10 18:22:36
+read skill xml successful
+
+
+---------2019/11/10 18:22:36
+read combo xml successful
+
+
+---------2019/11/10 18:22:36
+go into lobby awake
+
+
+---------2019/11/10 18:22:37
+Prepare Battle
+
+
+---------2019/11/10 18:22:37
+--> UIViewManager <-- inited.
+
+
+---------2019/11/10 18:22:37
+--> BattleManager <-- inited.
+
+
+---------2019/11/10 18:22:37
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/10 18:22:37
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/10 18:22:37
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/10 18:22:37
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/10 18:22:37
+--> EffectManager <-- inited.
+
+
+---------2019/11/10 18:22:37
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/10 18:22:39
+BattleManager :::: Battle field creator inited.
+
+
+---------2019/11/10 18:22:39
+BattleManager :::: Battle map creator inited.
+
+
+---------2019/11/10 18:22:39
+BattleManager :::: Battle team creator inited.
+
+
+---------2019/11/10 18:22:39
+BattleManager :::: Battle unit data creator inited.
+
+
+---------2019/11/10 18:22:39
+BattleManager :::: Battle field 1 connect renderer.
+
+
+---------2019/11/10 18:22:43
+点中了UI ->EventSystem
+
+
+---------2019/11/10 18:22:46
+点中了UI ->EventSystem
+
+
+---------2019/11/10 18:22:47
+点中了UI ->EventSystem
+
+
+---------2019/11/10 18:22:48
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 94.16666
+
+
+
+---------2019/11/10 18:22:48
+Decision:
+Target:Hero
+Skill:攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/10 18:22:48
+Check combo now
+
+
+---------2019/11/10 18:22:48
+Combo error, start from first skill again
+
+
+---------2019/11/10 18:22:48
+change queue order
+
+
+---------2019/11/10 18:22:48
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 94.16666
+
+
+
+---------2019/11/10 18:22:48
+Decision:
+Target:Hero
+Skill:攻击
+STargetUnit:Hero
+SGridUnit:None
+
+
+
+---------2019/11/10 18:22:51
+change queue order
+
+
+---------2019/11/10 18:22:51
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 65
+
+
+
+---------2019/11/10 18:22:52
+change queue order
+
+
+---------2019/11/10 18:22:52
+Action battle unit:mDps
+Target = Hero,type = Damage, point = 30
+
+
+
+---------2019/11/10 18:22:53
+change queue order
+
+
+---------2019/11/10 18:22:53
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 65
+
+
+
+---------2019/11/10 18:22:54
+change queue order
+
+
+---------2019/11/10 18:22:54
+Action battle unit:Tank
+Target = Hero,type = Damage, point = 15
+Target = Hero,type = Provoke, point = 11.25
+
+
+
+---------2019/11/10 18:22:55
+change queue order
+
+
+---------2019/11/10 18:22:55
+Action battle unit:pDps
+Target = Hero,type = Damage, point = 41.66667
+
+
+
+---------2019/11/10 18:22:56
+change queue order

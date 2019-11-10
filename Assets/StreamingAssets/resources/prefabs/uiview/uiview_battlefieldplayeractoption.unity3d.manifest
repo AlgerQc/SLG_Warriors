@@ -3,7 +3,7 @@ CRC: 3440284606
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 04bb095162cb74ed2806358b2b0feb44
+    Hash: 15ef9650916db18199fa074cf9be4125
   TypeTreeHash:
     serializedVersion: 2
     Hash: 35b17a7698f4b42c523b7f68e3a7a699
@@ -44,6 +44,6 @@ ClassTypes:
 Assets:
 - Assets/HalfSLG/Resources/Prefabs/UIView/UIView_BattleFieldPlayerActOption.prefab
 Dependencies:
-- E:/games/SLG_Warriors/Assets/StreamingAssets/font.unity3d
-- E:/games/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/uiview.unity3d
-- E:/games/SLG_Warriors/Assets/StreamingAssets/textures/common_1.unity3d
+- G:/U3D_Project/SLG_Warriors/Assets/StreamingAssets/font.unity3d
+- G:/U3D_Project/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/uiview.unity3d
+- G:/U3D_Project/SLG_Warriors/Assets/StreamingAssets/textures/common_1.unity3d
