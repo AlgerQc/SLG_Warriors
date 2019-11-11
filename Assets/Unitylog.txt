@@ -19137,3 +19137,187 @@ Target = Hero,type = Damage, point = 41.66667
 
 ---------2019/11/10 18:22:56
 change queue order
+
+
+---------2019/11/11 20:51:41
+Main start.
+
+
+---------2019/11/11 20:51:41
+--> EventManager <-- inited.
+
+
+---------2019/11/11 20:51:41
+--> SceneManager <-- inited.
+
+
+---------2019/11/11 20:51:41
+--> ResourceManager <-- inited.
+
+
+---------2019/11/11 20:51:41
+Warm up all shaders.
+
+
+---------2019/11/11 20:51:41
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/11 20:51:41
+read skill xml successful
+
+
+---------2019/11/11 20:51:41
+read combo xml successful
+
+
+---------2019/11/11 20:51:42
+go into lobby awake
+
+
+---------2019/11/11 20:51:45
+Prepare Battle
+
+
+---------2019/11/11 20:51:45
+--> UIViewManager <-- inited.
+
+
+---------2019/11/11 20:51:45
+--> BattleManager <-- inited.
+
+
+---------2019/11/11 20:51:45
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/11 20:51:45
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/11 20:51:45
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/11 20:51:45
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/11 20:51:45
+--> EffectManager <-- inited.
+
+
+---------2019/11/11 20:51:45
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/11 20:51:48
+BattleManager :::: Battle field creator inited.
+
+
+---------2019/11/11 20:51:48
+BattleManager :::: Battle map creator inited.
+
+
+---------2019/11/11 20:51:48
+BattleManager :::: Battle team creator inited.
+
+
+---------2019/11/11 20:51:48
+BattleManager :::: Battle unit data creator inited.
+
+
+---------2019/11/11 20:51:48
+BattleManager :::: Battle field 1 connect renderer.
+
+
+---------2019/11/11 20:53:09
+Main start.
+
+
+---------2019/11/11 20:53:09
+--> EventManager <-- inited.
+
+
+---------2019/11/11 20:53:09
+--> SceneManager <-- inited.
+
+
+---------2019/11/11 20:53:09
+--> ResourceManager <-- inited.
+
+
+---------2019/11/11 20:53:09
+Warm up all shaders.
+
+
+---------2019/11/11 20:53:09
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/11 20:53:09
+read skill xml successful
+
+
+---------2019/11/11 20:53:09
+read combo xml successful
+
+
+---------2019/11/11 20:53:09
+go into lobby awake
+
+
+---------2019/11/11 20:53:10
+Prepare Battle
+
+
+---------2019/11/11 20:53:10
+--> UIViewManager <-- inited.
+
+
+---------2019/11/11 20:53:10
+--> BattleManager <-- inited.
+
+
+---------2019/11/11 20:53:10
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/11 20:53:10
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/11 20:53:10
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/11 20:53:10
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/11 20:53:10
+--> EffectManager <-- inited.
+
+
+---------2019/11/11 20:53:10
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/11 20:53:11
+BattleManager :::: Battle field creator inited.
+
+
+---------2019/11/11 20:53:11
+BattleManager :::: Battle map creator inited.
+
+
+---------2019/11/11 20:53:11
+BattleManager :::: Battle team creator inited.
+
+
+---------2019/11/11 20:53:11
+BattleManager :::: Battle unit data creator inited.
+
+
+---------2019/11/11 20:53:11
+BattleManager :::: Battle field 1 connect renderer.
