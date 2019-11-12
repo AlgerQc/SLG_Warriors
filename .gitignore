@@ -1,3 +1,6 @@
 Temp
 Library
 Assets/Unitylog.txt
+.vs
+*.csproj
+obj

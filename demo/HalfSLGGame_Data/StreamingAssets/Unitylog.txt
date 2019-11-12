@@ -1,0 +1,212 @@
+
+
+---------2019/11/9 23:43:41
+Main start.
+
+
+---------2019/11/9 23:43:41
+--> EventManager <-- inited.
+
+
+---------2019/11/9 23:43:41
+--> SceneManager <-- inited.
+
+
+---------2019/11/9 23:43:41
+--> ResourceManager <-- inited.
+
+
+---------2019/11/9 23:43:41
+Warm up all shaders.
+
+
+---------2019/11/9 23:43:41
+======>>  Bundle relationship compelted！！  <<==========
+
+
+---------2019/11/9 23:43:42
+read skill xml successful
+
+
+---------2019/11/9 23:43:42
+read combo xml successful
+
+
+---------2019/11/9 23:43:42
+go into lobby awake
+
+
+---------2019/11/9 23:43:47
+Prepare Battle
+
+
+---------2019/11/9 23:43:47
+--> UIViewManager <-- inited.
+
+
+---------2019/11/9 23:43:47
+--> BattleManager <-- inited.
+
+
+---------2019/11/9 23:43:47
+BattleManager :::: Battle calculator inited.
+
+
+---------2019/11/9 23:43:47
+BattleManager :::: Map navigator inited.
+
+
+---------2019/11/9 23:43:47
+BattleManager :::: Battle field renderer inited.
+
+
+---------2019/11/9 23:43:47
+--> BattleSkillManager <-- inited.
+
+
+---------2019/11/9 23:43:47
+--> EffectManager <-- inited.
+
+
+---------2019/11/9 23:43:47
+--> PackageItemManager <-- inited.
+
+
+---------2019/11/9 23:43:48
+BattleManager :::: Battle field creator inited.
+
+
+---------2019/11/9 23:43:48
+BattleManager :::: Battle map creator inited.
+
+
+---------2019/11/9 23:43:48
+BattleManager :::: Battle team creator inited.
+
+
+---------2019/11/9 23:43:48
+BattleManager :::: Battle unit data creator inited.
+
+
+---------2019/11/9 23:43:48
+BattleManager :::: Battle field 1 connect renderer.
+
+
+---------2019/11/9 23:43:50
+点中了UI ->EventSystem
+
+
+---------2019/11/9 23:43:52
+点中了UI ->EventSystem
+
+
+---------2019/11/9 23:43:53
+点中了UI ->EventSystem
+
+
+---------2019/11/9 23:43:54
+Check combo now
+
+
+---------2019/11/9 23:43:54
+We are in combo stage 1
+
+
+---------2019/11/9 23:43:54
+Wait for 2 more skills to fill combo
+
+
+---------2019/11/9 23:43:54
+change queue order
+
+
+---------2019/11/9 23:43:57
+change queue order
+
+
+---------2019/11/9 23:43:58
+change queue order
+
+
+---------2019/11/9 23:44:00
+change queue order
+
+
+---------2019/11/9 23:44:01
+change queue order
+
+
+---------2019/11/9 23:44:03
+change queue order
+
+
+---------2019/11/9 23:44:05
+change queue order
+
+
+---------2019/11/9 23:44:07
+点中了UI ->EventSystem
+
+
+---------2019/11/9 23:44:07
+choose to use BP now
+
+
+---------2019/11/9 23:44:07
+left BP = 1, using BP = 1
+
+
+---------2019/11/9 23:44:08
+点中了UI ->EventSystem
+
+
+---------2019/11/9 23:44:09
+点中了UI ->EventSystem
+
+
+---------2019/11/9 23:44:09
+Check combo now
+
+
+---------2019/11/9 23:44:09
+Combo error, start from first skill again
+
+
+---------2019/11/9 23:44:09
+We are in BP stage, continue to fight
+
+
+---------2019/11/9 23:44:13
+点中了UI ->EventSystem
+
+
+---------2019/11/9 23:44:13
+点中了UI ->EventSystem
+
+
+---------2019/11/9 23:44:14
+Check combo now
+
+
+---------2019/11/9 23:44:14
+Combo error, start from first skill again
+
+
+---------2019/11/9 23:44:14
+change queue order
+
+
+---------2019/11/9 23:44:16
+change queue order
+
+
+---------2019/11/9 23:44:18
+当前为等待中...
+
+
+---------2019/11/9 23:44:21
+点中了UI ->EventSystem
+
+
+---------2019/11/9 23:44:21
+change queue order

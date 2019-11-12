@@ -33,7 +33,7 @@ namespace SLGame
             //动态获取，保证顺序
             if (skillBtns == null || skillBtns.Count == 0)
             {
-                UtilityHelper.LogError("Init BattleFieldPlayerActOption failed.Not found skill btn item.");
+                UtilityHelper.LogError("Init UIViewSkillChoose failed. Not found skill btn item.");
                 return;
             }
             //绑定技能按钮回调
@@ -50,7 +50,7 @@ namespace SLGame
 
             if (battleUnit == null)
             {
-                UtilityHelper.LogError("Show view error: UIViewBattleFieldPlayerActOption");
+                UtilityHelper.LogError("Show view error: UIViewSkillChoose");
                 Close();
                 return;
             }

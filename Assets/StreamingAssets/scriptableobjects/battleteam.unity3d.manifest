@@ -30,5 +30,5 @@ Assets:
 - Assets/HalfSLG/ScriptableObjects/BattleTeam/Spt.asset
 - Assets/HalfSLG/ScriptableObjects/BattleTeam/Tank_Damage.asset
 Dependencies:
-- G:/U3D_Project/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/battleskill.unity3d
-- G:/U3D_Project/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/bbsystem.unity3d
+- E:/games/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/battleskill.unity3d
+- E:/games/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/bbsystem.unity3d

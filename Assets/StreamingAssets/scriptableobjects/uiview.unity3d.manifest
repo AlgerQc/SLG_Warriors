@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 535530432
+CRC: 3691783305
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 636e07ab13e0f9dd1cd1e359151f7903
+    Hash: 4fab5f864a488ba552f10107b3b13782
   TypeTreeHash:
     serializedVersion: 2
     Hash: 451374a33398bc329ccc48661c09f642
@@ -15,6 +15,7 @@ ClassTypes:
   Script: {instanceID: 0}
 Assets:
 - Assets/HalfSLG/ScriptableObjects/UIView/UIView_BattleFieldPlayerActOption.asset
+- Assets/HalfSLG/ScriptableObjects/UIView/UIView_SkillChoose.asset
 - Assets/HalfSLG/ScriptableObjects/UIView/UIView_Main.asset
 - Assets/HalfSLG/ScriptableObjects/UIView/UIView_Debug.asset
 - Assets/HalfSLG/ScriptableObjects/UIView/UIView_BattleFieldUnitInfo.asset

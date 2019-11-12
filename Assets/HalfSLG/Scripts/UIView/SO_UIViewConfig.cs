@@ -46,6 +46,7 @@ using UnityEditor;
 
         Debug,
         Main,                       //主界面
+        BattlePlayerSkillChoose,    //玩家技能选择
         BattleFieldPlayerActOption, //玩家操作选择栏
         BattleFieldUnitInfo,        //显示战斗单位信息
     }

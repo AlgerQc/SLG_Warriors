@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: UIView_BattleFieldPlayerActOption
   m_EditorClassIdentifier: 
   unique: 1
-  viewName: 3
+  viewName: 4
   viewLayer: 3
   cacheScheme: 2
   assetName: UIView_BattleFieldPlayerActOption

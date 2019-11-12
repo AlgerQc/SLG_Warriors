@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: UIView_BattleFieldUnitInfo
   m_EditorClassIdentifier: 
   unique: 1
-  viewName: 4
+  viewName: 5
   viewLayer: 3
   cacheScheme: 2
   assetName: UIView_BattleFieldUnitInfo
