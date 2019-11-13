@@ -16,12 +16,12 @@ namespace SLGame
         [SerializeField] private RectTransform rtSkillLayout;    //技能按钮组
         [SerializeField] private List<Button> skillBtns;
 
-        private BattleUnit battleUnit;
+        private List<BattleUnit> heros;
 
         protected override void UpdateArguments(params object[] args)
         {
             if (args.Length >= 0)
-                battleUnit = args[0] as BattleUnit;
+                heros = args[0] as List<BattleUnit>;
         }
 
         protected override void InitUIObjects()
@@ -48,7 +48,7 @@ namespace SLGame
         {
             base.OnShow();
 
-            if (battleUnit == null)
+            if (heros == null)
             {
                 UtilityHelper.LogError("Show view error: UIViewSkillChoose");
                 Close();
@@ -56,7 +56,7 @@ namespace SLGame
             }
 
             //设置位置
-            var anchoredPosition = UIViewManager.Instance.ConvertWorldPositionToRootCanvasPosition(battleUnit.mapGrid.localPosition);
+            var anchoredPosition = UIViewManager.Instance.ConvertWorldPositionToRootCanvasPosition(heros[0].mapGrid.localPosition);
             var relativePos = UIViewManager.Instance.GetRelativePosition(anchoredPosition);
             rtSkillLayout.ResetPivot(relativePos, 0f, 0f);
             rtSkillLayout.anchoredPosition = anchoredPosition;
@@ -73,7 +73,7 @@ namespace SLGame
         public override void OnExit()
         {
             base.OnExit();
-            battleUnit = null;
+            heros = null;
         }
 
         //点击了按钮组的触发器
@@ -90,16 +90,16 @@ namespace SLGame
             int skillIdx = -1;
             if (int.TryParse(btnName.Replace(EGameConstL.STR_SkillBtn, string.Empty), out skillIdx))
             {
-                SO_BattleSkill skill = battleUnit.battleUnitAttribute.battleSkills[skillIdx];
+                SO_BattleSkill skill = heros[0].battleUnitAttribute.battleSkills[skillIdx];
                 if (skill != null)
                 {
-                    if (battleUnit.battleUnitAttribute.energy >= skill.energyCost && BattleFieldRenderer.Instance != null)
+                    if (heros[0].battleUnitAttribute.energy >= skill.energyCost && BattleFieldRenderer.Instance != null)
                     {
-                        BattleFieldRenderer.Instance.BattleUnitUseSkill(battleUnit, skill);
+                        BattleFieldRenderer.Instance.BattleUnitUseSkill(heros[0], skill);
                     }
                     else
                     {
-                        UtilityHelper.LogWarning(string.Format("能量不足:{0}/{1}", battleUnit.battleUnitAttribute.energy, skill.energyCost));
+                        UtilityHelper.LogWarning(string.Format("能量不足:{0}/{1}", heros[0].battleUnitAttribute.energy, skill.energyCost));
                     }
                 }
                 else
@@ -137,7 +137,7 @@ namespace SLGame
             //设置按钮状态
             for (i = 0; i < skillBtns.Count; ++i)
             {
-                skillBtns[i].gameObject.SetActive(i < battleUnit.battleUnitAttribute.battleSkills.Length);
+                skillBtns[i].gameObject.SetActive(i < heros[0].battleUnitAttribute.battleSkills.Length);
             }
         }
 

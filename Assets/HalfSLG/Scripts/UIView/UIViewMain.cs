@@ -46,7 +46,6 @@ namespace SLGame
             btnAutoStart.gameObject.SetActive(false);
             btnManualStart.gameObject.SetActive(false);
             btnReset.gameObject.SetActive(true);
-            UIViewManager.Instance.ShowView(UIViewName.BattlePlayerSkillChoose);
         }
 
         private void ClickReset()
