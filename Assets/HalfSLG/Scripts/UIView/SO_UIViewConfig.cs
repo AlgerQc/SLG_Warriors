@@ -43,7 +43,6 @@ using UnityEditor;
     public enum UIViewName
     {
         None,
-
         Debug,
         Main,                       //主界面
         BattlePlayerSkillChoose,    //玩家技能选择

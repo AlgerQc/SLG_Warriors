@@ -54,13 +54,15 @@ namespace SLGame
                 Close();
                 return;
             }
+
             //设置位置
             var anchoredPosition = UIViewManager.Instance.ConvertWorldPositionToRootCanvasPosition(battleUnit.mapGrid.localPosition);
             var relativePos = UIViewManager.Instance.GetRelativePosition(anchoredPosition);
             rtSkillLayout.ResetPivot(relativePos, 0f, 0f);
             rtSkillLayout.anchoredPosition = anchoredPosition;
-            //初始时隐藏技能节点
-            HideSkillNode();
+
+            //显示技能列表
+            ShowSkillPanel();
         }
 
         public override void OnHide()
@@ -114,29 +116,26 @@ namespace SLGame
         {
             rtSkillLayout.gameObject.SetActive(true);
 
-            //获取技能
-            for (int i = 0; i < battleUnit.battleUnitAttribute.battleSkills.Length; ++i)
+            //从ConfigReader中获取技能列表
+            int i = 0;
+            foreach (KeyValuePair<uint, SkillConfigInfo> skill in ConfigReader.skillInfoDic)
             {
-                if (i >= skillBtns.Count && skillBtns.Count > 0)
-                {
-                    //创建新按钮
-                    Button btn = Instantiate<Button>(skillBtns[0], rtSkillLayout);
-                    //设置新的按钮
-                    btn.name = string.Format("{0}{1}", EGameConstL.STR_SkillBtn, i);
-                    btn.onClick.AddListener(OnClickedSkillItem);
-                    skillBtns.Add(btn);
-                }
+                //创建新按钮
+                Button btn = Instantiate<Button>(skillBtns[0], rtSkillLayout);
+                //设置新的按钮
+                btn.name = string.Format("{0}{1}", EGameConstL.STR_SkillBtn, skill.Key);
+                btn.onClick.AddListener(OnClickedSkillItem);
+                skillBtns.Add(btn);
+
                 //设置技能名字
                 var label = skillBtns[i].transform.Find("Label").GetComponent<TextMeshProUGUI>();
-                int battleUnitEnergy = battleUnit.battleUnitAttribute.energy;
-                int energyCost = battleUnit.battleUnitAttribute.battleSkills[i].energyCost;
-                label.text = string.Format("{0}({1}/{2})", battleUnit.battleUnitAttribute.battleSkills[i].skillName, battleUnitEnergy, energyCost);
-                //判断能量是否足够
-                label.color = battleUnitEnergy >= energyCost ? EGameConstL.Color_labelWhite : EGameConstL.Color_labelRed;
+                label.text = string.Format("{0}", skill.Value.name);
+                label.color = EGameConstL.Color_labelWhite;
+                i++;
             }
 
             //设置按钮状态
-            for (int i = 0; i < skillBtns.Count; ++i)
+            for (i = 0; i < skillBtns.Count; ++i)
             {
                 skillBtns[i].gameObject.SetActive(i < battleUnit.battleUnitAttribute.battleSkills.Length);
             }
