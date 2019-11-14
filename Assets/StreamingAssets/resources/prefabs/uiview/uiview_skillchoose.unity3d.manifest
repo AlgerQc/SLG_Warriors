@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 897693766
+CRC: 3091109228
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a127f18891897a182d7928897d4d7537
+    Hash: 07c3f4ecabb38c570f55a0eed5b0e1b5
   TypeTreeHash:
     serializedVersion: 2
     Hash: a327965e98f1965ea44121bd52fd01e0
@@ -40,6 +40,6 @@ ClassTypes:
 Assets:
 - Assets/HalfSLG/Resources/Prefabs/UIView/UIView_SkillChoose.prefab
 Dependencies:
-- E:/games/SLG_Warriors/Assets/StreamingAssets/font.unity3d
-- E:/games/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/uiview.unity3d
-- E:/games/SLG_Warriors/Assets/StreamingAssets/textures/common_1.unity3d
+- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/font.unity3d"
+- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/uiview.unity3d"
+- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/textures/common_1.unity3d"

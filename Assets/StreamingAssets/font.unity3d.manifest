@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3841514006
+CRC: 2809205214
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c784ec64cdbf96d5b44c6a63518ecfc7
+    Hash: e028c621d309a13089feac6d20cf4ff1
   TypeTreeHash:
     serializedVersion: 2
     Hash: d0b2f0e67a49883fd83625973d09fe14
@@ -21,4 +21,5 @@ ClassTypes:
   Script: {instanceID: 0}
 Assets:
 - Assets/HalfSLG/Font/TMP/fontSLG.asset
+- Assets/HalfSLG/Font/chinese.asset
 Dependencies: []

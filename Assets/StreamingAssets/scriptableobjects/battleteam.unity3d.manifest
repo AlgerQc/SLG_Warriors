@@ -3,7 +3,7 @@ CRC: 1420900101
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 339beac2816f1063793ad9212d86031e
+    Hash: 63451082f59b4289c85008a63e2af740
   TypeTreeHash:
     serializedVersion: 2
     Hash: 956ce88c3a025a4b2e5a0df5cc2bdce3
@@ -30,5 +30,5 @@ Assets:
 - Assets/HalfSLG/ScriptableObjects/BattleTeam/Spt.asset
 - Assets/HalfSLG/ScriptableObjects/BattleTeam/Tank_Damage.asset
 Dependencies:
-- E:/games/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/battleskill.unity3d
-- E:/games/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/bbsystem.unity3d
+- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/battleskill.unity3d"
+- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/bbsystem.unity3d"
