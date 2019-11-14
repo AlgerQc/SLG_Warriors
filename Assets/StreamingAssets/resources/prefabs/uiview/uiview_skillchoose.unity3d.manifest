@@ -1,17 +1,21 @@
 ManifestFileVersion: 0
-CRC: 3091109228
+CRC: 2553546297
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 07c3f4ecabb38c570f55a0eed5b0e1b5
+    Hash: fa225ddd219b07778657241ca0adcc08
   TypeTreeHash:
     serializedVersion: 2
-    Hash: a327965e98f1965ea44121bd52fd01e0
+    Hash: 3cc4122d38afe215707ddd0808f258fb
 HashAppended: 0
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
 - Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
   Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -19,6 +23,8 @@ ClassTypes:
   Script: {fileID: 1741964061, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 - Class: 114
   Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 - Class: 114
   Script: {fileID: 1297475563, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 - Class: 114
@@ -31,6 +37,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
 - Class: 115
   Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
 - Class: 222
@@ -40,6 +48,6 @@ ClassTypes:
 Assets:
 - Assets/HalfSLG/Resources/Prefabs/UIView/UIView_SkillChoose.prefab
 Dependencies:
-- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/font.unity3d"
-- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/uiview.unity3d"
-- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/textures/common_1.unity3d"
+- E:/games/SLG_Warriors/Assets/StreamingAssets/font.unity3d
+- E:/games/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/uiview.unity3d
+- E:/games/SLG_Warriors/Assets/StreamingAssets/textures/common_1.unity3d

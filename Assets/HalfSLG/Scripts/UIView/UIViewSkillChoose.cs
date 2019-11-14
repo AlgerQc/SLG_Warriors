@@ -15,8 +15,12 @@ namespace SLGame
         [Header("Skill"), Space]
         [SerializeField] private RectTransform rtSkillLayout;    //技能按钮组
         [SerializeField] private List<Button> skillBtns;
+        [SerializeField] private RectTransform chooseLayout;     //选中技能按钮组
+        [SerializeField] private List<Button> skillChosenBtns;
+        [SerializeField] private Button AckBtn;
 
-        private List<BattleUnit> heros;
+        private List<BattleUnit> heros;         //操纵的英雄
+        private Dictionary<uint, SkillConfigInfo> chosedSkill = new Dictionary<uint, SkillConfigInfo>();    //选中的技能组
 
         protected override void UpdateArguments(params object[] args)
         {
@@ -30,18 +34,22 @@ namespace SLGame
 
             //获取技能按钮
             rtSkillLayout.GetComponentsInChildren<Button>(true, skillBtns);
+
             //动态获取，保证顺序
             if (skillBtns == null || skillBtns.Count == 0)
             {
                 UtilityHelper.LogError("Init UIViewSkillChoose failed. Not found skill btn item.");
                 return;
             }
+
             //绑定技能按钮回调
             for (int i = 0; i < skillBtns.Count; ++i)
             {
                 skillBtns[i].name = string.Format("{0}{1}", EGameConstL.STR_SkillBtn, i);
                 skillBtns[i].onClick.AddListener(OnClickedSkillItem);
             }
+
+            AckBtn.gameObject.SetActive(true);
         }
 
         public override void OnShow()
@@ -56,10 +64,12 @@ namespace SLGame
             }
 
             //设置位置
+            /*
             var anchoredPosition = UIViewManager.Instance.ConvertWorldPositionToRootCanvasPosition(heros[0].mapGrid.localPosition);
             var relativePos = UIViewManager.Instance.GetRelativePosition(anchoredPosition);
             rtSkillLayout.ResetPivot(relativePos, 0f, 0f);
             rtSkillLayout.anchoredPosition = anchoredPosition;
+            */
 
             //显示技能列表
             ShowSkillPanel();
@@ -90,20 +100,16 @@ namespace SLGame
             int skillIdx = -1;
             if (int.TryParse(btnName.Replace(EGameConstL.STR_SkillBtn, string.Empty), out skillIdx))
             {
-                SO_BattleSkill skill = heros[0].battleUnitAttribute.battleSkills[skillIdx];
-                if (skill != null)
+                SkillConfigInfo skill = ConfigReader.skillInfoDic[(uint)skillIdx];
+                if (chosedSkill.ContainsKey(skill.id))
                 {
-                    if (heros[0].battleUnitAttribute.energy >= skill.energyCost && BattleFieldRenderer.Instance != null)
-                    {
-                        BattleFieldRenderer.Instance.BattleUnitUseSkill(heros[0], skill);
-                    }
-                    else
-                    {
-                        UtilityHelper.LogWarning(string.Format("能量不足:{0}/{1}", heros[0].battleUnitAttribute.energy, skill.energyCost));
-                    }
+                    UtilityHelper.Log("Already choose that skill");
                 }
                 else
-                    UtilityHelper.LogError("Skill item error ->" + btnName);
+                {
+                    chosedSkill.Add(skill.id, skill);
+                    //ShowChosedSkillPanle();
+                }
             }
             else
             {
@@ -138,6 +144,36 @@ namespace SLGame
             for (i = 0; i < skillBtns.Count; ++i)
             {
                 skillBtns[i].gameObject.SetActive(i < heros[0].battleUnitAttribute.battleSkills.Length);
+            }
+        }
+
+        //显示选中的技能节点
+        private void ShowChosedSkillPanle()
+        {
+            chooseLayout.gameObject.SetActive(true);
+
+            //从ConfigReader中获取技能列表
+            int i = 0;
+            foreach (KeyValuePair<uint, SkillConfigInfo> skill in chosedSkill)
+            {
+                //创建新按钮
+                Button btn = Instantiate<Button>(skillChosenBtns[0], chooseLayout);
+                //设置新的按钮
+                btn.name = string.Format("{0}{1}", EGameConstL.STR_SkillBtn, skill.Key);
+                btn.onClick.AddListener(OnClickedSkillItem);
+                skillChosenBtns.Add(btn);
+
+                //设置技能名字
+                var label = skillChosenBtns[i].transform.Find("Label").GetComponent<TextMeshProUGUI>();
+                label.text = string.Format("{0}", skill.Value.name);
+                label.color = EGameConstL.Color_labelWhite;
+                i++;
+            }
+
+            //设置按钮状态
+            for (i = 0; i < skillChosenBtns.Count; ++i)
+            {
+                skillChosenBtns[i].gameObject.SetActive(i < heros[0].battleUnitAttribute.battleSkills.Length);
             }
         }
 
