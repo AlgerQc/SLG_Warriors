@@ -78,6 +78,7 @@ namespace SLGame
         public const string STR_Grid = "Grid";
         public const string STR_BattleUnit = "BattleUnit";
         public const string STR_SkillBtn = "SkillBtn_";
+        public const string STR_ChosedSkillBtn = "ChosedSkillBtn_";
         public const string STR_ItemBtn = "ItemBtn_";
 
         public static readonly int SortingLayer_Battle_Map = SortingLayer.NameToID("Battle_Map");

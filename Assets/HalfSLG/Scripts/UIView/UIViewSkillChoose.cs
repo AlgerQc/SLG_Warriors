@@ -14,6 +14,7 @@ namespace SLGame
         //控制显示位置
         [Header("Skill"), Space]
         [SerializeField] private RectTransform rtSkillLayout;    //技能按钮组
+        [SerializeField] private RectTransform skillContent;     //滚动窗口
         [SerializeField] private List<Button> skillBtns;
         [SerializeField] private RectTransform chooseLayout;     //选中技能按钮组
         [SerializeField] private List<Button> skillChosenBtns;
@@ -31,7 +32,7 @@ namespace SLGame
         protected override void InitUIObjects()
         {
             base.InitUIObjects();
-
+            
             //获取技能按钮
             rtSkillLayout.GetComponentsInChildren<Button>(true, skillBtns);
 
@@ -48,7 +49,7 @@ namespace SLGame
                 skillBtns[i].name = string.Format("{0}{1}", EGameConstL.STR_SkillBtn, i);
                 skillBtns[i].onClick.AddListener(OnClickedSkillItem);
             }
-
+            
             AckBtn.gameObject.SetActive(true);
         }
 
@@ -92,7 +93,7 @@ namespace SLGame
             HideSkillNode();
         }
 
-        //点击了技能按钮
+        //点击了技能按钮，则选中该技能
         private void OnClickedSkillItem()
         {
             //获取当前点击对象
@@ -108,13 +109,19 @@ namespace SLGame
                 else
                 {
                     chosedSkill.Add(skill.id, skill);
-                    //ShowChosedSkillPanle();
+                    ShowChosedSkillPanle();
                 }
             }
             else
             {
                 UtilityHelper.LogError("Skill item name error ->" + btnName);
             }
+        }
+
+        //点击了已选择的按钮，则取消选择
+        private void onClickChosedSkillItem()
+        {
+
         }
 
         //显示技能节点
@@ -127,7 +134,8 @@ namespace SLGame
             foreach (KeyValuePair<uint, SkillConfigInfo> skill in ConfigReader.skillInfoDic)
             {
                 //创建新按钮
-                Button btn = Instantiate<Button>(skillBtns[0], rtSkillLayout);
+                Button btn = Instantiate<Button>(skillBtns[0], skillContent);
+
                 //设置新的按钮
                 btn.name = string.Format("{0}{1}", EGameConstL.STR_SkillBtn, skill.Key);
                 btn.onClick.AddListener(OnClickedSkillItem);
@@ -158,9 +166,10 @@ namespace SLGame
             {
                 //创建新按钮
                 Button btn = Instantiate<Button>(skillChosenBtns[0], chooseLayout);
+
                 //设置新的按钮
-                btn.name = string.Format("{0}{1}", EGameConstL.STR_SkillBtn, skill.Key);
-                btn.onClick.AddListener(OnClickedSkillItem);
+                btn.name = string.Format("{0}{1}", EGameConstL.STR_ChosedSkillBtn, skill.Key);
+                btn.onClick.AddListener(onClickChosedSkillItem);
                 skillChosenBtns.Add(btn);
 
                 //设置技能名字
@@ -173,7 +182,7 @@ namespace SLGame
             //设置按钮状态
             for (i = 0; i < skillChosenBtns.Count; ++i)
             {
-                skillChosenBtns[i].gameObject.SetActive(i < heros[0].battleUnitAttribute.battleSkills.Length);
+                skillChosenBtns[i].gameObject.SetActive(i < chosedSkill.Count);
             }
         }
 
