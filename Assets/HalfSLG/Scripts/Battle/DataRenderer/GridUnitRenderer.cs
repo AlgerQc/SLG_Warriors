@@ -131,7 +131,7 @@ namespace SLGame
                 switch (gridUnit.GridType)
                 {
                     case GridType.Normal:
-                        tileRenderer.color = Color.white;
+                        tileRenderer.color = new Color(1f, 1f, 1f, 0.10f);
                         break;
 
                     case GridType.Obstacle:
@@ -143,7 +143,7 @@ namespace SLGame
                     //    break;
 
                     default:
-                        tileRenderer.color = Color.white;
+                        tileRenderer.color = new Color(1f, 1f, 1f, 0.10f);
                         break;
                 }
                 return;
@@ -266,6 +266,7 @@ namespace SLGame
         {
             if (gridUnit != null)
             {
+                /*
                 gridInfo.text = string.Format("{0}    {1}\n\n\n{2}  ({3:00},{4:00})  {5}\n\n{6}    {7}",
                     (gridUnit.runtimePasses & 32) == 0 ? 0 : 1,
                     (gridUnit.runtimePasses & 16) == 0 ? 0 : 1,
@@ -274,6 +275,9 @@ namespace SLGame
                     (gridUnit.runtimePasses & 8) == 0 ? 0 : 1,
                     (gridUnit.runtimePasses & 2) == 0 ? 0 : 1,
                     (gridUnit.runtimePasses & 4) == 0 ? 0 : 1);
+                    */
+
+                gridInfo.text = string.Format("\n\n\n({0:00},{1:00})", gridUnit.row, gridUnit.column);
             }
         }
 

@@ -158,9 +158,11 @@ namespace SLGame
             //到此生成了战斗入场数据
             battleState = BattleState.Ready;
 
+            /* 极简demo中暂时不加入该部分功能
             //对英雄（teamA）进行技能选择
             List<BattleUnit> heros = new List<BattleUnit>(teams[0].battleUnits);
             UIViewManager.Instance.ShowView(UIViewName.BattlePlayerSkillChoose, heros);
+            */
 
             //连接了渲染器，则播放入场动作
             if (battleFieldRenderer != null)
