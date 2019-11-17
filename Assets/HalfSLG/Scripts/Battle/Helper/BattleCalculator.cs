@@ -70,7 +70,7 @@ namespace SLGame
             switch (battleSkill.damageType)
             {
                 case BattleSkillDamageType.Physical:
-                case BattleSkillDamageType.Magic:
+                case BattleSkillDamageType.Move:
                     result.syncAttribute.hpChanged = -(Mathf.Max(0, releaser.battleUnitAttribute.Atk - target.battleUnitAttribute.Def + battleSkill.mainValue));
                     //能量不变
                     result.syncAttribute.energyChanged = 0;
