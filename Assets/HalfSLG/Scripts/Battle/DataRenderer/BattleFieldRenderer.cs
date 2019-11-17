@@ -14,6 +14,7 @@ using UnityEngine.EventSystems;
 namespace SLGame
 {
     using Resource;
+    using UnityEngine.Events;
 
     public class BattleFieldRenderer
         : MonoBehaviourSingleton<BattleFieldRenderer>,
