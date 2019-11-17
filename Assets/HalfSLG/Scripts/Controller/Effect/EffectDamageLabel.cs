@@ -24,7 +24,7 @@ namespace SLGame
                 case BattleSkillDamageType.Physical:
                     animator.SetTrigger(EGameConstL.HashACKey_NormalDamage);
                     break;
-                case BattleSkillDamageType.Magic:
+                case BattleSkillDamageType.Move:
                     animator.SetTrigger(EGameConstL.HashACKey_NormalMagicDamage);
                     break;
                 case BattleSkillDamageType.Heal:

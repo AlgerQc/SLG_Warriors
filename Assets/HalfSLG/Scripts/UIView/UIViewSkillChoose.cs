@@ -50,7 +50,7 @@ namespace SLGame
                 skillBtns[i].onClick.AddListener(OnClickedSkillItem);
             }
             
-            AckBtn.gameObject.SetActive(true);
+
         }
 
         public override void OnShow()
@@ -74,6 +74,7 @@ namespace SLGame
 
             //显示技能列表
             ShowSkillPanel();
+            AckBtn.gameObject.SetActive(true);
         }
 
         public override void OnHide()

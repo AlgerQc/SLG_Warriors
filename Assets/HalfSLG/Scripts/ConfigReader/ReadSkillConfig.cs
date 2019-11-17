@@ -10,20 +10,6 @@ namespace SLGame
 {
     public class SkillConfigInfo : System.Object
     {
-        public enum BattleSkillDamageType
-        {
-            Physical = 1,   //物理伤害
-            Move,           //位移类
-            Heal,           //恢复&buff类
-        }
-        
-        public enum BattleSkillTargetType
-        {
-            BattleUnit = 1, //对某一个战斗单位
-            GridUnit,   //对某一个地图格子(范围)
-            Self,       //以自身为中心的
-        }
-
         public uint id;
         public string name;
         public string icon;

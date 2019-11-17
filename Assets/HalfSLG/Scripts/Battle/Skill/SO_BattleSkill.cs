@@ -6,9 +6,9 @@ namespace SLGame
 {
     public enum BattleSkillDamageType
     {
-        Physical,   //物理伤害
-        Magic,      //魔法伤害
-        Heal,       //恢复类
+        Physical = 1,   //物理伤害
+        Move,           //位移类
+        Heal,           //恢复&buff类
     }
 
     public enum BattleSkillTargetType
@@ -29,9 +29,12 @@ namespace SLGame
         public BattleSkillDamageType damageType;    //伤害类型
         public BattleSkillTargetType targetType;    //目标类型
         public int mainValue;              //造成的伤害
-        public int energyCost = 10;        //体力扣减
+        public int energyCost = 0;        //体力扣减
         public float hatredMultiple = 1f;   //仇恨倍数
         public float rageLevel = 0f;        //愤怒增加
+        public string action;               //对应动画
+        public string sound;                //技能音效
+        public string info;                 //技能信息文本
 
         public int GetReleaseRadius(GridUnit gridUnit)
         {
