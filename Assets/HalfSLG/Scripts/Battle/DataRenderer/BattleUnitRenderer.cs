@@ -64,7 +64,7 @@ namespace SLGame
             frameRenderer.sortingLayerID = EGameConstL.SortingLayer_Battle_Map;
             battleUnitInfo.sortingLayerID = EGameConstL.SortingLayer_Battle_Map;
             battleUnitHealthBar.Init();
-            AddTriggersListener(unitRenderer.gameObject, EventTriggerType.PointerEnter, showUI);
+            //AddTriggersListener(unitRenderer.gameObject, EventTriggerType.PointerEnter, showUI);
         }
 
         
