@@ -33,8 +33,6 @@ namespace SLGame
         protected override void InitUIObjects()
         {
             base.InitUIObjects();
-
-
         }
 
         protected override void UpdateArguments(params object[] args)
