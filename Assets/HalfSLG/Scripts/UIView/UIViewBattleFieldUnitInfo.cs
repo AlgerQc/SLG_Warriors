@@ -11,6 +11,7 @@ namespace SLGame
     {
         [SerializeField] TextMeshProUGUI tmpBattleUnitInfo;
         [SerializeField] TextMeshProUGUI tmpGridUnitInfo;
+        [SerializeField] TextMeshProUGUI BattleName;
         [SerializeField] GameObject separateLine;
         [SerializeField] ViewElementPackage package;
 
@@ -92,21 +93,24 @@ namespace SLGame
             base.UpdateView();
 
             if (focusGridUnit != null)
-                tmpGridUnitInfo.text = string.Format("GridUnit:\n{0}", focusGridUnit.ToString());
+                tmpGridUnitInfo.text = string.Format("Type : {0}", focusGridUnit.GridType);
 
             if (focusBattleUnit != null)
-                tmpBattleUnitInfo.text = string.Format("BattleUnit:\n{0}\nHp:{1}/{2}\nAtk:{3}{4}\nDef:{5}{6}\nMobility:{7}{8}",
-                    focusBattleUnit.ToString(),
+                tmpBattleUnitInfo.text = string.Format("Hp:{0}/{1}\nAtk:{2}{3}\nDef:{4}{5}\nMobility:{6}{7}",
                     focusBattleUnit.battleUnitAttribute.hp, focusBattleUnit.battleUnitAttribute.maxHp,
                     focusBattleUnit.battleUnitAttribute.Atk, GetGridUnitBuffStr(focusBattleUnit.mapGrid.gridUnitBuff, GridUnitBuffType.Atk),
                     focusBattleUnit.battleUnitAttribute.Def, GetGridUnitBuffStr(focusBattleUnit.mapGrid.gridUnitBuff, GridUnitBuffType.Def),
                     focusBattleUnit.battleUnitAttribute.mobility, GetGridUnitBuffStr(focusBattleUnit.mapGrid.gridUnitBuff, GridUnitBuffType.Range)
                     );
 
+            if (focusBattleUnit != null)
+                BattleName.text = string.Format("{0}", focusBattleUnit.battleUnitAttribute.name);
+
             //设置显示
             separateLine.SetActive(focusGridUnit != null && focusBattleUnit != null);
             tmpGridUnitInfo.gameObject.SetActive(focusGridUnit != null);
             tmpBattleUnitInfo.gameObject.SetActive(focusBattleUnit != null);
+            BattleName.gameObject.SetActive(focusBattleUnit != null);
 
             UpdateBattleUnitPackage();
         }
