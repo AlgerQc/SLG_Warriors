@@ -339,6 +339,9 @@ MonoBehaviour:
   btnStay: {fileID: 114775954075938296}
   btnItem: {fileID: 7089512817588308940}
   btnOptionLayoutTrigger: {fileID: 114435697082809458}
+  firstSkill: {fileID: 3791805017781657250}
+  secondSkill: {fileID: 2028849296383368182}
+  thirdSkill: {fileID: 3005647923963576861}
   rtSkillLayout: {fileID: 224876199603844214}
   skillBtns:
   - {fileID: 114824712706625880}

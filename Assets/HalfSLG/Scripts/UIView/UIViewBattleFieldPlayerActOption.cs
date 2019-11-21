@@ -23,6 +23,9 @@ namespace SLGame
         [SerializeField] private Button btnStay;    //待命
         [SerializeField] private Button btnItem;    //使用道具  
         [SerializeField] private Button btnOptionLayoutTrigger; //操作按钮组的触发器
+        [SerializeField] public TextMeshProUGUI firstSkill;
+        [SerializeField] public TextMeshProUGUI secondSkill;
+        [SerializeField] public TextMeshProUGUI thirdSkill;
 
         [Header("Skill"), Space]
         [SerializeField] private RectTransform rtSkillLayout;    //技能按钮组
@@ -371,6 +374,13 @@ namespace SLGame
             cgOptionLayout.alpha = 1f;
             rtItemLayout.gameObject.SetActive(false);
             btnOptionLayoutTrigger.gameObject.SetActive(false);
+        }
+
+        public void UpdateComboNotes(ComboConfigInfo combo)
+        {
+            firstSkill.text  = string.Format("{0}", combo.skill1);
+            secondSkill.text = string.Format("{0}", combo.skill2);
+            thirdSkill.text  = string.Format("{0}", combo.skill3);
         }
     }
 }

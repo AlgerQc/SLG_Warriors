@@ -49,6 +49,9 @@ namespace SLGame
         //连击记录
         private Queue<int> skillCombo = new Queue<int>();
 
+        //期待连击
+        
+
         //连击效果使用次数
         private List<ComboBuff> comboBuffRoundList = new List<ComboBuff>();
 
