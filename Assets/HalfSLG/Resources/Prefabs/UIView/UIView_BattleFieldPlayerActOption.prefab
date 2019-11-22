@@ -348,6 +348,7 @@ MonoBehaviour:
   rtItemLayout: {fileID: 1259501927299340997}
   itemBtns:
   - {fileID: 5164930811814573722}
+  ComboLayout: {fileID: 1221683752463683012}
 --- !u!1 &1384609595881670
 GameObject:
   m_ObjectHideFlags: 0
@@ -2546,7 +2547,7 @@ GameObject:
   - component: {fileID: 2256004808253757440}
   - component: {fileID: 6271809111931197419}
   m_Layer: 5
-  m_Name: OptionLayout
+  m_Name: ComboLayout
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

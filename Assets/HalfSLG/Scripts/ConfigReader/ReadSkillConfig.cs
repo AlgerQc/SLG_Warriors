@@ -10,7 +10,7 @@ namespace SLGame
 {
     public class SkillConfigInfo : System.Object
     {
-        public uint id;
+        public int id;
         public string name;
         public string icon;
         public int releaseRadius;           //技能释放半径
@@ -29,9 +29,9 @@ namespace SLGame
         {
         }
 
-        public static Dictionary<uint, SkillConfigInfo> ReadSkillConfigFromXml(string xmlFilePath)
+        public static Dictionary<int, SkillConfigInfo> ReadSkillConfigFromXml(string xmlFilePath)
         {
-            Dictionary<uint, SkillConfigInfo> skillInfoDic = new Dictionary<uint, SkillConfigInfo>();
+            Dictionary<int, SkillConfigInfo> skillInfoDic = new Dictionary<int, SkillConfigInfo>();
             XmlDocument xmlDoc = null;
             //TextAsset xmlfile = Resources.Load(xmlFilePath) as TextAsset;
 
@@ -57,7 +57,7 @@ namespace SLGame
                 string typeName = (infoNodeList[i] as XmlElement).GetAttributeNode("un32ID").InnerText;
                 //Debug.LogError(typeName);
                 SkillConfigInfo skillInfo = new SkillConfigInfo();
-                skillInfo.id = (uint)Convert.ToUInt32(typeName);
+                skillInfo.id = (int)Convert.ToUInt32(typeName);
                 foreach (XmlElement xEle in infoNodeList[i].ChildNodes)
                 {
                     #region 搜索

@@ -10,7 +10,7 @@ namespace SLGame
 {
     public class ComboConfigInfo : System.Object
     {
-        public uint id;
+        public int id;
         public string name;
         public int skill1;
         public int skill2;
@@ -24,13 +24,13 @@ namespace SLGame
         {
         }
 
-        public static Dictionary<uint, ComboConfigInfo> ReadSkillComboConfigFromXml(string xmlFilePath)
+        public static Dictionary<int, ComboConfigInfo> ReadSkillComboConfigFromXml(string xmlFilePath)
         {
             //UtilityHelper.Log("begin reading combo xml file");
             //TextAsset xmlfile = Resources.Load(xmlFilePath) as TextAsset;
 
             XmlDocument xmlDoc = null;
-            Dictionary<uint, ComboConfigInfo> comboInfoDic = new Dictionary<uint, ComboConfigInfo>();
+            Dictionary<int, ComboConfigInfo> comboInfoDic = new Dictionary<int, ComboConfigInfo>();
             Object asset = Resources.Load(xmlFilePath);
             ResourceUnit xmlfileUnit = new ResourceUnit(null, 0, asset, null, ResourceType.ASSET);
             TextAsset xmlfile = xmlfileUnit.Asset as TextAsset;
@@ -51,7 +51,7 @@ namespace SLGame
                 string typeName = (infoNodeList[i] as XmlElement).GetAttributeNode("un32ID").InnerText;
                 //Debug.LogError(typeName);
                 ComboConfigInfo comboInfo = new ComboConfigInfo();
-                comboInfo.id = (uint)Convert.ToUInt32(typeName);
+                comboInfo.id = (int)Convert.ToUInt32(typeName);
                 foreach (XmlElement xEle in infoNodeList[i].ChildNodes)
                 {
                     #region 搜索
@@ -91,7 +91,7 @@ namespace SLGame
 
                     #endregion
                 }
-                comboInfoDic.Add((uint)i, comboInfo);
+                comboInfoDic.Add(i, comboInfo);
                 //UtilityHelper.LogFormat("add {0} with skill1 = {1}, skill2 = {2}, skill3 = {3}", comboInfo.id, comboInfo.skill1,
                     //comboInfo.skill2, comboInfo.skill3);
             }

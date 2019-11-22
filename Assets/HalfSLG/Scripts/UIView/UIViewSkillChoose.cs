@@ -21,7 +21,7 @@ namespace SLGame
         [SerializeField] private Button AckBtn;
 
         private List<BattleUnit> heros;         //操纵的英雄
-        private Dictionary<uint, SkillConfigInfo> chosedSkill = new Dictionary<uint, SkillConfigInfo>();    //选中的技能组
+        private Dictionary<int, SkillConfigInfo> chosedSkill = new Dictionary<int, SkillConfigInfo>();    //选中的技能组
 
         protected override void UpdateArguments(params object[] args)
         {
@@ -102,7 +102,7 @@ namespace SLGame
             int skillIdx = -1;
             if (int.TryParse(btnName.Replace(EGameConstL.STR_SkillBtn, string.Empty), out skillIdx))
             {
-                SkillConfigInfo skill = ConfigReader.skillInfoDic[(uint)skillIdx];
+                SkillConfigInfo skill = ConfigReader.skillInfoDic[skillIdx];
                 if (chosedSkill.ContainsKey(skill.id))
                 {
                     UtilityHelper.Log("Already choose that skill");
@@ -132,7 +132,7 @@ namespace SLGame
 
             //从ConfigReader中获取技能列表
             int i = 0;
-            foreach (KeyValuePair<uint, SkillConfigInfo> skill in ConfigReader.skillInfoDic)
+            foreach (KeyValuePair<int, SkillConfigInfo> skill in ConfigReader.skillInfoDic)
             {
                 //创建新按钮
                 Button btn = Instantiate<Button>(skillBtns[0], skillContent);
@@ -163,7 +163,7 @@ namespace SLGame
 
             //从ConfigReader中获取技能列表
             int i = 0;
-            foreach (KeyValuePair<uint, SkillConfigInfo> skill in chosedSkill)
+            foreach (KeyValuePair<int, SkillConfigInfo> skill in chosedSkill)
             {
                 //创建新按钮
                 Button btn = Instantiate<Button>(skillChosenBtns[0], chooseLayout);

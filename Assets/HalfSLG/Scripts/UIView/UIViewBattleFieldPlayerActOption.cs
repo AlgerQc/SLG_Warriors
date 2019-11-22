@@ -35,6 +35,9 @@ namespace SLGame
         [SerializeField] private RectTransform rtItemLayout;    //道具按钮组
         [SerializeField] private List<Button> itemBtns;
 
+        [Header("Combo"), Space]
+        [SerializeField] private RectTransform ComboLayout;     //连招提示UI
+
         private BattleUnit battleUnit;
 
         protected override void UpdateArguments(params object[] args)
@@ -106,6 +109,7 @@ namespace SLGame
             //初始时隐藏技能节点
             HideSkillNode();
             HideItemNode();
+            //HideComboNode();
 
             //设置道具按钮的状态
             UpdateItemBtnState();
@@ -213,6 +217,7 @@ namespace SLGame
                     if (battleUnit.battleUnitAttribute.energy >= skill.energyCost && BattleFieldRenderer.Instance != null)
                     {
                         BattleFieldRenderer.Instance.BattleUnitUseSkill(battleUnit, skill);
+                        UpdateComboNotes(battleUnit.battleUnitAttribute.ComboStatus);
                     }
                     else
                     {
@@ -275,6 +280,7 @@ namespace SLGame
                 int battleUnitEnergy = battleUnit.battleUnitAttribute.energy;
                 int energyCost = battleUnit.battleUnitAttribute.battleSkills[i].energyCost;
                 label.text = string.Format("{0}({1}/{2})", battleUnit.battleUnitAttribute.battleSkills[i].skillName, battleUnitEnergy, energyCost);
+
                 //判断能量是否足够
                 label.color = battleUnitEnergy >= energyCost ? EGameConstL.Color_labelWhite : EGameConstL.Color_labelRed;
             }
@@ -361,6 +367,11 @@ namespace SLGame
                 itemBtns[i].gameObject.SetActive(i < validCount);
         }
 
+        private void ShowComboLayout()
+        {
+            ComboLayout.gameObject.SetActive(true);
+        }
+
         //隐藏技能节点
         private void HideSkillNode()
         {
@@ -376,7 +387,13 @@ namespace SLGame
             btnOptionLayoutTrigger.gameObject.SetActive(false);
         }
 
-        public void UpdateComboNotes(ComboConfigInfo combo)
+        private void HideComboNode()
+        {
+            cgOptionLayout.alpha = 1f;
+            ComboLayout.gameObject.SetActive(false);
+        }
+
+        private void UpdateComboNotes(PreCombo combo)
         {
             firstSkill.text  = string.Format("{0}", combo.skill1);
             secondSkill.text = string.Format("{0}", combo.skill2);

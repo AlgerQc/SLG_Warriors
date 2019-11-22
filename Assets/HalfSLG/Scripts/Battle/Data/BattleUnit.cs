@@ -335,7 +335,7 @@ namespace SLGame
                 int comboID = battleUnitAttribute.comboJudge(battleSkill.skillID);
                 if (comboID != 0)
                 {
-                    ComboEffect(comboID);
+                    ComboEffect(ConfigReader.comboInfoDic[comboID].effect);
                 }
             }
 

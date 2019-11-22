@@ -26,6 +26,22 @@ namespace SLGame
     }
 #endif
 
+    public class PreCombo
+    {
+        public PreCombo(int stg, string sk1, string sk2, string sk3)
+        {
+            stage = stg;
+            skill1 = sk1;
+            skill2 = sk2;
+            skill3 = sk3;
+        }
+
+        public int stage;
+        public string skill1;
+        public string skill2;
+        public string skill3;
+    }
+
     class ComboBuff
     {
         public int effectID;
@@ -50,7 +66,7 @@ namespace SLGame
         private Queue<int> skillCombo = new Queue<int>();
 
         //期待连击
-        
+        private PreCombo m_precombo = new PreCombo( 0, "", "", "" );
 
         //连击效果使用次数
         private List<ComboBuff> comboBuffRoundList = new List<ComboBuff>();
@@ -205,12 +221,22 @@ namespace SLGame
             }
         }
 
+        public PreCombo ComboStatus
+        {
+            get
+            {
+                return m_precombo;
+            }
+        }
+
         public int comboJudge(int skillID)
         {
             skillCombo.Enqueue(skillID);
+
             if (skillCombo.Count == EGameConstL.ComboCount)
             {
                 int id = Check.checkCombo(skillCombo);
+                UpdatePrecombo(id);
                 if ( id > 0)
                 {
                     return id;
@@ -222,12 +248,15 @@ namespace SLGame
             }
             else 
             {
-                if (Check.checkComboEarly(skillCombo))
+                int id = Check.checkComboEarly(skillCombo);
+                if (id >= 0)
                 {
+                    UpdatePrecombo(id);
                     UtilityHelper.LogFormat("Wait for {0} more skills to fill combo", EGameConstL.ComboCount - skillCombo.Count);
                 }
                 else
                 {
+                    ClearPrecombo();
                     skillCombo.Clear();
                     UtilityHelper.Log("Combo error, start from first skill again");
                 }
@@ -262,5 +291,26 @@ namespace SLGame
                 }
             }
         }
+
+        private void UpdatePrecombo(int id)
+        {
+            m_precombo.stage = skillCombo.Count;
+            int id1 = ConfigReader.comboInfoDic[id].skill1;
+            int id2 = ConfigReader.comboInfoDic[id].skill2;
+            int id3 = ConfigReader.comboInfoDic[id].skill3;
+
+            m_precombo.skill1 = ConfigReader.skillInfoDic[id1].name;
+            m_precombo.skill2 = ConfigReader.skillInfoDic[id2].name;
+            m_precombo.skill3 = ConfigReader.skillInfoDic[id3].name;
+        }
+
+        private void ClearPrecombo()
+        {
+            m_precombo.stage = 0;
+            m_precombo.skill1 = "";
+            m_precombo.skill2 = "";
+            m_precombo.skill3 = "";
+        }
+
     }
 }

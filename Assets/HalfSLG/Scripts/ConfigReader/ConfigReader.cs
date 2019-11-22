@@ -8,8 +8,8 @@ namespace SLGame
     public class ConfigReader
     {
         
-        public static Dictionary<uint, SkillConfigInfo> skillInfoDic = new Dictionary<uint, SkillConfigInfo>();
-        public static Dictionary<uint, ComboConfigInfo> comboInfoDic = new Dictionary<uint, ComboConfigInfo>();
+        public static Dictionary<int, SkillConfigInfo> skillInfoDic = new Dictionary<int, SkillConfigInfo>();
+        public static Dictionary<int, ComboConfigInfo> comboInfoDic = new Dictionary<int, ComboConfigInfo>();
 
         public static void Init()
         {
