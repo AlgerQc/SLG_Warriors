@@ -365,6 +365,7 @@ namespace SLGame
             }
         }
 
+        //寻找某点到另一点的路径
         public bool NewNavigate(
             BattleUnit battleUnit,
             BattleMap battleMap,
@@ -428,6 +429,7 @@ namespace SLGame
             return true;
         }
 
+        //查找所有可以到达的格子
         public List<GridUnit> GetAccessibleGrids(BattleUnit battleUnit, BattleMap battleMap)
         {
             List<GridUnit> AccessibleGrids = new List<GridUnit>();
@@ -464,6 +466,34 @@ namespace SLGame
             }
 
             return AccessibleGrids;
+        }
+
+        //查找一定范围内的敌人
+        public List<BattleUnit> SearchBattleUnits(GridUnit centerGridUnit, int range)
+        {
+            List<BattleUnit> battleUnits = new List<BattleUnit>();
+            BattleMap battleMap = centerGridUnit.battleMap;
+            bool[,] flag = new bool[battleMap.mapWidth, battleMap.mapHeight];
+            flag[centerGridUnit.column, centerGridUnit.row] = true;
+            Queue<GridUnit> checkList = new Queue<GridUnit>();
+            GridUnit currentUnit = centerGridUnit;
+            checkList.Enqueue(currentUnit);
+            while (checkList.Count > 0)
+            {
+                currentUnit = checkList.Dequeue();
+                List<GridUnit> gridUnitList = battleMap.GetNearbyGrid(currentUnit);
+                foreach (GridUnit gridUnit in gridUnitList)
+                {
+                    if (range < centerGridUnit.Distance(gridUnit)) continue;
+                    if (!flag[gridUnit.column, gridUnit.row])
+                    {
+                        flag[gridUnit.column, gridUnit.row] = true;
+                        if (gridUnit.battleUnit != null) battleUnits.Add(gridUnit.battleUnit);
+                        checkList.Enqueue(gridUnit);
+                    }
+                }
+            }
+            return battleUnits;
         }
 
         public void Init(params object[] args)

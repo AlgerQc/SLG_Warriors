@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using SLGame.BattleBehaviourSystem;
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -61,6 +62,8 @@ namespace SLGame
         public int BP = 0;
         private int useBPNum = 0;
         private bool usingBPAction = false;
+
+        public AIBattleStrategy battleStrategy;
 
         //连击记录
         private Queue<int> skillCombo = new Queue<int>();

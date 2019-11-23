@@ -50,6 +50,14 @@ namespace SLGame.BattleBehaviourSystem
         Support,    //辅助
     }
     
+    public enum AIBattleStrategy
+    {
+        AttackFirst,    //全力进攻
+        BalanceFight,   //均衡作战
+        Preparation,    //伺机待发
+        StandAlway,     //呆着不动
+    }
+
     //战斗基本数据
     public class BattleBaseData
     {
@@ -235,42 +243,42 @@ namespace SLGame.BattleBehaviourSystem
         //对当前局势进行分析，并得出战斗决策
         public BattleDecision Think()
         {
-            behaviourItems.Clear();
+//            behaviourItems.Clear();
 
-            if(provokeChip != null)
-                provokeChip.CalculateBehaviourItem(behaviourItems, battleBehaviourPct.GetWeight(provokeChip.BehaviourType));
+//            if(provokeChip != null)
+//                provokeChip.CalculateBehaviourItem(behaviourItems, battleBehaviourPct.GetWeight(provokeChip.BehaviourType));
 
-            if (damageChip != null)
-                damageChip.CalculateBehaviourItem(behaviourItems, battleBehaviourPct.GetWeight(damageChip.BehaviourType));
+//            if (damageChip != null)
+//                damageChip.CalculateBehaviourItem(behaviourItems, battleBehaviourPct.GetWeight(damageChip.BehaviourType));
 
-            if (recoveryChip != null)
-                recoveryChip.CalculateBehaviourItem(behaviourItems, battleBehaviourPct.GetWeight(recoveryChip.BehaviourType));
+//            if (recoveryChip != null)
+//                recoveryChip.CalculateBehaviourItem(behaviourItems, battleBehaviourPct.GetWeight(recoveryChip.BehaviourType));
             
-            //愤怒芯片最后计算，因为要给damage类型的芯片增加决策分数
-            if (rageChip != null)
-                rageChip.CalculateBehaviourItem(behaviourItems, battleBehaviourPct.GetWeight(rageChip.BehaviourType));
+//            //愤怒芯片最后计算，因为要给damage类型的芯片增加决策分数
+//            if (rageChip != null)
+//                rageChip.CalculateBehaviourItem(behaviourItems, battleBehaviourPct.GetWeight(rageChip.BehaviourType));
             
-            //排序
-            behaviourItems.Sort(LiteSingleton<BattleBehaviourItemComparer>.Instance);
+//            //排序
+//            behaviourItems.Sort(LiteSingleton<BattleBehaviourItemComparer>.Instance);
 
-#if UNITY_EDITOR
-            if(DebugHelper.Instance.debugBBSys)
-            {
-                System.Text.StringBuilder sb = new System.Text.StringBuilder();
-                sb.AppendFormat("Action battle unit:{0}\n", baseData.hostBattleUnit.battleUnitAttribute.battleUnitName);
-                foreach (var item in behaviourItems)
-                {
-                    sb.AppendFormat("Target = {0},type = {1}, point = {2}\n", 
-                    item.targetBattleUnit.battleUnitAttribute.battleUnitName,
-                    item.behaviourType,
-                    item.point
-                      );
-                }
-                UtilityHelper.Log(sb.ToString());
-            }
-#endif
+//#if UNITY_EDITOR
+//            if(DebugHelper.Instance.debugBBSys)
+//            {
+//                System.Text.StringBuilder sb = new System.Text.StringBuilder();
+//                sb.AppendFormat("Action battle unit:{0}\n", baseData.hostBattleUnit.battleUnitAttribute.battleUnitName);
+//                foreach (var item in behaviourItems)
+//                {
+//                    sb.AppendFormat("Target = {0},type = {1}, point = {2}\n", 
+//                    item.targetBattleUnit.battleUnitAttribute.battleUnitName,
+//                    item.behaviourType,
+//                    item.point
+//                      );
+//                }
+//                UtilityHelper.Log(sb.ToString());
+//            }
+//#endif
 
-            return MakeDecision();
+            return NewMakeDecision();
         }
 
         //计算单个技能释放的得分
@@ -414,6 +422,129 @@ namespace SLGame.BattleBehaviourSystem
             analysisItem.score = analysisItem.score / skill.energyCost;
 
             return analysisItem;
+        }
+
+        private BattleDecision MakeAttackFirstDecision()
+        {
+            SO_BattleSkill[] skills = baseData.hostBattleUnit.battleUnitAttribute.battleSkills;
+            int maxRange = 0;
+            SO_BattleSkill targetSkill = null;
+            foreach (SO_BattleSkill battleSkill in skills)
+            {
+                int range = battleSkill.GetReleaseRadius(baseData.hostBattleUnit.mapGrid);
+                if (maxRange < range)
+                {
+                    maxRange = range;
+                    targetSkill = battleSkill;
+                }
+            }
+
+            BattleDecision decision = null;
+            BattleUnit battleUnit = baseData.enemyBattleTeam.battleUnits[0];
+            if (battleUnit != null)
+            {
+                List<GridUnit> gridUnits = new List<GridUnit>();
+                MapNavigator.Instance.NewNavigate(baseData.hostBattleUnit, baseData.battleField.battleMap, baseData.hostBattleUnit.mapGrid, battleUnit.mapGrid, gridUnits, maxRange);
+                decision = BattleDecision.CreateInstance();
+                decision.targetBattleUnit = battleUnit;
+                decision.movePath = gridUnits.ToArray();
+                decision.battleSkill = targetSkill;
+                decision.skillTargetGrid = null;
+                decision.skillTargetBattleUnit = battleUnit;
+            }
+            return decision;
+        }
+
+        private BattleDecision MakePreparationDecision()
+        {
+            BattleDecision decision = null;
+            BattleUnit battleUnit = baseData.hostBattleUnit;
+            SO_BattleSkill[] skills = battleUnit.battleUnitAttribute.battleSkills;
+            int maxRange = 0;
+            SO_BattleSkill targetSkill = null;
+            foreach (SO_BattleSkill battleSkill in skills)
+            {
+                int range = battleSkill.GetReleaseRadius(battleUnit.mapGrid);
+                if (maxRange < range)
+                {
+                    maxRange = range;
+                    targetSkill = battleSkill;
+                }
+            }
+
+            if (targetSkill != null)
+            {
+                List<BattleUnit> battleUnits = MapNavigator.Instance.SearchBattleUnits(battleUnit.mapGrid, maxRange + battleUnit.battleUnitAttribute.mobility);
+                foreach (BattleUnit unit in battleUnits)
+                {
+                    if (unit.battleTeam != battleUnit.battleTeam)
+                    {
+                        List<GridUnit> gridUnits = new List<GridUnit>();
+                        MapNavigator.Instance.NewNavigate(battleUnit, baseData.battleField.battleMap, battleUnit.mapGrid, unit.mapGrid, gridUnits, maxRange);
+                        decision = BattleDecision.CreateInstance();
+                        decision.targetBattleUnit = unit;
+                        decision.movePath = gridUnits.ToArray();
+                        decision.battleSkill = targetSkill;
+                        decision.skillTargetGrid = null;
+                        decision.skillTargetBattleUnit = unit;
+                        break;
+                    }
+                }
+            }
+            return decision;
+        }
+
+        private BattleDecision MakeStandAlwayDecision()
+        {
+            BattleDecision decision = null;
+            BattleUnit battleUnit = baseData.hostBattleUnit;
+            SO_BattleSkill[] skills = battleUnit.battleUnitAttribute.battleSkills;
+            int maxRange = 0;
+            SO_BattleSkill targetSkill = null;
+            foreach (SO_BattleSkill battleSkill in skills)
+            {
+                int range = battleSkill.GetReleaseRadius(battleUnit.mapGrid);
+                if (maxRange < range)
+                {
+                    maxRange = range;
+                    targetSkill = battleSkill;
+                }
+            }
+
+            if (targetSkill != null)
+            {
+                List<BattleUnit> battleUnits = MapNavigator.Instance.SearchBattleUnits(battleUnit.mapGrid, maxRange);
+                foreach(BattleUnit unit in battleUnits)
+                {
+                    if (unit.battleTeam != battleUnit.battleTeam)
+                    {
+                        decision = BattleDecision.CreateInstance();
+                        decision.targetBattleUnit = unit;
+                        decision.movePath = null;
+                        decision.battleSkill = targetSkill;
+                        decision.skillTargetGrid = null;
+                        decision.skillTargetBattleUnit = unit;
+                        break;
+                    }
+                }
+            }
+            return decision;
+        }
+
+        private BattleDecision NewMakeDecision()
+        {
+            switch(baseData.hostBattleUnit.battleUnitAttribute.battleStrategy)
+            {
+                case(AIBattleStrategy.AttackFirst):
+                    return MakeAttackFirstDecision();
+                case (AIBattleStrategy.BalanceFight):
+                    break;
+                case (AIBattleStrategy.Preparation):
+                    return MakePreparationDecision();
+                case (AIBattleStrategy.StandAlway):
+                    return MakeStandAlwayDecision();
+            }
+            return null;
         }
 
         //得出决策

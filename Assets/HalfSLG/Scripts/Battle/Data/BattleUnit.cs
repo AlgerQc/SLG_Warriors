@@ -163,9 +163,14 @@ namespace SLGame
 
             if(decision == null)
             {
-                BattleUnitWarningAction warningAction = BattleUnitActionEvent.CreateEvent<BattleUnitWarningAction>(BattleUnitActionType.Warning, this);
-                battleField.AppendBattleAction(warningAction);
-                warningAction.warningLog = "No target:" + ID;
+                BattleUnitAttributeUpdate action = BattleUnitActionEvent.CreateEvent<BattleUnitAttributeUpdate>(BattleUnitActionType.AttributeUpdate, this);
+                action.attribute = new BattleUnitSyncAttribute();
+                action.attribute.hpChanged = 0;
+                action.attribute.currentHP = battleUnitAttribute.hp;
+                action.attribute.energyChanged = 0;
+                action.attribute.currentEnergy = battleUnitAttribute.energy;
+                action.attribute.currentBP = battleUnitAttribute.BP;
+                battleField.AppendBattleAction(action);
                 return HeroActionState.Normal;
             }
 
