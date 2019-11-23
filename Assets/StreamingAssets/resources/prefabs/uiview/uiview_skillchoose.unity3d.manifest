@@ -3,7 +3,7 @@ CRC: 1351257805
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9004bf7555e4033cc0e949374aef6392
+    Hash: 19421489f8cb02af12bc27705380fa85
   TypeTreeHash:
     serializedVersion: 2
     Hash: 293181eddcdceca341adbfbb666d7089
@@ -54,6 +54,6 @@ ClassTypes:
 Assets:
 - Assets/HalfSLG/Resources/Prefabs/UIView/UIView_SkillChoose.prefab
 Dependencies:
-- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/font.unity3d"
-- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/uiview.unity3d"
-- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/textures/common_1.unity3d"
+- E:/games/SLG_Warriors/Assets/StreamingAssets/font.unity3d
+- E:/games/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/uiview.unity3d
+- E:/games/SLG_Warriors/Assets/StreamingAssets/textures/common_1.unity3d

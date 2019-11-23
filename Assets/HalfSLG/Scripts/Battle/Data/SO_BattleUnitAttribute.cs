@@ -240,13 +240,13 @@ namespace SLGame
             {
                 int id = Check.checkCombo(skillCombo);
                 UpdatePrecombo(id);
-                if ( id > 0)
+                if ( id >= 0)
                 {
                     return id;
                 }
                 else
                 {
-                    return 0;
+                    return -1;
                 }
             }
             else 
@@ -264,7 +264,7 @@ namespace SLGame
                     UtilityHelper.Log("Combo error, start from first skill again");
                 }
 
-                return 0;
+                return -1;
             }
         }
 

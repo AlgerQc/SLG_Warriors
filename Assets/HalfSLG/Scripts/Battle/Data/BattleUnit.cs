@@ -344,7 +344,7 @@ namespace SLGame
 
                 //返回真表示连招成立，则调用连招效果
                 int comboID = battleUnitAttribute.comboJudge(battleSkill.skillID);
-                if (comboID != 0)
+                if (comboID != -1)
                 {
                     ComboEffect(ConfigReader.comboInfoDic[comboID].effect);
                 }

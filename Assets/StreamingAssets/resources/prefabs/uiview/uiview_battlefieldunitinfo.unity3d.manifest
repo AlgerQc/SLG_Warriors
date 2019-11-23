@@ -3,7 +3,7 @@ CRC: 2181103627
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a1525790eb729edca12125f93efb0c24
+    Hash: 215ac2bf1247e07be9194cd606671efb
   TypeTreeHash:
     serializedVersion: 2
     Hash: b7d67602dfdecf85a2461c3bf59138cf
@@ -48,7 +48,7 @@ ClassTypes:
 Assets:
 - Assets/HalfSLG/Resources/Prefabs/UIView/UIView_BattleFieldUnitInfo.prefab
 Dependencies:
-- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/font.unity3d"
-- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/resources/prefabs/uiview/viewelement_battleunitpackage.unity3d"
-- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/uiview.unity3d"
-- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/textures/common_1.unity3d"
+- E:/games/SLG_Warriors/Assets/StreamingAssets/font.unity3d
+- E:/games/SLG_Warriors/Assets/StreamingAssets/resources/prefabs/uiview/viewelement_battleunitpackage.unity3d
+- E:/games/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/uiview.unity3d
+- E:/games/SLG_Warriors/Assets/StreamingAssets/textures/common_1.unity3d
