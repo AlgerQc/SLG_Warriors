@@ -3,7 +3,7 @@ CRC: 1077123592
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9e14ac7c58ff2122c6a50a47c023a95b
+    Hash: d7f9d0c64f3b0528a16b582182d71bf0
   TypeTreeHash:
     serializedVersion: 2
     Hash: 8270f44ddb52ef8ab948bdba36278d6e
@@ -42,5 +42,5 @@ ClassTypes:
 Assets:
 - Assets/HalfSLG/Resources/Prefabs/Other/BattleUnitHealthBar.prefab
 Dependencies:
-- E:/games/SLG_Warriors/Assets/StreamingAssets/font.unity3d
-- E:/games/SLG_Warriors/Assets/StreamingAssets/textures/common_0.unity3d
+- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/font.unity3d"
+- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/textures/common_0.unity3d"

@@ -16,9 +16,12 @@ MonoBehaviour:
   skillName: "\u7948\u7977"
   releaseRadius: 0
   effectRadius: 2
-  damageType: 2
+  damageType: 3
   targetType: 2
   mainValue: 30
   energyCost: 20
   hatredMultiple: 1
   rageLevel: 0
+  action: 
+  sound: 
+  info: 

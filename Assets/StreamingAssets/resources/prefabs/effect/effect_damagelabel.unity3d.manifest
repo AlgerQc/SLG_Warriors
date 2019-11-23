@@ -3,7 +3,7 @@ CRC: 295612397
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f65d69b176a1e96a9a6c5af1e4718fd4
+    Hash: 0bc30c357d8b9b82329e919acaf6100d
   TypeTreeHash:
     serializedVersion: 2
     Hash: 8537f6959c511f7f321d1d5e252add40
@@ -44,4 +44,4 @@ ClassTypes:
 Assets:
 - Assets/HalfSLG/Resources/Prefabs/Effect/Effect_DamageLabel.prefab
 Dependencies:
-- E:/games/SLG_Warriors/Assets/StreamingAssets/font.unity3d
+- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/font.unity3d"

@@ -3,7 +3,7 @@ CRC: 126809321
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: df1cabc39bd8c4fe07328ec7b49df2dd
+    Hash: ed9f815ed86afacdbb27fcf688c1d69f
   TypeTreeHash:
     serializedVersion: 2
     Hash: 702a5bc28f35e77009b792af236ad887
@@ -86,7 +86,7 @@ ClassTypes:
 Assets:
 - Assets/HalfSLG/Scenes/SceneBattle.unity
 Dependencies:
-- E:/games/SLG_Warriors/Assets/StreamingAssets/resources/prefabs/effect/effect_damagelabel.unity3d
-- E:/games/SLG_Warriors/Assets/StreamingAssets/resources/prefabs/effect/effect_hexframe.unity3d
-- E:/games/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/battleteam.unity3d
-- E:/games/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/packageitem.unity3d
+- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/resources/prefabs/effect/effect_damagelabel.unity3d"
+- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/resources/prefabs/effect/effect_hexframe.unity3d"
+- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/battleteam.unity3d"
+- "D:/doc/games/\u6218\u65D7/SLG_Warriors/Assets/StreamingAssets/scriptableobjects/packageitem.unity3d"
