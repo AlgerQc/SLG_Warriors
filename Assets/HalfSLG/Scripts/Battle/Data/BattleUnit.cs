@@ -315,6 +315,12 @@ namespace SLGame
                 UtilityHelper.LogError("Use skill error. Battle skill is none.");
                 return;
             }
+            GridUnit temp = targetGridUnit;
+            if (temp == null && targetBattleUnit != null) temp = targetBattleUnit.mapGrid;
+            if (temp != null && mapGrid.Distance(temp) > battleSkill.GetReleaseRadius(mapGrid))
+            {
+                return;
+            }
             BattleSkillEffectAnalysis analysis = BattleCalculator.Instance.AnalyseBattleSkillEffect(battleSkill, this, targetBattleUnit, targetGridUnit);
             if (analysis == null)
             {
