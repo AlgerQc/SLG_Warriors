@@ -24,6 +24,8 @@ namespace SLGame
         public BattleState battleState = BattleState.Prepare;       //战斗状态
         public BattleMap battleMap;                                 //地图信息
         public List<BattleTeam> teams = new List<BattleTeam>();     //参战队伍
+        public GridUnit[] teamABornGrids;                       //玩家出生位置
+        public GridUnit[] teamBBornGrids;                       //敌人出生位置
         public List<BattleFieldEvent> battleFieldEvents = new List<BattleFieldEvent>(BATTLE_ACTIONS_DEFAULT_CAPACITY); //战斗行动信息
         private Queue<BattleUnit> actionQueue = new Queue<BattleUnit>();    //行动列表
 
@@ -104,9 +106,17 @@ namespace SLGame
         private void EnterBattleField()
         {
             //队伍进入战场
+            //从xml中读取BornGrid
+            //teamABornGrids = ConfigReader.teamALocations;
+            //teamBBornGrids = ConfigReader.teamBLocations;
+
+            //进入战场
+            //teams[0].EnterBattleField(this, teamABornGrids);
+            //teams[1].EnterBattleField(this, teamBBornGrids);
+
             for (int i = 0; i < teams.Count; ++i)
             {
-                //队伍进入战场
+                //队伍进入战场。
                 teams[i].EnterBattleField(this, battleMap.GetBornGrid(i, teams[i].battleUnits.Count, true));
             }
 
