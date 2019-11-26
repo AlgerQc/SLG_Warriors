@@ -17,7 +17,8 @@ namespace SLGame
         public static GridUnit[] ReadScene1LocationFromXml(BattleMap map, string xmlFilePath, int teamKind, int gridCount)
         {
             GridUnit[] bornGrids = new GridUnit[gridCount];
-            GridUnit tmpGrid = new GridUnit(map, 0, 0);
+            int x = 0, y = 0;
+            //GridUnit tmpGrid = new GridUnit(map, 0, 0);
             XmlDocument xmlDoc = null;
             //TextAsset xmlfile = Resources.Load(xmlFilePath) as TextAsset;
 
@@ -55,24 +56,28 @@ namespace SLGame
                     {
                         case "row":
                             {
-                                tmpGrid.row = Convert.ToInt32(xEle.InnerText);
+                                x = Convert.ToInt32(xEle.InnerText);
                             }
                             break;
 
                         case "column":
                             {
-                                tmpGrid.column = Convert.ToInt32(xEle.InnerText);
+                                y = Convert.ToInt32(xEle.InnerText);
                             }
                             break;                     
                     }
                 }
+
+                //tmpGrid.localPosition = new Vector3((tmpGrid.column + 1)* EGameConstL.Map_GridWidth, -(tmpGrid.row + 1)* EGameConstL.Map_GridOffsetY, 0);
+                //Debug.LogFormat("i = {0}, row = {1}, column = {2}, position = {3}", i, tmpGrid.row, tmpGrid.column, tmpGrid.localPosition);
+                Debug.LogFormat("i = {0}, row = {1}, column = {2}, position = {3}", i, x, y, map.mapGrids[x, y].localPosition);
                 if (teamKind == 0)
                 {
-                    bornGrids[i] = tmpGrid;
+                    bornGrids[i] = map.mapGrids[x, y];
                 }
                 else if (teamKind == 1)
                 {
-                    bornGrids[i - 1] = tmpGrid;
+                    bornGrids[i - 1] = map.mapGrids[x, y];
                 }
 
             }
