@@ -14,9 +14,10 @@ namespace SLGame
         {
         }
 
-        public static GridUnit[] ReadScene1LocationFromXml(string xmlFilePath, int teamKind)
+        public static GridUnit[] ReadScene1LocationFromXml(BattleMap map, string xmlFilePath, int teamKind, int gridCount)
         {
-            GridUnit[] bornGrids = null;
+            GridUnit[] bornGrids = new GridUnit[gridCount];
+            GridUnit tmpGrid = new GridUnit(map, 0, 0);
             XmlDocument xmlDoc = null;
             //TextAsset xmlfile = Resources.Load(xmlFilePath) as TextAsset;
 
@@ -33,7 +34,8 @@ namespace SLGame
 
             xmlDoc = new XmlDocument();
             xmlDoc.LoadXml(xmlfile.text);
-            XmlNodeList infoNodeList = xmlDoc.SelectSingleNode("SkillCfg").ChildNodes;
+            XmlNodeList infoNodeList = xmlDoc.SelectSingleNode("Locations").ChildNodes;
+          
             for (int i = 0; i < infoNodeList.Count; i++)
             {//(XmlNode xNode in infoNodeList)
                 if ((infoNodeList[i] as XmlElement).GetAttributeNode("un32ID") == null)
@@ -43,7 +45,9 @@ namespace SLGame
                 int id = (int)Convert.ToUInt32(typeName);
 
                 if (id != teamKind)
+                {                    
                     continue;
+                }
 
                 foreach (XmlElement xEle in infoNodeList[i].ChildNodes)
                 {
@@ -51,17 +55,26 @@ namespace SLGame
                     {
                         case "row":
                             {
-                                
+                                tmpGrid.row = Convert.ToInt32(xEle.InnerText);
                             }
                             break;
 
                         case "column":
                             {
-                                //skillInfo.icon = Convert.ToString(xEle.InnerText);
+                                tmpGrid.column = Convert.ToInt32(xEle.InnerText);
                             }
                             break;                     
                     }
                 }
+                if (teamKind == 0)
+                {
+                    bornGrids[i] = tmpGrid;
+                }
+                else if (teamKind == 1)
+                {
+                    bornGrids[i - 1] = tmpGrid;
+                }
+
             }
             return bornGrids;
         }

@@ -105,21 +105,23 @@ namespace SLGame
         //将战斗单位放置入战场
         private void EnterBattleField()
         {
+            /*
             //队伍进入战场
             //从xml中读取BornGrid
-            //teamABornGrids = ConfigReader.teamALocations;
-            //teamBBornGrids = ConfigReader.teamBLocations;
+            teamABornGrids = ReadScene1Location.ReadScene1LocationFromXml(battleMap, "Config/Scene1Location", 0, 1);
+            teamBBornGrids = ReadScene1Location.ReadScene1LocationFromXml(battleMap, "Config/Scene1Location", 1, 16);
 
             //进入战场
-            //teams[0].EnterBattleField(this, teamABornGrids);
-            //teams[1].EnterBattleField(this, teamBBornGrids);
-
+            teams[0].EnterBattleField(this, teamABornGrids);
+            teams[1].EnterBattleField(this, teamBBornGrids);
+            */
+            
             for (int i = 0; i < teams.Count; ++i)
             {
                 //队伍进入战场。
                 teams[i].EnterBattleField(this, battleMap.GetBornGrid(i, teams[i].battleUnits.Count, true));
             }
-
+            
             //随机行动顺序
             bool reverse = DebugHelper.Instance.randomFirstAction && (resetTimes & 1) == 0;
             for (int i = 0; i < teams.Count; ++i)

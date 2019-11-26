@@ -1,51 +1,71 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Locations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <info un32ID="0">
-    <row>0</row>
-    <column>0</column>
+    <row>18</row>
+    <column>1</column>
   </info>
   <info un32ID="1">
-    <row>0</row>
-    <column>0</column>
+    <row>16</row>
+    <column>6</column>
   </info>
   <info un32ID="1">
-    <row>0</row>
-    <column>0</column>
+    <row>17</row>
+    <column>19</column>
   </info>
   <info un32ID="1">
-    <row>0</row>
-    <column>0</column>
+    <row>12</row>
+    <column>18</column>
   </info>
   <info un32ID="1">
-    <row>0</row>
-    <column>0</column>
+    <row>11</row>
+    <column>13</column>
   </info>
   <info un32ID="1">
-    <row>0</row>
-    <column>0</column>
+    <row>12</row>
+    <column>8</column>
   </info>
   <info un32ID="1">
-    <row>0</row>
-    <column>0</column>
+    <row>10</row>
+    <column>1</column>
   </info>
   <info un32ID="1">
-    <row>0</row>
-    <column>0</column>
+    <row>8</row>
+    <column>1</column>
   </info>
   <info un32ID="1">
-    <row>0</row>
-    <column>0</column>
+    <row>7</row>
+    <column>3</column>
   </info>
   <info un32ID="1">
-    <row>0</row>
-    <column>0</column>
+    <row>8</row>
+    <column>26</column>
   </info>
   <info un32ID="1">
-    <row>0</row>
-    <column>0</column>
+    <row>6</row>
+    <column>27</column>
   </info>
   <info un32ID="1">
-    <row>0</row>
-    <column>0</column>
+    <row>6</row>
+    <column>25</column>
+  </info>
+  <info un32ID="1">
+    <row>5</row>
+    <column>23</column>
+  </info>
+  <info un32ID="1">
+    <row>2</row>
+    <column>13</column>
+  </info>
+  <info un32ID="1">
+    <row>2</row>
+    <column>3</column>
+  </info>
+  <info un32ID="1">
+    <row>2</row>
+    <column>6</column>
+  </info>
+  <info un32ID="1">
+    <row>1</row>
+    <column>7</column>
   </info>
 </Locations>

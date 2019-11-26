@@ -17,8 +17,8 @@ namespace SLGame
         {
             skillInfoDic = ReadSkillConfig.ReadSkillConfigFromXml("Config/SkillCfg");
             comboInfoDic = ReadSkillComboConfig.ReadSkillComboConfigFromXml("Config/ComboSkill");
-            //teamALocations = ReadScene1Location.ReadScene1LocationFromXml("Config/Scene1Location", 0);
-            //teamBLocations = ReadScene1Location.ReadScene1LocationFromXml("Config/Scene1Location", 1);
+            //teamALocations = ReadScene1Location.ReadScene1LocationFromXml("Config/Scene1Location", 0, 1);
+            //teamBLocations = ReadScene1Location.ReadScene1LocationFromXml("Config/Scene1Location", 1, 16);
         }
 
     }
