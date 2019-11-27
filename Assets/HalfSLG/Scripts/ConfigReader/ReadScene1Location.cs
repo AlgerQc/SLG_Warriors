@@ -70,14 +70,14 @@ namespace SLGame
 
                 //tmpGrid.localPosition = new Vector3((tmpGrid.column + 1)* EGameConstL.Map_GridWidth, -(tmpGrid.row + 1)* EGameConstL.Map_GridOffsetY, 0);
                 //Debug.LogFormat("i = {0}, row = {1}, column = {2}, position = {3}", i, tmpGrid.row, tmpGrid.column, tmpGrid.localPosition);
-                Debug.LogFormat("i = {0}, row = {1}, column = {2}, position = {3}", i, x, y, map.mapGrids[x, y].localPosition);
+                Debug.LogFormat("i = {0}, row = {1}, column = {2}, position = {3}", i, x, y, map.mapGrids[y, x].localPosition);
                 if (teamKind == 0)
                 {
-                    bornGrids[i] = map.mapGrids[x, y];
+                    bornGrids[i] = map.mapGrids[y, x];
                 }
                 else if (teamKind == 1)
                 {
-                    bornGrids[i - 1] = map.mapGrids[x, y];
+                    bornGrids[i - 1] = map.mapGrids[y, x];
                 }
 
             }
