@@ -203,6 +203,7 @@ namespace SLGame
         public int energyChanged;   //能量变化
         public int currentEnergy;   //当前能量
         public int currentBP;
+        public GridUnit newGrid;
 
         public override string ToString()
         {

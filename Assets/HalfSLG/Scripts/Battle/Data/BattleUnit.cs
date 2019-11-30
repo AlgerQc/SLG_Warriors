@@ -32,6 +32,14 @@ namespace SLGame
         SkillOrItem = 2,   //可以使用技能或道具
     }
 
+    public enum Dir
+    {
+        UP = 0, 
+        DOWN = 1,
+        LEFT = 2,
+        RIGHT = 3,
+    }
+
     public class BattleUnit
         : CountableInstance, IVisualData<BattleUnit, BattleUnitRenderer>
     {
@@ -57,7 +65,9 @@ namespace SLGame
         public BattleUnitRenderer battleUnitRenderer;
 
         public BattleBehaviourSystem.BattleBehaviourSystem battleBehaviourSystem;
-        
+
+        private List<BattleUnitSkillResult> skillResults = new List<BattleUnitSkillResult>();
+
         //判断一个手动操作的目标是否可以进行某些操作
         public bool CheckManualState(ManualActionState actionState)
         {
@@ -263,21 +273,83 @@ namespace SLGame
             EnterGrid(targetGrid);
         }
 
-        //根据combo类型释放效果
-        private void ComboEffect(int comboID)
+        //判断相对方向
+        private Dir GridDir(GridUnit goalUnit, GridUnit hostUnit)
         {
+            if (goalUnit.localPosition.x < hostUnit.localPosition.x)
+                return Dir.LEFT;
+            else if (goalUnit.localPosition.x > hostUnit.localPosition.x)
+                return Dir.RIGHT;
+            else if (goalUnit.localPosition.y < hostUnit.localPosition.y)
+                return Dir.UP;
+            else if (goalUnit.localPosition.y > hostUnit.localPosition.y)
+                return Dir.DOWN;
+            else
+                return Dir.LEFT;
+        }
+
+        //对推拉型技能，判断生效效果
+        private void ChangeGridEffectWork(int way, SO_BattleUnitAttribute unitAttribute)
+        {
+            foreach (BattleUnitSkillResult result in skillResults)
+            {
+                GridUnit mapGrid = result.battleUnit.mapGrid;
+                result.syncAttribute.newGrid = mapGrid;
+                UtilityHelper.LogFormat("newGrid = {0}, battleUnit.mapgrid = {1}", result.syncAttribute.newGrid,
+                    result.battleUnit.mapGrid);
+                Dir dir = GridDir(result.battleUnit.mapGrid, unitAttribute.hostBattleUnit.mapGrid);
+                switch(dir)
+                {
+                    case Dir.UP:
+                        result.syncAttribute.newGrid.row += way;
+                        result.syncAttribute.newGrid.localPosition.y += way * EGameConstL.Map_GridOffsetY;
+                        break;
+
+                    case Dir.DOWN:
+
+                        result.syncAttribute.newGrid.row -= way;
+                        result.syncAttribute.newGrid.localPosition.y -= way * EGameConstL.Map_GridOffsetY;
+                        //result.syncAttribute.newGrid = result.battleUnit.mapGrid;
+                        break;
+
+                    case Dir.LEFT:
+
+                        result.syncAttribute.newGrid.column -= way;
+                        result.syncAttribute.newGrid.localPosition.x -= way * EGameConstL.Map_GridWidth;
+                        //result.syncAttribute.newGrid = result.battleUnit.mapGrid;
+                        break;
+
+                    case Dir.RIGHT:
+
+                        result.syncAttribute.newGrid.column += way;
+                        result.syncAttribute.newGrid.localPosition.x += way * EGameConstL.Map_GridWidth;
+                        UtilityHelper.LogFormat("newGrid = {0}, battleUnit.mapgrid = {1}", result.syncAttribute.newGrid,
+                            result.battleUnit.mapGrid);
+                        //result.syncAttribute.newGrid = result.battleUnit.mapGrid;
+                        break;
+                }              
+            }
+        }
+
+        //根据combo类型释放效果
+        private int ComboEffect(int comboID, SO_BattleUnitAttribute unitAttribute)
+        {
+            int comboResultSkill = 0;
             switch (comboID)
             {
                 case (int)ComboEffectType.DamageEffect:
+                    comboResultSkill = 1;
                     UtilityHelper.Log("Combo Attack DamageEffect successful!");
                     break;
 
                 case (int)ComboEffectType.PushEffect:
+                    ChangeGridEffectWork(1, unitAttribute);
                     UtilityHelper.Log("Combo Attack PushEffect successful!");
                     break;
 
                 case (int)ComboEffectType.PullEffect:
-                    UtilityHelper.Log("Combo Attack PushEffect successful!");
+                    ChangeGridEffectWork(-1, unitAttribute);
+                    UtilityHelper.Log("Combo Attack PullEffect successful!");
                     break;
 
                 case (int)ComboEffectType.MoveEffect:
@@ -304,7 +376,7 @@ namespace SLGame
 
             }
             battleUnitAttribute.skillComboActiveCheck();
-            return;
+            return comboResultSkill;
         }
 
         //使用技能
@@ -328,7 +400,7 @@ namespace SLGame
                 return;
             }
 
-            List<BattleUnitSkillResult> skillResults = new List<BattleUnitSkillResult>();
+            skillResults.Clear();
             
             //主要影响
             for (int i = 0; i < analysis.mainReceiver.Count; ++i)
@@ -346,7 +418,8 @@ namespace SLGame
                 int comboID = battleUnitAttribute.comboJudge(battleSkill.skillID);
                 if (comboID != -1)
                 {
-                    ComboEffect(ConfigReader.comboInfoDic[comboID].effect);
+                    //对于即时生效的技能需要直接改变skillResult
+                    ComboEffect(ConfigReader.comboInfoDic[comboID].effect, battleUnitAttribute);
                 }
             }
 
@@ -388,6 +461,12 @@ namespace SLGame
             if (sync != null)
             {
                 battleUnitAttribute.hp = sync.currentHP;
+                if (sync.newGrid != null)
+                {
+                    UtilityHelper.LogFormat("change mapgrid from {0} to {1}", battleUnitAttribute.hostBattleUnit.mapGrid, sync.newGrid);
+                    //battleUnitAttribute.hostBattleUnit.mapGrid = sync.newGrid;
+                    MoveToTargetGrid(battleUnitAttribute.hostBattleUnit, sync.newGrid, UtilityObjs.gridUnits.ToArray());
+                }
 
                 if (battleUnitAttribute.hp <= 0)
                 {
