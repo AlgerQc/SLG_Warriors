@@ -293,8 +293,8 @@ namespace SLGame
         {
             foreach (BattleUnitSkillResult result in skillResults)
             {
-                GridUnit mapGrid = result.battleUnit.mapGrid;
-                result.syncAttribute.newGrid = mapGrid;
+                //GridUnit mapGrid = result.battleUnit.mapGrid;
+                result.syncAttribute.newGrid = new GridUnit(mapGrid.battleMap, result.battleUnit.mapGrid.row, result.battleUnit.mapGrid.column);
                 UtilityHelper.LogFormat("newGrid = {0}, battleUnit.mapgrid = {1}", result.syncAttribute.newGrid,
                     result.battleUnit.mapGrid);
                 Dir dir = GridDir(result.battleUnit.mapGrid, unitAttribute.hostBattleUnit.mapGrid);
@@ -465,7 +465,11 @@ namespace SLGame
                 {
                     UtilityHelper.LogFormat("change mapgrid from {0} to {1}", battleUnitAttribute.hostBattleUnit.mapGrid, sync.newGrid);
                     //battleUnitAttribute.hostBattleUnit.mapGrid = sync.newGrid;
-                    MoveToTargetGrid(battleUnitAttribute.hostBattleUnit, sync.newGrid, UtilityObjs.gridUnits.ToArray());
+                    
+                    List<GridUnit> path = null;
+                    MapNavigator.Instance.NewNavigate(battleUnitAttribute.hostBattleUnit, battleUnitAttribute.hostBattleUnit.mapGrid.battleMap,
+                        battleUnitAttribute.hostBattleUnit.mapGrid, sync.newGrid, path);
+                    MoveToTargetGrid(battleUnitAttribute.hostBattleUnit, sync.newGrid, path.ToArray());
                 }
 
                 if (battleUnitAttribute.hp <= 0)
