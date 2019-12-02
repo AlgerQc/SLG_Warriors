@@ -466,7 +466,7 @@ namespace SLGame
                     UtilityHelper.LogFormat("change mapgrid from {0} to {1}", battleUnitAttribute.hostBattleUnit.mapGrid, sync.newGrid);
                     //battleUnitAttribute.hostBattleUnit.mapGrid = sync.newGrid;
                     
-                    List<GridUnit> path = null;
+                    List<GridUnit> path = new List<GridUnit>();
                     MapNavigator.Instance.NewNavigate(battleUnitAttribute.hostBattleUnit, battleUnitAttribute.hostBattleUnit.mapGrid.battleMap,
                         battleUnitAttribute.hostBattleUnit.mapGrid, sync.newGrid, path);
                     MoveToTargetGrid(battleUnitAttribute.hostBattleUnit, sync.newGrid, path.ToArray());
