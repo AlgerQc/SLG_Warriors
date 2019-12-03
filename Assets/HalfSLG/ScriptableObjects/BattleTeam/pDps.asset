@@ -16,6 +16,10 @@ MonoBehaviour:
   battleUnitName: pDps
   hp: 200
   maxHp: 200
+  BP: 0
+  battleStrategy: 1
+  springPower: 1
+  volume: 5
   energy: 0
   maxEnergy: 100
   mobility: 4

@@ -16,6 +16,10 @@ MonoBehaviour:
   battleUnitName: Tank
   hp: 300
   maxHp: 300
+  BP: 0
+  battleStrategy: 3
+  springPower: 1
+  volume: 5
   energy: 0
   maxEnergy: 100
   mobility: 4
