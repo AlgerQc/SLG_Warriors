@@ -343,12 +343,12 @@ namespace SLGame
                     break;
 
                 case (int)ComboEffectType.PushEffect:
-                    ChangeGridEffectWork(1, unitAttribute);
+                    ChangeGridEffectWork(5, unitAttribute);
                     UtilityHelper.Log("Combo Attack PushEffect successful!");
                     break;
 
                 case (int)ComboEffectType.PullEffect:
-                    ChangeGridEffectWork(-1, unitAttribute);
+                    ChangeGridEffectWork(-5, unitAttribute);
                     UtilityHelper.Log("Combo Attack PullEffect successful!");
                     break;
 
@@ -387,12 +387,15 @@ namespace SLGame
                 UtilityHelper.LogError("Use skill error. Battle skill is none.");
                 return;
             }
+
             GridUnit temp = targetGridUnit;
+
             if (temp == null && targetBattleUnit != null) temp = targetBattleUnit.mapGrid;
             if (temp != null && mapGrid.Distance(temp) > battleSkill.GetReleaseRadius(mapGrid))
             {
                 return;
             }
+
             BattleSkillEffectAnalysis analysis = BattleCalculator.Instance.AnalyseBattleSkillEffect(battleSkill, this, targetBattleUnit, targetGridUnit);
             if (analysis == null)
             {
