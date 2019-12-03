@@ -31,7 +31,7 @@
 			<Name>道路</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>1</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
@@ -42,7 +42,7 @@
 			<Name>道路</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>1</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
@@ -53,7 +53,7 @@
 			<Name>道路</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>1</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
@@ -64,7 +64,7 @@
 			<Name>道路</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>2</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
@@ -361,7 +361,7 @@
 			<Name>道路</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>2</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
@@ -372,7 +372,7 @@
 			<Name>道路</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>2</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
@@ -383,7 +383,7 @@
 			<Name>道路</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>2</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
@@ -394,7 +394,7 @@
 			<Name>道路</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>2</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
@@ -1118,12 +1118,12 @@
 			<PosX>12</PosX>
 			<PosY>4</PosY>
 			<Name>草地</Name>
-			<Avoid>0</Avoid>
+			<Avoid>0.1</Avoid>
 			<Defense>0</Defense>
 			<Height>0</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
-			<CrossCost>1</CrossCost>
-			<GridType>Normal</GridType>
+			<CrossCost>1.5</CrossCost>
+			<GridType>Grass</GridType>
 		</Grid4-12>
 		<Grid4-13>
 			<PosX>13</PosX>
@@ -2452,7 +2452,7 @@
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
 			<Height>0</Height>
-			<MaxPassVolume>999999</MaxPassVolume>
+			<MaxPassVolume>6</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
 		</Grid8-13>
@@ -2463,7 +2463,7 @@
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
 			<Height>0</Height>
-			<MaxPassVolume>999999</MaxPassVolume>
+			<MaxPassVolume>6</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
 		</Grid8-14>
@@ -2474,7 +2474,7 @@
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
 			<Height>0</Height>
-			<MaxPassVolume>999999</MaxPassVolume>
+			<MaxPassVolume>6</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
 		</Grid8-15>
@@ -3067,7 +3067,7 @@
 			<Name>道路</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>3</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
@@ -3397,7 +3397,7 @@
 			<Name>道路</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>3</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
@@ -3408,7 +3408,7 @@
 			<Name>道路</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>2</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
@@ -3727,7 +3727,7 @@
 			<Name>道路</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>3</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
@@ -3738,7 +3738,7 @@
 			<Name>道路</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>2</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
@@ -3749,7 +3749,7 @@
 			<Name>道路</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>1</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
@@ -3826,7 +3826,7 @@
 			<Name>道路</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>1</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
@@ -3837,7 +3837,7 @@
 			<Name>道路</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>1</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
@@ -3848,7 +3848,7 @@
 			<Name>道路</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>1</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
@@ -4057,7 +4057,7 @@
 			<Name>道路</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>3</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
@@ -4068,7 +4068,7 @@
 			<Name>道路</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>2</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
@@ -4079,7 +4079,7 @@
 			<Name>障碍</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>1</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Obstacle</GridType>
@@ -4156,7 +4156,7 @@
 			<Name>道路</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>1</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
@@ -4167,7 +4167,7 @@
 			<Name>道路</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>2</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
@@ -4178,7 +4178,7 @@
 			<Name>道路</Name>
 			<Avoid>0</Avoid>
 			<Defense>0</Defense>
-			<Height>0</Height>
+			<Height>1</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
 			<CrossCost>1</CrossCost>
 			<GridType>Normal</GridType>
@@ -4264,12 +4264,12 @@
 			<PosX>28</PosX>
 			<PosY>13</PosY>
 			<Name>草地</Name>
-			<Avoid>0</Avoid>
+			<Avoid>0.1</Avoid>
 			<Defense>0</Defense>
 			<Height>0</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
-			<CrossCost>1</CrossCost>
-			<GridType>Normal</GridType>
+			<CrossCost>1.5</CrossCost>
+			<GridType>Grass</GridType>
 		</Grid13-28>
 		<Grid13-29>
 			<PosX>29</PosX>
@@ -4330,12 +4330,12 @@
 			<PosX>4</PosX>
 			<PosY>14</PosY>
 			<Name>草地</Name>
-			<Avoid>0</Avoid>
+			<Avoid>0.1</Avoid>
 			<Defense>0</Defense>
 			<Height>0</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
-			<CrossCost>1</CrossCost>
-			<GridType>Normal</GridType>
+			<CrossCost>1.5</CrossCost>
+			<GridType>Grass</GridType>
 		</Grid14-4>
 		<Grid14-5>
 			<PosX>5</PosX>
@@ -4594,23 +4594,23 @@
 			<PosX>28</PosX>
 			<PosY>14</PosY>
 			<Name>草地</Name>
-			<Avoid>0</Avoid>
+			<Avoid>0.1</Avoid>
 			<Defense>0</Defense>
 			<Height>0</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
-			<CrossCost>1</CrossCost>
-			<GridType>Normal</GridType>
+			<CrossCost>1.5</CrossCost>
+			<GridType>Grass</GridType>
 		</Grid14-28>
 		<Grid14-29>
 			<PosX>29</PosX>
 			<PosY>14</PosY>
 			<Name>草地</Name>
-			<Avoid>0</Avoid>
+			<Avoid>0.1</Avoid>
 			<Defense>0</Defense>
 			<Height>0</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
-			<CrossCost>1</CrossCost>
-			<GridType>Normal</GridType>
+			<CrossCost>1.5</CrossCost>
+			<GridType>Grass</GridType>
 		</Grid14-29>
 		<Grid14-30>
 			<PosX>30</PosX>
@@ -4759,23 +4759,23 @@
 			<PosX>13</PosX>
 			<PosY>15</PosY>
 			<Name>草地</Name>
-			<Avoid>0</Avoid>
+			<Avoid>0.1</Avoid>
 			<Defense>0</Defense>
 			<Height>0</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
-			<CrossCost>1</CrossCost>
-			<GridType>Normal</GridType>
+			<CrossCost>1.5</CrossCost>
+			<GridType>Grass</GridType>
 		</Grid15-13>
 		<Grid15-14>
 			<PosX>14</PosX>
 			<PosY>15</PosY>
 			<Name>草地</Name>
-			<Avoid>0</Avoid>
+			<Avoid>0.1</Avoid>
 			<Defense>0</Defense>
 			<Height>0</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
-			<CrossCost>1</CrossCost>
-			<GridType>Normal</GridType>
+			<CrossCost>1.5</CrossCost>
+			<GridType>Grass</GridType>
 		</Grid15-14>
 		<Grid15-15>
 			<PosX>15</PosX>
@@ -4935,12 +4935,12 @@
 			<PosX>29</PosX>
 			<PosY>15</PosY>
 			<Name>草地</Name>
-			<Avoid>0</Avoid>
+			<Avoid>0.1</Avoid>
 			<Defense>0</Defense>
 			<Height>0</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
-			<CrossCost>1</CrossCost>
-			<GridType>Normal</GridType>
+			<CrossCost>1.5</CrossCost>
+			<GridType>Grass</GridType>
 		</Grid15-29>
 		<Grid15-30>
 			<PosX>30</PosX>
@@ -5903,23 +5903,23 @@
 			<PosX>27</PosX>
 			<PosY>18</PosY>
 			<Name>草地</Name>
-			<Avoid>0</Avoid>
+			<Avoid>0.1</Avoid>
 			<Defense>0</Defense>
 			<Height>0</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
-			<CrossCost>1</CrossCost>
-			<GridType>Normal</GridType>
+			<CrossCost>1.5</CrossCost>
+			<GridType>Grass</GridType>
 		</Grid18-27>
 		<Grid18-28>
 			<PosX>28</PosX>
 			<PosY>18</PosY>
 			<Name>草地</Name>
-			<Avoid>0</Avoid>
+			<Avoid>0.1</Avoid>
 			<Defense>0</Defense>
 			<Height>0</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
-			<CrossCost>1</CrossCost>
-			<GridType>Normal</GridType>
+			<CrossCost>1.5</CrossCost>
+			<GridType>Grass</GridType>
 		</Grid18-28>
 		<Grid18-29>
 			<PosX>29</PosX>
@@ -6211,56 +6211,56 @@
 			<PosX>25</PosX>
 			<PosY>19</PosY>
 			<Name>草地</Name>
-			<Avoid>0</Avoid>
+			<Avoid>0.1</Avoid>
 			<Defense>0</Defense>
 			<Height>0</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
-			<CrossCost>1</CrossCost>
-			<GridType>Normal</GridType>
+			<CrossCost>1.5</CrossCost>
+			<GridType>Grass</GridType>
 		</Grid19-25>
 		<Grid19-26>
 			<PosX>26</PosX>
 			<PosY>19</PosY>
 			<Name>草地</Name>
-			<Avoid>0</Avoid>
+			<Avoid>0.1</Avoid>
 			<Defense>0</Defense>
 			<Height>0</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
-			<CrossCost>1</CrossCost>
-			<GridType>Normal</GridType>
+			<CrossCost>1.5</CrossCost>
+			<GridType>Grass</GridType>
 		</Grid19-26>
 		<Grid19-27>
 			<PosX>27</PosX>
 			<PosY>19</PosY>
 			<Name>草地</Name>
-			<Avoid>0</Avoid>
+			<Avoid>0.1</Avoid>
 			<Defense>0</Defense>
 			<Height>0</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
-			<CrossCost>1</CrossCost>
-			<GridType>Normal</GridType>
+			<CrossCost>1.5</CrossCost>
+			<GridType>Grass</GridType>
 		</Grid19-27>
 		<Grid19-28>
 			<PosX>28</PosX>
 			<PosY>19</PosY>
 			<Name>草地</Name>
-			<Avoid>0</Avoid>
+			<Avoid>0.1</Avoid>
 			<Defense>0</Defense>
 			<Height>0</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
-			<CrossCost>1</CrossCost>
-			<GridType>Normal</GridType>
+			<CrossCost>1.5</CrossCost>
+			<GridType>Grass</GridType>
 		</Grid19-28>
 		<Grid19-29>
 			<PosX>29</PosX>
 			<PosY>19</PosY>
 			<Name>草地</Name>
-			<Avoid>0</Avoid>
+			<Avoid>0.1</Avoid>
 			<Defense>0</Defense>
 			<Height>0</Height>
 			<MaxPassVolume>999999</MaxPassVolume>
-			<CrossCost>1</CrossCost>
-			<GridType>Normal</GridType>
+			<CrossCost>1.5</CrossCost>
+			<GridType>Grass</GridType>
 		</Grid19-29>
 		<Grid19-30>
 			<PosX>30</PosX>

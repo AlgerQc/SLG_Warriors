@@ -8,6 +8,7 @@ namespace SLGame
     {
         None,       
         Normal,     //平地
+        Grass,      //草地
         Sand,       //沙地
         Water,      //水域
         Mountain,   //山地
@@ -42,6 +43,9 @@ namespace SLGame
                     break;
                 case ("Normal"):
                     m_GridType = GridType.Normal;
+                    break;
+                case ("Grass"):
+                    m_GridType = GridType.Grass;
                     break;
                 case ("Sand"):
                     m_GridType = GridType.Sand;

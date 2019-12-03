@@ -138,6 +138,10 @@ namespace SLGame
                         tileRenderer.color = Color.gray;
                         break;
 
+                    case GridType.Grass:
+                        tileRenderer.color = Color.green;
+                        break;
+
                     //case GridType.Born:
                     //    tileRenderer.color = Color.white;
                     //    break;

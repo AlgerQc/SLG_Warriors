@@ -24,6 +24,8 @@ namespace SLGame
         public BattleField battleField; //战场数据
         private int currentActionIndex = 0;
         public Camera battleCamera;     //渲染战斗的相机
+        public GridUnit hotPointGridUnit = null;
+        public BattleUnit hotPointBattleUnit = null;
 
         //格子的模型，用来clone格子拼成地图
         [SerializeField] private Transform gridUnitsRoot;
@@ -463,6 +465,11 @@ namespace SLGame
                 if (battleField.battleFieldEvents[currentActionIndex] is BattleUnitActionEvent)
                 {
                     BattleUnitActionEvent actionEvent = (BattleUnitActionEvent)battleField.battleFieldEvents[currentActionIndex];
+                    if (actionEvent.battleUnitActionType != BattleUnitActionType.EnterBattleField)
+                    {
+                        hotPointGridUnit = actionEvent.actionUnit.mapGrid;
+                        hotPointBattleUnit = actionEvent.actionUnit;
+                    }
 
                     //有对应的战斗单位，且这个战斗单位已经连接了战斗单位渲染器
                     if (actionEvent.actionUnit != null && actionEvent.actionUnit.battleUnitRenderer != null)
