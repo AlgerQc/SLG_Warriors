@@ -71,53 +71,5 @@
     <ReleaseAction></ReleaseAction>
     <ReleaseSound></ReleaseSound>
     <Skillinfo>使用爆发式的力量扑向远处，增加位移能力并可以跨越障碍</Skillinfo>
-  </info>
-  <info un32ID="3000">
-    <Name>治疗</Name>
-    <SkillIcon></SkillIcon>
-    <ReleaseRadius>0</ReleaseRadius>
-    <EffectRadius>0</EffectRadius>
-    <DamageType>3</DamageType>
-    <TargetType>1</TargetType>
-    <mainValue>50</mainValue>
-    <ReleaseAction></ReleaseAction>
-    <ReleaseSound></ReleaseSound>
-    <Skillinfo>舔舐伤口缓解疼痛，治疗自身</Skillinfo>
-  </info>
-  <info un32ID="3001">
-    <Name>专注</Name>
-    <SkillIcon></SkillIcon>
-    <ReleaseRadius>0</ReleaseRadius>
-    <EffectRadius>0</EffectRadius>
-    <DamageType>3</DamageType>
-    <TargetType>1</TargetType>
-    <mainValue>20</mainValue>
-    <ReleaseAction></ReleaseAction>
-    <ReleaseSound></ReleaseSound>
-    <Skillinfo>提高专注度，使得命中率上升</Skillinfo>
-  </info>
-  <info un32ID="3002">
-    <Name>潜伏</Name>
-    <SkillIcon></SkillIcon>
-    <ReleaseRadius>0</ReleaseRadius>
-    <EffectRadius>0</EffectRadius>
-    <DamageType>3</DamageType>
-    <TargetType>1</TargetType>
-    <mainValue>20</mainValue>
-    <ReleaseAction></ReleaseAction>
-    <ReleaseSound></ReleaseSound>
-    <Skillinfo>安静的潜伏，提高回避率</Skillinfo>
-  </info>
-  <info un32ID="3003">
-    <Name>愤怒</Name>
-    <SkillIcon></SkillIcon>
-    <ReleaseRadius>0</ReleaseRadius>
-    <EffectRadius>0</EffectRadius>
-    <DamageType>3</DamageType>
-    <TargetType>1</TargetType>
-    <mainValue>20</mainValue>
-    <ReleaseAction></ReleaseAction>
-    <ReleaseSound></ReleaseSound>
-    <Skillinfo></Skillinfo>
-  </info>
+  </info> 
 </SkillCfg>

@@ -16,7 +16,7 @@ MonoBehaviour:
   skillName: "\u7948\u7977"
   releaseRadius: 0
   effectRadius: 2
-  damageType: 3
+  damageType: 4
   targetType: 2
   mainValue: 30
   energyCost: 20
