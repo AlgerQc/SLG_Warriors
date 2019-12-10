@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2099276654
+CRC: 379176152
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f4893c2ca1dea6d7a2de204b0eedaef7
+    Hash: 8dce9877fe01d0a01a4aa48d005fbefe
   TypeTreeHash:
     serializedVersion: 2
     Hash: f470f3c7d78a50aa4675e7911cbc0b03
@@ -14,13 +14,13 @@ ClassTypes:
 - Class: 115
   Script: {instanceID: 0}
 Assets:
-- Assets/HalfSLG/ScriptableObjects/BattleSkill/PAtk_provoke.asset
-- Assets/HalfSLG/ScriptableObjects/BattleSkill/Heal_normal.asset
-- Assets/HalfSLG/ScriptableObjects/BattleSkill/Heal_pray.asset
-- Assets/HalfSLG/ScriptableObjects/BattleSkill/MAtk_storm.asset
-- Assets/HalfSLG/ScriptableObjects/BattleSkill/PAtk_normal.asset
-- Assets/HalfSLG/ScriptableObjects/BattleSkill/PAtk_tank.asset
-- Assets/HalfSLG/ScriptableObjects/BattleSkill/MAtk_normal.asset
-- Assets/HalfSLG/ScriptableObjects/BattleSkill/PAtk_harvester.asset
-- Assets/HalfSLG/ScriptableObjects/BattleSkill/MAtk_lite.asset
+- Assets/HalfSLG/ScriptableObjects/BattleSkill/Physical_provoke.asset
+- Assets/HalfSLG/ScriptableObjects/BattleSkill/Skilll_normal.asset
+- Assets/HalfSLG/ScriptableObjects/BattleSkill/Skill_pray.asset
+- Assets/HalfSLG/ScriptableObjects/BattleSkill/Movel_storm.asset
+- Assets/HalfSLG/ScriptableObjects/BattleSkill/Physical_normal.asset
+- Assets/HalfSLG/ScriptableObjects/BattleSkill/Physical_tank.asset
+- Assets/HalfSLG/ScriptableObjects/BattleSkill/Move_normal.asset
+- Assets/HalfSLG/ScriptableObjects/BattleSkill/Physical_harvester.asset
+- Assets/HalfSLG/ScriptableObjects/BattleSkill/Physical_lite.asset
 Dependencies: []

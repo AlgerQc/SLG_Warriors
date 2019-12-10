@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fcdc396df3457b142aa6ec52b8c11756, type: 3}
-  m_Name: PAtk_harvester
+  m_Name: Physical_normal
   m_EditorClassIdentifier: 
-  skillID: 1002
-  skillName: "\u65CB\u98CE\u65A9"
-  releaseRadius: 0
-  effectRadius: 1
+  skillID: 1000
+  skillName: "\u653B\u51FB"
+  releaseRadius: 1
+  effectRadius: 0
   damageType: 1
-  targetType: 1
-  mainValue: 15
-  energyCost: 15
-  hatredMultiple: 1.2
+  targetType: 0
+  mainValue: 12
+  energyCost: 8
+  hatredMultiple: 1
   rageLevel: 10
   action: 
   sound: 

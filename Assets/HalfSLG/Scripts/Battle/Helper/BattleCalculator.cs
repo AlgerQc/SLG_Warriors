@@ -71,6 +71,7 @@ namespace SLGame
             {
                 case BattleSkillDamageType.Physical:
                 case BattleSkillDamageType.Move:
+                case BattleSkillDamageType.Skill:
                     result.syncAttribute.hpChanged = -(Mathf.Max(0, releaser.battleUnitAttribute.Atk - target.battleUnitAttribute.Def + battleSkill.mainValue));
                     //能量不变
                     result.syncAttribute.energyChanged = 0;

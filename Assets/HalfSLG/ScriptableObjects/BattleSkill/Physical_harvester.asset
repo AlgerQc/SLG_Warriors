@@ -10,15 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fcdc396df3457b142aa6ec52b8c11756, type: 3}
-  m_Name: MAtk_lite
+  m_Name: Physical_harvester
   m_EditorClassIdentifier: 
-  skillID: 1004
-  skillName: "\u6CBB\u7597\u653B\u51FB"
-  releaseRadius: 2
-  effectRadius: 0
+  skillID: 1002
+  skillName: "\u65CB\u98CE\u65A9"
+  releaseRadius: 0
+  effectRadius: 1
   damageType: 1
-  targetType: 0
-  mainValue: 7
-  energyCost: 8
-  hatredMultiple: 0.7
+  targetType: 1
+  mainValue: 15
+  energyCost: 15
+  hatredMultiple: 1.2
   rageLevel: 10
+  action: 
+  sound: 
+  info: 

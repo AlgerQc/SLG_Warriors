@@ -22,14 +22,16 @@ namespace SLGame
             switch (damageType)
             {
                 case BattleSkillDamageType.Physical:
+                case BattleSkillDamageType.Skill:
                     animator.SetTrigger(EGameConstL.HashACKey_NormalDamage);
                     break;
                 case BattleSkillDamageType.Move:
                     animator.SetTrigger(EGameConstL.HashACKey_NormalMagicDamage);
-                    break;
+                    break;              
                 case BattleSkillDamageType.Heal:
                     animator.SetTrigger(EGameConstL.HashACKey_NormalHeal);
                     break;
+                
                 default:
                     break;
             }

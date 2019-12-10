@@ -10,15 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fcdc396df3457b142aa6ec52b8c11756, type: 3}
-  m_Name: MAtk_storm
+  m_Name: Physical_tank
   m_EditorClassIdentifier: 
-  skillID: 1003
-  skillName: "\u66B4\u98CE\u96EA"
-  releaseRadius: 2
-  effectRadius: 1
+  skillID: 2000
+  skillName: "\u538B\u5236"
+  releaseRadius: 1
+  effectRadius: 0
   damageType: 1
-  targetType: 1
-  mainValue: 17
-  energyCost: 18
-  hatredMultiple: 1.2
-  rageLevel: 10
+  targetType: 0
+  mainValue: 6
+  energyCost: 6
+  hatredMultiple: 3.5
+  rageLevel: 60
+  action: 
+  sound: 
+  info: 
