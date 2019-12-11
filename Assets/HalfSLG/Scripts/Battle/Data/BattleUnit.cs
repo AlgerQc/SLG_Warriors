@@ -418,7 +418,7 @@ namespace SLGame
                 UtilityHelper.Log("Check combo now");
 
                 //返回真表示连招成立，则调用连招效果
-                int comboID = battleUnitAttribute.comboJudge(battleSkill.skillID);
+                int comboID = battleUnitAttribute.comboJudge((int)battleSkill.damageType);
                 if (comboID != -1)
                 {
                     //对于即时生效的技能需要直接改变skillResult
