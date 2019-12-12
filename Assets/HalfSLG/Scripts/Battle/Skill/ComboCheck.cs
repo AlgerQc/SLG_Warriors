@@ -20,20 +20,29 @@ namespace SLGame
          */
         public static int checkCombo(Queue<int> skillCombo)
         {
+            int ret = 0;
             Queue<int> tmp = skillCombo;
-            int skill1 = tmp.Dequeue();
-            int skill2 = tmp.Dequeue();
-            int skill3 = tmp.Dequeue();
-            for (int i = 0; i < ConfigReader.comboInfoDic.Count; i++)
+            
+            while (tmp.Count != 0)
             {
-                if (ConfigReader.comboInfoDic[i].skill1 == skill1 && ConfigReader.comboInfoDic[i].skill2 == skill2 &&
-                    ConfigReader.comboInfoDic[i].skill3 == skill3)
+                int type = tmp.Dequeue();
+                switch (type)
                 {
-                    return i;
+                    case (int)BattleSkillDamageType.Physical:
+                        ret += 100;
+                        break;
+
+                    case (int)BattleSkillDamageType.Move:
+                        ret += 10;
+                        break;
+
+                    case (int)BattleSkillDamageType.Skill:
+                        ret += 1;
+                        break;
                 }
             }
-
-            return 0;
+            
+            return ret;
         }
 
         public static int checkComboEarly(Queue<int> skillCombo)

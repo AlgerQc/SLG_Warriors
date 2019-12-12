@@ -332,48 +332,65 @@ namespace SLGame
         }
 
         //根据combo类型释放效果
+        /*300  力-力-力  攻击力提升  
+          030  速-速-速  bp+3
+          003  技-技-技  命中+闪避+暴击   
+
+          201  2力 + 1技 攻击力小幅提升2回合 + 触发第三下特殊伤害：推拉、流血等等
+          210  2力 + 1速 攻击力小幅提升2回合 + 触发第三下特殊伤害：眩晕、禁足、减速等等
+          102  2技 + 1力 命中/闪避/暴击小幅提升 + 触发第三次技能改变为暴击伤害
+          012  2技 + 1速 命中/闪避/暴击小幅提升 + 触发第三次技能改变为强制优势伤害
+          120  2速 + 1力 bp+1 + 二次攻击
+          021  2速 + 1技 bp+1 + 二次移动
+          111  1力 + 1速 + 1技 伤害免疫盾
+         */
         private int ComboEffect(int comboID, SO_BattleUnitAttribute unitAttribute)
         {
             int comboResultSkill = 0;
             switch (comboID)
             {
-                case (int)ComboEffectType.DamageEffect:
-                    comboResultSkill = 1;
-                    UtilityHelper.Log("Combo Attack DamageEffect successful!");
-                    break;
-
-                case (int)ComboEffectType.PushEffect:
-                    ChangeGridEffectWork(5, unitAttribute);
-                    UtilityHelper.Log("Combo Attack PushEffect successful!");
-                    break;
-
-                case (int)ComboEffectType.PullEffect:
-                    ChangeGridEffectWork(-5, unitAttribute);
-                    UtilityHelper.Log("Combo Attack PullEffect successful!");
-                    break;
-
-                case (int)ComboEffectType.MoveEffect:
-                    UtilityHelper.Log("Combo Attack MoveEffect successful!");
-                    break;
-
-                case (int)ComboEffectType.AttackBuffEffect:
+                case 300:
                     battleUnitAttribute.UpdateAtk(EGameConstL.AtkIncrease);
                     battleUnitAttribute.AddComboBuffEffect(comboID);
-                    UtilityHelper.Log("Combo Attack AttackBuffEffect successful!");
+                    UtilityHelper.Log("Combo Attack Power * 3 successful!");
                     break;
 
-                case (int)ComboEffectType.BPBuffEffect:
-                    UtilityHelper.Log("Combo Attack BPBuffEffect successful!");
+                case 30:
+                    UtilityHelper.Log("Combo Attack Move * 3 successful!");
                     break;
 
-                case (int)ComboEffectType.AccuracyEffect:
-                    UtilityHelper.Log("Combo Attack AccuracyEffect successful!");
+                case 3:
+                    UtilityHelper.Log("Combo Attack Skill * 3 successful!");
                     break;
 
-                case (int)ComboEffectType.EvadeEffect:
-                    UtilityHelper.Log("Combo Attack EvadeEffect successful!");
+                case 201:
+                    ChangeGridEffectWork(5, unitAttribute);
+                    UtilityHelper.Log("Combo Attack 2 Power 1 Skill successful!");
                     break;
 
+                case 210:
+                    UtilityHelper.Log("Combo Attack 2 Power 1 Move successful!");
+                    break;
+
+                case 102:
+                    UtilityHelper.Log("Combo Attack 1 Power 2 Skill successful!");
+                    break;
+
+                case 12:
+                    UtilityHelper.Log("Combo Attack 1 Move 2 Skill successful!");
+                    break;
+
+                case 120:
+                    UtilityHelper.Log("Combo Attack 1 Power 2 Move successful!");
+                    break;
+
+                case 21:
+                    UtilityHelper.Log("Combo Attack 2 Move 1 Skill successful!");
+                    break;
+
+                case 111:
+                    UtilityHelper.Log("Combo Attack Power + Move + Skill successful!");
+                    break;
             }
             battleUnitAttribute.skillComboActiveCheck();
             return comboResultSkill;
@@ -422,7 +439,7 @@ namespace SLGame
                 if (comboID != -1)
                 {
                     //对于即时生效的技能需要直接改变skillResult
-                    ComboEffect(ConfigReader.comboInfoDic[comboID].effect, battleUnitAttribute);
+                    ComboEffect(comboID, battleUnitAttribute);
                 }
             }
 

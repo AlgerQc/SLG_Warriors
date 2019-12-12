@@ -232,9 +232,9 @@ namespace SLGame
             }
         }
 
-        public int comboJudge(int skillID)
+        public int comboJudge(int skillType)
         {
-            skillCombo.Enqueue(skillID);
+            skillCombo.Enqueue(skillType);
 
             if (skillCombo.Count == EGameConstL.ComboCount)
             {
