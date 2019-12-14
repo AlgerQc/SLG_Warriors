@@ -91,6 +91,10 @@ namespace SLGame
         public int defRandRange;
         private int def;
 
+        private int accuracy = 0;
+        private int evade = 0;
+        private int critical = 0;
+
         public int Atk
         {
             get
@@ -133,6 +137,38 @@ namespace SLGame
         public void UpdateAtk(int value)
         {
             atk = atk + value;
+            if (atk < 0)
+                atk = 0;
+        }
+
+        public void UpdateBP(int value)
+        {
+            BP += value;
+            if (BP > EGameConstL.BPMax)
+                BP = EGameConstL.BPMax;
+            if (BP < 0)
+                BP = 0;
+        }
+
+        public void UpdateAccuracy(int value)
+        {
+            accuracy += value;
+            if (accuracy < 0)
+                accuracy = 0;
+        }
+
+        public void UpdateEvade(int value)
+        {
+            evade += value;
+            if (evade < 0)
+                evade = 0;
+        }
+
+        public void UpdateCritical(int value)
+        {
+            critical += value;
+            if (critical < 0)
+                critical = 0;
         }
 
         public void RemoveBuff(int buffID)
