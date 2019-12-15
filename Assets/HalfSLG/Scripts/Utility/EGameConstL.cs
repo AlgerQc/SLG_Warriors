@@ -35,8 +35,16 @@ namespace SLGame
         public const int ComboEffectRoundCount = 2;
 
         //连招属性加成
-        public const int AtkIncrease = 50;
-        public const int AtkDecrease = -50;
+        public const int AtkIncrease = 60;
+        public const int AtkDecrease = -60;
+        public const int BPIncrease = 3;
+        public const int BPDecrease = -3;
+        public const int AccuracyIncrease = 30;
+        public const int AccuracyDecrease = 30;
+        public const int EvadeIncrease = 30;
+        public const int EvadeDecrease = 30;
+        public const int CriticalIncrease = 30;
+        public const int CriticalDecrease = 30;
         public const double HearlPercent = 0.1;
 
         //导航可通行遮罩

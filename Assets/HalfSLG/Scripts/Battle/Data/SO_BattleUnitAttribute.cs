@@ -141,6 +141,11 @@ namespace SLGame
                 atk = 0;
         }
 
+        public void UpdateAtkSlim(int value)
+        {
+            UpdateAtk(value / 3);
+        }
+
         public void UpdateBP(int value)
         {
             BP += value;
@@ -150,11 +155,21 @@ namespace SLGame
                 BP = 0;
         }
 
+        public void UpdateBPSlim(int value)
+        {
+            UpdateBP(value / 3);
+        }
+
         public void UpdateAccuracy(int value)
         {
             accuracy += value;
             if (accuracy < 0)
                 accuracy = 0;
+        }
+
+        public void UpdateAccuracySlim(int value)
+        {
+            UpdateAccuracy(value / 3);
         }
 
         public void UpdateEvade(int value)
@@ -164,11 +179,21 @@ namespace SLGame
                 evade = 0;
         }
 
+        public void UpdateEvadeSlim(int value)
+        {
+            UpdateEvade(value / 3);
+        }
+
         public void UpdateCritical(int value)
         {
             critical += value;
             if (critical < 0)
                 critical = 0;
+        }
+
+        public void UpdateCriticalSlim(int value)
+        {
+            UpdateCritical(value / 3);
         }
 
         public void RemoveBuff(int buffID)
