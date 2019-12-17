@@ -356,10 +356,14 @@ namespace SLGame
                     break;
 
                 case 30:
+                    battleUnitAttribute.UpdateBP(EGameConstL.BPIncrease);
+                    battleUnitAttribute.AddComboBuffEffect(comboID);
                     UtilityHelper.Log("Combo Attack Move * 3 successful!");
                     break;
 
                 case 3:
+                    battleUnitAttribute.IncreaseAbility();
+                    battleUnitAttribute.AddComboBuffEffect(comboID); 
                     UtilityHelper.Log("Combo Attack Skill * 3 successful!");
                     break;
 

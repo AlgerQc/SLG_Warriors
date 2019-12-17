@@ -196,21 +196,76 @@ namespace SLGame
             UpdateCritical(value / 3);
         }
 
+        public void IncreaseAbility()
+        {
+            UpdateCritical(EGameConstL.CriticalIncrease);
+            UpdateEvade(EGameConstL.EvadeIncrease);
+            UpdateAccuracy(EGameConstL.AccuracyIncrease);
+        }
+
+        public void DecreaseAbility()
+        {
+            UpdateCritical(EGameConstL.CriticalDecrease);
+            UpdateEvade(EGameConstL.EvadeDecrease);
+            UpdateAccuracy(EGameConstL.AccuracyDecrease);
+        }
+
+        public void IncreaseAbilitySlim()
+        {
+            UpdateCriticalSlim(EGameConstL.CriticalIncrease);
+            UpdateEvadeSlim(EGameConstL.EvadeIncrease);
+            UpdateAccuracySlim(EGameConstL.AccuracyIncrease);
+        }
+
+        public void DecreaseAbilitySlim()
+        {
+            UpdateCriticalSlim(EGameConstL.CriticalDecrease);
+            UpdateEvadeSlim(EGameConstL.EvadeDecrease);
+            UpdateAccuracySlim(EGameConstL.AccuracyDecrease);
+        }
+
         public void RemoveBuff(int buffID)
         {
             switch (buffID)
             {
-                case (int)ComboEffectType.AttackBuffEffect:
-                    UtilityHelper.Log("Combo Attack DamageEffect remove!");
+                case 300:
                     UpdateAtk(EGameConstL.AtkDecrease);
+                    UtilityHelper.Log("Combo Attack Power * 3 Remove!");
                     break;
 
-                case (int)ComboEffectType.AccuracyEffect:
-                    UtilityHelper.Log("Combo Attack AccuracyEffect remove!");
+                case 30:
+                    UpdateBP(EGameConstL.BPDecrease);
+                    UtilityHelper.Log("Combo Attack Move * 3 Remove!");
                     break;
 
-                case (int)ComboEffectType.EvadeEffect:
-                    UtilityHelper.Log("Combo Attack EvadeEffect remove!");
+                case 3:
+                    DecreaseAbility();
+                    UtilityHelper.Log("Combo Attack Skill * 3 Remove!");
+                    break;
+
+                case 201:
+                    
+                    UtilityHelper.Log("Combo Attack 2 Power 1 Skill Remove!");
+                    break;
+
+                case 210:
+                    UtilityHelper.Log("Combo Attack 2 Power 1 Move Remove!");
+                    break;
+
+                case 102:
+                    UtilityHelper.Log("Combo Attack 1 Power 2 Skill Remove!");
+                    break;
+
+                case 12:
+                    UtilityHelper.Log("Combo Attack 1 Move 2 Skill Remove!");
+                    break;
+
+                case 120:
+                    UtilityHelper.Log("Combo Attack 1 Power 2 Move Remove!");
+                    break;
+
+                case 21:
+                    UtilityHelper.Log("Combo Attack 2 Move 1 Skill Remove!");
                     break;
             }
             return;
