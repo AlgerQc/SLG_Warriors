@@ -10,6 +10,7 @@ namespace SLGame
         Move,           //速属性伤害
         Skill,          //技属性伤害
         Heal,           //恢复&buff类
+        None,           //空类型
     }
 
     public enum BattleSkillTargetType
@@ -36,6 +37,10 @@ namespace SLGame
         public string action;               //对应动画
         public string sound;                //技能音效
         public string info;                 //技能信息文本
+
+        public float powerModulus = 1.0f;       //力量补正系数
+        public float speedModulus = 0.0f;       //速度补正系数
+        public float technicModulus = 0.0f;     //技巧补正系数
 
         public int GetReleaseRadius(GridUnit gridUnit)
         {

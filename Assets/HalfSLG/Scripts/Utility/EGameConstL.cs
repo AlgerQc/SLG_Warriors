@@ -47,6 +47,15 @@ namespace SLGame
         public const int CriticalDecrease = 30;
         public const double HearlPercent = 0.1;
 
+        //力量值附加补正系数
+        public const float PowerCommonModulus = 0.2f;
+
+        //属性克制补正系数
+        public const float DamageTypeModulus = 0.2f;
+
+        //Miss文本
+        public const string MissText = "Miss";
+
         //导航可通行遮罩
         public const int NavigationPassableMask = 64;
         

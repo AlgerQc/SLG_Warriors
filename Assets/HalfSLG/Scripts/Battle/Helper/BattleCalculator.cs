@@ -72,10 +72,42 @@ namespace SLGame
                 case BattleSkillDamageType.Physical:
                 case BattleSkillDamageType.Move:
                 case BattleSkillDamageType.Skill:
-                    result.syncAttribute.hpChanged = -(Mathf.Max(0, releaser.battleUnitAttribute.Atk - target.battleUnitAttribute.Def + battleSkill.mainValue));
+                    float critRatio = releaser.battleUnitAttribute.GetTargetCritRatio(target);          //判断是否暴击
+                    float critNum = Random.Range(0.0f, 1.0f);
+                    if (critNum < critRatio)
+                    {
+                        result.crit = true;
+                    }
+                    else
+                    {
+                        result.crit = false;
+                    }
+
+                    float hpChanged = releaser.battleUnitAttribute.power * battleSkill.powerModulus;    //力量补正
+                    hpChanged += releaser.battleUnitAttribute.speed * battleSkill.speedModulus;         //速度补正
+                    hpChanged += releaser.battleUnitAttribute.technic * battleSkill.technicModulus;     //技巧补正
+                    hpChanged += releaser.battleUnitAttribute.power * EGameConstL.PowerCommonModulus;   //力量值附加补正
+                    hpChanged *= releaser.battleUnitAttribute.AtkUpRatio;                               //通用攻击力提升
+                    hpChanged *= releaser.battleUnitAttribute.GetDamageTypeModulus(target);             //属性克制补正
+                    hpChanged = Mathf.Max(0, hpChanged - target.battleUnitAttribute.Def);               //直接减去目标防御值
+                    if (result.crit) hpChanged *= 2;                                                    //判断是否暴击
+                    result.syncAttribute.hpChanged = (int)-hpChanged;//(Mathf.Max(0, releaser.battleUnitAttribute.Atk - target.battleUnitAttribute.Def + battleSkill.mainValue));
                     //能量不变
                     result.syncAttribute.energyChanged = 0;
                     result.syncAttribute.currentEnergy = target.battleUnitAttribute.energy;
+
+                    float avoidRatio = releaser.battleUnitAttribute.GetTargetAvoidRatio(target);        //判断是否闪避
+                    float avoidNum = Random.Range(0.0f, 1.0f);
+                    if (!result.crit && avoidNum < avoidRatio)
+                    {
+                        result.syncAttribute.hpChanged = 0;
+                        result.avoid = true;
+                    }
+                    else
+                    {
+                        result.avoid = false;
+                    }
+                    UtilityHelper.LogFormat("Is critical: {0}, Is avoid: {1}", result.crit, result.avoid);
                     break;
                 case BattleSkillDamageType.Heal:
                     result.syncAttribute.hpChanged = Mathf.Min(battleSkill.mainValue, target.battleUnitAttribute.maxHp - target.battleUnitAttribute.hp);

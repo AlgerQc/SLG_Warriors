@@ -95,6 +95,67 @@ namespace SLGame
         private int evade = 0;
         private int critical = 0;
 
+        public float power = 5.0f;       //力量值
+        public float speed = 4.0f;       //速度值
+        public float technic = 4.0f;     //技巧值
+        private float atkUpRatio = 1.0f;  //攻击力提升比率，供combo使用
+
+        public float AtkUpRatio
+        {
+            get
+            {
+                foreach (ComboBuff comboBuff in comboBuffRoundList)
+                {
+                    if (comboBuff.effectID == 300) return atkUpRatio + 0.5f;
+                    if (comboBuff.effectID == 210) return atkUpRatio + 0.2f;
+                    if (comboBuff.effectID == 201) return atkUpRatio + 0.2f;
+                }
+                return atkUpRatio;
+            }
+        }
+
+        public float GetTargetAvoidRatio(BattleUnit target)
+        {
+            return Mathf.Clamp((target.battleUnitAttribute.speed / speed) * 0.5f, 0.0f, 1.0f);      //待修改的公式
+        }
+
+        public float GetTargetCritRatio(BattleUnit target)
+        {
+            return Mathf.Clamp((technic / target.battleUnitAttribute.technic) * 0.2f, 0.0f, 1.0f);  //待修改的公式
+        }
+
+        public float GetDamageTypeModulus(BattleUnit target)
+        {
+            float result = 1.0f;
+            BattleSkillDamageType selfType = battleSkills[0] ? battleSkills[0].damageType : BattleSkillDamageType.None;
+            BattleSkillDamageType targetType = target.battleUnitAttribute.battleSkills[0] ? target.battleUnitAttribute.battleSkills[0].damageType : BattleSkillDamageType.None;
+            if (selfType == BattleSkillDamageType.Physical && targetType == BattleSkillDamageType.Skill)
+            {
+                result += EGameConstL.DamageTypeModulus;
+            }
+            else if (selfType == BattleSkillDamageType.Physical && targetType == BattleSkillDamageType.Move)
+            {
+                result -= EGameConstL.DamageTypeModulus;
+            }
+            else if (selfType == BattleSkillDamageType.Move && targetType == BattleSkillDamageType.Physical)
+            {
+                result += EGameConstL.DamageTypeModulus;
+            }
+            else if (selfType == BattleSkillDamageType.Move && targetType == BattleSkillDamageType.Skill)
+            {
+                result -= EGameConstL.DamageTypeModulus;
+            }
+            else if (selfType == BattleSkillDamageType.Skill && targetType == BattleSkillDamageType.Move)
+            {
+                result += EGameConstL.DamageTypeModulus;
+            }
+            else if (selfType == BattleSkillDamageType.Skill && targetType == BattleSkillDamageType.Physical)
+            {
+                result -= EGameConstL.DamageTypeModulus;
+            }
+            return result;
+        }
+
         public int Atk
         {
             get

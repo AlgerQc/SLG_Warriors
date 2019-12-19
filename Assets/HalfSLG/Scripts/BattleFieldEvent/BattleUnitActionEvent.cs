@@ -217,6 +217,8 @@ namespace SLGame
         public BattleUnit battleUnit;                   //被影响的单位
         public SO_BattleSkill battleSkill;              //所使用的的技能
         public BattleUnitSyncAttribute syncAttribute;   //属性同步
+        public bool avoid;                              //是否闪避
+        public bool crit;                               //是否暴击
 
         public override string ToString()
         {

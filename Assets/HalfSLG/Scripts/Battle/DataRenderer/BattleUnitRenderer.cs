@@ -499,13 +499,27 @@ namespace SLGame
 
         }
 
+        private void PlayDamageLabel(BattleUnitSkillResult skillResult)
+        {
+            //播放掉血特效
+            EffectDamageLabel damageEffect = EffectManager.Instance.CreateEffectByName<EffectDamageLabel>(EGameConstL.Effect_DamageLabel, EffectPlayType.WorldPosition);
+            if (damageEffect != null)
+            {
+                damageEffect.SortingLayer = EGameConstL.SortingLayer_Battle_Effect;
+                damageEffect.gameObject.SetActive(true);
+                damageEffect.transform.position = unitRenderer.transform.position;
+                damageEffect.SetDamage(skillResult);
+            }
+
+        }
+
         //技能命中时
         private IEnumerator OnSkillDamage(BattleUnitSkillResult skillResult)
         {
             if (skillResult == null)
                 yield return null;
 
-            PlayDamageLabel(skillResult.syncAttribute.hpChanged, skillResult.battleSkill.damageType);
+            PlayDamageLabel(skillResult);
 
             //更新血条
             skillResult.battleUnit.battleUnitRenderer.RefreshAttribute(skillResult.syncAttribute);

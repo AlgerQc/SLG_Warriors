@@ -350,7 +350,7 @@ namespace SLGame
             switch (comboID)
             {
                 case 300:
-                    battleUnitAttribute.UpdateAtk(EGameConstL.AtkIncrease);
+                    //battleUnitAttribute.UpdateAtk(EGameConstL.AtkIncrease);
                     battleUnitAttribute.AddComboBuffEffect(comboID);
                     UtilityHelper.Log("Combo Attack Power * 3 successful!");
                     break;
@@ -363,16 +363,18 @@ namespace SLGame
 
                 case 3:
                     battleUnitAttribute.IncreaseAbility();
-                    battleUnitAttribute.AddComboBuffEffect(comboID); 
+                    battleUnitAttribute.AddComboBuffEffect(comboID);
                     UtilityHelper.Log("Combo Attack Skill * 3 successful!");
                     break;
 
                 case 201:
                     ChangeGridEffectWork(5, unitAttribute);
+                    battleUnitAttribute.AddComboBuffEffect(comboID);
                     UtilityHelper.Log("Combo Attack 2 Power 1 Skill successful!");
                     break;
 
                 case 210:
+                    battleUnitAttribute.AddComboBuffEffect(comboID);
                     UtilityHelper.Log("Combo Attack 2 Power 1 Move successful!");
                     break;
 
