@@ -130,7 +130,7 @@ namespace SLGame
                 //根据格子类型切换颜色
                 switch (gridUnit.GridType)
                 {
-                    case GridType.Normal:
+                    case GridType.Normal:                      
                         tileRenderer.color = new Color(1f, 1f, 1f, 0.10f);
                         break;
 
@@ -142,6 +142,9 @@ namespace SLGame
                         tileRenderer.color = Color.green;
                         break;
 
+                    case GridType.Mountain:
+                        tileRenderer.color = new Color(1f, 1f, 1f, 0.10f * gridUnit.m_GridAttribute.m_Height / 10);
+                        break;
                     //case GridType.Born:
                     //    tileRenderer.color = Color.white;
                     //    break;
