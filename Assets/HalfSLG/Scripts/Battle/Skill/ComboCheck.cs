@@ -82,7 +82,7 @@ namespace SLGame
                 UtilityHelper.LogFormat("We are in combo stage 1");
             }
 
-            return -1;
+            return 1;
         }
 
     }

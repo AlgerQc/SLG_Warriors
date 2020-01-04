@@ -416,7 +416,7 @@ namespace SLGame
             if (skillCombo.Count == EGameConstL.ComboCount)
             {
                 int id = Check.checkCombo(skillCombo);
-                UpdatePrecombo(id);
+                //UpdatePrecombo(id);
                 if ( id >= 0)
                 {
                     return id;
@@ -431,7 +431,7 @@ namespace SLGame
                 int id = Check.checkComboEarly(skillCombo);
                 if (id >= 0)
                 {
-                    UpdatePrecombo(id);
+                    //UpdatePrecombo(id);
                     UtilityHelper.LogFormat("Wait for {0} more skills to fill combo", EGameConstL.ComboCount - skillCombo.Count);
                 }
                 else
