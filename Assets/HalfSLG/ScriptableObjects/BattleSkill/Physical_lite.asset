@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Physical_lite
   m_EditorClassIdentifier: 
   skillID: 1004
-  skillName: "\u6CBB\u7597\u653B\u51FB"
+  skillName: "\u6CBB\u7597\u653B\u51FB\uFF08\u901F\uFF09"
   releaseRadius: 2
   effectRadius: 0
   damageType: 1
@@ -25,3 +25,6 @@ MonoBehaviour:
   action: 
   sound: 
   info: 
+  powerModulus: 1
+  speedModulus: 0
+  technicModulus: 0

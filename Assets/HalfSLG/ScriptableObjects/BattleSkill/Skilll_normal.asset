@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Skilll_normal
   m_EditorClassIdentifier: 
   skillID: 3000
-  skillName: "\u5355\u4F53\u6CBB\u7597"
+  skillName: "\u5355\u4F53\u6CBB\u7597-\u6280"
   releaseRadius: 2
   effectRadius: 1
-  damageType: 3
+  damageType: 2
   targetType: 0
   mainValue: 50
   energyCost: 16
@@ -25,3 +25,6 @@ MonoBehaviour:
   action: 
   sound: 
   info: 
+  powerModulus: 1
+  speedModulus: 0
+  technicModulus: 0

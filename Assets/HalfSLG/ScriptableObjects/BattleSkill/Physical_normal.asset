@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Physical_normal
   m_EditorClassIdentifier: 
   skillID: 1000
-  skillName: "\u653B\u51FB"
+  skillName: "\u653B\u51FB-\u529B"
   releaseRadius: 1
   effectRadius: 0
-  damageType: 1
+  damageType: 0
   targetType: 0
   mainValue: 12
   energyCost: 8
@@ -25,3 +25,6 @@ MonoBehaviour:
   action: 
   sound: 
   info: 
+  powerModulus: 1
+  speedModulus: 0
+  technicModulus: 0

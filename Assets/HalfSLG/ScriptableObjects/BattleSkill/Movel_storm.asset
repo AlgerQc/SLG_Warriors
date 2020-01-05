@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Movel_storm
   m_EditorClassIdentifier: 
   skillID: 1003
-  skillName: "\u66B4\u98CE\u96EA"
+  skillName: "\u66B4\u98CE\u96EA-\u901F"
   releaseRadius: 2
   effectRadius: 1
   damageType: 1
@@ -25,3 +25,6 @@ MonoBehaviour:
   action: 
   sound: 
   info: 
+  powerModulus: 1
+  speedModulus: 0
+  technicModulus: 0

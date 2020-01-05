@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Physical_tank
   m_EditorClassIdentifier: 
   skillID: 2000
-  skillName: "\u538B\u5236"
+  skillName: "\u538B\u5236-\u6280"
   releaseRadius: 1
   effectRadius: 0
-  damageType: 1
+  damageType: 2
   targetType: 0
   mainValue: 6
   energyCost: 6
@@ -25,3 +25,6 @@ MonoBehaviour:
   action: 
   sound: 
   info: 
+  powerModulus: 1
+  speedModulus: 0
+  technicModulus: 0

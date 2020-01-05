@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Move_normal
   m_EditorClassIdentifier: 
   skillID: 1001
-  skillName: "\u9B54\u6CD5\u653B\u51FB"
+  skillName: "\u9B54\u6CD5\u653B\u51FB-\u901F"
   releaseRadius: 2
   effectRadius: 0
   damageType: 1
@@ -25,3 +25,6 @@ MonoBehaviour:
   action: 
   sound: 
   info: 
+  powerModulus: 1
+  speedModulus: 0
+  technicModulus: 0

@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Physical_provoke
   m_EditorClassIdentifier: 
   skillID: 2001
-  skillName: "\u7FA4\u5632"
+  skillName: "\u7FA4\u5632-\u6280"
   releaseRadius: 0
   effectRadius: 1
-  damageType: 1
+  damageType: 2
   targetType: 1
   mainValue: 6
   energyCost: 15
@@ -25,3 +25,6 @@ MonoBehaviour:
   action: 
   sound: 
   info: 
+  powerModulus: 1
+  speedModulus: 0
+  technicModulus: 0
